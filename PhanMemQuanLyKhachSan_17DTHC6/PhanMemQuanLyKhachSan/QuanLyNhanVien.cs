@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace PhanMemQuanLyKhachSan
 {
-    public partial class DangNhap : Form
+    public partial class QuanLyNhanVien : Form
     {
-        public DangNhap()
+        public QuanLyNhanVien()
         {
             InitializeComponent();
-
-            
         }
     }
 }

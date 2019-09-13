@@ -1,2 +1,3 @@
 C:\Users\camas\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan\bin\Debug\PhanMemQuanLyKhachSan.exe.config
 C:\Users\camas\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\bin\Debug\PhanMemQuanLyKhachSan.exe.config
+C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\bin\Debug\PhanMemQuanLyKhachSan.exe.config
