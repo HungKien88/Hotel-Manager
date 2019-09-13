@@ -15,6 +15,8 @@ namespace PhanMemQuanLyKhachSan
         public DangNhap()
         {
             InitializeComponent();
+
+            
         }
     }
 }
