@@ -68,15 +68,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
+            this.lbNgaythangnam = new System.Windows.Forms.Label();
+            this.lbKhachhang = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.lbNhanvien = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.lbNgaythangnam = new System.Windows.Forms.Label();
-            this.lbKhachhang = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.lbNhanvien = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dtGridview)).BeginInit();
             this.SuspendLayout();
             // 
@@ -406,77 +406,13 @@
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button6.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(756, 604);
+            this.button6.Location = new System.Drawing.Point(756, 557);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(95, 37);
             this.button6.TabIndex = 88;
             this.button6.Text = "In";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconSuaaaaa;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(756, 535);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(95, 37);
-            this.button5.TabIndex = 87;
-            this.button5.Text = "Sửa";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(756, 471);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(95, 37);
-            this.button4.TabIndex = 86;
-            this.button4.Text = "Lưu";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconDelete;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(756, 405);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(95, 37);
-            this.button3.TabIndex = 85;
-            this.button3.Text = "Xóa";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconThem;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(756, 342);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 37);
-            this.button2.TabIndex = 74;
-            this.button2.Text = "Thêm";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(12, 14);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 26);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Trở về";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // lbNgaythangnam
             // 
@@ -508,11 +444,75 @@
             // lbNhanvien
             // 
             this.lbNhanvien.AutoSize = true;
-            this.lbNhanvien.Location = new System.Drawing.Point(628, 740);
+            this.lbNhanvien.Location = new System.Drawing.Point(659, 740);
             this.lbNhanvien.Name = "lbNhanvien";
             this.lbNhanvien.Size = new System.Drawing.Size(77, 19);
             this.lbNhanvien.TabIndex = 92;
             this.lbNhanvien.Text = "Nhân viên";
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconSuaaaaa;
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(756, 489);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(95, 37);
+            this.button5.TabIndex = 87;
+            this.button5.Text = "Sửa";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(756, 637);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(95, 37);
+            this.button4.TabIndex = 86;
+            this.button4.Text = "Lưu";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconDelete;
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(756, 417);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(95, 37);
+            this.button3.TabIndex = 85;
+            this.button3.Text = "Xóa";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconThem;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(756, 342);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(95, 37);
+            this.button2.TabIndex = 74;
+            this.button2.Text = "Thêm";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(12, 14);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(101, 26);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Trở về";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // ManHinhChiTietPhieuPhong
             // 
