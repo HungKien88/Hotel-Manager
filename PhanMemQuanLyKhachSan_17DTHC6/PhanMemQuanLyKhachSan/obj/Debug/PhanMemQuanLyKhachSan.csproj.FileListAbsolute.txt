@@ -26,3 +26,4 @@ C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\Ph
 C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.Properties.Resources.resources
 C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.QuanLyNhanVien.resources
 C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\HP\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.ManHinhChiTietPhieuPhong.resources

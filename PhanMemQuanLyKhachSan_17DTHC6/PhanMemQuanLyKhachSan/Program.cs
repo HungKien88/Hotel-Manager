@@ -16,7 +16,7 @@ namespace PhanMemQuanLyKhachSan
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ManHinhChiTietPhieuPhong());
+            Application.Run(new ManHinhGiaoCa());
         }
     }
 }
