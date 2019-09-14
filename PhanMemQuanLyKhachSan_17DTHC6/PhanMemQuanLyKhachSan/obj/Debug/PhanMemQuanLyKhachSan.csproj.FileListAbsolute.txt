@@ -14,6 +14,7 @@ C:\Users\HP\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQ
 C:\Users\HP\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.csproj.CoreCompileInputs.cache
 C:\Users\HP\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.exe
 C:\Users\HP\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.pdb
+<<<<<<< HEAD
 C:\Users\camas\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.exe
 C:\Users\camas\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.pdb
 C:\Users\camas\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\bin\Debug\PhanMemQuanLyKhachSan.exe
@@ -25,3 +26,19 @@ C:\Users\camas\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanM
 C:\Users\camas\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.Properties.Resources.resources
 C:\Users\camas\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.QuanLyNhanVien.resources
 C:\Users\camas\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.csproj.GenerateResource.Cache
+=======
+C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.exe
+C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.pdb
+C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\bin\Debug\PhanMemQuanLyKhachSan.exe
+C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\bin\Debug\PhanMemQuanLyKhachSan.pdb
+C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.csprojResolveAssemblyReference.cache
+C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.DangNhap.resources
+C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.ManHinhChinh.resources
+C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.ManHinhChiTietPhieuPhong.resources
+C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.ManHinhGiaoCa.resources
+C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.Properties.Resources.resources
+C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.csproj.GenerateResource.Cache
+C:\Users\HP\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.ManHinhChiTietPhieuPhong.resources
+C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.ManHinhQuanLyNhanVien.resources
+C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.XemThongTinNhanVien.resources
+>>>>>>> e8e5544f66e905fd612c5b8135719a0c0f49e529

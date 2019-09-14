@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PhanMemQuanLyKhachSan
 {
-    public partial class ManHinhGiaoCa : Form
+    public partial class XemThongTinNhanVien : Form
     {
-        public ManHinhGiaoCa()
+        public XemThongTinNhanVien()
         {
             InitializeComponent();
-        }
-
-        private void Label7_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
