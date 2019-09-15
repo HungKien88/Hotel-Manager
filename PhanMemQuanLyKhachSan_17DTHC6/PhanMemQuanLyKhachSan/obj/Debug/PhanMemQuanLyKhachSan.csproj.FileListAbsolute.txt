@@ -42,3 +42,9 @@ C:\Users\HP\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQ
 C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.ManHinhQuanLyNhanVien.resources
 C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.XemThongTinNhanVien.resources
 >>>>>>> e8e5544f66e905fd612c5b8135719a0c0f49e529
+C:\Users\HP\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.CapNhatLoaiPhong.resources
+C:\Users\HP\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.ManHinhQuanLyNhanVien.resources
+C:\Users\HP\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.QuanLyPhong.resources
+C:\Users\HP\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.XemThongTinNhanVien.resources
+C:\Users\HP\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.CapNhatDichVu.resources
+C:\Users\HP\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.CapNhatVatTu.resources

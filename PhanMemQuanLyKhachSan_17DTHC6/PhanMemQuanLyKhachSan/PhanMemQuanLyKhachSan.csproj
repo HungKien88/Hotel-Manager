@@ -44,6 +44,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CapNhapLoaiPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapNhapLoaiPhong.Designer.cs">
+      <DependentUpon>CapNhapLoaiPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapNhatDichVu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapNhatDichVu.Designer.cs">
+      <DependentUpon>CapNhatDichVu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CapNhatVatTu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapNhatVatTu.Designer.cs">
+      <DependentUpon>CapNhatVatTu.cs</DependentUpon>
+    </Compile>
     <Compile Include="DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,12 +73,6 @@
     </Compile>
     <Compile Include="ManHinhChinh.Designer.cs">
       <DependentUpon>ManHinhChinh.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ManHinhChiTiet.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManHinhChiTiet.Designer.cs">
-      <DependentUpon>ManHinhChiTiet.cs</DependentUpon>
     </Compile>
     <Compile Include="ManHinhChiTietPhieuPhong.cs">
       <SubType>Form</SubType>
@@ -87,12 +99,27 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="QuanLyPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyPhong.Designer.cs">
+      <DependentUpon>QuanLyPhong.cs</DependentUpon>
+    </Compile>
     <Compile Include="XemThongTinNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="XemThongTinNhanVien.Designer.cs">
       <DependentUpon>XemThongTinNhanVien.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CapNhapLoaiPhong.resx">
+      <DependentUpon>CapNhapLoaiPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapNhatDichVu.resx">
+      <DependentUpon>CapNhatDichVu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapNhatVatTu.resx">
+      <DependentUpon>CapNhatVatTu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
@@ -112,6 +139,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyPhong.resx">
+      <DependentUpon>QuanLyPhong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="XemThongTinNhanVien.resx">
       <DependentUpon>XemThongTinNhanVien.cs</DependentUpon>

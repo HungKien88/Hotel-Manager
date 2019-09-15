@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PhanMemQuanLyKhachSan
 {
-    public partial class ManHinhChiTiet : Form
+    public partial class CapNhatLoaiPhong : Form
     {
-        public ManHinhChiTiet()
+        public CapNhatLoaiPhong()
         {
             InitializeComponent();
         }
