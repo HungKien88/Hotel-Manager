@@ -103,6 +103,26 @@ namespace PhanMemQuanLyKhachSan.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconPassword {
+            get {
+                object obj = ResourceManager.GetObject("iconPassword", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconShowpassword {
+            get {
+                object obj = ResourceManager.GetObject("iconShowpassword", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconSuaaaaa {
             get {
                 object obj = ResourceManager.GetObject("iconSuaaaaa", resourceCulture);
@@ -126,6 +146,16 @@ namespace PhanMemQuanLyKhachSan.Properties {
         internal static System.Drawing.Bitmap iconTimKiem {
             get {
                 object obj = ResourceManager.GetObject("iconTimKiem", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconUser {
+            get {
+                object obj = ResourceManager.GetObject("iconUser", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
