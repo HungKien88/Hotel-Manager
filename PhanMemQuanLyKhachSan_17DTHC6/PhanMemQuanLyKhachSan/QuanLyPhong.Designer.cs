@@ -41,7 +41,7 @@
             this.button1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(45, 101);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 59);
+            this.button1.Size = new System.Drawing.Size(100, 59);
             this.button1.TabIndex = 0;
             this.button1.Text = "Cập nhật vật tư";
             this.button1.UseVisualStyleBackColor = true;
@@ -52,7 +52,7 @@
             this.button2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(45, 236);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(82, 59);
+            this.button2.Size = new System.Drawing.Size(100, 59);
             this.button2.TabIndex = 1;
             this.button2.Text = "Cập nhật dịch vụ";
             this.button2.UseVisualStyleBackColor = true;
@@ -63,7 +63,7 @@
             this.buttonCapNhapLoaiPhong.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCapNhapLoaiPhong.Location = new System.Drawing.Point(45, 394);
             this.buttonCapNhapLoaiPhong.Name = "buttonCapNhapLoaiPhong";
-            this.buttonCapNhapLoaiPhong.Size = new System.Drawing.Size(82, 76);
+            this.buttonCapNhapLoaiPhong.Size = new System.Drawing.Size(100, 76);
             this.buttonCapNhapLoaiPhong.TabIndex = 2;
             this.buttonCapNhapLoaiPhong.Text = "Cập nhật loại phòng";
             this.buttonCapNhapLoaiPhong.UseVisualStyleBackColor = true;
