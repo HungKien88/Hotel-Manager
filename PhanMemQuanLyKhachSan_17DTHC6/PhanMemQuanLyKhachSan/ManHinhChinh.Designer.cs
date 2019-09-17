@@ -35,7 +35,7 @@
             this.quảnLýKháchHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.thốngKêToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.liênHệToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.cdrMhc = new System.Windows.Forms.MonthCalendar();
             this.pnlHientrang = new System.Windows.Forms.Panel();
             this.lblPhongdangdon = new System.Windows.Forms.Label();
             this.lblPhongtra = new System.Windows.Forms.Label();
@@ -273,11 +273,11 @@
             this.liênHệToolStripMenuItem.Size = new System.Drawing.Size(94, 33);
             this.liênHệToolStripMenuItem.Text = "Liên hệ";
             // 
-            // monthCalendar1
+            // cdrMhc
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(18, 344);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 2;
+            this.cdrMhc.Location = new System.Drawing.Point(18, 344);
+            this.cdrMhc.Name = "cdrMhc";
+            this.cdrMhc.TabIndex = 2;
             // 
             // pnlHientrang
             // 
@@ -2193,7 +2193,7 @@
             this.Controls.Add(this.pnlPhong2);
             this.Controls.Add(this.pnlPhong1);
             this.Controls.Add(this.pnlHientrang);
-            this.Controls.Add(this.monthCalendar1);
+            this.Controls.Add(this.cdrMhc);
             this.Controls.Add(this.lblKhachsan);
             this.Controls.Add(this.msManhinhchinh);
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -2232,7 +2232,7 @@
         private System.Windows.Forms.ToolStripMenuItem quảnLýKháchHàngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem thốngKêToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem liênHệToolStripMenuItem;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.MonthCalendar cdrMhc;
         private System.Windows.Forms.Panel pnlHientrang;
         private System.Windows.Forms.Label lblPhongdangdon;
         private System.Windows.Forms.Label lblPhongtra;
