@@ -16,5 +16,18 @@ namespace PhanMemQuanLyKhachSan
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ManHinhChinh fmmhc = new ManHinhChinh();
+            fmmhc.FormClosed += new FormClosedEventHandler(fmmhc_FormClosed);
+            fmmhc.Show();
+            this.Hide();
+        }
+
+        private void fmmhc_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
+        }
     }
 }

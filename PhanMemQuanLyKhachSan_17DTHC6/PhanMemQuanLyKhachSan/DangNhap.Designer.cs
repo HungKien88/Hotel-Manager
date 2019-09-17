@@ -32,14 +32,14 @@
             this.txtTendangnhap = new System.Windows.Forms.TextBox();
             this.pnlTendangnhap = new System.Windows.Forms.Panel();
             this.txtMatkhau = new System.Windows.Forms.TextBox();
-            this.btnHienmatkhau = new System.Windows.Forms.Button();
-            this.picMatkhau = new System.Windows.Forms.PictureBox();
-            this.picTendangnhap = new System.Windows.Forms.PictureBox();
             this.btnDangnhap = new System.Windows.Forms.Button();
             this.btnQuenmatkhau = new System.Windows.Forms.Button();
             this.lblChuacotaikhoan = new System.Windows.Forms.Label();
             this.btnDangky = new System.Windows.Forms.Button();
             this.pnlMatkhau = new System.Windows.Forms.Panel();
+            this.btnHienmatkhau = new System.Windows.Forms.Button();
+            this.picMatkhau = new System.Windows.Forms.PictureBox();
+            this.picTendangnhap = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picMatkhau)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTendangnhap)).BeginInit();
             this.SuspendLayout();
@@ -93,40 +93,6 @@
             this.txtMatkhau.Enter += new System.EventHandler(this.txtMatkhau_Enter);
             this.txtMatkhau.Leave += new System.EventHandler(this.txtMatkhau_Leave);
             // 
-            // btnHienmatkhau
-            // 
-            this.btnHienmatkhau.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.iconShowpassword;
-            this.btnHienmatkhau.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnHienmatkhau.FlatAppearance.BorderSize = 0;
-            this.btnHienmatkhau.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHienmatkhau.Location = new System.Drawing.Point(433, 192);
-            this.btnHienmatkhau.Name = "btnHienmatkhau";
-            this.btnHienmatkhau.Size = new System.Drawing.Size(34, 30);
-            this.btnHienmatkhau.TabIndex = 7;
-            this.btnHienmatkhau.UseVisualStyleBackColor = true;
-            this.btnHienmatkhau.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnHienmatkhau_MouseDown);
-            this.btnHienmatkhau.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnHienmatkhau_MouseUp);
-            // 
-            // picMatkhau
-            // 
-            this.picMatkhau.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconPassword;
-            this.picMatkhau.Location = new System.Drawing.Point(30, 192);
-            this.picMatkhau.Name = "picMatkhau";
-            this.picMatkhau.Size = new System.Drawing.Size(40, 38);
-            this.picMatkhau.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picMatkhau.TabIndex = 6;
-            this.picMatkhau.TabStop = false;
-            // 
-            // picTendangnhap
-            // 
-            this.picTendangnhap.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconUser;
-            this.picTendangnhap.Location = new System.Drawing.Point(30, 124);
-            this.picTendangnhap.Name = "picTendangnhap";
-            this.picTendangnhap.Size = new System.Drawing.Size(40, 38);
-            this.picTendangnhap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picTendangnhap.TabIndex = 3;
-            this.picTendangnhap.TabStop = false;
-            // 
             // btnDangnhap
             // 
             this.btnDangnhap.BackColor = System.Drawing.Color.IndianRed;
@@ -179,6 +145,40 @@
             this.pnlMatkhau.Size = new System.Drawing.Size(375, 2);
             this.pnlMatkhau.TabIndex = 12;
             // 
+            // btnHienmatkhau
+            // 
+            this.btnHienmatkhau.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.iconShow;
+            this.btnHienmatkhau.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnHienmatkhau.FlatAppearance.BorderSize = 0;
+            this.btnHienmatkhau.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHienmatkhau.Location = new System.Drawing.Point(433, 206);
+            this.btnHienmatkhau.Name = "btnHienmatkhau";
+            this.btnHienmatkhau.Size = new System.Drawing.Size(34, 21);
+            this.btnHienmatkhau.TabIndex = 7;
+            this.btnHienmatkhau.UseVisualStyleBackColor = true;
+            this.btnHienmatkhau.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnHienmatkhau_MouseDown);
+            this.btnHienmatkhau.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnHienmatkhau_MouseUp);
+            // 
+            // picMatkhau
+            // 
+            this.picMatkhau.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconPassword;
+            this.picMatkhau.Location = new System.Drawing.Point(30, 192);
+            this.picMatkhau.Name = "picMatkhau";
+            this.picMatkhau.Size = new System.Drawing.Size(40, 38);
+            this.picMatkhau.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picMatkhau.TabIndex = 6;
+            this.picMatkhau.TabStop = false;
+            // 
+            // picTendangnhap
+            // 
+            this.picTendangnhap.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconUser;
+            this.picTendangnhap.Location = new System.Drawing.Point(30, 124);
+            this.picTendangnhap.Name = "picTendangnhap";
+            this.picTendangnhap.Size = new System.Drawing.Size(40, 38);
+            this.picTendangnhap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picTendangnhap.TabIndex = 3;
+            this.picTendangnhap.TabStop = false;
+            // 
             // DangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -196,7 +196,7 @@
             this.Controls.Add(this.pnlTendangnhap);
             this.Controls.Add(this.txtTendangnhap);
             this.Controls.Add(this.lblDangnhap);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DangNhap";
             this.Text = "Đăng Nhập";
             ((System.ComponentModel.ISupportInitialize)(this.picMatkhau)).EndInit();

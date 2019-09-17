@@ -17,18 +17,72 @@ namespace PhanMemQuanLyKhachSan
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnChitiet1_Click(object sender, EventArgs e)
         {
+            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
+            fmmhctpp.Show();
+            this.Hide();
+        }
+        private void fmmhctpp_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Show();
+        }
 
+        private void btnChitiet2_Click(object sender, EventArgs e)
+        {
+            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
+            fmmhctpp.Show();
+            this.Hide();
+        }
 
+        private void btnChitiet3_Click(object sender, EventArgs e)
+        {
+            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
+            fmmhctpp.Show();
+            this.Hide();
+        }
 
-            
+        private void btnChitiet4_Click(object sender, EventArgs e)
+        {
+            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
+            fmmhctpp.Show();
+            this.Hide();
+        }
 
-            ////  DASDSADAAS
+        private void btnChitiet5_Click(object sender, EventArgs e)
+        {
+            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
+            fmmhctpp.Show();
+            this.Hide();
+        }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
+            fmmhctpp.Show();
+            this.Hide();
+        }
 
-            ///dsadsas
-           
+        private void btnChitiet7_Click(object sender, EventArgs e)
+        {
+            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
+            fmmhctpp.Show();
+            this.Hide();
+        }
+
+        private void btnChitiet8_Click(object sender, EventArgs e)
+        {
+            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
+            fmmhctpp.Show();
+            this.Hide();
         }
     }
 }
