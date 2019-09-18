@@ -86,6 +86,12 @@
     <Compile Include="ManHinhGiaoCa.Designer.cs">
       <DependentUpon>ManHinhGiaoCa.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManHinhQuanLyKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManHinhQuanLyKhachHang.Designer.cs">
+      <DependentUpon>ManHinhQuanLyKhachHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManHinhQuanLyNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +137,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManHinhGiaoCa.resx">
       <DependentUpon>ManHinhGiaoCa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManHinhQuanLyKhachHang.resx">
+      <DependentUpon>ManHinhQuanLyKhachHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManHinhQuanLyNhanVien.resx">
       <DependentUpon>ManHinhQuanLyNhanVien.cs</DependentUpon>
@@ -194,6 +203,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\iconShow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconLoc.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

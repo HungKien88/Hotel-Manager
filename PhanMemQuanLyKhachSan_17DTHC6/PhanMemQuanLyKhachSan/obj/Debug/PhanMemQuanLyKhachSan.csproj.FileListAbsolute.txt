@@ -60,3 +60,4 @@ C:\Users\camas\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanM
 C:\Users\camas\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.QuanLyPhong.resources
 C:\Users\camas\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.XemThongTinNhanVien.resources
 >>>>>>> 0b300b542ee643897256a526b9eceeff245b78a6
+C:\Users\COMPUTER\Desktop\PhanMemQuanLyKhachSan\PhanMemQuanLyKhachSan_17DTHC6\PhanMemQuanLyKhachSan\obj\Debug\PhanMemQuanLyKhachSan.ManHinhQuanLyKhachHang.resources
