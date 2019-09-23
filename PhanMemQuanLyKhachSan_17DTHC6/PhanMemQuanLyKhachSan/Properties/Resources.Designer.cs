@@ -83,6 +83,26 @@ namespace PhanMemQuanLyKhachSan.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconEmail {
+            get {
+                object obj = ResourceManager.GetObject("iconEmail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconFacebook {
+            get {
+                object obj = ResourceManager.GetObject("iconFacebook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconHuy {
             get {
                 object obj = ResourceManager.GetObject("iconHuy", resourceCulture);
@@ -116,6 +136,16 @@ namespace PhanMemQuanLyKhachSan.Properties {
         internal static System.Drawing.Bitmap iconPassword {
             get {
                 object obj = ResourceManager.GetObject("iconPassword", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconPhone {
+            get {
+                object obj = ResourceManager.GetObject("iconPhone", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -176,6 +206,16 @@ namespace PhanMemQuanLyKhachSan.Properties {
         internal static System.Drawing.Bitmap iconUser {
             get {
                 object obj = ResourceManager.GetObject("iconUser", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconWeb {
+            get {
+                object obj = ResourceManager.GetObject("iconWeb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

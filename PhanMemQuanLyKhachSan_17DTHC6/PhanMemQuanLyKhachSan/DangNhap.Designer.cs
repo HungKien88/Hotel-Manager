@@ -1,6 +1,6 @@
 ﻿namespace PhanMemQuanLyKhachSan
 {
-    partial class DangNhap
+    partial class frmDangNhap
     {
         /// <summary>
         /// Required designer variable.
@@ -28,179 +28,179 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblDangnhap = new System.Windows.Forms.Label();
-            this.txtTendangnhap = new System.Windows.Forms.TextBox();
-            this.pnlTendangnhap = new System.Windows.Forms.Panel();
-            this.txtMatkhau = new System.Windows.Forms.TextBox();
-            this.btnDangnhap = new System.Windows.Forms.Button();
-            this.btnQuenmatkhau = new System.Windows.Forms.Button();
-            this.lblChuacotaikhoan = new System.Windows.Forms.Label();
-            this.btnDangky = new System.Windows.Forms.Button();
-            this.pnlMatkhau = new System.Windows.Forms.Panel();
-            this.btnHienmatkhau = new System.Windows.Forms.Button();
-            this.picMatkhau = new System.Windows.Forms.PictureBox();
-            this.picTendangnhap = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.picMatkhau)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picTendangnhap)).BeginInit();
+            this.lblDangNhap = new System.Windows.Forms.Label();
+            this.txtTenDangNhap = new System.Windows.Forms.TextBox();
+            this.pnlTenDangNhap = new System.Windows.Forms.Panel();
+            this.txtMatKhau = new System.Windows.Forms.TextBox();
+            this.btnDangNhap = new System.Windows.Forms.Button();
+            this.btnQuenMatKhau = new System.Windows.Forms.Button();
+            this.lblChuaCoTaiKhoan = new System.Windows.Forms.Label();
+            this.btnDangKy = new System.Windows.Forms.Button();
+            this.pnlMatKhau = new System.Windows.Forms.Panel();
+            this.btnHienMatKhau = new System.Windows.Forms.Button();
+            this.picMatKhau = new System.Windows.Forms.PictureBox();
+            this.picTenDangNhap = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picMatKhau)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTenDangNhap)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblDangnhap
+            // lblDangNhap
             // 
-            this.lblDangnhap.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblDangnhap.Font = new System.Drawing.Font("Palatino Linotype", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDangnhap.ForeColor = System.Drawing.Color.IndianRed;
-            this.lblDangnhap.Location = new System.Drawing.Point(0, 0);
-            this.lblDangnhap.Name = "lblDangnhap";
-            this.lblDangnhap.Size = new System.Drawing.Size(487, 71);
-            this.lblDangnhap.TabIndex = 0;
-            this.lblDangnhap.Text = "Đăng nhập";
-            this.lblDangnhap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblDangNhap.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblDangNhap.Font = new System.Drawing.Font("Palatino Linotype", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDangNhap.ForeColor = System.Drawing.Color.IndianRed;
+            this.lblDangNhap.Location = new System.Drawing.Point(0, 0);
+            this.lblDangNhap.Name = "lblDangNhap";
+            this.lblDangNhap.Size = new System.Drawing.Size(487, 71);
+            this.lblDangNhap.TabIndex = 0;
+            this.lblDangNhap.Text = "Đăng nhập";
+            this.lblDangNhap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtTendangnhap
+            // txtTenDangNhap
             // 
-            this.txtTendangnhap.BackColor = System.Drawing.SystemColors.Control;
-            this.txtTendangnhap.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTendangnhap.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTendangnhap.ForeColor = System.Drawing.Color.Silver;
-            this.txtTendangnhap.Location = new System.Drawing.Point(92, 124);
-            this.txtTendangnhap.Name = "txtTendangnhap";
-            this.txtTendangnhap.Size = new System.Drawing.Size(375, 30);
-            this.txtTendangnhap.TabIndex = 1;
-            this.txtTendangnhap.Text = "Tên đăng nhập";
-            this.txtTendangnhap.Enter += new System.EventHandler(this.txtTendangnhap_Enter);
-            this.txtTendangnhap.Leave += new System.EventHandler(this.txtTendangnhap_Leave);
+            this.txtTenDangNhap.BackColor = System.Drawing.SystemColors.Control;
+            this.txtTenDangNhap.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTenDangNhap.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenDangNhap.ForeColor = System.Drawing.Color.Silver;
+            this.txtTenDangNhap.Location = new System.Drawing.Point(92, 124);
+            this.txtTenDangNhap.Name = "txtTenDangNhap";
+            this.txtTenDangNhap.Size = new System.Drawing.Size(375, 30);
+            this.txtTenDangNhap.TabIndex = 1;
+            this.txtTenDangNhap.Text = "Tên đăng nhập";
+            this.txtTenDangNhap.Enter += new System.EventHandler(this.txtTendangnhap_Enter);
+            this.txtTenDangNhap.Leave += new System.EventHandler(this.txtTendangnhap_Leave);
             // 
-            // pnlTendangnhap
+            // pnlTenDangNhap
             // 
-            this.pnlTendangnhap.BackColor = System.Drawing.Color.DarkRed;
-            this.pnlTendangnhap.ForeColor = System.Drawing.Color.Peru;
-            this.pnlTendangnhap.Location = new System.Drawing.Point(92, 152);
-            this.pnlTendangnhap.Name = "pnlTendangnhap";
-            this.pnlTendangnhap.Size = new System.Drawing.Size(375, 2);
-            this.pnlTendangnhap.TabIndex = 2;
+            this.pnlTenDangNhap.BackColor = System.Drawing.Color.DarkRed;
+            this.pnlTenDangNhap.ForeColor = System.Drawing.Color.Peru;
+            this.pnlTenDangNhap.Location = new System.Drawing.Point(92, 152);
+            this.pnlTenDangNhap.Name = "pnlTenDangNhap";
+            this.pnlTenDangNhap.Size = new System.Drawing.Size(375, 2);
+            this.pnlTenDangNhap.TabIndex = 2;
             // 
-            // txtMatkhau
+            // txtMatKhau
             // 
-            this.txtMatkhau.BackColor = System.Drawing.SystemColors.Control;
-            this.txtMatkhau.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtMatkhau.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMatkhau.ForeColor = System.Drawing.Color.Silver;
-            this.txtMatkhau.Location = new System.Drawing.Point(92, 192);
-            this.txtMatkhau.Name = "txtMatkhau";
-            this.txtMatkhau.Size = new System.Drawing.Size(335, 30);
-            this.txtMatkhau.TabIndex = 4;
-            this.txtMatkhau.Text = "Mật khẩu";
-            this.txtMatkhau.Enter += new System.EventHandler(this.txtMatkhau_Enter);
-            this.txtMatkhau.Leave += new System.EventHandler(this.txtMatkhau_Leave);
+            this.txtMatKhau.BackColor = System.Drawing.SystemColors.Control;
+            this.txtMatKhau.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMatKhau.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMatKhau.ForeColor = System.Drawing.Color.Silver;
+            this.txtMatKhau.Location = new System.Drawing.Point(92, 192);
+            this.txtMatKhau.Name = "txtMatKhau";
+            this.txtMatKhau.Size = new System.Drawing.Size(335, 30);
+            this.txtMatKhau.TabIndex = 4;
+            this.txtMatKhau.Text = "Mật khẩu";
+            this.txtMatKhau.Enter += new System.EventHandler(this.txtMatkhau_Enter);
+            this.txtMatKhau.Leave += new System.EventHandler(this.txtMatkhau_Leave);
             // 
-            // btnDangnhap
+            // btnDangNhap
             // 
-            this.btnDangnhap.BackColor = System.Drawing.Color.IndianRed;
-            this.btnDangnhap.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDangnhap.Location = new System.Drawing.Point(134, 335);
-            this.btnDangnhap.Name = "btnDangnhap";
-            this.btnDangnhap.Size = new System.Drawing.Size(222, 45);
-            this.btnDangnhap.TabIndex = 8;
-            this.btnDangnhap.Text = "Đăng nhập";
-            this.btnDangnhap.UseVisualStyleBackColor = false;
+            this.btnDangNhap.BackColor = System.Drawing.Color.IndianRed;
+            this.btnDangNhap.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangNhap.Location = new System.Drawing.Point(134, 335);
+            this.btnDangNhap.Name = "btnDangNhap";
+            this.btnDangNhap.Size = new System.Drawing.Size(222, 45);
+            this.btnDangNhap.TabIndex = 8;
+            this.btnDangNhap.Text = "Đăng nhập";
+            this.btnDangNhap.UseVisualStyleBackColor = false;
             // 
-            // btnQuenmatkhau
+            // btnQuenMatKhau
             // 
-            this.btnQuenmatkhau.BackColor = System.Drawing.Color.IndianRed;
-            this.btnQuenmatkhau.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuenmatkhau.Location = new System.Drawing.Point(134, 386);
-            this.btnQuenmatkhau.Name = "btnQuenmatkhau";
-            this.btnQuenmatkhau.Size = new System.Drawing.Size(222, 45);
-            this.btnQuenmatkhau.TabIndex = 9;
-            this.btnQuenmatkhau.Text = "Quên mật khẩu";
-            this.btnQuenmatkhau.UseVisualStyleBackColor = false;
+            this.btnQuenMatKhau.BackColor = System.Drawing.Color.IndianRed;
+            this.btnQuenMatKhau.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuenMatKhau.Location = new System.Drawing.Point(134, 386);
+            this.btnQuenMatKhau.Name = "btnQuenMatKhau";
+            this.btnQuenMatKhau.Size = new System.Drawing.Size(222, 45);
+            this.btnQuenMatKhau.TabIndex = 9;
+            this.btnQuenMatKhau.Text = "Quên mật khẩu";
+            this.btnQuenMatKhau.UseVisualStyleBackColor = false;
             // 
-            // lblChuacotaikhoan
+            // lblChuaCoTaiKhoan
             // 
-            this.lblChuacotaikhoan.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblChuacotaikhoan.Location = new System.Drawing.Point(134, 496);
-            this.lblChuacotaikhoan.Name = "lblChuacotaikhoan";
-            this.lblChuacotaikhoan.Size = new System.Drawing.Size(222, 33);
-            this.lblChuacotaikhoan.TabIndex = 10;
-            this.lblChuacotaikhoan.Text = "Chưa có tài khoản?";
-            this.lblChuacotaikhoan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblChuaCoTaiKhoan.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChuaCoTaiKhoan.Location = new System.Drawing.Point(134, 496);
+            this.lblChuaCoTaiKhoan.Name = "lblChuaCoTaiKhoan";
+            this.lblChuaCoTaiKhoan.Size = new System.Drawing.Size(222, 33);
+            this.lblChuaCoTaiKhoan.TabIndex = 10;
+            this.lblChuaCoTaiKhoan.Text = "Chưa có tài khoản?";
+            this.lblChuaCoTaiKhoan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnDangky
+            // btnDangKy
             // 
-            this.btnDangky.BackColor = System.Drawing.Color.IndianRed;
-            this.btnDangky.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDangky.Location = new System.Drawing.Point(134, 532);
-            this.btnDangky.Name = "btnDangky";
-            this.btnDangky.Size = new System.Drawing.Size(222, 45);
-            this.btnDangky.TabIndex = 11;
-            this.btnDangky.Text = "Đăng ký";
-            this.btnDangky.UseVisualStyleBackColor = false;
+            this.btnDangKy.BackColor = System.Drawing.Color.IndianRed;
+            this.btnDangKy.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangKy.Location = new System.Drawing.Point(134, 532);
+            this.btnDangKy.Name = "btnDangKy";
+            this.btnDangKy.Size = new System.Drawing.Size(222, 45);
+            this.btnDangKy.TabIndex = 11;
+            this.btnDangKy.Text = "Đăng ký";
+            this.btnDangKy.UseVisualStyleBackColor = false;
             // 
-            // pnlMatkhau
+            // pnlMatKhau
             // 
-            this.pnlMatkhau.BackColor = System.Drawing.Color.DarkRed;
-            this.pnlMatkhau.ForeColor = System.Drawing.Color.Peru;
-            this.pnlMatkhau.Location = new System.Drawing.Point(92, 228);
-            this.pnlMatkhau.Name = "pnlMatkhau";
-            this.pnlMatkhau.Size = new System.Drawing.Size(375, 2);
-            this.pnlMatkhau.TabIndex = 12;
+            this.pnlMatKhau.BackColor = System.Drawing.Color.DarkRed;
+            this.pnlMatKhau.ForeColor = System.Drawing.Color.Peru;
+            this.pnlMatKhau.Location = new System.Drawing.Point(92, 228);
+            this.pnlMatKhau.Name = "pnlMatKhau";
+            this.pnlMatKhau.Size = new System.Drawing.Size(375, 2);
+            this.pnlMatKhau.TabIndex = 12;
             // 
-            // btnHienmatkhau
+            // btnHienMatKhau
             // 
-            this.btnHienmatkhau.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.iconShow;
-            this.btnHienmatkhau.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnHienmatkhau.FlatAppearance.BorderSize = 0;
-            this.btnHienmatkhau.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHienmatkhau.Location = new System.Drawing.Point(433, 206);
-            this.btnHienmatkhau.Name = "btnHienmatkhau";
-            this.btnHienmatkhau.Size = new System.Drawing.Size(34, 21);
-            this.btnHienmatkhau.TabIndex = 7;
-            this.btnHienmatkhau.UseVisualStyleBackColor = true;
-            this.btnHienmatkhau.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnHienmatkhau_MouseDown);
-            this.btnHienmatkhau.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnHienmatkhau_MouseUp);
+            this.btnHienMatKhau.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.iconShow;
+            this.btnHienMatKhau.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnHienMatKhau.FlatAppearance.BorderSize = 0;
+            this.btnHienMatKhau.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHienMatKhau.Location = new System.Drawing.Point(433, 206);
+            this.btnHienMatKhau.Name = "btnHienMatKhau";
+            this.btnHienMatKhau.Size = new System.Drawing.Size(34, 21);
+            this.btnHienMatKhau.TabIndex = 7;
+            this.btnHienMatKhau.UseVisualStyleBackColor = true;
+            this.btnHienMatKhau.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnHienmatkhau_MouseDown);
+            this.btnHienMatKhau.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnHienmatkhau_MouseUp);
             // 
-            // picMatkhau
+            // picMatKhau
             // 
-            this.picMatkhau.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconPassword;
-            this.picMatkhau.Location = new System.Drawing.Point(30, 192);
-            this.picMatkhau.Name = "picMatkhau";
-            this.picMatkhau.Size = new System.Drawing.Size(40, 38);
-            this.picMatkhau.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picMatkhau.TabIndex = 6;
-            this.picMatkhau.TabStop = false;
+            this.picMatKhau.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconPassword;
+            this.picMatKhau.Location = new System.Drawing.Point(30, 192);
+            this.picMatKhau.Name = "picMatKhau";
+            this.picMatKhau.Size = new System.Drawing.Size(40, 38);
+            this.picMatKhau.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picMatKhau.TabIndex = 6;
+            this.picMatKhau.TabStop = false;
             // 
-            // picTendangnhap
+            // picTenDangNhap
             // 
-            this.picTendangnhap.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconUser;
-            this.picTendangnhap.Location = new System.Drawing.Point(30, 124);
-            this.picTendangnhap.Name = "picTendangnhap";
-            this.picTendangnhap.Size = new System.Drawing.Size(40, 38);
-            this.picTendangnhap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picTendangnhap.TabIndex = 3;
-            this.picTendangnhap.TabStop = false;
+            this.picTenDangNhap.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconUser;
+            this.picTenDangNhap.Location = new System.Drawing.Point(30, 124);
+            this.picTenDangNhap.Name = "picTenDangNhap";
+            this.picTenDangNhap.Size = new System.Drawing.Size(40, 38);
+            this.picTenDangNhap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picTenDangNhap.TabIndex = 3;
+            this.picTenDangNhap.TabStop = false;
             // 
-            // DangNhap
+            // frmDangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(487, 641);
-            this.Controls.Add(this.pnlMatkhau);
-            this.Controls.Add(this.btnDangky);
-            this.Controls.Add(this.lblChuacotaikhoan);
-            this.Controls.Add(this.btnQuenmatkhau);
-            this.Controls.Add(this.btnDangnhap);
-            this.Controls.Add(this.btnHienmatkhau);
-            this.Controls.Add(this.picMatkhau);
-            this.Controls.Add(this.txtMatkhau);
-            this.Controls.Add(this.picTendangnhap);
-            this.Controls.Add(this.pnlTendangnhap);
-            this.Controls.Add(this.txtTendangnhap);
-            this.Controls.Add(this.lblDangnhap);
+            this.Controls.Add(this.pnlMatKhau);
+            this.Controls.Add(this.btnDangKy);
+            this.Controls.Add(this.lblChuaCoTaiKhoan);
+            this.Controls.Add(this.btnQuenMatKhau);
+            this.Controls.Add(this.btnDangNhap);
+            this.Controls.Add(this.btnHienMatKhau);
+            this.Controls.Add(this.picMatKhau);
+            this.Controls.Add(this.txtMatKhau);
+            this.Controls.Add(this.picTenDangNhap);
+            this.Controls.Add(this.pnlTenDangNhap);
+            this.Controls.Add(this.txtTenDangNhap);
+            this.Controls.Add(this.lblDangNhap);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "DangNhap";
+            this.Name = "frmDangNhap";
             this.Text = "Đăng Nhập";
-            ((System.ComponentModel.ISupportInitialize)(this.picMatkhau)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picTendangnhap)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picMatKhau)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTenDangNhap)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -208,18 +208,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblDangnhap;
-        private System.Windows.Forms.TextBox txtTendangnhap;
-        private System.Windows.Forms.Panel pnlTendangnhap;
-        private System.Windows.Forms.PictureBox picTendangnhap;
-        private System.Windows.Forms.PictureBox picMatkhau;
-        private System.Windows.Forms.TextBox txtMatkhau;
-        private System.Windows.Forms.Button btnHienmatkhau;
-        private System.Windows.Forms.Button btnDangnhap;
-        private System.Windows.Forms.Button btnQuenmatkhau;
-        private System.Windows.Forms.Label lblChuacotaikhoan;
-        private System.Windows.Forms.Button btnDangky;
-        private System.Windows.Forms.Panel pnlMatkhau;
+        private System.Windows.Forms.Label lblDangNhap;
+        private System.Windows.Forms.TextBox txtTenDangNhap;
+        private System.Windows.Forms.Panel pnlTenDangNhap;
+        private System.Windows.Forms.PictureBox picTenDangNhap;
+        private System.Windows.Forms.PictureBox picMatKhau;
+        private System.Windows.Forms.TextBox txtMatKhau;
+        private System.Windows.Forms.Button btnHienMatKhau;
+        private System.Windows.Forms.Button btnDangNhap;
+        private System.Windows.Forms.Button btnQuenMatKhau;
+        private System.Windows.Forms.Label lblChuaCoTaiKhoan;
+        private System.Windows.Forms.Button btnDangKy;
+        private System.Windows.Forms.Panel pnlMatKhau;
     }
 }
 

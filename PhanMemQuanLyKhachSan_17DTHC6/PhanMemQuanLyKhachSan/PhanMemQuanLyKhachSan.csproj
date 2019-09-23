@@ -68,6 +68,12 @@
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="LienHe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LienHe.Designer.cs">
+      <DependentUpon>LienHe.cs</DependentUpon>
+    </Compile>
     <Compile Include="ManHinhChinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LienHe.resx">
+      <DependentUpon>LienHe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManHinhChinh.resx">
       <DependentUpon>ManHinhChinh.cs</DependentUpon>
@@ -206,6 +215,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\iconLoc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconEmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconPhone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconFacebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconWeb.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

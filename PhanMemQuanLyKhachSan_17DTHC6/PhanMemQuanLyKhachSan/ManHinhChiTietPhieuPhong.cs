@@ -19,7 +19,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ManHinhChinh fmmhc = new ManHinhChinh();
+            frmManHinhChinh fmmhc = new frmManHinhChinh();
             fmmhc.FormClosed += new FormClosedEventHandler(fmmhc_FormClosed);
             fmmhc.Show();
             this.Hide();

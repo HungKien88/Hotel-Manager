@@ -1,6 +1,6 @@
 ﻿namespace PhanMemQuanLyKhachSan
 {
-    partial class ManHinhChinh
+    partial class frmManHinhChinh
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblKhachsan = new System.Windows.Forms.Label();
+            this.lblKhachSan = new System.Windows.Forms.Label();
             this.msManhinhchinh = new System.Windows.Forms.MenuStrip();
             this.quảnLýPhòngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLýNhânViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,64 +43,64 @@
             this.lblPhongtrong = new System.Windows.Forms.Label();
             this.lblHientrang = new System.Windows.Forms.Label();
             this.pnlPhong1 = new System.Windows.Forms.Panel();
-            this.txtGhichu1 = new System.Windows.Forms.TextBox();
+            this.txtGhiChu1 = new System.Windows.Forms.TextBox();
             this.txtTien1 = new System.Windows.Forms.TextBox();
-            this.txtNgaydi1 = new System.Windows.Forms.TextBox();
-            this.txtNgayden1 = new System.Windows.Forms.TextBox();
-            this.txtQuoctich1 = new System.Windows.Forms.TextBox();
-            this.txtSokhach1 = new System.Windows.Forms.TextBox();
-            this.txtTenkhach1 = new System.Windows.Forms.TextBox();
-            this.txtTenbooking1 = new System.Windows.Forms.TextBox();
-            this.btnChitiet1 = new System.Windows.Forms.Button();
-            this.lblGhichu1 = new System.Windows.Forms.Label();
+            this.txtNgayDi1 = new System.Windows.Forms.TextBox();
+            this.txtNgayDen1 = new System.Windows.Forms.TextBox();
+            this.txtQuocTich1 = new System.Windows.Forms.TextBox();
+            this.txtSoKhach1 = new System.Windows.Forms.TextBox();
+            this.txtTenKhach1 = new System.Windows.Forms.TextBox();
+            this.txtTenBooking1 = new System.Windows.Forms.TextBox();
+            this.btnChiTiet1 = new System.Windows.Forms.Button();
+            this.lblGhiChu1 = new System.Windows.Forms.Label();
             this.lblTien1 = new System.Windows.Forms.Label();
-            this.lblNgaydi1 = new System.Windows.Forms.Label();
-            this.lblNgayden1 = new System.Windows.Forms.Label();
-            this.lblQuoctich1 = new System.Windows.Forms.Label();
-            this.lblSokhach1 = new System.Windows.Forms.Label();
-            this.lblTenkhach1 = new System.Windows.Forms.Label();
-            this.lblTenbooking1 = new System.Windows.Forms.Label();
-            this.lblSophong1 = new System.Windows.Forms.Label();
+            this.lblNgayDi1 = new System.Windows.Forms.Label();
+            this.lblNgayDen1 = new System.Windows.Forms.Label();
+            this.lblQuocTich1 = new System.Windows.Forms.Label();
+            this.lblSoKhach1 = new System.Windows.Forms.Label();
+            this.lblTenKhach1 = new System.Windows.Forms.Label();
+            this.lblTenBooking1 = new System.Windows.Forms.Label();
+            this.lblSoPhong1 = new System.Windows.Forms.Label();
             this.lblPhong1 = new System.Windows.Forms.Label();
             this.pnlPhong2 = new System.Windows.Forms.Panel();
-            this.txtGhichu2 = new System.Windows.Forms.TextBox();
+            this.txtGhiChu2 = new System.Windows.Forms.TextBox();
             this.txtTien2 = new System.Windows.Forms.TextBox();
-            this.txtNgaydi2 = new System.Windows.Forms.TextBox();
-            this.txtNgayden2 = new System.Windows.Forms.TextBox();
-            this.txtQuoctich2 = new System.Windows.Forms.TextBox();
-            this.txtSokhach2 = new System.Windows.Forms.TextBox();
-            this.txtTenkhach2 = new System.Windows.Forms.TextBox();
-            this.txtTenbooking2 = new System.Windows.Forms.TextBox();
-            this.btnChitiet2 = new System.Windows.Forms.Button();
-            this.lblGhichu2 = new System.Windows.Forms.Label();
+            this.txtNgayDi2 = new System.Windows.Forms.TextBox();
+            this.txtNgayDen2 = new System.Windows.Forms.TextBox();
+            this.txtQuocTich2 = new System.Windows.Forms.TextBox();
+            this.txtSoKhach2 = new System.Windows.Forms.TextBox();
+            this.txtTenKhach2 = new System.Windows.Forms.TextBox();
+            this.txtTenBooking2 = new System.Windows.Forms.TextBox();
+            this.btnChiTiet2 = new System.Windows.Forms.Button();
+            this.lblGhiChu2 = new System.Windows.Forms.Label();
             this.lblTien2 = new System.Windows.Forms.Label();
-            this.lblNgaydi2 = new System.Windows.Forms.Label();
-            this.lblNgayden2 = new System.Windows.Forms.Label();
-            this.lblQuoctich2 = new System.Windows.Forms.Label();
-            this.lblSokhach2 = new System.Windows.Forms.Label();
-            this.lblTenkhach2 = new System.Windows.Forms.Label();
-            this.lblTenbooking2 = new System.Windows.Forms.Label();
-            this.lblSophong2 = new System.Windows.Forms.Label();
+            this.lblNgayDi2 = new System.Windows.Forms.Label();
+            this.lblNgayDen2 = new System.Windows.Forms.Label();
+            this.lblQuocTich2 = new System.Windows.Forms.Label();
+            this.lblSoKhach2 = new System.Windows.Forms.Label();
+            this.lblTenKhach2 = new System.Windows.Forms.Label();
+            this.lblTenBooking2 = new System.Windows.Forms.Label();
+            this.lblSoPhong2 = new System.Windows.Forms.Label();
             this.lblPhong2 = new System.Windows.Forms.Label();
             this.pnlPhong3 = new System.Windows.Forms.Panel();
-            this.txtGhichu3 = new System.Windows.Forms.TextBox();
+            this.txtGhiChu3 = new System.Windows.Forms.TextBox();
             this.txtTien3 = new System.Windows.Forms.TextBox();
-            this.txtNgaydi3 = new System.Windows.Forms.TextBox();
-            this.txtNgayden3 = new System.Windows.Forms.TextBox();
-            this.txtQuoctich3 = new System.Windows.Forms.TextBox();
-            this.txtSokhach3 = new System.Windows.Forms.TextBox();
-            this.txtTenkhach3 = new System.Windows.Forms.TextBox();
-            this.txtTenbooking3 = new System.Windows.Forms.TextBox();
-            this.btnChitiet3 = new System.Windows.Forms.Button();
-            this.lblGhichu3 = new System.Windows.Forms.Label();
+            this.txtNgayDi3 = new System.Windows.Forms.TextBox();
+            this.txtNgayDen3 = new System.Windows.Forms.TextBox();
+            this.txtQuocTich3 = new System.Windows.Forms.TextBox();
+            this.txtSoKhach3 = new System.Windows.Forms.TextBox();
+            this.txtTenKhach3 = new System.Windows.Forms.TextBox();
+            this.txtTenBooking3 = new System.Windows.Forms.TextBox();
+            this.btnChiTiet3 = new System.Windows.Forms.Button();
+            this.lblGhiChu3 = new System.Windows.Forms.Label();
             this.lblTien3 = new System.Windows.Forms.Label();
-            this.lblNgaydi3 = new System.Windows.Forms.Label();
-            this.lblNgayden3 = new System.Windows.Forms.Label();
-            this.lblQuoctich3 = new System.Windows.Forms.Label();
-            this.lblSokhach3 = new System.Windows.Forms.Label();
-            this.lblTenkhach3 = new System.Windows.Forms.Label();
-            this.lblTenbooking3 = new System.Windows.Forms.Label();
-            this.lblSophong3 = new System.Windows.Forms.Label();
+            this.lblNgayDi3 = new System.Windows.Forms.Label();
+            this.lblNgayDen3 = new System.Windows.Forms.Label();
+            this.lblQuocTich3 = new System.Windows.Forms.Label();
+            this.lblSoKhach3 = new System.Windows.Forms.Label();
+            this.lblTenKhach3 = new System.Windows.Forms.Label();
+            this.lblTenBooking3 = new System.Windows.Forms.Label();
+            this.lblSoPhong3 = new System.Windows.Forms.Label();
             this.lblPhong3 = new System.Windows.Forms.Label();
             this.pnlPhong4 = new System.Windows.Forms.Panel();
             this.txtGhichu4 = new System.Windows.Forms.TextBox();
@@ -118,9 +118,9 @@
             this.lblNgayden4 = new System.Windows.Forms.Label();
             this.lblQuoctich4 = new System.Windows.Forms.Label();
             this.lblSokhach4 = new System.Windows.Forms.Label();
-            this.lblTenkhach4 = new System.Windows.Forms.Label();
-            this.lblTenbooking4 = new System.Windows.Forms.Label();
-            this.lblSophong4 = new System.Windows.Forms.Label();
+            this.lblTenKhach4 = new System.Windows.Forms.Label();
+            this.lblTenBooking4 = new System.Windows.Forms.Label();
+            this.lblSoPhong4 = new System.Windows.Forms.Label();
             this.lblPhong4 = new System.Windows.Forms.Label();
             this.pnlPhong8 = new System.Windows.Forms.Panel();
             this.txtGhichu8 = new System.Windows.Forms.TextBox();
@@ -214,17 +214,17 @@
             this.pnlPhong5.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lblKhachsan
+            // lblKhachSan
             // 
-            this.lblKhachsan.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblKhachsan.Font = new System.Drawing.Font("Palatino Linotype", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKhachsan.ForeColor = System.Drawing.Color.IndianRed;
-            this.lblKhachsan.Location = new System.Drawing.Point(0, 0);
-            this.lblKhachsan.Name = "lblKhachsan";
-            this.lblKhachsan.Size = new System.Drawing.Size(1777, 60);
-            this.lblKhachsan.TabIndex = 0;
-            this.lblKhachsan.Text = "Khách Sạn Sài Gòn Odyssey Hotel";
-            this.lblKhachsan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblKhachSan.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblKhachSan.Font = new System.Drawing.Font("Palatino Linotype", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKhachSan.ForeColor = System.Drawing.Color.IndianRed;
+            this.lblKhachSan.Location = new System.Drawing.Point(0, 0);
+            this.lblKhachSan.Name = "lblKhachSan";
+            this.lblKhachSan.Size = new System.Drawing.Size(1777, 60);
+            this.lblKhachSan.TabIndex = 0;
+            this.lblKhachSan.Text = "Khách Sạn Sài Gòn Odyssey Hotel";
+            this.lblKhachSan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // msManhinhchinh
             // 
@@ -239,7 +239,7 @@
             this.liênHệToolStripMenuItem});
             this.msManhinhchinh.Location = new System.Drawing.Point(9, 72);
             this.msManhinhchinh.Name = "msManhinhchinh";
-            this.msManhinhchinh.Size = new System.Drawing.Size(921, 37);
+            this.msManhinhchinh.Size = new System.Drawing.Size(806, 37);
             this.msManhinhchinh.TabIndex = 1;
             this.msManhinhchinh.Text = "menuStrip1";
             // 
@@ -344,40 +344,40 @@
             // 
             // pnlPhong1
             // 
-            this.pnlPhong1.Controls.Add(this.txtGhichu1);
+            this.pnlPhong1.Controls.Add(this.txtGhiChu1);
             this.pnlPhong1.Controls.Add(this.txtTien1);
-            this.pnlPhong1.Controls.Add(this.txtNgaydi1);
-            this.pnlPhong1.Controls.Add(this.txtNgayden1);
-            this.pnlPhong1.Controls.Add(this.txtQuoctich1);
-            this.pnlPhong1.Controls.Add(this.txtSokhach1);
-            this.pnlPhong1.Controls.Add(this.txtTenkhach1);
-            this.pnlPhong1.Controls.Add(this.txtTenbooking1);
-            this.pnlPhong1.Controls.Add(this.btnChitiet1);
-            this.pnlPhong1.Controls.Add(this.lblGhichu1);
+            this.pnlPhong1.Controls.Add(this.txtNgayDi1);
+            this.pnlPhong1.Controls.Add(this.txtNgayDen1);
+            this.pnlPhong1.Controls.Add(this.txtQuocTich1);
+            this.pnlPhong1.Controls.Add(this.txtSoKhach1);
+            this.pnlPhong1.Controls.Add(this.txtTenKhach1);
+            this.pnlPhong1.Controls.Add(this.txtTenBooking1);
+            this.pnlPhong1.Controls.Add(this.btnChiTiet1);
+            this.pnlPhong1.Controls.Add(this.lblGhiChu1);
             this.pnlPhong1.Controls.Add(this.lblTien1);
-            this.pnlPhong1.Controls.Add(this.lblNgaydi1);
-            this.pnlPhong1.Controls.Add(this.lblNgayden1);
-            this.pnlPhong1.Controls.Add(this.lblQuoctich1);
-            this.pnlPhong1.Controls.Add(this.lblSokhach1);
-            this.pnlPhong1.Controls.Add(this.lblTenkhach1);
-            this.pnlPhong1.Controls.Add(this.lblTenbooking1);
-            this.pnlPhong1.Controls.Add(this.lblSophong1);
+            this.pnlPhong1.Controls.Add(this.lblNgayDi1);
+            this.pnlPhong1.Controls.Add(this.lblNgayDen1);
+            this.pnlPhong1.Controls.Add(this.lblQuocTich1);
+            this.pnlPhong1.Controls.Add(this.lblSoKhach1);
+            this.pnlPhong1.Controls.Add(this.lblTenKhach1);
+            this.pnlPhong1.Controls.Add(this.lblTenBooking1);
+            this.pnlPhong1.Controls.Add(this.lblSoPhong1);
             this.pnlPhong1.Controls.Add(this.lblPhong1);
             this.pnlPhong1.Location = new System.Drawing.Point(345, 123);
             this.pnlPhong1.Name = "pnlPhong1";
             this.pnlPhong1.Size = new System.Drawing.Size(322, 390);
             this.pnlPhong1.TabIndex = 4;
             // 
-            // txtGhichu1
+            // txtGhiChu1
             // 
-            this.txtGhichu1.BackColor = System.Drawing.SystemColors.Control;
-            this.txtGhichu1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtGhichu1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGhichu1.Location = new System.Drawing.Point(163, 299);
-            this.txtGhichu1.Name = "txtGhichu1";
-            this.txtGhichu1.Size = new System.Drawing.Size(156, 25);
-            this.txtGhichu1.TabIndex = 18;
-            this.txtGhichu1.Text = "..............................";
+            this.txtGhiChu1.BackColor = System.Drawing.SystemColors.Control;
+            this.txtGhiChu1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtGhiChu1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGhiChu1.Location = new System.Drawing.Point(163, 299);
+            this.txtGhiChu1.Name = "txtGhiChu1";
+            this.txtGhiChu1.Size = new System.Drawing.Size(156, 25);
+            this.txtGhiChu1.TabIndex = 18;
+            this.txtGhiChu1.Text = "..............................";
             // 
             // txtTien1
             // 
@@ -390,94 +390,94 @@
             this.txtTien1.TabIndex = 17;
             this.txtTien1.Text = "..............................";
             // 
-            // txtNgaydi1
+            // txtNgayDi1
             // 
-            this.txtNgaydi1.BackColor = System.Drawing.SystemColors.Control;
-            this.txtNgaydi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNgaydi1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNgaydi1.Location = new System.Drawing.Point(163, 239);
-            this.txtNgaydi1.Name = "txtNgaydi1";
-            this.txtNgaydi1.Size = new System.Drawing.Size(156, 25);
-            this.txtNgaydi1.TabIndex = 16;
-            this.txtNgaydi1.Text = "..............................";
+            this.txtNgayDi1.BackColor = System.Drawing.SystemColors.Control;
+            this.txtNgayDi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNgayDi1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNgayDi1.Location = new System.Drawing.Point(163, 239);
+            this.txtNgayDi1.Name = "txtNgayDi1";
+            this.txtNgayDi1.Size = new System.Drawing.Size(156, 25);
+            this.txtNgayDi1.TabIndex = 16;
+            this.txtNgayDi1.Text = "..............................";
             // 
-            // txtNgayden1
+            // txtNgayDen1
             // 
-            this.txtNgayden1.BackColor = System.Drawing.SystemColors.Control;
-            this.txtNgayden1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNgayden1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNgayden1.Location = new System.Drawing.Point(163, 209);
-            this.txtNgayden1.Name = "txtNgayden1";
-            this.txtNgayden1.Size = new System.Drawing.Size(156, 25);
-            this.txtNgayden1.TabIndex = 15;
-            this.txtNgayden1.Text = "..............................";
+            this.txtNgayDen1.BackColor = System.Drawing.SystemColors.Control;
+            this.txtNgayDen1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNgayDen1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNgayDen1.Location = new System.Drawing.Point(163, 209);
+            this.txtNgayDen1.Name = "txtNgayDen1";
+            this.txtNgayDen1.Size = new System.Drawing.Size(156, 25);
+            this.txtNgayDen1.TabIndex = 15;
+            this.txtNgayDen1.Text = "..............................";
             // 
-            // txtQuoctich1
+            // txtQuocTich1
             // 
-            this.txtQuoctich1.BackColor = System.Drawing.SystemColors.Control;
-            this.txtQuoctich1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtQuoctich1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQuoctich1.Location = new System.Drawing.Point(163, 179);
-            this.txtQuoctich1.Name = "txtQuoctich1";
-            this.txtQuoctich1.Size = new System.Drawing.Size(156, 25);
-            this.txtQuoctich1.TabIndex = 14;
-            this.txtQuoctich1.Text = "..............................";
+            this.txtQuocTich1.BackColor = System.Drawing.SystemColors.Control;
+            this.txtQuocTich1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtQuocTich1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQuocTich1.Location = new System.Drawing.Point(163, 179);
+            this.txtQuocTich1.Name = "txtQuocTich1";
+            this.txtQuocTich1.Size = new System.Drawing.Size(156, 25);
+            this.txtQuocTich1.TabIndex = 14;
+            this.txtQuocTich1.Text = "..............................";
             // 
-            // txtSokhach1
+            // txtSoKhach1
             // 
-            this.txtSokhach1.BackColor = System.Drawing.SystemColors.Control;
-            this.txtSokhach1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSokhach1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSokhach1.Location = new System.Drawing.Point(163, 149);
-            this.txtSokhach1.Name = "txtSokhach1";
-            this.txtSokhach1.Size = new System.Drawing.Size(156, 25);
-            this.txtSokhach1.TabIndex = 13;
-            this.txtSokhach1.Text = "..............................";
+            this.txtSoKhach1.BackColor = System.Drawing.SystemColors.Control;
+            this.txtSoKhach1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSoKhach1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoKhach1.Location = new System.Drawing.Point(163, 149);
+            this.txtSoKhach1.Name = "txtSoKhach1";
+            this.txtSoKhach1.Size = new System.Drawing.Size(156, 25);
+            this.txtSoKhach1.TabIndex = 13;
+            this.txtSoKhach1.Text = "..............................";
             // 
-            // txtTenkhach1
+            // txtTenKhach1
             // 
-            this.txtTenkhach1.BackColor = System.Drawing.SystemColors.Control;
-            this.txtTenkhach1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTenkhach1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenkhach1.Location = new System.Drawing.Point(163, 119);
-            this.txtTenkhach1.Name = "txtTenkhach1";
-            this.txtTenkhach1.Size = new System.Drawing.Size(156, 25);
-            this.txtTenkhach1.TabIndex = 12;
-            this.txtTenkhach1.Text = "..............................";
+            this.txtTenKhach1.BackColor = System.Drawing.SystemColors.Control;
+            this.txtTenKhach1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTenKhach1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenKhach1.Location = new System.Drawing.Point(163, 119);
+            this.txtTenKhach1.Name = "txtTenKhach1";
+            this.txtTenKhach1.Size = new System.Drawing.Size(156, 25);
+            this.txtTenKhach1.TabIndex = 12;
+            this.txtTenKhach1.Text = "..............................";
             // 
-            // txtTenbooking1
+            // txtTenBooking1
             // 
-            this.txtTenbooking1.BackColor = System.Drawing.SystemColors.Control;
-            this.txtTenbooking1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTenbooking1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenbooking1.Location = new System.Drawing.Point(163, 89);
-            this.txtTenbooking1.Name = "txtTenbooking1";
-            this.txtTenbooking1.Size = new System.Drawing.Size(156, 25);
-            this.txtTenbooking1.TabIndex = 11;
-            this.txtTenbooking1.Text = "..............................";
+            this.txtTenBooking1.BackColor = System.Drawing.SystemColors.Control;
+            this.txtTenBooking1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTenBooking1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenBooking1.Location = new System.Drawing.Point(163, 89);
+            this.txtTenBooking1.Name = "txtTenBooking1";
+            this.txtTenBooking1.Size = new System.Drawing.Size(156, 25);
+            this.txtTenBooking1.TabIndex = 11;
+            this.txtTenBooking1.Text = "..............................";
             // 
-            // btnChitiet1
+            // btnChiTiet1
             // 
-            this.btnChitiet1.BackColor = System.Drawing.Color.IndianRed;
-            this.btnChitiet1.FlatAppearance.BorderSize = 0;
-            this.btnChitiet1.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChitiet1.Location = new System.Drawing.Point(90, 341);
-            this.btnChitiet1.Name = "btnChitiet1";
-            this.btnChitiet1.Size = new System.Drawing.Size(143, 36);
-            this.btnChitiet1.TabIndex = 10;
-            this.btnChitiet1.Text = "Chi tiết";
-            this.btnChitiet1.UseVisualStyleBackColor = false;
-            this.btnChitiet1.Click += new System.EventHandler(this.btnChitiet1_Click);
+            this.btnChiTiet1.BackColor = System.Drawing.Color.IndianRed;
+            this.btnChiTiet1.FlatAppearance.BorderSize = 0;
+            this.btnChiTiet1.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChiTiet1.Location = new System.Drawing.Point(90, 341);
+            this.btnChiTiet1.Name = "btnChiTiet1";
+            this.btnChiTiet1.Size = new System.Drawing.Size(143, 36);
+            this.btnChiTiet1.TabIndex = 10;
+            this.btnChiTiet1.Text = "Chi tiết";
+            this.btnChiTiet1.UseVisualStyleBackColor = false;
+            this.btnChiTiet1.Click += new System.EventHandler(this.btnChitiet1_Click);
             // 
-            // lblGhichu1
+            // lblGhiChu1
             // 
-            this.lblGhichu1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGhichu1.Location = new System.Drawing.Point(3, 299);
-            this.lblGhichu1.Name = "lblGhichu1";
-            this.lblGhichu1.Size = new System.Drawing.Size(121, 30);
-            this.lblGhichu1.TabIndex = 9;
-            this.lblGhichu1.Text = "Ghi chú:";
-            this.lblGhichu1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblGhiChu1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGhiChu1.Location = new System.Drawing.Point(3, 299);
+            this.lblGhiChu1.Name = "lblGhiChu1";
+            this.lblGhiChu1.Size = new System.Drawing.Size(121, 30);
+            this.lblGhiChu1.TabIndex = 9;
+            this.lblGhiChu1.Text = "Ghi chú:";
+            this.lblGhiChu1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblTien1
             // 
@@ -489,75 +489,75 @@
             this.lblTien1.Text = "Tiền:";
             this.lblTien1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblNgaydi1
+            // lblNgayDi1
             // 
-            this.lblNgaydi1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNgaydi1.Location = new System.Drawing.Point(3, 239);
-            this.lblNgaydi1.Name = "lblNgaydi1";
-            this.lblNgaydi1.Size = new System.Drawing.Size(121, 30);
-            this.lblNgaydi1.TabIndex = 7;
-            this.lblNgaydi1.Text = "Ngày đi:";
-            this.lblNgaydi1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblNgayDi1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNgayDi1.Location = new System.Drawing.Point(3, 239);
+            this.lblNgayDi1.Name = "lblNgayDi1";
+            this.lblNgayDi1.Size = new System.Drawing.Size(121, 30);
+            this.lblNgayDi1.TabIndex = 7;
+            this.lblNgayDi1.Text = "Ngày đi:";
+            this.lblNgayDi1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblNgayden1
+            // lblNgayDen1
             // 
-            this.lblNgayden1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNgayden1.Location = new System.Drawing.Point(3, 209);
-            this.lblNgayden1.Name = "lblNgayden1";
-            this.lblNgayden1.Size = new System.Drawing.Size(121, 30);
-            this.lblNgayden1.TabIndex = 6;
-            this.lblNgayden1.Text = "Ngày đến:";
-            this.lblNgayden1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblNgayDen1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNgayDen1.Location = new System.Drawing.Point(3, 209);
+            this.lblNgayDen1.Name = "lblNgayDen1";
+            this.lblNgayDen1.Size = new System.Drawing.Size(121, 30);
+            this.lblNgayDen1.TabIndex = 6;
+            this.lblNgayDen1.Text = "Ngày đến:";
+            this.lblNgayDen1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblQuoctich1
+            // lblQuocTich1
             // 
-            this.lblQuoctich1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuoctich1.Location = new System.Drawing.Point(3, 179);
-            this.lblQuoctich1.Name = "lblQuoctich1";
-            this.lblQuoctich1.Size = new System.Drawing.Size(121, 30);
-            this.lblQuoctich1.TabIndex = 5;
-            this.lblQuoctich1.Text = "Quốc tịch:";
-            this.lblQuoctich1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblQuocTich1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuocTich1.Location = new System.Drawing.Point(3, 179);
+            this.lblQuocTich1.Name = "lblQuocTich1";
+            this.lblQuocTich1.Size = new System.Drawing.Size(121, 30);
+            this.lblQuocTich1.TabIndex = 5;
+            this.lblQuocTich1.Text = "Quốc tịch:";
+            this.lblQuocTich1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblSokhach1
+            // lblSoKhach1
             // 
-            this.lblSokhach1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSokhach1.Location = new System.Drawing.Point(3, 149);
-            this.lblSokhach1.Name = "lblSokhach1";
-            this.lblSokhach1.Size = new System.Drawing.Size(121, 30);
-            this.lblSokhach1.TabIndex = 4;
-            this.lblSokhach1.Text = "Số khách:";
-            this.lblSokhach1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSoKhach1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoKhach1.Location = new System.Drawing.Point(3, 149);
+            this.lblSoKhach1.Name = "lblSoKhach1";
+            this.lblSoKhach1.Size = new System.Drawing.Size(121, 30);
+            this.lblSoKhach1.TabIndex = 4;
+            this.lblSoKhach1.Text = "Số khách:";
+            this.lblSoKhach1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblTenkhach1
+            // lblTenKhach1
             // 
-            this.lblTenkhach1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenkhach1.Location = new System.Drawing.Point(3, 119);
-            this.lblTenkhach1.Name = "lblTenkhach1";
-            this.lblTenkhach1.Size = new System.Drawing.Size(121, 30);
-            this.lblTenkhach1.TabIndex = 3;
-            this.lblTenkhach1.Text = "Tên khách:";
-            this.lblTenkhach1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTenKhach1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenKhach1.Location = new System.Drawing.Point(3, 119);
+            this.lblTenKhach1.Name = "lblTenKhach1";
+            this.lblTenKhach1.Size = new System.Drawing.Size(121, 30);
+            this.lblTenKhach1.TabIndex = 3;
+            this.lblTenKhach1.Text = "Tên khách:";
+            this.lblTenKhach1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblTenbooking1
+            // lblTenBooking1
             // 
-            this.lblTenbooking1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenbooking1.Location = new System.Drawing.Point(3, 89);
-            this.lblTenbooking1.Name = "lblTenbooking1";
-            this.lblTenbooking1.Size = new System.Drawing.Size(121, 30);
-            this.lblTenbooking1.TabIndex = 2;
-            this.lblTenbooking1.Text = "Tên booking:";
-            this.lblTenbooking1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTenBooking1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenBooking1.Location = new System.Drawing.Point(3, 89);
+            this.lblTenBooking1.Name = "lblTenBooking1";
+            this.lblTenBooking1.Size = new System.Drawing.Size(121, 30);
+            this.lblTenBooking1.TabIndex = 2;
+            this.lblTenBooking1.Text = "Tên booking:";
+            this.lblTenBooking1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblSophong1
+            // lblSoPhong1
             // 
-            this.lblSophong1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSophong1.Location = new System.Drawing.Point(3, 40);
-            this.lblSophong1.Name = "lblSophong1";
-            this.lblSophong1.Size = new System.Drawing.Size(316, 30);
-            this.lblSophong1.TabIndex = 1;
-            this.lblSophong1.Text = "Số phòng: 01";
-            this.lblSophong1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSoPhong1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoPhong1.Location = new System.Drawing.Point(3, 40);
+            this.lblSoPhong1.Name = "lblSoPhong1";
+            this.lblSoPhong1.Size = new System.Drawing.Size(316, 30);
+            this.lblSoPhong1.TabIndex = 1;
+            this.lblSoPhong1.Text = "Số phòng: 01";
+            this.lblSoPhong1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblPhong1
             // 
@@ -574,40 +574,40 @@
             // 
             // pnlPhong2
             // 
-            this.pnlPhong2.Controls.Add(this.txtGhichu2);
+            this.pnlPhong2.Controls.Add(this.txtGhiChu2);
             this.pnlPhong2.Controls.Add(this.txtTien2);
-            this.pnlPhong2.Controls.Add(this.txtNgaydi2);
-            this.pnlPhong2.Controls.Add(this.txtNgayden2);
-            this.pnlPhong2.Controls.Add(this.txtQuoctich2);
-            this.pnlPhong2.Controls.Add(this.txtSokhach2);
-            this.pnlPhong2.Controls.Add(this.txtTenkhach2);
-            this.pnlPhong2.Controls.Add(this.txtTenbooking2);
-            this.pnlPhong2.Controls.Add(this.btnChitiet2);
-            this.pnlPhong2.Controls.Add(this.lblGhichu2);
+            this.pnlPhong2.Controls.Add(this.txtNgayDi2);
+            this.pnlPhong2.Controls.Add(this.txtNgayDen2);
+            this.pnlPhong2.Controls.Add(this.txtQuocTich2);
+            this.pnlPhong2.Controls.Add(this.txtSoKhach2);
+            this.pnlPhong2.Controls.Add(this.txtTenKhach2);
+            this.pnlPhong2.Controls.Add(this.txtTenBooking2);
+            this.pnlPhong2.Controls.Add(this.btnChiTiet2);
+            this.pnlPhong2.Controls.Add(this.lblGhiChu2);
             this.pnlPhong2.Controls.Add(this.lblTien2);
-            this.pnlPhong2.Controls.Add(this.lblNgaydi2);
-            this.pnlPhong2.Controls.Add(this.lblNgayden2);
-            this.pnlPhong2.Controls.Add(this.lblQuoctich2);
-            this.pnlPhong2.Controls.Add(this.lblSokhach2);
-            this.pnlPhong2.Controls.Add(this.lblTenkhach2);
-            this.pnlPhong2.Controls.Add(this.lblTenbooking2);
-            this.pnlPhong2.Controls.Add(this.lblSophong2);
+            this.pnlPhong2.Controls.Add(this.lblNgayDi2);
+            this.pnlPhong2.Controls.Add(this.lblNgayDen2);
+            this.pnlPhong2.Controls.Add(this.lblQuocTich2);
+            this.pnlPhong2.Controls.Add(this.lblSoKhach2);
+            this.pnlPhong2.Controls.Add(this.lblTenKhach2);
+            this.pnlPhong2.Controls.Add(this.lblTenBooking2);
+            this.pnlPhong2.Controls.Add(this.lblSoPhong2);
             this.pnlPhong2.Controls.Add(this.lblPhong2);
             this.pnlPhong2.Location = new System.Drawing.Point(707, 123);
             this.pnlPhong2.Name = "pnlPhong2";
             this.pnlPhong2.Size = new System.Drawing.Size(322, 390);
             this.pnlPhong2.TabIndex = 5;
             // 
-            // txtGhichu2
+            // txtGhiChu2
             // 
-            this.txtGhichu2.BackColor = System.Drawing.SystemColors.Control;
-            this.txtGhichu2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtGhichu2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGhichu2.Location = new System.Drawing.Point(163, 299);
-            this.txtGhichu2.Name = "txtGhichu2";
-            this.txtGhichu2.Size = new System.Drawing.Size(156, 25);
-            this.txtGhichu2.TabIndex = 18;
-            this.txtGhichu2.Text = "..............................";
+            this.txtGhiChu2.BackColor = System.Drawing.SystemColors.Control;
+            this.txtGhiChu2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtGhiChu2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGhiChu2.Location = new System.Drawing.Point(163, 299);
+            this.txtGhiChu2.Name = "txtGhiChu2";
+            this.txtGhiChu2.Size = new System.Drawing.Size(156, 25);
+            this.txtGhiChu2.TabIndex = 18;
+            this.txtGhiChu2.Text = "..............................";
             // 
             // txtTien2
             // 
@@ -620,94 +620,94 @@
             this.txtTien2.TabIndex = 17;
             this.txtTien2.Text = "..............................";
             // 
-            // txtNgaydi2
+            // txtNgayDi2
             // 
-            this.txtNgaydi2.BackColor = System.Drawing.SystemColors.Control;
-            this.txtNgaydi2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNgaydi2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNgaydi2.Location = new System.Drawing.Point(163, 239);
-            this.txtNgaydi2.Name = "txtNgaydi2";
-            this.txtNgaydi2.Size = new System.Drawing.Size(156, 25);
-            this.txtNgaydi2.TabIndex = 16;
-            this.txtNgaydi2.Text = "..............................";
+            this.txtNgayDi2.BackColor = System.Drawing.SystemColors.Control;
+            this.txtNgayDi2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNgayDi2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNgayDi2.Location = new System.Drawing.Point(163, 239);
+            this.txtNgayDi2.Name = "txtNgayDi2";
+            this.txtNgayDi2.Size = new System.Drawing.Size(156, 25);
+            this.txtNgayDi2.TabIndex = 16;
+            this.txtNgayDi2.Text = "..............................";
             // 
-            // txtNgayden2
+            // txtNgayDen2
             // 
-            this.txtNgayden2.BackColor = System.Drawing.SystemColors.Control;
-            this.txtNgayden2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNgayden2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNgayden2.Location = new System.Drawing.Point(163, 209);
-            this.txtNgayden2.Name = "txtNgayden2";
-            this.txtNgayden2.Size = new System.Drawing.Size(156, 25);
-            this.txtNgayden2.TabIndex = 15;
-            this.txtNgayden2.Text = "..............................";
+            this.txtNgayDen2.BackColor = System.Drawing.SystemColors.Control;
+            this.txtNgayDen2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNgayDen2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNgayDen2.Location = new System.Drawing.Point(163, 209);
+            this.txtNgayDen2.Name = "txtNgayDen2";
+            this.txtNgayDen2.Size = new System.Drawing.Size(156, 25);
+            this.txtNgayDen2.TabIndex = 15;
+            this.txtNgayDen2.Text = "..............................";
             // 
-            // txtQuoctich2
+            // txtQuocTich2
             // 
-            this.txtQuoctich2.BackColor = System.Drawing.SystemColors.Control;
-            this.txtQuoctich2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtQuoctich2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQuoctich2.Location = new System.Drawing.Point(163, 179);
-            this.txtQuoctich2.Name = "txtQuoctich2";
-            this.txtQuoctich2.Size = new System.Drawing.Size(156, 25);
-            this.txtQuoctich2.TabIndex = 14;
-            this.txtQuoctich2.Text = "..............................";
+            this.txtQuocTich2.BackColor = System.Drawing.SystemColors.Control;
+            this.txtQuocTich2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtQuocTich2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQuocTich2.Location = new System.Drawing.Point(163, 179);
+            this.txtQuocTich2.Name = "txtQuocTich2";
+            this.txtQuocTich2.Size = new System.Drawing.Size(156, 25);
+            this.txtQuocTich2.TabIndex = 14;
+            this.txtQuocTich2.Text = "..............................";
             // 
-            // txtSokhach2
+            // txtSoKhach2
             // 
-            this.txtSokhach2.BackColor = System.Drawing.SystemColors.Control;
-            this.txtSokhach2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSokhach2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSokhach2.Location = new System.Drawing.Point(163, 149);
-            this.txtSokhach2.Name = "txtSokhach2";
-            this.txtSokhach2.Size = new System.Drawing.Size(156, 25);
-            this.txtSokhach2.TabIndex = 13;
-            this.txtSokhach2.Text = "..............................";
+            this.txtSoKhach2.BackColor = System.Drawing.SystemColors.Control;
+            this.txtSoKhach2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSoKhach2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoKhach2.Location = new System.Drawing.Point(163, 149);
+            this.txtSoKhach2.Name = "txtSoKhach2";
+            this.txtSoKhach2.Size = new System.Drawing.Size(156, 25);
+            this.txtSoKhach2.TabIndex = 13;
+            this.txtSoKhach2.Text = "..............................";
             // 
-            // txtTenkhach2
+            // txtTenKhach2
             // 
-            this.txtTenkhach2.BackColor = System.Drawing.SystemColors.Control;
-            this.txtTenkhach2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTenkhach2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenkhach2.Location = new System.Drawing.Point(163, 119);
-            this.txtTenkhach2.Name = "txtTenkhach2";
-            this.txtTenkhach2.Size = new System.Drawing.Size(156, 25);
-            this.txtTenkhach2.TabIndex = 12;
-            this.txtTenkhach2.Text = "..............................";
+            this.txtTenKhach2.BackColor = System.Drawing.SystemColors.Control;
+            this.txtTenKhach2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTenKhach2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenKhach2.Location = new System.Drawing.Point(163, 119);
+            this.txtTenKhach2.Name = "txtTenKhach2";
+            this.txtTenKhach2.Size = new System.Drawing.Size(156, 25);
+            this.txtTenKhach2.TabIndex = 12;
+            this.txtTenKhach2.Text = "..............................";
             // 
-            // txtTenbooking2
+            // txtTenBooking2
             // 
-            this.txtTenbooking2.BackColor = System.Drawing.SystemColors.Control;
-            this.txtTenbooking2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTenbooking2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenbooking2.Location = new System.Drawing.Point(163, 89);
-            this.txtTenbooking2.Name = "txtTenbooking2";
-            this.txtTenbooking2.Size = new System.Drawing.Size(156, 25);
-            this.txtTenbooking2.TabIndex = 11;
-            this.txtTenbooking2.Text = "..............................";
+            this.txtTenBooking2.BackColor = System.Drawing.SystemColors.Control;
+            this.txtTenBooking2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTenBooking2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenBooking2.Location = new System.Drawing.Point(163, 89);
+            this.txtTenBooking2.Name = "txtTenBooking2";
+            this.txtTenBooking2.Size = new System.Drawing.Size(156, 25);
+            this.txtTenBooking2.TabIndex = 11;
+            this.txtTenBooking2.Text = "..............................";
             // 
-            // btnChitiet2
+            // btnChiTiet2
             // 
-            this.btnChitiet2.BackColor = System.Drawing.Color.IndianRed;
-            this.btnChitiet2.FlatAppearance.BorderSize = 0;
-            this.btnChitiet2.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChitiet2.Location = new System.Drawing.Point(90, 341);
-            this.btnChitiet2.Name = "btnChitiet2";
-            this.btnChitiet2.Size = new System.Drawing.Size(143, 36);
-            this.btnChitiet2.TabIndex = 10;
-            this.btnChitiet2.Text = "Chi tiết";
-            this.btnChitiet2.UseVisualStyleBackColor = false;
-            this.btnChitiet2.Click += new System.EventHandler(this.btnChitiet2_Click);
+            this.btnChiTiet2.BackColor = System.Drawing.Color.IndianRed;
+            this.btnChiTiet2.FlatAppearance.BorderSize = 0;
+            this.btnChiTiet2.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChiTiet2.Location = new System.Drawing.Point(90, 341);
+            this.btnChiTiet2.Name = "btnChiTiet2";
+            this.btnChiTiet2.Size = new System.Drawing.Size(143, 36);
+            this.btnChiTiet2.TabIndex = 10;
+            this.btnChiTiet2.Text = "Chi tiết";
+            this.btnChiTiet2.UseVisualStyleBackColor = false;
+            this.btnChiTiet2.Click += new System.EventHandler(this.btnChitiet2_Click);
             // 
-            // lblGhichu2
+            // lblGhiChu2
             // 
-            this.lblGhichu2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGhichu2.Location = new System.Drawing.Point(3, 299);
-            this.lblGhichu2.Name = "lblGhichu2";
-            this.lblGhichu2.Size = new System.Drawing.Size(121, 30);
-            this.lblGhichu2.TabIndex = 9;
-            this.lblGhichu2.Text = "Ghi chú:";
-            this.lblGhichu2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblGhiChu2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGhiChu2.Location = new System.Drawing.Point(3, 299);
+            this.lblGhiChu2.Name = "lblGhiChu2";
+            this.lblGhiChu2.Size = new System.Drawing.Size(121, 30);
+            this.lblGhiChu2.TabIndex = 9;
+            this.lblGhiChu2.Text = "Ghi chú:";
+            this.lblGhiChu2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblTien2
             // 
@@ -719,75 +719,75 @@
             this.lblTien2.Text = "Tiền:";
             this.lblTien2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblNgaydi2
+            // lblNgayDi2
             // 
-            this.lblNgaydi2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNgaydi2.Location = new System.Drawing.Point(3, 239);
-            this.lblNgaydi2.Name = "lblNgaydi2";
-            this.lblNgaydi2.Size = new System.Drawing.Size(121, 30);
-            this.lblNgaydi2.TabIndex = 7;
-            this.lblNgaydi2.Text = "Ngày đi:";
-            this.lblNgaydi2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblNgayDi2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNgayDi2.Location = new System.Drawing.Point(3, 239);
+            this.lblNgayDi2.Name = "lblNgayDi2";
+            this.lblNgayDi2.Size = new System.Drawing.Size(121, 30);
+            this.lblNgayDi2.TabIndex = 7;
+            this.lblNgayDi2.Text = "Ngày đi:";
+            this.lblNgayDi2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblNgayden2
+            // lblNgayDen2
             // 
-            this.lblNgayden2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNgayden2.Location = new System.Drawing.Point(3, 209);
-            this.lblNgayden2.Name = "lblNgayden2";
-            this.lblNgayden2.Size = new System.Drawing.Size(121, 30);
-            this.lblNgayden2.TabIndex = 6;
-            this.lblNgayden2.Text = "Ngày đến:";
-            this.lblNgayden2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblNgayDen2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNgayDen2.Location = new System.Drawing.Point(3, 209);
+            this.lblNgayDen2.Name = "lblNgayDen2";
+            this.lblNgayDen2.Size = new System.Drawing.Size(121, 30);
+            this.lblNgayDen2.TabIndex = 6;
+            this.lblNgayDen2.Text = "Ngày đến:";
+            this.lblNgayDen2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblQuoctich2
+            // lblQuocTich2
             // 
-            this.lblQuoctich2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuoctich2.Location = new System.Drawing.Point(3, 179);
-            this.lblQuoctich2.Name = "lblQuoctich2";
-            this.lblQuoctich2.Size = new System.Drawing.Size(121, 30);
-            this.lblQuoctich2.TabIndex = 5;
-            this.lblQuoctich2.Text = "Quốc tịch:";
-            this.lblQuoctich2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblQuocTich2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuocTich2.Location = new System.Drawing.Point(3, 179);
+            this.lblQuocTich2.Name = "lblQuocTich2";
+            this.lblQuocTich2.Size = new System.Drawing.Size(121, 30);
+            this.lblQuocTich2.TabIndex = 5;
+            this.lblQuocTich2.Text = "Quốc tịch:";
+            this.lblQuocTich2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblSokhach2
+            // lblSoKhach2
             // 
-            this.lblSokhach2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSokhach2.Location = new System.Drawing.Point(3, 149);
-            this.lblSokhach2.Name = "lblSokhach2";
-            this.lblSokhach2.Size = new System.Drawing.Size(121, 30);
-            this.lblSokhach2.TabIndex = 4;
-            this.lblSokhach2.Text = "Số khách:";
-            this.lblSokhach2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSoKhach2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoKhach2.Location = new System.Drawing.Point(3, 149);
+            this.lblSoKhach2.Name = "lblSoKhach2";
+            this.lblSoKhach2.Size = new System.Drawing.Size(121, 30);
+            this.lblSoKhach2.TabIndex = 4;
+            this.lblSoKhach2.Text = "Số khách:";
+            this.lblSoKhach2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblTenkhach2
+            // lblTenKhach2
             // 
-            this.lblTenkhach2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenkhach2.Location = new System.Drawing.Point(3, 119);
-            this.lblTenkhach2.Name = "lblTenkhach2";
-            this.lblTenkhach2.Size = new System.Drawing.Size(121, 30);
-            this.lblTenkhach2.TabIndex = 3;
-            this.lblTenkhach2.Text = "Tên khách:";
-            this.lblTenkhach2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTenKhach2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenKhach2.Location = new System.Drawing.Point(3, 119);
+            this.lblTenKhach2.Name = "lblTenKhach2";
+            this.lblTenKhach2.Size = new System.Drawing.Size(121, 30);
+            this.lblTenKhach2.TabIndex = 3;
+            this.lblTenKhach2.Text = "Tên khách:";
+            this.lblTenKhach2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblTenbooking2
+            // lblTenBooking2
             // 
-            this.lblTenbooking2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenbooking2.Location = new System.Drawing.Point(3, 89);
-            this.lblTenbooking2.Name = "lblTenbooking2";
-            this.lblTenbooking2.Size = new System.Drawing.Size(121, 30);
-            this.lblTenbooking2.TabIndex = 2;
-            this.lblTenbooking2.Text = "Tên booking:";
-            this.lblTenbooking2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTenBooking2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenBooking2.Location = new System.Drawing.Point(3, 89);
+            this.lblTenBooking2.Name = "lblTenBooking2";
+            this.lblTenBooking2.Size = new System.Drawing.Size(121, 30);
+            this.lblTenBooking2.TabIndex = 2;
+            this.lblTenBooking2.Text = "Tên booking:";
+            this.lblTenBooking2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblSophong2
+            // lblSoPhong2
             // 
-            this.lblSophong2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSophong2.Location = new System.Drawing.Point(3, 40);
-            this.lblSophong2.Name = "lblSophong2";
-            this.lblSophong2.Size = new System.Drawing.Size(316, 30);
-            this.lblSophong2.TabIndex = 1;
-            this.lblSophong2.Text = "Số phòng: 02";
-            this.lblSophong2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSoPhong2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoPhong2.Location = new System.Drawing.Point(3, 40);
+            this.lblSoPhong2.Name = "lblSoPhong2";
+            this.lblSoPhong2.Size = new System.Drawing.Size(316, 30);
+            this.lblSoPhong2.TabIndex = 1;
+            this.lblSoPhong2.Text = "Số phòng: 02";
+            this.lblSoPhong2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblPhong2
             // 
@@ -804,40 +804,40 @@
             // 
             // pnlPhong3
             // 
-            this.pnlPhong3.Controls.Add(this.txtGhichu3);
+            this.pnlPhong3.Controls.Add(this.txtGhiChu3);
             this.pnlPhong3.Controls.Add(this.txtTien3);
-            this.pnlPhong3.Controls.Add(this.txtNgaydi3);
-            this.pnlPhong3.Controls.Add(this.txtNgayden3);
-            this.pnlPhong3.Controls.Add(this.txtQuoctich3);
-            this.pnlPhong3.Controls.Add(this.txtSokhach3);
-            this.pnlPhong3.Controls.Add(this.txtTenkhach3);
-            this.pnlPhong3.Controls.Add(this.txtTenbooking3);
-            this.pnlPhong3.Controls.Add(this.btnChitiet3);
-            this.pnlPhong3.Controls.Add(this.lblGhichu3);
+            this.pnlPhong3.Controls.Add(this.txtNgayDi3);
+            this.pnlPhong3.Controls.Add(this.txtNgayDen3);
+            this.pnlPhong3.Controls.Add(this.txtQuocTich3);
+            this.pnlPhong3.Controls.Add(this.txtSoKhach3);
+            this.pnlPhong3.Controls.Add(this.txtTenKhach3);
+            this.pnlPhong3.Controls.Add(this.txtTenBooking3);
+            this.pnlPhong3.Controls.Add(this.btnChiTiet3);
+            this.pnlPhong3.Controls.Add(this.lblGhiChu3);
             this.pnlPhong3.Controls.Add(this.lblTien3);
-            this.pnlPhong3.Controls.Add(this.lblNgaydi3);
-            this.pnlPhong3.Controls.Add(this.lblNgayden3);
-            this.pnlPhong3.Controls.Add(this.lblQuoctich3);
-            this.pnlPhong3.Controls.Add(this.lblSokhach3);
-            this.pnlPhong3.Controls.Add(this.lblTenkhach3);
-            this.pnlPhong3.Controls.Add(this.lblTenbooking3);
-            this.pnlPhong3.Controls.Add(this.lblSophong3);
+            this.pnlPhong3.Controls.Add(this.lblNgayDi3);
+            this.pnlPhong3.Controls.Add(this.lblNgayDen3);
+            this.pnlPhong3.Controls.Add(this.lblQuocTich3);
+            this.pnlPhong3.Controls.Add(this.lblSoKhach3);
+            this.pnlPhong3.Controls.Add(this.lblTenKhach3);
+            this.pnlPhong3.Controls.Add(this.lblTenBooking3);
+            this.pnlPhong3.Controls.Add(this.lblSoPhong3);
             this.pnlPhong3.Controls.Add(this.lblPhong3);
             this.pnlPhong3.Location = new System.Drawing.Point(1071, 123);
             this.pnlPhong3.Name = "pnlPhong3";
             this.pnlPhong3.Size = new System.Drawing.Size(322, 390);
             this.pnlPhong3.TabIndex = 6;
             // 
-            // txtGhichu3
+            // txtGhiChu3
             // 
-            this.txtGhichu3.BackColor = System.Drawing.SystemColors.Control;
-            this.txtGhichu3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtGhichu3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGhichu3.Location = new System.Drawing.Point(163, 299);
-            this.txtGhichu3.Name = "txtGhichu3";
-            this.txtGhichu3.Size = new System.Drawing.Size(156, 25);
-            this.txtGhichu3.TabIndex = 18;
-            this.txtGhichu3.Text = "..............................";
+            this.txtGhiChu3.BackColor = System.Drawing.SystemColors.Control;
+            this.txtGhiChu3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtGhiChu3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGhiChu3.Location = new System.Drawing.Point(163, 299);
+            this.txtGhiChu3.Name = "txtGhiChu3";
+            this.txtGhiChu3.Size = new System.Drawing.Size(156, 25);
+            this.txtGhiChu3.TabIndex = 18;
+            this.txtGhiChu3.Text = "..............................";
             // 
             // txtTien3
             // 
@@ -850,94 +850,94 @@
             this.txtTien3.TabIndex = 17;
             this.txtTien3.Text = "..............................";
             // 
-            // txtNgaydi3
+            // txtNgayDi3
             // 
-            this.txtNgaydi3.BackColor = System.Drawing.SystemColors.Control;
-            this.txtNgaydi3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNgaydi3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNgaydi3.Location = new System.Drawing.Point(163, 239);
-            this.txtNgaydi3.Name = "txtNgaydi3";
-            this.txtNgaydi3.Size = new System.Drawing.Size(156, 25);
-            this.txtNgaydi3.TabIndex = 16;
-            this.txtNgaydi3.Text = "..............................";
+            this.txtNgayDi3.BackColor = System.Drawing.SystemColors.Control;
+            this.txtNgayDi3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNgayDi3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNgayDi3.Location = new System.Drawing.Point(163, 239);
+            this.txtNgayDi3.Name = "txtNgayDi3";
+            this.txtNgayDi3.Size = new System.Drawing.Size(156, 25);
+            this.txtNgayDi3.TabIndex = 16;
+            this.txtNgayDi3.Text = "..............................";
             // 
-            // txtNgayden3
+            // txtNgayDen3
             // 
-            this.txtNgayden3.BackColor = System.Drawing.SystemColors.Control;
-            this.txtNgayden3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNgayden3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNgayden3.Location = new System.Drawing.Point(163, 209);
-            this.txtNgayden3.Name = "txtNgayden3";
-            this.txtNgayden3.Size = new System.Drawing.Size(156, 25);
-            this.txtNgayden3.TabIndex = 15;
-            this.txtNgayden3.Text = "..............................";
+            this.txtNgayDen3.BackColor = System.Drawing.SystemColors.Control;
+            this.txtNgayDen3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNgayDen3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNgayDen3.Location = new System.Drawing.Point(163, 209);
+            this.txtNgayDen3.Name = "txtNgayDen3";
+            this.txtNgayDen3.Size = new System.Drawing.Size(156, 25);
+            this.txtNgayDen3.TabIndex = 15;
+            this.txtNgayDen3.Text = "..............................";
             // 
-            // txtQuoctich3
+            // txtQuocTich3
             // 
-            this.txtQuoctich3.BackColor = System.Drawing.SystemColors.Control;
-            this.txtQuoctich3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtQuoctich3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQuoctich3.Location = new System.Drawing.Point(163, 179);
-            this.txtQuoctich3.Name = "txtQuoctich3";
-            this.txtQuoctich3.Size = new System.Drawing.Size(156, 25);
-            this.txtQuoctich3.TabIndex = 14;
-            this.txtQuoctich3.Text = "..............................";
+            this.txtQuocTich3.BackColor = System.Drawing.SystemColors.Control;
+            this.txtQuocTich3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtQuocTich3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQuocTich3.Location = new System.Drawing.Point(163, 179);
+            this.txtQuocTich3.Name = "txtQuocTich3";
+            this.txtQuocTich3.Size = new System.Drawing.Size(156, 25);
+            this.txtQuocTich3.TabIndex = 14;
+            this.txtQuocTich3.Text = "..............................";
             // 
-            // txtSokhach3
+            // txtSoKhach3
             // 
-            this.txtSokhach3.BackColor = System.Drawing.SystemColors.Control;
-            this.txtSokhach3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSokhach3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSokhach3.Location = new System.Drawing.Point(163, 149);
-            this.txtSokhach3.Name = "txtSokhach3";
-            this.txtSokhach3.Size = new System.Drawing.Size(156, 25);
-            this.txtSokhach3.TabIndex = 13;
-            this.txtSokhach3.Text = "..............................";
+            this.txtSoKhach3.BackColor = System.Drawing.SystemColors.Control;
+            this.txtSoKhach3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSoKhach3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoKhach3.Location = new System.Drawing.Point(163, 149);
+            this.txtSoKhach3.Name = "txtSoKhach3";
+            this.txtSoKhach3.Size = new System.Drawing.Size(156, 25);
+            this.txtSoKhach3.TabIndex = 13;
+            this.txtSoKhach3.Text = "..............................";
             // 
-            // txtTenkhach3
+            // txtTenKhach3
             // 
-            this.txtTenkhach3.BackColor = System.Drawing.SystemColors.Control;
-            this.txtTenkhach3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTenkhach3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenkhach3.Location = new System.Drawing.Point(163, 119);
-            this.txtTenkhach3.Name = "txtTenkhach3";
-            this.txtTenkhach3.Size = new System.Drawing.Size(156, 25);
-            this.txtTenkhach3.TabIndex = 12;
-            this.txtTenkhach3.Text = "..............................";
+            this.txtTenKhach3.BackColor = System.Drawing.SystemColors.Control;
+            this.txtTenKhach3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTenKhach3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenKhach3.Location = new System.Drawing.Point(163, 119);
+            this.txtTenKhach3.Name = "txtTenKhach3";
+            this.txtTenKhach3.Size = new System.Drawing.Size(156, 25);
+            this.txtTenKhach3.TabIndex = 12;
+            this.txtTenKhach3.Text = "..............................";
             // 
-            // txtTenbooking3
+            // txtTenBooking3
             // 
-            this.txtTenbooking3.BackColor = System.Drawing.SystemColors.Control;
-            this.txtTenbooking3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTenbooking3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenbooking3.Location = new System.Drawing.Point(163, 89);
-            this.txtTenbooking3.Name = "txtTenbooking3";
-            this.txtTenbooking3.Size = new System.Drawing.Size(156, 25);
-            this.txtTenbooking3.TabIndex = 11;
-            this.txtTenbooking3.Text = "..............................";
+            this.txtTenBooking3.BackColor = System.Drawing.SystemColors.Control;
+            this.txtTenBooking3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTenBooking3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenBooking3.Location = new System.Drawing.Point(163, 89);
+            this.txtTenBooking3.Name = "txtTenBooking3";
+            this.txtTenBooking3.Size = new System.Drawing.Size(156, 25);
+            this.txtTenBooking3.TabIndex = 11;
+            this.txtTenBooking3.Text = "..............................";
             // 
-            // btnChitiet3
+            // btnChiTiet3
             // 
-            this.btnChitiet3.BackColor = System.Drawing.Color.IndianRed;
-            this.btnChitiet3.FlatAppearance.BorderSize = 0;
-            this.btnChitiet3.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChitiet3.Location = new System.Drawing.Point(90, 341);
-            this.btnChitiet3.Name = "btnChitiet3";
-            this.btnChitiet3.Size = new System.Drawing.Size(143, 36);
-            this.btnChitiet3.TabIndex = 10;
-            this.btnChitiet3.Text = "Chi tiết";
-            this.btnChitiet3.UseVisualStyleBackColor = false;
-            this.btnChitiet3.Click += new System.EventHandler(this.btnChitiet3_Click);
+            this.btnChiTiet3.BackColor = System.Drawing.Color.IndianRed;
+            this.btnChiTiet3.FlatAppearance.BorderSize = 0;
+            this.btnChiTiet3.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChiTiet3.Location = new System.Drawing.Point(90, 341);
+            this.btnChiTiet3.Name = "btnChiTiet3";
+            this.btnChiTiet3.Size = new System.Drawing.Size(143, 36);
+            this.btnChiTiet3.TabIndex = 10;
+            this.btnChiTiet3.Text = "Chi tiết";
+            this.btnChiTiet3.UseVisualStyleBackColor = false;
+            this.btnChiTiet3.Click += new System.EventHandler(this.btnChitiet3_Click);
             // 
-            // lblGhichu3
+            // lblGhiChu3
             // 
-            this.lblGhichu3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGhichu3.Location = new System.Drawing.Point(3, 299);
-            this.lblGhichu3.Name = "lblGhichu3";
-            this.lblGhichu3.Size = new System.Drawing.Size(121, 30);
-            this.lblGhichu3.TabIndex = 9;
-            this.lblGhichu3.Text = "Ghi chú:";
-            this.lblGhichu3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblGhiChu3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGhiChu3.Location = new System.Drawing.Point(3, 299);
+            this.lblGhiChu3.Name = "lblGhiChu3";
+            this.lblGhiChu3.Size = new System.Drawing.Size(121, 30);
+            this.lblGhiChu3.TabIndex = 9;
+            this.lblGhiChu3.Text = "Ghi chú:";
+            this.lblGhiChu3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblTien3
             // 
@@ -949,75 +949,75 @@
             this.lblTien3.Text = "Tiền:";
             this.lblTien3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblNgaydi3
+            // lblNgayDi3
             // 
-            this.lblNgaydi3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNgaydi3.Location = new System.Drawing.Point(3, 239);
-            this.lblNgaydi3.Name = "lblNgaydi3";
-            this.lblNgaydi3.Size = new System.Drawing.Size(121, 30);
-            this.lblNgaydi3.TabIndex = 7;
-            this.lblNgaydi3.Text = "Ngày đi:";
-            this.lblNgaydi3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblNgayDi3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNgayDi3.Location = new System.Drawing.Point(3, 239);
+            this.lblNgayDi3.Name = "lblNgayDi3";
+            this.lblNgayDi3.Size = new System.Drawing.Size(121, 30);
+            this.lblNgayDi3.TabIndex = 7;
+            this.lblNgayDi3.Text = "Ngày đi:";
+            this.lblNgayDi3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblNgayden3
+            // lblNgayDen3
             // 
-            this.lblNgayden3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNgayden3.Location = new System.Drawing.Point(3, 209);
-            this.lblNgayden3.Name = "lblNgayden3";
-            this.lblNgayden3.Size = new System.Drawing.Size(121, 30);
-            this.lblNgayden3.TabIndex = 6;
-            this.lblNgayden3.Text = "Ngày đến:";
-            this.lblNgayden3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblNgayDen3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNgayDen3.Location = new System.Drawing.Point(3, 209);
+            this.lblNgayDen3.Name = "lblNgayDen3";
+            this.lblNgayDen3.Size = new System.Drawing.Size(121, 30);
+            this.lblNgayDen3.TabIndex = 6;
+            this.lblNgayDen3.Text = "Ngày đến:";
+            this.lblNgayDen3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblQuoctich3
+            // lblQuocTich3
             // 
-            this.lblQuoctich3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuoctich3.Location = new System.Drawing.Point(3, 179);
-            this.lblQuoctich3.Name = "lblQuoctich3";
-            this.lblQuoctich3.Size = new System.Drawing.Size(121, 30);
-            this.lblQuoctich3.TabIndex = 5;
-            this.lblQuoctich3.Text = "Quốc tịch:";
-            this.lblQuoctich3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblQuocTich3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuocTich3.Location = new System.Drawing.Point(3, 179);
+            this.lblQuocTich3.Name = "lblQuocTich3";
+            this.lblQuocTich3.Size = new System.Drawing.Size(121, 30);
+            this.lblQuocTich3.TabIndex = 5;
+            this.lblQuocTich3.Text = "Quốc tịch:";
+            this.lblQuocTich3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblSokhach3
+            // lblSoKhach3
             // 
-            this.lblSokhach3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSokhach3.Location = new System.Drawing.Point(3, 149);
-            this.lblSokhach3.Name = "lblSokhach3";
-            this.lblSokhach3.Size = new System.Drawing.Size(121, 30);
-            this.lblSokhach3.TabIndex = 4;
-            this.lblSokhach3.Text = "Số khách:";
-            this.lblSokhach3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSoKhach3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoKhach3.Location = new System.Drawing.Point(3, 149);
+            this.lblSoKhach3.Name = "lblSoKhach3";
+            this.lblSoKhach3.Size = new System.Drawing.Size(121, 30);
+            this.lblSoKhach3.TabIndex = 4;
+            this.lblSoKhach3.Text = "Số khách:";
+            this.lblSoKhach3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblTenkhach3
+            // lblTenKhach3
             // 
-            this.lblTenkhach3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenkhach3.Location = new System.Drawing.Point(3, 119);
-            this.lblTenkhach3.Name = "lblTenkhach3";
-            this.lblTenkhach3.Size = new System.Drawing.Size(121, 30);
-            this.lblTenkhach3.TabIndex = 3;
-            this.lblTenkhach3.Text = "Tên khách:";
-            this.lblTenkhach3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTenKhach3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenKhach3.Location = new System.Drawing.Point(3, 119);
+            this.lblTenKhach3.Name = "lblTenKhach3";
+            this.lblTenKhach3.Size = new System.Drawing.Size(121, 30);
+            this.lblTenKhach3.TabIndex = 3;
+            this.lblTenKhach3.Text = "Tên khách:";
+            this.lblTenKhach3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblTenbooking3
+            // lblTenBooking3
             // 
-            this.lblTenbooking3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenbooking3.Location = new System.Drawing.Point(3, 89);
-            this.lblTenbooking3.Name = "lblTenbooking3";
-            this.lblTenbooking3.Size = new System.Drawing.Size(121, 30);
-            this.lblTenbooking3.TabIndex = 2;
-            this.lblTenbooking3.Text = "Tên booking:";
-            this.lblTenbooking3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTenBooking3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenBooking3.Location = new System.Drawing.Point(3, 89);
+            this.lblTenBooking3.Name = "lblTenBooking3";
+            this.lblTenBooking3.Size = new System.Drawing.Size(121, 30);
+            this.lblTenBooking3.TabIndex = 2;
+            this.lblTenBooking3.Text = "Tên booking:";
+            this.lblTenBooking3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblSophong3
+            // lblSoPhong3
             // 
-            this.lblSophong3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSophong3.Location = new System.Drawing.Point(3, 40);
-            this.lblSophong3.Name = "lblSophong3";
-            this.lblSophong3.Size = new System.Drawing.Size(316, 30);
-            this.lblSophong3.TabIndex = 1;
-            this.lblSophong3.Text = "Số phòng: 03";
-            this.lblSophong3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSoPhong3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoPhong3.Location = new System.Drawing.Point(3, 40);
+            this.lblSoPhong3.Name = "lblSoPhong3";
+            this.lblSoPhong3.Size = new System.Drawing.Size(316, 30);
+            this.lblSoPhong3.TabIndex = 1;
+            this.lblSoPhong3.Text = "Số phòng: 03";
+            this.lblSoPhong3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblPhong3
             // 
@@ -1049,9 +1049,9 @@
             this.pnlPhong4.Controls.Add(this.lblNgayden4);
             this.pnlPhong4.Controls.Add(this.lblQuoctich4);
             this.pnlPhong4.Controls.Add(this.lblSokhach4);
-            this.pnlPhong4.Controls.Add(this.lblTenkhach4);
-            this.pnlPhong4.Controls.Add(this.lblTenbooking4);
-            this.pnlPhong4.Controls.Add(this.lblSophong4);
+            this.pnlPhong4.Controls.Add(this.lblTenKhach4);
+            this.pnlPhong4.Controls.Add(this.lblTenBooking4);
+            this.pnlPhong4.Controls.Add(this.lblSoPhong4);
             this.pnlPhong4.Controls.Add(this.lblPhong4);
             this.pnlPhong4.Location = new System.Drawing.Point(1432, 123);
             this.pnlPhong4.Name = "pnlPhong4";
@@ -1219,35 +1219,35 @@
             this.lblSokhach4.Text = "Số khách:";
             this.lblSokhach4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblTenkhach4
+            // lblTenKhach4
             // 
-            this.lblTenkhach4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenkhach4.Location = new System.Drawing.Point(3, 119);
-            this.lblTenkhach4.Name = "lblTenkhach4";
-            this.lblTenkhach4.Size = new System.Drawing.Size(121, 30);
-            this.lblTenkhach4.TabIndex = 3;
-            this.lblTenkhach4.Text = "Tên khách:";
-            this.lblTenkhach4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTenKhach4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenKhach4.Location = new System.Drawing.Point(3, 119);
+            this.lblTenKhach4.Name = "lblTenKhach4";
+            this.lblTenKhach4.Size = new System.Drawing.Size(121, 30);
+            this.lblTenKhach4.TabIndex = 3;
+            this.lblTenKhach4.Text = "Tên khách:";
+            this.lblTenKhach4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblTenbooking4
+            // lblTenBooking4
             // 
-            this.lblTenbooking4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenbooking4.Location = new System.Drawing.Point(3, 89);
-            this.lblTenbooking4.Name = "lblTenbooking4";
-            this.lblTenbooking4.Size = new System.Drawing.Size(121, 30);
-            this.lblTenbooking4.TabIndex = 2;
-            this.lblTenbooking4.Text = "Tên booking:";
-            this.lblTenbooking4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTenBooking4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenBooking4.Location = new System.Drawing.Point(3, 89);
+            this.lblTenBooking4.Name = "lblTenBooking4";
+            this.lblTenBooking4.Size = new System.Drawing.Size(121, 30);
+            this.lblTenBooking4.TabIndex = 2;
+            this.lblTenBooking4.Text = "Tên booking:";
+            this.lblTenBooking4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblSophong4
+            // lblSoPhong4
             // 
-            this.lblSophong4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSophong4.Location = new System.Drawing.Point(3, 40);
-            this.lblSophong4.Name = "lblSophong4";
-            this.lblSophong4.Size = new System.Drawing.Size(316, 30);
-            this.lblSophong4.TabIndex = 1;
-            this.lblSophong4.Text = "Số phòng: 04";
-            this.lblSophong4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSoPhong4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoPhong4.Location = new System.Drawing.Point(3, 40);
+            this.lblSoPhong4.Name = "lblSoPhong4";
+            this.lblSoPhong4.Size = new System.Drawing.Size(316, 30);
+            this.lblSoPhong4.TabIndex = 1;
+            this.lblSoPhong4.Text = "Số phòng: 04";
+            this.lblSoPhong4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblPhong4
             // 
@@ -2182,7 +2182,7 @@
             this.lblPhong5.Text = "Loại phòng: Superior";
             this.lblPhong5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // ManHinhChinh
+            // frmManHinhChinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -2197,10 +2197,10 @@
             this.Controls.Add(this.pnlPhong1);
             this.Controls.Add(this.pnlHientrang);
             this.Controls.Add(this.cdrMhc);
-            this.Controls.Add(this.lblKhachsan);
+            this.Controls.Add(this.lblKhachSan);
             this.Controls.Add(this.msManhinhchinh);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "ManHinhChinh";
+            this.Name = "frmManHinhChinh";
             this.Text = "Màn Hình Chính";
             this.msManhinhchinh.ResumeLayout(false);
             this.msManhinhchinh.PerformLayout();
@@ -2228,7 +2228,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblKhachsan;
+        private System.Windows.Forms.Label lblKhachSan;
         private System.Windows.Forms.MenuStrip msManhinhchinh;
         private System.Windows.Forms.ToolStripMenuItem quảnLýPhòngToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quảnLýNhânViênToolStripMenuItem;
@@ -2243,64 +2243,64 @@
         private System.Windows.Forms.Label lblPhongtrong;
         private System.Windows.Forms.Label lblHientrang;
         private System.Windows.Forms.Panel pnlPhong1;
-        private System.Windows.Forms.TextBox txtGhichu1;
+        private System.Windows.Forms.TextBox txtGhiChu1;
         private System.Windows.Forms.TextBox txtTien1;
-        private System.Windows.Forms.TextBox txtNgaydi1;
-        private System.Windows.Forms.TextBox txtNgayden1;
-        private System.Windows.Forms.TextBox txtQuoctich1;
-        private System.Windows.Forms.TextBox txtSokhach1;
-        private System.Windows.Forms.TextBox txtTenkhach1;
-        private System.Windows.Forms.TextBox txtTenbooking1;
-        private System.Windows.Forms.Button btnChitiet1;
-        private System.Windows.Forms.Label lblGhichu1;
+        private System.Windows.Forms.TextBox txtNgayDi1;
+        private System.Windows.Forms.TextBox txtNgayDen1;
+        private System.Windows.Forms.TextBox txtQuocTich1;
+        private System.Windows.Forms.TextBox txtSoKhach1;
+        private System.Windows.Forms.TextBox txtTenKhach1;
+        private System.Windows.Forms.TextBox txtTenBooking1;
+        private System.Windows.Forms.Button btnChiTiet1;
+        private System.Windows.Forms.Label lblGhiChu1;
         private System.Windows.Forms.Label lblTien1;
-        private System.Windows.Forms.Label lblNgaydi1;
-        private System.Windows.Forms.Label lblNgayden1;
-        private System.Windows.Forms.Label lblQuoctich1;
-        private System.Windows.Forms.Label lblSokhach1;
-        private System.Windows.Forms.Label lblTenkhach1;
-        private System.Windows.Forms.Label lblTenbooking1;
-        private System.Windows.Forms.Label lblSophong1;
+        private System.Windows.Forms.Label lblNgayDi1;
+        private System.Windows.Forms.Label lblNgayDen1;
+        private System.Windows.Forms.Label lblQuocTich1;
+        private System.Windows.Forms.Label lblSoKhach1;
+        private System.Windows.Forms.Label lblTenKhach1;
+        private System.Windows.Forms.Label lblTenBooking1;
+        private System.Windows.Forms.Label lblSoPhong1;
         private System.Windows.Forms.Label lblPhong1;
         private System.Windows.Forms.Panel pnlPhong2;
-        private System.Windows.Forms.TextBox txtGhichu2;
+        private System.Windows.Forms.TextBox txtGhiChu2;
         private System.Windows.Forms.TextBox txtTien2;
-        private System.Windows.Forms.TextBox txtNgaydi2;
-        private System.Windows.Forms.TextBox txtNgayden2;
-        private System.Windows.Forms.TextBox txtQuoctich2;
-        private System.Windows.Forms.TextBox txtSokhach2;
-        private System.Windows.Forms.TextBox txtTenkhach2;
-        private System.Windows.Forms.TextBox txtTenbooking2;
-        private System.Windows.Forms.Button btnChitiet2;
-        private System.Windows.Forms.Label lblGhichu2;
+        private System.Windows.Forms.TextBox txtNgayDi2;
+        private System.Windows.Forms.TextBox txtNgayDen2;
+        private System.Windows.Forms.TextBox txtQuocTich2;
+        private System.Windows.Forms.TextBox txtSoKhach2;
+        private System.Windows.Forms.TextBox txtTenKhach2;
+        private System.Windows.Forms.TextBox txtTenBooking2;
+        private System.Windows.Forms.Button btnChiTiet2;
+        private System.Windows.Forms.Label lblGhiChu2;
         private System.Windows.Forms.Label lblTien2;
-        private System.Windows.Forms.Label lblNgaydi2;
-        private System.Windows.Forms.Label lblNgayden2;
-        private System.Windows.Forms.Label lblQuoctich2;
-        private System.Windows.Forms.Label lblSokhach2;
-        private System.Windows.Forms.Label lblTenkhach2;
-        private System.Windows.Forms.Label lblTenbooking2;
-        private System.Windows.Forms.Label lblSophong2;
+        private System.Windows.Forms.Label lblNgayDi2;
+        private System.Windows.Forms.Label lblNgayDen2;
+        private System.Windows.Forms.Label lblQuocTich2;
+        private System.Windows.Forms.Label lblSoKhach2;
+        private System.Windows.Forms.Label lblTenKhach2;
+        private System.Windows.Forms.Label lblTenBooking2;
+        private System.Windows.Forms.Label lblSoPhong2;
         private System.Windows.Forms.Label lblPhong2;
         private System.Windows.Forms.Panel pnlPhong3;
-        private System.Windows.Forms.TextBox txtGhichu3;
+        private System.Windows.Forms.TextBox txtGhiChu3;
         private System.Windows.Forms.TextBox txtTien3;
-        private System.Windows.Forms.TextBox txtNgaydi3;
-        private System.Windows.Forms.TextBox txtNgayden3;
-        private System.Windows.Forms.TextBox txtQuoctich3;
-        private System.Windows.Forms.TextBox txtSokhach3;
-        private System.Windows.Forms.TextBox txtTenkhach3;
-        private System.Windows.Forms.TextBox txtTenbooking3;
-        private System.Windows.Forms.Button btnChitiet3;
-        private System.Windows.Forms.Label lblGhichu3;
+        private System.Windows.Forms.TextBox txtNgayDi3;
+        private System.Windows.Forms.TextBox txtNgayDen3;
+        private System.Windows.Forms.TextBox txtQuocTich3;
+        private System.Windows.Forms.TextBox txtSoKhach3;
+        private System.Windows.Forms.TextBox txtTenKhach3;
+        private System.Windows.Forms.TextBox txtTenBooking3;
+        private System.Windows.Forms.Button btnChiTiet3;
+        private System.Windows.Forms.Label lblGhiChu3;
         private System.Windows.Forms.Label lblTien3;
-        private System.Windows.Forms.Label lblNgaydi3;
-        private System.Windows.Forms.Label lblNgayden3;
-        private System.Windows.Forms.Label lblQuoctich3;
-        private System.Windows.Forms.Label lblSokhach3;
-        private System.Windows.Forms.Label lblTenkhach3;
-        private System.Windows.Forms.Label lblTenbooking3;
-        private System.Windows.Forms.Label lblSophong3;
+        private System.Windows.Forms.Label lblNgayDi3;
+        private System.Windows.Forms.Label lblNgayDen3;
+        private System.Windows.Forms.Label lblQuocTich3;
+        private System.Windows.Forms.Label lblSoKhach3;
+        private System.Windows.Forms.Label lblTenKhach3;
+        private System.Windows.Forms.Label lblTenBooking3;
+        private System.Windows.Forms.Label lblSoPhong3;
         private System.Windows.Forms.Label lblPhong3;
         private System.Windows.Forms.Panel pnlPhong4;
         private System.Windows.Forms.TextBox txtGhichu4;
@@ -2318,9 +2318,9 @@
         private System.Windows.Forms.Label lblNgayden4;
         private System.Windows.Forms.Label lblQuoctich4;
         private System.Windows.Forms.Label lblSokhach4;
-        private System.Windows.Forms.Label lblTenkhach4;
-        private System.Windows.Forms.Label lblTenbooking4;
-        private System.Windows.Forms.Label lblSophong4;
+        private System.Windows.Forms.Label lblTenKhach4;
+        private System.Windows.Forms.Label lblTenBooking4;
+        private System.Windows.Forms.Label lblSoPhong4;
         private System.Windows.Forms.Label lblPhong4;
         private System.Windows.Forms.Panel pnlPhong8;
         private System.Windows.Forms.TextBox txtGhichu8;

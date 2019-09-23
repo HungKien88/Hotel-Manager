@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PhanMemQuanLyKhachSan
 {
-    public partial class DangNhap : Form
+    public partial class frmDangNhap : Form
     {
-        public DangNhap()
+        public frmDangNhap()
         {
             InitializeComponent();
 
@@ -21,51 +21,51 @@ namespace PhanMemQuanLyKhachSan
 
         private void txtTendangnhap_Enter(object sender, EventArgs e)
         {
-            if (txtTendangnhap.Text == "Tên đăng nhập")
+            if (txtTenDangNhap.Text == "Tên đăng nhập")
             {
-                txtTendangnhap.Text = "";
-                txtTendangnhap.ForeColor = Color.Black;
+                txtTenDangNhap.Text = "";
+                txtTenDangNhap.ForeColor = Color.Black;
             }
         }
 
         private void txtTendangnhap_Leave(object sender, EventArgs e)
         {
-            if (txtTendangnhap.Text == "")
+            if (txtTenDangNhap.Text == "")
             {
-                txtTendangnhap.Text = "Tên đăng nhập";
-                txtTendangnhap.ForeColor = Color.Silver;
+                txtTenDangNhap.Text = "Tên đăng nhập";
+                txtTenDangNhap.ForeColor = Color.Silver;
             }
         }
 
         private void txtMatkhau_Enter(object sender, EventArgs e)
         {
-            if (txtMatkhau.Text == "Mật khẩu")
+            if (txtMatKhau.Text == "Mật khẩu")
             {
-                txtMatkhau.UseSystemPasswordChar = true;
-                txtMatkhau.Text = "";
-                txtMatkhau.ForeColor = Color.Black;
+                txtMatKhau.UseSystemPasswordChar = true;
+                txtMatKhau.Text = "";
+                txtMatKhau.ForeColor = Color.Black;
             }
         }
 
         private void txtMatkhau_Leave(object sender, EventArgs e)
         {
             
-            if (txtMatkhau.Text == "")
+            if (txtMatKhau.Text == "")
             {
-                txtMatkhau.UseSystemPasswordChar = false;
-                txtMatkhau.Text = "Mật khẩu";
-                txtMatkhau.ForeColor = Color.Silver;
+                txtMatKhau.UseSystemPasswordChar = false;
+                txtMatKhau.Text = "Mật khẩu";
+                txtMatKhau.ForeColor = Color.Silver;
             }
         }
 
         private void btnHienmatkhau_MouseDown(object sender, MouseEventArgs e)
         {
-            txtMatkhau.UseSystemPasswordChar = false;
+            txtMatKhau.UseSystemPasswordChar = false;
         }
 
         private void btnHienmatkhau_MouseUp(object sender, MouseEventArgs e)
         {
-            txtMatkhau.UseSystemPasswordChar = true;
+            txtMatKhau.UseSystemPasswordChar = true;
         }
     }
 }
