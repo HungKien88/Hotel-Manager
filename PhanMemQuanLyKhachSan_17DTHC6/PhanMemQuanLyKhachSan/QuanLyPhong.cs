@@ -20,7 +20,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void ButtonCapNhapLoaiPhong_Click(object sender, EventArgs e)
         {
-            CapNhatLoaiPhong fmb = new CapNhatLoaiPhong();
+            frmCapNhatLoaiPhong fmb = new frmCapNhatLoaiPhong();
             fmb.FormClosed += new FormClosedEventHandler(fmb_FormClosed);
             fmb.Show();
             this.Hide();

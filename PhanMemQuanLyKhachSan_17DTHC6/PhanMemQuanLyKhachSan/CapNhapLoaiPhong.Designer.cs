@@ -1,6 +1,6 @@
 ﻿namespace PhanMemQuanLyKhachSan
 {
-    partial class CapNhatLoaiPhong
+    partial class frmCapNhatLoaiPhong
     {
         /// <summary>
         /// Required designer variable.
@@ -149,7 +149,7 @@
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // CapNhatLoaiPhong
+            // frmCapNhatLoaiPhong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -163,7 +163,7 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "CapNhatLoaiPhong";
+            this.Name = "frmCapNhatLoaiPhong";
             this.Text = "CapNhapLoaiPhong";
             this.ResumeLayout(false);
             this.PerformLayout();
