@@ -1,6 +1,6 @@
 ﻿namespace PhanMemQuanLyKhachSan
 {
-    partial class CapNhatVatTu
+    partial class frmCapNhatVatTu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,136 +28,146 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.lblVatTuKhachSan = new System.Windows.Forms.Label();
+            this.btnSuaDichVuVT = new System.Windows.Forms.Button();
+            this.txtCapNhatVatTu = new System.Windows.Forms.TextBox();
+            this.dgvCapNhatVatTu = new System.Windows.Forms.DataGridView();
+            this.btnXoaDichVuVT = new System.Windows.Forms.Button();
+            this.btnThemDichVuVT = new System.Windows.Forms.Button();
+            this.btnLuuCapNhatVatTu = new System.Windows.Forms.Button();
+            this.btnThoatCapNhatVatTu = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCapNhatVatTu)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lblVatTuKhachSan
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(380, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(277, 44);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Vật Tư Khách Sạn";
+            this.lblVatTuKhachSan.AutoSize = true;
+            this.lblVatTuKhachSan.Font = new System.Drawing.Font("Palatino Linotype", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVatTuKhachSan.Location = new System.Drawing.Point(507, 11);
+            this.lblVatTuKhachSan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblVatTuKhachSan.Name = "lblVatTuKhachSan";
+            this.lblVatTuKhachSan.Size = new System.Drawing.Size(342, 54);
+            this.lblVatTuKhachSan.TabIndex = 0;
+            this.lblVatTuKhachSan.Text = "Vật Tư Khách Sạn";
             // 
-            // button5
+            // btnSuaDichVuVT
             // 
-            this.button5.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconSuaaaaa;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(578, 460);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(109, 45);
-            this.button5.TabIndex = 16;
-            this.button5.Text = "Sửa dv";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnSuaDichVuVT.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuaDichVuVT.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconSuaaaaa;
+            this.btnSuaDichVuVT.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSuaDichVuVT.Location = new System.Drawing.Point(771, 566);
+            this.btnSuaDichVuVT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSuaDichVuVT.Name = "btnSuaDichVuVT";
+            this.btnSuaDichVuVT.Size = new System.Drawing.Size(145, 55);
+            this.btnSuaDichVuVT.TabIndex = 16;
+            this.btnSuaDichVuVT.Text = "Sửa dv";
+            this.btnSuaDichVuVT.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSuaDichVuVT.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtCapNhatVatTu
             // 
-            this.textBox1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(578, 91);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(440, 45);
-            this.textBox1.TabIndex = 15;
+            this.txtCapNhatVatTu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCapNhatVatTu.Location = new System.Drawing.Point(771, 112);
+            this.txtCapNhatVatTu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCapNhatVatTu.Multiline = true;
+            this.txtCapNhatVatTu.Name = "txtCapNhatVatTu";
+            this.txtCapNhatVatTu.Size = new System.Drawing.Size(585, 54);
+            this.txtCapNhatVatTu.TabIndex = 15;
             // 
-            // dataGridView1
+            // dgvCapNhatVatTu
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(26, 91);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(487, 592);
-            this.dataGridView1.TabIndex = 14;
+            this.dgvCapNhatVatTu.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.dgvCapNhatVatTu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCapNhatVatTu.Location = new System.Drawing.Point(35, 112);
+            this.dgvCapNhatVatTu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvCapNhatVatTu.Name = "dgvCapNhatVatTu";
+            this.dgvCapNhatVatTu.Size = new System.Drawing.Size(649, 729);
+            this.dgvCapNhatVatTu.TabIndex = 14;
             // 
-            // button4
+            // btnXoaDichVuVT
             // 
-            this.button4.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconDelete;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(578, 333);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(109, 45);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "Xóa dv";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnXoaDichVuVT.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaDichVuVT.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconDelete;
+            this.btnXoaDichVuVT.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnXoaDichVuVT.Location = new System.Drawing.Point(771, 410);
+            this.btnXoaDichVuVT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoaDichVuVT.Name = "btnXoaDichVuVT";
+            this.btnXoaDichVuVT.Size = new System.Drawing.Size(145, 55);
+            this.btnXoaDichVuVT.TabIndex = 13;
+            this.btnXoaDichVuVT.Text = "Xóa dv";
+            this.btnXoaDichVuVT.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnXoaDichVuVT.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnThemDichVuVT
             // 
-            this.button3.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconThem;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(578, 208);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(109, 45);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Thêm dv";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnThemDichVuVT.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemDichVuVT.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconThem;
+            this.btnThemDichVuVT.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThemDichVuVT.Location = new System.Drawing.Point(771, 256);
+            this.btnThemDichVuVT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThemDichVuVT.Name = "btnThemDichVuVT";
+            this.btnThemDichVuVT.Size = new System.Drawing.Size(145, 55);
+            this.btnThemDichVuVT.TabIndex = 12;
+            this.btnThemDichVuVT.Text = "Thêm dv";
+            this.btnThemDichVuVT.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnThemDichVuVT.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnLuuCapNhatVatTu
             // 
-            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(578, 577);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(109, 45);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Lưu";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnLuuCapNhatVatTu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLuuCapNhatVatTu.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
+            this.btnLuuCapNhatVatTu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLuuCapNhatVatTu.Location = new System.Drawing.Point(771, 710);
+            this.btnLuuCapNhatVatTu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLuuCapNhatVatTu.Name = "btnLuuCapNhatVatTu";
+            this.btnLuuCapNhatVatTu.Size = new System.Drawing.Size(145, 55);
+            this.btnLuuCapNhatVatTu.TabIndex = 11;
+            this.btnLuuCapNhatVatTu.Text = "Lưu";
+            this.btnLuuCapNhatVatTu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLuuCapNhatVatTu.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnThoatCapNhatVatTu
             // 
-            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(840, 577);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 45);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Thoát";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnThoatCapNhatVatTu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoatCapNhatVatTu.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
+            this.btnThoatCapNhatVatTu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThoatCapNhatVatTu.Location = new System.Drawing.Point(1120, 710);
+            this.btnThoatCapNhatVatTu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThoatCapNhatVatTu.Name = "btnThoatCapNhatVatTu";
+            this.btnThoatCapNhatVatTu.Size = new System.Drawing.Size(145, 55);
+            this.btnThoatCapNhatVatTu.TabIndex = 10;
+            this.btnThoatCapNhatVatTu.Text = "Thoát";
+            this.btnThoatCapNhatVatTu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnThoatCapNhatVatTu.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(513, 57);
+            this.label2.Location = new System.Drawing.Point(684, 70);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 13);
+            this.label2.Size = new System.Drawing.Size(0, 17);
             this.label2.TabIndex = 9;
             // 
-            // CapNhatVatTu
+            // frmCapNhatVatTu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1051, 704);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(1401, 866);
+            this.Controls.Add(this.btnSuaDichVuVT);
+            this.Controls.Add(this.txtCapNhatVatTu);
+            this.Controls.Add(this.dgvCapNhatVatTu);
+            this.Controls.Add(this.btnXoaDichVuVT);
+            this.Controls.Add(this.btnThemDichVuVT);
+            this.Controls.Add(this.btnLuuCapNhatVatTu);
+            this.Controls.Add(this.btnThoatCapNhatVatTu);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Name = "CapNhatVatTu";
+            this.Controls.Add(this.lblVatTuKhachSan);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "frmCapNhatVatTu";
             this.Text = "CapNhatVatTu";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCapNhatVatTu)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -165,14 +175,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblVatTuKhachSan;
+        private System.Windows.Forms.Button btnSuaDichVuVT;
+        private System.Windows.Forms.TextBox txtCapNhatVatTu;
+        private System.Windows.Forms.DataGridView dgvCapNhatVatTu;
+        private System.Windows.Forms.Button btnXoaDichVuVT;
+        private System.Windows.Forms.Button btnThemDichVuVT;
+        private System.Windows.Forms.Button btnLuuCapNhatVatTu;
+        private System.Windows.Forms.Button btnThoatCapNhatVatTu;
         private System.Windows.Forms.Label label2;
     }
 }

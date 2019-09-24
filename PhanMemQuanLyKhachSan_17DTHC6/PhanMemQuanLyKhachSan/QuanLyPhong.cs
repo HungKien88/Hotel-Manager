@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace PhanMemQuanLyKhachSan
 {
-    public partial class QuanLyPhong : Form
+    public partial class frmQuanLyPhong : Form
     {
-        public QuanLyPhong()
+        public frmQuanLyPhong()
         {
             InitializeComponent();
         }
@@ -32,7 +32,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            CapNhatDichVu fmdv = new CapNhatDichVu();
+            frmCapNhatDichVu fmdv = new frmCapNhatDichVu();
             fmdv.FormClosed += new FormClosedEventHandler(fmdv_FormClosed);
             fmdv.Show();
             this.Hide();
@@ -44,7 +44,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            CapNhatVatTu fmvt = new CapNhatVatTu();
+            frmCapNhatVatTu fmvt = new frmCapNhatVatTu();
             fmvt.FormClosed += new FormClosedEventHandler(fmdv_FormClosed);
             fmvt.Show();
             this.Hide();

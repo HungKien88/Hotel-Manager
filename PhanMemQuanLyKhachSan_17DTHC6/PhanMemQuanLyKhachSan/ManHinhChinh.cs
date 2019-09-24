@@ -19,7 +19,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void btnChitiet1_Click(object sender, EventArgs e)
         {
-            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
             fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
             fmmhctpp.Show();
             this.Hide();
@@ -31,7 +31,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void btnChitiet2_Click(object sender, EventArgs e)
         {
-            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
             fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
             fmmhctpp.Show();
             this.Hide();
@@ -39,7 +39,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void btnChitiet3_Click(object sender, EventArgs e)
         {
-            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
             fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
             fmmhctpp.Show();
             this.Hide();
@@ -47,7 +47,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void btnChitiet4_Click(object sender, EventArgs e)
         {
-            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
             fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
             fmmhctpp.Show();
             this.Hide();
@@ -55,7 +55,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void btnChitiet5_Click(object sender, EventArgs e)
         {
-            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
             fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
             fmmhctpp.Show();
             this.Hide();
@@ -63,7 +63,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void button6_Click(object sender, EventArgs e)
         {
-            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
             fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
             fmmhctpp.Show();
             this.Hide();
@@ -71,7 +71,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void btnChitiet7_Click(object sender, EventArgs e)
         {
-            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
             fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
             fmmhctpp.Show();
             this.Hide();
@@ -79,7 +79,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void btnChitiet8_Click(object sender, EventArgs e)
         {
-            ManHinhChiTietPhieuPhong fmmhctpp = new ManHinhChiTietPhieuPhong();
+            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
             fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
             fmmhctpp.Show();
             this.Hide();
@@ -87,7 +87,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void quảnLýPhòngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            QuanLyPhong fmqlp = new QuanLyPhong();
+            frmQuanLyPhong fmqlp = new frmQuanLyPhong();
             fmqlp.FormClosed += new FormClosedEventHandler(fmqlp_FormClosed);
             fmqlp.Show();
             this.Hide();
@@ -100,7 +100,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void quảnLýNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ManHinhQuanLyNhanVien fmqlnv = new ManHinhQuanLyNhanVien();
+            frmQuanLyNhanVien fmqlnv = new frmQuanLyNhanVien();
             fmqlnv.FormClosed += new FormClosedEventHandler(fmqlnv_FormClosed);
             fmqlnv.Show();
             this.Hide();
@@ -113,7 +113,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void quảnLýKháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ManHinhQuanLyKhachHang fmqlkh = new ManHinhQuanLyKhachHang();
+            frmQuanLyKhachHang fmqlkh = new frmQuanLyKhachHang();
             fmqlkh.FormClosed += new FormClosedEventHandler(fmqlkh_FormClosed);
             fmqlkh.Show();
             this.Hide();

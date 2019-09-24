@@ -1,6 +1,6 @@
 ﻿namespace PhanMemQuanLyKhachSan
 {
-    partial class XemThongTinNhanVien
+    partial class frmXemThongTinNhanVien
     {
         /// <summary>
         /// Required designer variable.
@@ -36,40 +36,40 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvThongTinNhanVien = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button8 = new System.Windows.Forms.Button();
+            this.txtTimKiemTTNV = new System.Windows.Forms.TextBox();
+            this.btnHuyTTNV = new System.Windows.Forms.Button();
+            this.btnXoaTTNV = new System.Windows.Forms.Button();
+            this.btnThemTTNV = new System.Windows.Forms.Button();
+            this.btnBackTTNV = new System.Windows.Forms.Button();
+            this.btnSuaTTNV = new System.Windows.Forms.Button();
+            this.btnLuuTTNV = new System.Windows.Forms.Button();
+            this.picThongTinNhanVien = new System.Windows.Forms.PictureBox();
+            this.btnTimKiemTTNV = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvThongTinNhanVien)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picThongTinNhanVien)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.dataGridView1);
+            this.panel1.Controls.Add(this.dgvThongTinNhanVien);
             this.panel1.Location = new System.Drawing.Point(61, 207);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1603, 658);
             this.panel1.TabIndex = 18;
             // 
-            // dataGridView1
+            // dgvThongTinNhanVien
             // 
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.dgvThongTinNhanVien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvThongTinNhanVien.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -77,21 +77,21 @@
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.HotTrack;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridView1.ColumnHeadersHeight = 40;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvThongTinNhanVien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvThongTinNhanVien.ColumnHeadersHeight = 40;
+            this.dgvThongTinNhanVien.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column3,
             this.Column4,
             this.Column5,
             this.Column6});
-            this.dataGridView1.Location = new System.Drawing.Point(72, 55);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(1523, 599);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvThongTinNhanVien.Location = new System.Drawing.Point(72, 55);
+            this.dgvThongTinNhanVien.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvThongTinNhanVien.Name = "dgvThongTinNhanVien";
+            this.dgvThongTinNhanVien.RowHeadersVisible = false;
+            this.dgvThongTinNhanVien.Size = new System.Drawing.Size(1523, 599);
+            this.dgvThongTinNhanVien.TabIndex = 0;
             // 
             // Column1
             // 
@@ -159,147 +159,147 @@
             this.Column6.HeaderText = "Ngày vào làm";
             this.Column6.Name = "Column6";
             // 
-            // textBox1
+            // txtTimKiemTTNV
             // 
-            this.textBox1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(504, 27);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(560, 45);
-            this.textBox1.TabIndex = 11;
+            this.txtTimKiemTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTimKiemTTNV.Location = new System.Drawing.Point(504, 27);
+            this.txtTimKiemTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTimKiemTTNV.Multiline = true;
+            this.txtTimKiemTTNV.Name = "txtTimKiemTTNV";
+            this.txtTimKiemTTNV.Size = new System.Drawing.Size(560, 45);
+            this.txtTimKiemTTNV.TabIndex = 11;
             // 
-            // button7
+            // btnHuyTTNV
             // 
-            this.button7.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconHuy;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(1301, 143);
-            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(105, 48);
-            this.button7.TabIndex = 19;
-            this.button7.Text = "Hủy";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnHuyTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHuyTTNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconHuy;
+            this.btnHuyTTNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHuyTTNV.Location = new System.Drawing.Point(1301, 143);
+            this.btnHuyTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHuyTTNV.Name = "btnHuyTTNV";
+            this.btnHuyTTNV.Size = new System.Drawing.Size(105, 48);
+            this.btnHuyTTNV.TabIndex = 19;
+            this.btnHuyTTNV.Text = "Hủy";
+            this.btnHuyTTNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnHuyTTNV.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnXoaTTNV
             // 
-            this.button6.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconDelete;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(576, 143);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(121, 48);
-            this.button6.TabIndex = 17;
-            this.button6.Text = "Xóa";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnXoaTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaTTNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconDelete;
+            this.btnXoaTTNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnXoaTTNV.Location = new System.Drawing.Point(576, 143);
+            this.btnXoaTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.btnXoaTTNV.Name = "btnXoaTTNV";
+            this.btnXoaTTNV.Size = new System.Drawing.Size(121, 48);
+            this.btnXoaTTNV.TabIndex = 17;
+            this.btnXoaTTNV.Text = "Xóa";
+            this.btnXoaTTNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnXoaTTNV.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnThemTTNV
             // 
-            this.button5.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconThem;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(359, 143);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(116, 48);
-            this.button5.TabIndex = 16;
-            this.button5.Text = "Thêm";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnThemTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemTTNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconThem;
+            this.btnThemTTNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThemTTNV.Location = new System.Drawing.Point(359, 143);
+            this.btnThemTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.btnThemTTNV.Name = "btnThemTTNV";
+            this.btnThemTTNV.Size = new System.Drawing.Size(116, 48);
+            this.btnThemTTNV.TabIndex = 16;
+            this.btnThemTTNV.Text = "Thêm";
+            this.btnThemTTNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnThemTTNV.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnBackTTNV
             // 
-            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(133, 143);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 48);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "Back";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnBackTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBackTTNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
+            this.btnBackTTNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBackTTNV.Location = new System.Drawing.Point(133, 143);
+            this.btnBackTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBackTTNV.Name = "btnBackTTNV";
+            this.btnBackTTNV.Size = new System.Drawing.Size(112, 48);
+            this.btnBackTTNV.TabIndex = 15;
+            this.btnBackTTNV.Text = "Back";
+            this.btnBackTTNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnBackTTNV.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnSuaTTNV
             // 
-            this.button3.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconSuaaaaa;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(833, 143);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(119, 48);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "Sửa";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnSuaTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuaTTNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconSuaaaaa;
+            this.btnSuaTTNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSuaTTNV.Location = new System.Drawing.Point(833, 143);
+            this.btnSuaTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSuaTTNV.Name = "btnSuaTTNV";
+            this.btnSuaTTNV.Size = new System.Drawing.Size(119, 48);
+            this.btnSuaTTNV.TabIndex = 14;
+            this.btnSuaTTNV.Text = "Sửa";
+            this.btnSuaTTNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSuaTTNV.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnLuuTTNV
             // 
-            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(1073, 143);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(120, 48);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "Lưu";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnLuuTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLuuTTNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
+            this.btnLuuTTNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLuuTTNV.Location = new System.Drawing.Point(1073, 143);
+            this.btnLuuTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLuuTTNV.Name = "btnLuuTTNV";
+            this.btnLuuTTNV.Size = new System.Drawing.Size(120, 48);
+            this.btnLuuTTNV.TabIndex = 13;
+            this.btnLuuTTNV.Text = "Lưu";
+            this.btnLuuTTNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnLuuTTNV.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // picThongTinNhanVien
             // 
-            this.pictureBox1.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.user;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(1469, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(241, 185);
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
+            this.picThongTinNhanVien.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.user;
+            this.picThongTinNhanVien.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picThongTinNhanVien.Location = new System.Drawing.Point(1469, 15);
+            this.picThongTinNhanVien.Margin = new System.Windows.Forms.Padding(4);
+            this.picThongTinNhanVien.Name = "picThongTinNhanVien";
+            this.picThongTinNhanVien.Size = new System.Drawing.Size(241, 185);
+            this.picThongTinNhanVien.TabIndex = 12;
+            this.picThongTinNhanVien.TabStop = false;
             // 
-            // button8
+            // btnTimKiemTTNV
             // 
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button8.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconTimKiem;
-            this.button8.Location = new System.Drawing.Point(1073, 27);
-            this.button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(169, 46);
-            this.button8.TabIndex = 10;
-            this.button8.Text = "Tìm Kiếm";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnTimKiemTTNV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnTimKiemTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTimKiemTTNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconTimKiem;
+            this.btnTimKiemTTNV.Location = new System.Drawing.Point(1073, 27);
+            this.btnTimKiemTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTimKiemTTNV.Name = "btnTimKiemTTNV";
+            this.btnTimKiemTTNV.Size = new System.Drawing.Size(169, 46);
+            this.btnTimKiemTTNV.TabIndex = 10;
+            this.btnTimKiemTTNV.Text = "Tìm Kiếm";
+            this.btnTimKiemTTNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnTimKiemTTNV.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTimKiemTTNV.UseVisualStyleBackColor = true;
             // 
-            // XemThongTinNhanVien
+            // frmXemThongTinNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1779, 913);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.btnHuyTTNV);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button8);
+            this.Controls.Add(this.btnXoaTTNV);
+            this.Controls.Add(this.btnThemTTNV);
+            this.Controls.Add(this.btnBackTTNV);
+            this.Controls.Add(this.btnSuaTTNV);
+            this.Controls.Add(this.btnLuuTTNV);
+            this.Controls.Add(this.picThongTinNhanVien);
+            this.Controls.Add(this.txtTimKiemTTNV);
+            this.Controls.Add(this.btnTimKiemTTNV);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "XemThongTinNhanVien";
+            this.Name = "frmXemThongTinNhanVien";
             this.Text = "Xem thông tin nhân viên";
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvThongTinNhanVien)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picThongTinNhanVien)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -307,17 +307,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnHuyTTNV;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.DataGridView dgvThongTinNhanVien;
+        private System.Windows.Forms.Button btnXoaTTNV;
+        private System.Windows.Forms.Button btnThemTTNV;
+        private System.Windows.Forms.Button btnBackTTNV;
+        private System.Windows.Forms.Button btnSuaTTNV;
+        private System.Windows.Forms.Button btnLuuTTNV;
+        private System.Windows.Forms.PictureBox picThongTinNhanVien;
+        private System.Windows.Forms.TextBox txtTimKiemTTNV;
+        private System.Windows.Forms.Button btnTimKiemTTNV;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;

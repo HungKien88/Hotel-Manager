@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace PhanMemQuanLyKhachSan
 {
-    public partial class ManHinhQuanLyNhanVien : Form
+    public partial class frmQuanLyNhanVien : Form
     {
-        public ManHinhQuanLyNhanVien()
+        public frmQuanLyNhanVien()
         {
             InitializeComponent();
         }
 
         private void btnGiaocanv_Click(object sender, EventArgs e)
         {
-            ManHinhGiaoCa fmmhgc = new ManHinhGiaoCa();
+            frmGiaoCa fmmhgc = new frmGiaoCa();
             fmmhgc.FormClosed += new FormClosedEventHandler(fmmhgc_FormClosed);
             fmmhgc.Show();
             this.Hide();
@@ -43,7 +43,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void btnCapnhatthongtinnv_Click(object sender, EventArgs e)
         {
-            XemThongTinNhanVien xttnv = new XemThongTinNhanVien();
+            frmXemThongTinNhanVien xttnv = new frmXemThongTinNhanVien();
             xttnv.FormClosed += new FormClosedEventHandler(xttnv_FormClosed);
             xttnv.Show();
             this.Hide();

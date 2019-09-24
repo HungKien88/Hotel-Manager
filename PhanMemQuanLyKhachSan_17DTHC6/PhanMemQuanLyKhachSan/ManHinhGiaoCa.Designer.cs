@@ -1,6 +1,6 @@
 ﻿namespace PhanMemQuanLyKhachSan
 {
-    partial class ManHinhGiaoCa
+    partial class frmGiaoCa
     {
         /// <summary>
         /// Required designer variable.
@@ -28,58 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlGiaoCa = new System.Windows.Forms.Panel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.panel1.SuspendLayout();
+            this.lblSang = new System.Windows.Forms.Label();
+            this.lblTrua = new System.Windows.Forms.Label();
+            this.lblToi = new System.Windows.Forms.Label();
+            this.tblGiaoCa = new System.Windows.Forms.TableLayoutPanel();
+            this.txtNoiDungTrua = new System.Windows.Forms.TextBox();
+            this.txtNoiDungSang = new System.Windows.Forms.TextBox();
+            this.txtTenNVNhanToi = new System.Windows.Forms.TextBox();
+            this.txtTenNVNhanTrua = new System.Windows.Forms.TextBox();
+            this.txtTenNVNhanSang = new System.Windows.Forms.TextBox();
+            this.txtTenNVTrucToi = new System.Windows.Forms.TextBox();
+            this.txtTenNVTrucTrua = new System.Windows.Forms.TextBox();
+            this.lblTenNVTruc = new System.Windows.Forms.Label();
+            this.lblTenNVNhan = new System.Windows.Forms.Label();
+            this.lblNoiDung = new System.Windows.Forms.Label();
+            this.lblSoTienThu = new System.Windows.Forms.Label();
+            this.lblSoTienChi = new System.Windows.Forms.Label();
+            this.lblSoTienConLai = new System.Windows.Forms.Label();
+            this.txtTenNVTrucSang = new System.Windows.Forms.TextBox();
+            this.txtSoTienThuSang = new System.Windows.Forms.TextBox();
+            this.txtSoTienThuTrua = new System.Windows.Forms.TextBox();
+            this.txtSoTienThuToi = new System.Windows.Forms.TextBox();
+            this.txtSoTienChiSang = new System.Windows.Forms.TextBox();
+            this.txtSoTienChiTrua = new System.Windows.Forms.TextBox();
+            this.txtSoTienChiToi = new System.Windows.Forms.TextBox();
+            this.txtSoTienConLaiSang = new System.Windows.Forms.TextBox();
+            this.txtSoTienConLaiTrua = new System.Windows.Forms.TextBox();
+            this.txtSoTienConLaiToi = new System.Windows.Forms.TextBox();
+            this.txtNoiDungToi = new System.Windows.Forms.TextBox();
+            this.tblGiaoCa2 = new System.Windows.Forms.TableLayoutPanel();
+            this.cdrGiaoCa = new System.Windows.Forms.MonthCalendar();
+            this.btnLuuGiaoCa = new System.Windows.Forms.Button();
+            this.btnXemLai = new System.Windows.Forms.Button();
+            this.dtpGiaoCa = new System.Windows.Forms.DateTimePicker();
+            this.pnlGiaoCa.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
+            this.tblGiaoCa.SuspendLayout();
+            this.tblGiaoCa2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // pnlGiaoCa
             // 
-            this.panel1.Controls.Add(this.tableLayoutPanel3);
-            this.panel1.Controls.Add(this.tableLayoutPanel1);
-            this.panel1.Controls.Add(this.tableLayoutPanel2);
-            this.panel1.Controls.Add(this.dateTimePicker1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1353, 684);
-            this.panel1.TabIndex = 1;
+            this.pnlGiaoCa.Controls.Add(this.tableLayoutPanel3);
+            this.pnlGiaoCa.Controls.Add(this.tblGiaoCa);
+            this.pnlGiaoCa.Controls.Add(this.tblGiaoCa2);
+            this.pnlGiaoCa.Controls.Add(this.dtpGiaoCa);
+            this.pnlGiaoCa.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlGiaoCa.Location = new System.Drawing.Point(0, 0);
+            this.pnlGiaoCa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlGiaoCa.Name = "pnlGiaoCa";
+            this.pnlGiaoCa.Size = new System.Drawing.Size(1804, 842);
+            this.pnlGiaoCa.TabIndex = 1;
             // 
             // tableLayoutPanel3
             // 
@@ -87,435 +88,470 @@
             this.tableLayoutPanel3.ColumnCount = 3;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.27302F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.72698F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 317F));
-            this.tableLayoutPanel3.Controls.Add(this.label7, 0, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label8, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.label9, 2, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(134, 51);
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 425F));
+            this.tableLayoutPanel3.Controls.Add(this.lblSang, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.lblTrua, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.lblToi, 2, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(179, 63);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(937, 44);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1249, 54);
             this.tableLayoutPanel3.TabIndex = 8;
             // 
-            // label7
+            // lblSang
             // 
-            this.label7.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(4, 1);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(297, 27);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "Sáng";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label7.Click += new System.EventHandler(this.Label7_Click);
+            this.lblSang.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSang.Location = new System.Drawing.Point(5, 1);
+            this.lblSang.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSang.Name = "lblSang";
+            this.lblSang.Size = new System.Drawing.Size(396, 33);
+            this.lblSang.TabIndex = 5;
+            this.lblSang.Text = "Sáng";
+            this.lblSang.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSang.Click += new System.EventHandler(this.Label7_Click);
             // 
-            // label8
+            // lblTrua
             // 
-            this.label8.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(308, 1);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(299, 27);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "Trưa";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTrua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTrua.Location = new System.Drawing.Point(410, 1);
+            this.lblTrua.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTrua.Name = "lblTrua";
+            this.lblTrua.Size = new System.Drawing.Size(399, 33);
+            this.lblTrua.TabIndex = 6;
+            this.lblTrua.Text = "Trưa";
+            this.lblTrua.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label9
+            // lblToi
             // 
-            this.label9.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(621, 1);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(310, 27);
-            this.label9.TabIndex = 7;
-            this.label9.Text = "Tối";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblToi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblToi.Location = new System.Drawing.Point(826, 1);
+            this.lblToi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblToi.Name = "lblToi";
+            this.lblToi.Size = new System.Drawing.Size(413, 33);
+            this.lblToi.TabIndex = 7;
+            this.lblToi.Text = "Tối";
+            this.lblToi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // tableLayoutPanel1
+            // tblGiaoCa
             // 
-            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.39614F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75.60387F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 314F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 319F));
-            this.tableLayoutPanel1.Controls.Add(this.textBox17, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox16, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox6, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox5, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox4, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox3, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.textBox2, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label2, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.label3, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.label4, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.label5, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.label6, 0, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox1, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.textBox7, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox8, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox9, 3, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox10, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox11, 2, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox12, 3, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox13, 1, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox14, 2, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox15, 3, 5);
-            this.tableLayoutPanel1.Controls.Add(this.textBox18, 3, 2);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(31, 97);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 6;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 114F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 43F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1040, 348);
-            this.tableLayoutPanel1.TabIndex = 4;
+            this.tblGiaoCa.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tblGiaoCa.ColumnCount = 4;
+            this.tblGiaoCa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.39614F));
+            this.tblGiaoCa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75.60387F));
+            this.tblGiaoCa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 419F));
+            this.tblGiaoCa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 428F));
+            this.tblGiaoCa.Controls.Add(this.txtNoiDungTrua, 2, 2);
+            this.tblGiaoCa.Controls.Add(this.txtNoiDungSang, 1, 2);
+            this.tblGiaoCa.Controls.Add(this.txtTenNVNhanToi, 3, 1);
+            this.tblGiaoCa.Controls.Add(this.txtTenNVNhanTrua, 2, 1);
+            this.tblGiaoCa.Controls.Add(this.txtTenNVNhanSang, 1, 1);
+            this.tblGiaoCa.Controls.Add(this.txtTenNVTrucToi, 3, 0);
+            this.tblGiaoCa.Controls.Add(this.txtTenNVTrucTrua, 2, 0);
+            this.tblGiaoCa.Controls.Add(this.lblTenNVTruc, 0, 0);
+            this.tblGiaoCa.Controls.Add(this.lblTenNVNhan, 0, 1);
+            this.tblGiaoCa.Controls.Add(this.lblNoiDung, 0, 2);
+            this.tblGiaoCa.Controls.Add(this.lblSoTienThu, 0, 3);
+            this.tblGiaoCa.Controls.Add(this.lblSoTienChi, 0, 4);
+            this.tblGiaoCa.Controls.Add(this.lblSoTienConLai, 0, 5);
+            this.tblGiaoCa.Controls.Add(this.txtTenNVTrucSang, 1, 0);
+            this.tblGiaoCa.Controls.Add(this.txtSoTienThuSang, 1, 3);
+            this.tblGiaoCa.Controls.Add(this.txtSoTienThuTrua, 2, 3);
+            this.tblGiaoCa.Controls.Add(this.txtSoTienThuToi, 3, 3);
+            this.tblGiaoCa.Controls.Add(this.txtSoTienChiSang, 1, 4);
+            this.tblGiaoCa.Controls.Add(this.txtSoTienChiTrua, 2, 4);
+            this.tblGiaoCa.Controls.Add(this.txtSoTienChiToi, 3, 4);
+            this.tblGiaoCa.Controls.Add(this.txtSoTienConLaiSang, 1, 5);
+            this.tblGiaoCa.Controls.Add(this.txtSoTienConLaiTrua, 2, 5);
+            this.tblGiaoCa.Controls.Add(this.txtSoTienConLaiToi, 3, 5);
+            this.tblGiaoCa.Controls.Add(this.txtNoiDungToi, 3, 2);
+            this.tblGiaoCa.Location = new System.Drawing.Point(41, 119);
+            this.tblGiaoCa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tblGiaoCa.Name = "tblGiaoCa";
+            this.tblGiaoCa.RowCount = 6;
+            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 140F));
+            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 58F));
+            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 53F));
+            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 58F));
+            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tblGiaoCa.Size = new System.Drawing.Size(1387, 428);
+            this.tblGiaoCa.TabIndex = 4;
             // 
-            // textBox17
+            // txtNoiDungTrua
             // 
-            this.textBox17.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.Location = new System.Drawing.Point(407, 96);
-            this.textBox17.Multiline = true;
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(308, 108);
-            this.textBox17.TabIndex = 22;
+            this.txtNoiDungTrua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNoiDungTrua.Location = new System.Drawing.Point(541, 119);
+            this.txtNoiDungTrua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNoiDungTrua.Multiline = true;
+            this.txtNoiDungTrua.Name = "txtNoiDungTrua";
+            this.txtNoiDungTrua.Size = new System.Drawing.Size(409, 132);
+            this.txtNoiDungTrua.TabIndex = 22;
             // 
-            // textBox16
+            // txtNoiDungSang
             // 
-            this.textBox16.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.Location = new System.Drawing.Point(103, 96);
-            this.textBox16.Multiline = true;
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(297, 108);
-            this.textBox16.TabIndex = 21;
+            this.txtNoiDungSang.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNoiDungSang.Location = new System.Drawing.Point(136, 119);
+            this.txtNoiDungSang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNoiDungSang.Multiline = true;
+            this.txtNoiDungSang.Name = "txtNoiDungSang";
+            this.txtNoiDungSang.Size = new System.Drawing.Size(395, 132);
+            this.txtNoiDungSang.TabIndex = 21;
             // 
-            // textBox6
+            // txtTenNVNhanToi
             // 
-            this.textBox6.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(722, 50);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(314, 39);
-            this.textBox6.TabIndex = 11;
+            this.txtTenNVNhanToi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenNVNhanToi.Location = new System.Drawing.Point(961, 62);
+            this.txtTenNVNhanToi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenNVNhanToi.Multiline = true;
+            this.txtTenNVNhanToi.Name = "txtTenNVNhanToi";
+            this.txtTenNVNhanToi.Size = new System.Drawing.Size(417, 47);
+            this.txtTenNVNhanToi.TabIndex = 11;
             // 
-            // textBox5
+            // txtTenNVNhanTrua
             // 
-            this.textBox5.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(407, 50);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(308, 39);
-            this.textBox5.TabIndex = 10;
+            this.txtTenNVNhanTrua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenNVNhanTrua.Location = new System.Drawing.Point(541, 62);
+            this.txtTenNVNhanTrua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenNVNhanTrua.Multiline = true;
+            this.txtTenNVNhanTrua.Name = "txtTenNVNhanTrua";
+            this.txtTenNVNhanTrua.Size = new System.Drawing.Size(409, 47);
+            this.txtTenNVNhanTrua.TabIndex = 10;
             // 
-            // textBox4
+            // txtTenNVNhanSang
             // 
-            this.textBox4.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(103, 50);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(297, 39);
-            this.textBox4.TabIndex = 9;
+            this.txtTenNVNhanSang.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenNVNhanSang.Location = new System.Drawing.Point(136, 62);
+            this.txtTenNVNhanSang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenNVNhanSang.Multiline = true;
+            this.txtTenNVNhanSang.Name = "txtTenNVNhanSang";
+            this.txtTenNVNhanSang.Size = new System.Drawing.Size(395, 47);
+            this.txtTenNVNhanSang.TabIndex = 9;
             // 
-            // textBox3
+            // txtTenNVTrucToi
             // 
-            this.textBox3.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(722, 4);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(314, 39);
-            this.textBox3.TabIndex = 8;
+            this.txtTenNVTrucToi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenNVTrucToi.Location = new System.Drawing.Point(961, 5);
+            this.txtTenNVTrucToi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenNVTrucToi.Multiline = true;
+            this.txtTenNVTrucToi.Name = "txtTenNVTrucToi";
+            this.txtTenNVTrucToi.Size = new System.Drawing.Size(417, 47);
+            this.txtTenNVTrucToi.TabIndex = 8;
             // 
-            // textBox2
+            // txtTenNVTrucTrua
             // 
-            this.textBox2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(407, 4);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(308, 39);
-            this.textBox2.TabIndex = 7;
+            this.txtTenNVTrucTrua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenNVTrucTrua.Location = new System.Drawing.Point(541, 5);
+            this.txtTenNVTrucTrua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenNVTrucTrua.Multiline = true;
+            this.txtTenNVTrucTrua.Name = "txtTenNVTrucTrua";
+            this.txtTenNVTrucTrua.Size = new System.Drawing.Size(409, 47);
+            this.txtTenNVTrucTrua.TabIndex = 7;
             // 
-            // label1
+            // lblTenNVTruc
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(4, 1);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 44);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Tên NV trực";
+            this.lblTenNVTruc.AutoSize = true;
+            this.lblTenNVTruc.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenNVTruc.Location = new System.Drawing.Point(5, 1);
+            this.lblTenNVTruc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTenNVTruc.Name = "lblTenNVTruc";
+            this.lblTenNVTruc.Size = new System.Drawing.Size(86, 54);
+            this.lblTenNVTruc.TabIndex = 0;
+            this.lblTenNVTruc.Text = "Tên NV trực";
             // 
-            // label2
+            // lblTenNVNhan
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(4, 47);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 44);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Tên NV nhận";
+            this.lblTenNVNhan.AutoSize = true;
+            this.lblTenNVNhan.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenNVNhan.Location = new System.Drawing.Point(5, 58);
+            this.lblTenNVNhan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTenNVNhan.Name = "lblTenNVNhan";
+            this.lblTenNVNhan.Size = new System.Drawing.Size(86, 54);
+            this.lblTenNVNhan.TabIndex = 1;
+            this.lblTenNVNhan.Text = "Tên NV nhận";
             // 
-            // label3
+            // lblNoiDung
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lblNoiDung.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(4, 93);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 114);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Nội dung";
+            this.lblNoiDung.AutoSize = true;
+            this.lblNoiDung.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoiDung.Location = new System.Drawing.Point(5, 115);
+            this.lblNoiDung.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNoiDung.Name = "lblNoiDung";
+            this.lblNoiDung.Size = new System.Drawing.Size(122, 140);
+            this.lblNoiDung.TabIndex = 2;
+            this.lblNoiDung.Text = "Nội dung";
             // 
-            // label4
+            // lblSoTienThu
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(4, 208);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 22);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Số tiền thu";
+            this.lblSoTienThu.AutoSize = true;
+            this.lblSoTienThu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoTienThu.Location = new System.Drawing.Point(5, 256);
+            this.lblSoTienThu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSoTienThu.Name = "lblSoTienThu";
+            this.lblSoTienThu.Size = new System.Drawing.Size(110, 27);
+            this.lblSoTienThu.TabIndex = 3;
+            this.lblSoTienThu.Text = "Số tiền thu";
             // 
-            // label5
+            // lblSoTienChi
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(4, 256);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 22);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Số tiền chi";
+            this.lblSoTienChi.AutoSize = true;
+            this.lblSoTienChi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoTienChi.Location = new System.Drawing.Point(5, 315);
+            this.lblSoTienChi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSoTienChi.Name = "lblSoTienChi";
+            this.lblSoTienChi.Size = new System.Drawing.Size(106, 27);
+            this.lblSoTienChi.TabIndex = 4;
+            this.lblSoTienChi.Text = "Số tiền chi";
             // 
-            // label6
+            // lblSoTienConLai
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(4, 300);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(88, 44);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Số tiền còn lại";
+            this.lblSoTienConLai.AutoSize = true;
+            this.lblSoTienConLai.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoTienConLai.Location = new System.Drawing.Point(5, 369);
+            this.lblSoTienConLai.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSoTienConLai.Name = "lblSoTienConLai";
+            this.lblSoTienConLai.Size = new System.Drawing.Size(116, 54);
+            this.lblSoTienConLai.TabIndex = 5;
+            this.lblSoTienConLai.Text = "Số tiền còn lại";
             // 
-            // textBox1
+            // txtTenNVTrucSang
             // 
-            this.textBox1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(103, 4);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(297, 39);
-            this.textBox1.TabIndex = 6;
+            this.txtTenNVTrucSang.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenNVTrucSang.Location = new System.Drawing.Point(136, 5);
+            this.txtTenNVTrucSang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenNVTrucSang.Multiline = true;
+            this.txtTenNVTrucSang.Name = "txtTenNVTrucSang";
+            this.txtTenNVTrucSang.Size = new System.Drawing.Size(395, 47);
+            this.txtTenNVTrucSang.TabIndex = 6;
             // 
-            // textBox7
+            // txtSoTienThuSang
             // 
-            this.textBox7.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(103, 211);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(297, 39);
-            this.textBox7.TabIndex = 12;
+            this.txtSoTienThuSang.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoTienThuSang.Location = new System.Drawing.Point(136, 260);
+            this.txtSoTienThuSang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoTienThuSang.Multiline = true;
+            this.txtSoTienThuSang.Name = "txtSoTienThuSang";
+            this.txtSoTienThuSang.Size = new System.Drawing.Size(395, 47);
+            this.txtSoTienThuSang.TabIndex = 12;
             // 
-            // textBox8
+            // txtSoTienThuTrua
             // 
-            this.textBox8.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(407, 211);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(308, 39);
-            this.textBox8.TabIndex = 13;
+            this.txtSoTienThuTrua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoTienThuTrua.Location = new System.Drawing.Point(541, 260);
+            this.txtSoTienThuTrua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoTienThuTrua.Multiline = true;
+            this.txtSoTienThuTrua.Name = "txtSoTienThuTrua";
+            this.txtSoTienThuTrua.Size = new System.Drawing.Size(409, 47);
+            this.txtSoTienThuTrua.TabIndex = 13;
             // 
-            // textBox9
+            // txtSoTienThuToi
             // 
-            this.textBox9.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(722, 211);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(314, 39);
-            this.textBox9.TabIndex = 14;
+            this.txtSoTienThuToi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoTienThuToi.Location = new System.Drawing.Point(961, 260);
+            this.txtSoTienThuToi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoTienThuToi.Multiline = true;
+            this.txtSoTienThuToi.Name = "txtSoTienThuToi";
+            this.txtSoTienThuToi.Size = new System.Drawing.Size(417, 47);
+            this.txtSoTienThuToi.TabIndex = 14;
             // 
-            // textBox10
+            // txtSoTienChiSang
             // 
-            this.textBox10.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(103, 259);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(297, 37);
-            this.textBox10.TabIndex = 15;
+            this.txtSoTienChiSang.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoTienChiSang.Location = new System.Drawing.Point(136, 319);
+            this.txtSoTienChiSang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoTienChiSang.Multiline = true;
+            this.txtSoTienChiSang.Name = "txtSoTienChiSang";
+            this.txtSoTienChiSang.Size = new System.Drawing.Size(395, 45);
+            this.txtSoTienChiSang.TabIndex = 15;
             // 
-            // textBox11
+            // txtSoTienChiTrua
             // 
-            this.textBox11.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(407, 259);
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(308, 37);
-            this.textBox11.TabIndex = 16;
+            this.txtSoTienChiTrua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoTienChiTrua.Location = new System.Drawing.Point(541, 319);
+            this.txtSoTienChiTrua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoTienChiTrua.Multiline = true;
+            this.txtSoTienChiTrua.Name = "txtSoTienChiTrua";
+            this.txtSoTienChiTrua.Size = new System.Drawing.Size(409, 45);
+            this.txtSoTienChiTrua.TabIndex = 16;
             // 
-            // textBox12
+            // txtSoTienChiToi
             // 
-            this.textBox12.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(722, 259);
-            this.textBox12.Multiline = true;
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(314, 37);
-            this.textBox12.TabIndex = 17;
+            this.txtSoTienChiToi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoTienChiToi.Location = new System.Drawing.Point(961, 319);
+            this.txtSoTienChiToi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoTienChiToi.Multiline = true;
+            this.txtSoTienChiToi.Name = "txtSoTienChiToi";
+            this.txtSoTienChiToi.Size = new System.Drawing.Size(417, 45);
+            this.txtSoTienChiToi.TabIndex = 17;
             // 
-            // textBox13
+            // txtSoTienConLaiSang
             // 
-            this.textBox13.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(103, 303);
-            this.textBox13.Multiline = true;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(297, 39);
-            this.textBox13.TabIndex = 18;
+            this.txtSoTienConLaiSang.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoTienConLaiSang.Location = new System.Drawing.Point(136, 373);
+            this.txtSoTienConLaiSang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoTienConLaiSang.Multiline = true;
+            this.txtSoTienConLaiSang.Name = "txtSoTienConLaiSang";
+            this.txtSoTienConLaiSang.Size = new System.Drawing.Size(395, 47);
+            this.txtSoTienConLaiSang.TabIndex = 18;
             // 
-            // textBox14
+            // txtSoTienConLaiTrua
             // 
-            this.textBox14.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(407, 303);
-            this.textBox14.Multiline = true;
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(308, 39);
-            this.textBox14.TabIndex = 19;
+            this.txtSoTienConLaiTrua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoTienConLaiTrua.Location = new System.Drawing.Point(541, 373);
+            this.txtSoTienConLaiTrua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoTienConLaiTrua.Multiline = true;
+            this.txtSoTienConLaiTrua.Name = "txtSoTienConLaiTrua";
+            this.txtSoTienConLaiTrua.Size = new System.Drawing.Size(409, 47);
+            this.txtSoTienConLaiTrua.TabIndex = 19;
             // 
-            // textBox15
+            // txtSoTienConLaiToi
             // 
-            this.textBox15.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(722, 303);
-            this.textBox15.Multiline = true;
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(314, 39);
-            this.textBox15.TabIndex = 20;
+            this.txtSoTienConLaiToi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoTienConLaiToi.Location = new System.Drawing.Point(961, 373);
+            this.txtSoTienConLaiToi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoTienConLaiToi.Multiline = true;
+            this.txtSoTienConLaiToi.Name = "txtSoTienConLaiToi";
+            this.txtSoTienConLaiToi.Size = new System.Drawing.Size(417, 47);
+            this.txtSoTienConLaiToi.TabIndex = 20;
             // 
-            // textBox18
+            // txtNoiDungToi
             // 
-            this.textBox18.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.Location = new System.Drawing.Point(722, 96);
-            this.textBox18.Multiline = true;
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(312, 108);
-            this.textBox18.TabIndex = 23;
+            this.txtNoiDungToi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNoiDungToi.Location = new System.Drawing.Point(961, 119);
+            this.txtNoiDungToi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNoiDungToi.Multiline = true;
+            this.txtNoiDungToi.Name = "txtNoiDungToi";
+            this.txtNoiDungToi.Size = new System.Drawing.Size(415, 132);
+            this.txtNoiDungToi.TabIndex = 23;
             // 
-            // tableLayoutPanel2
+            // tblGiaoCa2
             // 
-            this.tableLayoutPanel2.AutoSize = true;
-            this.tableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
-            this.tableLayoutPanel2.ColumnCount = 1;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.19608F));
-            this.tableLayoutPanel2.Controls.Add(this.monthCalendar1, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.button2, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.button1, 0, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(1073, 39);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 3;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.07229F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 81.92771F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 139F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(247, 406);
-            this.tableLayoutPanel2.TabIndex = 3;
+            this.tblGiaoCa2.AutoSize = true;
+            this.tblGiaoCa2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tblGiaoCa2.ColumnCount = 1;
+            this.tblGiaoCa2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.19608F));
+            this.tblGiaoCa2.Controls.Add(this.cdrGiaoCa, 0, 1);
+            this.tblGiaoCa2.Controls.Add(this.btnLuuGiaoCa, 0, 2);
+            this.tblGiaoCa2.Controls.Add(this.btnXemLai, 0, 0);
+            this.tblGiaoCa2.Location = new System.Drawing.Point(1431, 48);
+            this.tblGiaoCa2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tblGiaoCa2.Name = "tblGiaoCa2";
+            this.tblGiaoCa2.RowCount = 3;
+            this.tblGiaoCa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.07229F));
+            this.tblGiaoCa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 81.92771F));
+            this.tblGiaoCa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 171F));
+            this.tblGiaoCa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tblGiaoCa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tblGiaoCa2.Size = new System.Drawing.Size(329, 500);
+            this.tblGiaoCa2.TabIndex = 3;
             // 
-            // monthCalendar1
+            // cdrGiaoCa
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(10, 58);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 0;
+            this.cdrGiaoCa.Location = new System.Drawing.Point(13, 71);
+            this.cdrGiaoCa.Margin = new System.Windows.Forms.Padding(12, 11, 12, 11);
+            this.cdrGiaoCa.Name = "cdrGiaoCa";
+            this.cdrGiaoCa.TabIndex = 0;
             // 
-            // button2
+            // btnLuuGiaoCa
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(47, 268);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(152, 36);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Lưu";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnLuuGiaoCa.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnLuuGiaoCa.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLuuGiaoCa.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
+            this.btnLuuGiaoCa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLuuGiaoCa.Location = new System.Drawing.Point(63, 331);
+            this.btnLuuGiaoCa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLuuGiaoCa.Name = "btnLuuGiaoCa";
+            this.btnLuuGiaoCa.Size = new System.Drawing.Size(203, 44);
+            this.btnLuuGiaoCa.TabIndex = 2;
+            this.btnLuuGiaoCa.Text = "Lưu";
+            this.btnLuuGiaoCa.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnXemLai
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(50, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 33);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Xem lại";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnXemLai.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnXemLai.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXemLai.Location = new System.Drawing.Point(66, 5);
+            this.btnXemLai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXemLai.Name = "btnXemLai";
+            this.btnXemLai.Size = new System.Drawing.Size(196, 41);
+            this.btnXemLai.TabIndex = 1;
+            this.btnXemLai.Text = "Xem lại";
+            this.btnXemLai.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
+            // dtpGiaoCa
             // 
-            this.dateTimePicker1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.dtpGiaoCa.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.dateTimePicker1.Location = new System.Drawing.Point(134, 20);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(939, 29);
-            this.dateTimePicker1.TabIndex = 0;
+            this.dtpGiaoCa.CalendarFont = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpGiaoCa.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpGiaoCa.ImeMode = System.Windows.Forms.ImeMode.Off;
+            this.dtpGiaoCa.Location = new System.Drawing.Point(179, 25);
+            this.dtpGiaoCa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtpGiaoCa.Name = "dtpGiaoCa";
+            this.dtpGiaoCa.Size = new System.Drawing.Size(1251, 34);
+            this.dtpGiaoCa.TabIndex = 0;
             // 
-            // ManHinhGiaoCa
+            // frmGiaoCa
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1353, 684);
-            this.Controls.Add(this.panel1);
-            this.Name = "ManHinhGiaoCa";
+            this.ClientSize = new System.Drawing.Size(1804, 842);
+            this.Controls.Add(this.pnlGiaoCa);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "frmGiaoCa";
             this.Text = "ManHinhGiaoCa";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.pnlGiaoCa.ResumeLayout(false);
+            this.pnlGiaoCa.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
-            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tblGiaoCa.ResumeLayout(false);
+            this.tblGiaoCa.PerformLayout();
+            this.tblGiaoCa2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Panel pnlGiaoCa;
+        private System.Windows.Forms.TableLayoutPanel tblGiaoCa;
+        private System.Windows.Forms.TextBox txtNoiDungToi;
+        private System.Windows.Forms.TextBox txtNoiDungTrua;
+        private System.Windows.Forms.TextBox txtNoiDungSang;
+        private System.Windows.Forms.TextBox txtTenNVNhanToi;
+        private System.Windows.Forms.TextBox txtTenNVNhanTrua;
+        private System.Windows.Forms.TextBox txtTenNVNhanSang;
+        private System.Windows.Forms.TextBox txtTenNVTrucToi;
+        private System.Windows.Forms.TextBox txtTenNVTrucTrua;
+        private System.Windows.Forms.Label lblTenNVTruc;
+        private System.Windows.Forms.Label lblTenNVNhan;
+        private System.Windows.Forms.Label lblNoiDung;
+        private System.Windows.Forms.Label lblSoTienThu;
+        private System.Windows.Forms.Label lblSoTienChi;
+        private System.Windows.Forms.Label lblSoTienConLai;
+        private System.Windows.Forms.TextBox txtTenNVTrucSang;
+        private System.Windows.Forms.TextBox txtSoTienThuSang;
+        private System.Windows.Forms.TextBox txtSoTienThuTrua;
+        private System.Windows.Forms.TextBox txtSoTienThuToi;
+        private System.Windows.Forms.TextBox txtSoTienChiSang;
+        private System.Windows.Forms.TextBox txtSoTienChiTrua;
+        private System.Windows.Forms.TextBox txtSoTienChiToi;
+        private System.Windows.Forms.TextBox txtSoTienConLaiSang;
+        private System.Windows.Forms.TextBox txtSoTienConLaiTrua;
+        private System.Windows.Forms.TextBox txtSoTienConLaiToi;
+        private System.Windows.Forms.TableLayoutPanel tblGiaoCa2;
+        private System.Windows.Forms.MonthCalendar cdrGiaoCa;
+        private System.Windows.Forms.Button btnLuuGiaoCa;
+        private System.Windows.Forms.Button btnXemLai;
+        private System.Windows.Forms.DateTimePicker dtpGiaoCa;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblSang;
+        private System.Windows.Forms.Label lblTrua;
+        private System.Windows.Forms.Label lblToi;
     }
 }

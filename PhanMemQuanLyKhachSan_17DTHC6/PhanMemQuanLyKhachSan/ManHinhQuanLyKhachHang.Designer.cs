@@ -1,6 +1,6 @@
 ﻿namespace PhanMemQuanLyKhachSan
 {
-    partial class ManHinhQuanLyKhachHang
+    partial class frmQuanLyKhachHang
     {
         /// <summary>
         /// Required designer variable.
@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblQuanlykhachhang = new System.Windows.Forms.Label();
-            this.txtTimkiem = new System.Windows.Forms.TextBox();
+            this.lblQuanLyKhachHang = new System.Windows.Forms.Label();
+            this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.btnLoc = new System.Windows.Forms.Button();
-            this.btnTimkiem = new System.Windows.Forms.Button();
-            this.btnTrovecuaqlkh = new System.Windows.Forms.Button();
-            this.lblNgayden = new System.Windows.Forms.Label();
-            this.txtNgayden = new System.Windows.Forms.TextBox();
-            this.txtNgaydi = new System.Windows.Forms.TextBox();
-            this.lblNgaydi = new System.Windows.Forms.Label();
-            this.dgvQuanlykkhachhang = new System.Windows.Forms.DataGridView();
+            this.btnTimKiem = new System.Windows.Forms.Button();
+            this.btnTroVeCuaQLKH = new System.Windows.Forms.Button();
+            this.lblNgayDen = new System.Windows.Forms.Label();
+            this.txtNgayDen = new System.Windows.Forms.TextBox();
+            this.txtNgayDi = new System.Windows.Forms.TextBox();
+            this.lblNgayDi = new System.Windows.Forms.Label();
+            this.dgvQuanLyKhachHang = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -46,27 +46,27 @@
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvQuanlykkhachhang)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQuanLyKhachHang)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblQuanlykhachhang
+            // lblQuanLyKhachHang
             // 
-            this.lblQuanlykhachhang.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblQuanlykhachhang.Font = new System.Drawing.Font("Palatino Linotype", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuanlykhachhang.Location = new System.Drawing.Point(0, 0);
-            this.lblQuanlykhachhang.Name = "lblQuanlykhachhang";
-            this.lblQuanlykhachhang.Size = new System.Drawing.Size(1362, 51);
-            this.lblQuanlykhachhang.TabIndex = 0;
-            this.lblQuanlykhachhang.Text = "Quản lý khách hàng";
-            this.lblQuanlykhachhang.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblQuanLyKhachHang.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblQuanLyKhachHang.Font = new System.Drawing.Font("Palatino Linotype", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuanLyKhachHang.Location = new System.Drawing.Point(0, 0);
+            this.lblQuanLyKhachHang.Name = "lblQuanLyKhachHang";
+            this.lblQuanLyKhachHang.Size = new System.Drawing.Size(1362, 51);
+            this.lblQuanLyKhachHang.TabIndex = 0;
+            this.lblQuanLyKhachHang.Text = "Quản lý khách hàng";
+            this.lblQuanLyKhachHang.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // txtTimkiem
+            // txtTimKiem
             // 
-            this.txtTimkiem.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimkiem.Location = new System.Drawing.Point(238, 75);
-            this.txtTimkiem.Name = "txtTimkiem";
-            this.txtTimkiem.Size = new System.Drawing.Size(869, 37);
-            this.txtTimkiem.TabIndex = 2;
+            this.txtTimKiem.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTimKiem.Location = new System.Drawing.Point(238, 75);
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.Size = new System.Drawing.Size(869, 37);
+            this.txtTimKiem.TabIndex = 2;
             // 
             // btnLoc
             // 
@@ -81,74 +81,74 @@
             this.btnLoc.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLoc.UseVisualStyleBackColor = true;
             // 
-            // btnTimkiem
+            // btnTimKiem
             // 
-            this.btnTimkiem.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTimkiem.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconTimKiem;
-            this.btnTimkiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTimkiem.Location = new System.Drawing.Point(1170, 74);
-            this.btnTimkiem.Name = "btnTimkiem";
-            this.btnTimkiem.Size = new System.Drawing.Size(160, 37);
-            this.btnTimkiem.TabIndex = 3;
-            this.btnTimkiem.Text = "Tìm kiếm";
-            this.btnTimkiem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnTimkiem.UseVisualStyleBackColor = true;
+            this.btnTimKiem.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTimKiem.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconTimKiem;
+            this.btnTimKiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTimKiem.Location = new System.Drawing.Point(1170, 74);
+            this.btnTimKiem.Name = "btnTimKiem";
+            this.btnTimKiem.Size = new System.Drawing.Size(160, 37);
+            this.btnTimKiem.TabIndex = 3;
+            this.btnTimKiem.Text = "Tìm kiếm";
+            this.btnTimKiem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnTimKiem.UseVisualStyleBackColor = true;
             // 
-            // btnTrovecuaqlkh
+            // btnTroVeCuaQLKH
             // 
-            this.btnTrovecuaqlkh.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTrovecuaqlkh.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
-            this.btnTrovecuaqlkh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTrovecuaqlkh.Location = new System.Drawing.Point(27, 75);
-            this.btnTrovecuaqlkh.Name = "btnTrovecuaqlkh";
-            this.btnTrovecuaqlkh.Size = new System.Drawing.Size(129, 37);
-            this.btnTrovecuaqlkh.TabIndex = 1;
-            this.btnTrovecuaqlkh.Text = "Trở về";
-            this.btnTrovecuaqlkh.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnTrovecuaqlkh.UseVisualStyleBackColor = true;
-            this.btnTrovecuaqlkh.Click += new System.EventHandler(this.btnTrovecuaqlkh_Click);
+            this.btnTroVeCuaQLKH.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTroVeCuaQLKH.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
+            this.btnTroVeCuaQLKH.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTroVeCuaQLKH.Location = new System.Drawing.Point(27, 75);
+            this.btnTroVeCuaQLKH.Name = "btnTroVeCuaQLKH";
+            this.btnTroVeCuaQLKH.Size = new System.Drawing.Size(129, 37);
+            this.btnTroVeCuaQLKH.TabIndex = 1;
+            this.btnTroVeCuaQLKH.Text = "Trở về";
+            this.btnTroVeCuaQLKH.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnTroVeCuaQLKH.UseVisualStyleBackColor = true;
+            this.btnTroVeCuaQLKH.Click += new System.EventHandler(this.btnTrovecuaqlkh_Click);
             // 
-            // lblNgayden
+            // lblNgayDen
             // 
-            this.lblNgayden.AutoSize = true;
-            this.lblNgayden.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNgayden.Location = new System.Drawing.Point(245, 121);
-            this.lblNgayden.Name = "lblNgayden";
-            this.lblNgayden.Size = new System.Drawing.Size(120, 31);
-            this.lblNgayden.TabIndex = 5;
-            this.lblNgayden.Text = "Ngày đến:";
+            this.lblNgayDen.AutoSize = true;
+            this.lblNgayDen.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNgayDen.Location = new System.Drawing.Point(245, 121);
+            this.lblNgayDen.Name = "lblNgayDen";
+            this.lblNgayDen.Size = new System.Drawing.Size(114, 29);
+            this.lblNgayDen.TabIndex = 5;
+            this.lblNgayDen.Text = "Ngày đến:";
             // 
-            // txtNgayden
+            // txtNgayDen
             // 
-            this.txtNgayden.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNgayden.Location = new System.Drawing.Point(371, 118);
-            this.txtNgayden.Name = "txtNgayden";
-            this.txtNgayden.Size = new System.Drawing.Size(139, 32);
-            this.txtNgayden.TabIndex = 6;
+            this.txtNgayDen.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNgayDen.Location = new System.Drawing.Point(371, 118);
+            this.txtNgayDen.Name = "txtNgayDen";
+            this.txtNgayDen.Size = new System.Drawing.Size(139, 32);
+            this.txtNgayDen.TabIndex = 6;
             // 
-            // txtNgaydi
+            // txtNgayDi
             // 
-            this.txtNgaydi.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNgaydi.Location = new System.Drawing.Point(968, 120);
-            this.txtNgaydi.Name = "txtNgaydi";
-            this.txtNgaydi.Size = new System.Drawing.Size(139, 32);
-            this.txtNgaydi.TabIndex = 8;
+            this.txtNgayDi.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNgayDi.Location = new System.Drawing.Point(968, 120);
+            this.txtNgayDi.Name = "txtNgayDi";
+            this.txtNgayDi.Size = new System.Drawing.Size(139, 32);
+            this.txtNgayDi.TabIndex = 8;
             // 
-            // lblNgaydi
+            // lblNgayDi
             // 
-            this.lblNgaydi.AutoSize = true;
-            this.lblNgaydi.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNgaydi.Location = new System.Drawing.Point(851, 121);
-            this.lblNgaydi.Name = "lblNgaydi";
-            this.lblNgaydi.Size = new System.Drawing.Size(101, 31);
-            this.lblNgaydi.TabIndex = 7;
-            this.lblNgaydi.Text = "Ngày đi:";
+            this.lblNgayDi.AutoSize = true;
+            this.lblNgayDi.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNgayDi.Location = new System.Drawing.Point(851, 121);
+            this.lblNgayDi.Name = "lblNgayDi";
+            this.lblNgayDi.Size = new System.Drawing.Size(96, 29);
+            this.lblNgayDi.TabIndex = 7;
+            this.lblNgayDi.Text = "Ngày đi:";
             // 
-            // dgvQuanlykkhachhang
+            // dgvQuanLyKhachHang
             // 
-            this.dgvQuanlykkhachhang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvQuanlykkhachhang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvQuanlykkhachhang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvQuanLyKhachHang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvQuanLyKhachHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvQuanLyKhachHang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column3,
@@ -157,12 +157,12 @@
             this.Column6,
             this.Column7,
             this.Column8});
-            this.dgvQuanlykkhachhang.Location = new System.Drawing.Point(27, 223);
-            this.dgvQuanlykkhachhang.Name = "dgvQuanlykkhachhang";
-            this.dgvQuanlykkhachhang.RowHeadersVisible = false;
-            this.dgvQuanlykkhachhang.RowTemplate.Height = 24;
-            this.dgvQuanlykkhachhang.Size = new System.Drawing.Size(1303, 404);
-            this.dgvQuanlykkhachhang.TabIndex = 9;
+            this.dgvQuanLyKhachHang.Location = new System.Drawing.Point(27, 223);
+            this.dgvQuanLyKhachHang.Name = "dgvQuanLyKhachHang";
+            this.dgvQuanLyKhachHang.RowHeadersVisible = false;
+            this.dgvQuanLyKhachHang.RowTemplate.Height = 24;
+            this.dgvQuanLyKhachHang.Size = new System.Drawing.Size(1303, 404);
+            this.dgvQuanLyKhachHang.TabIndex = 9;
             // 
             // Column1
             // 
@@ -204,25 +204,25 @@
             this.Column8.HeaderText = "Số đêm";
             this.Column8.Name = "Column8";
             // 
-            // ManHinhQuanLyKhachHang
+            // frmQuanLyKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1362, 690);
-            this.Controls.Add(this.dgvQuanlykkhachhang);
-            this.Controls.Add(this.txtNgaydi);
-            this.Controls.Add(this.lblNgaydi);
-            this.Controls.Add(this.txtNgayden);
-            this.Controls.Add(this.lblNgayden);
+            this.Controls.Add(this.dgvQuanLyKhachHang);
+            this.Controls.Add(this.txtNgayDi);
+            this.Controls.Add(this.lblNgayDi);
+            this.Controls.Add(this.txtNgayDen);
+            this.Controls.Add(this.lblNgayDen);
             this.Controls.Add(this.btnLoc);
-            this.Controls.Add(this.btnTimkiem);
-            this.Controls.Add(this.txtTimkiem);
-            this.Controls.Add(this.btnTrovecuaqlkh);
-            this.Controls.Add(this.lblQuanlykhachhang);
+            this.Controls.Add(this.btnTimKiem);
+            this.Controls.Add(this.txtTimKiem);
+            this.Controls.Add(this.btnTroVeCuaQLKH);
+            this.Controls.Add(this.lblQuanLyKhachHang);
             this.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "ManHinhQuanLyKhachHang";
+            this.Name = "frmQuanLyKhachHang";
             this.Text = "Màn Hình Quản Lý Khách Hàng";
-            ((System.ComponentModel.ISupportInitialize)(this.dgvQuanlykkhachhang)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQuanLyKhachHang)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -230,16 +230,16 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblQuanlykhachhang;
-        private System.Windows.Forms.Button btnTrovecuaqlkh;
-        private System.Windows.Forms.TextBox txtTimkiem;
-        private System.Windows.Forms.Button btnTimkiem;
+        private System.Windows.Forms.Label lblQuanLyKhachHang;
+        private System.Windows.Forms.Button btnTroVeCuaQLKH;
+        private System.Windows.Forms.TextBox txtTimKiem;
+        private System.Windows.Forms.Button btnTimKiem;
         private System.Windows.Forms.Button btnLoc;
-        private System.Windows.Forms.Label lblNgayden;
-        private System.Windows.Forms.TextBox txtNgayden;
-        private System.Windows.Forms.TextBox txtNgaydi;
-        private System.Windows.Forms.Label lblNgaydi;
-        private System.Windows.Forms.DataGridView dgvQuanlykkhachhang;
+        private System.Windows.Forms.Label lblNgayDen;
+        private System.Windows.Forms.TextBox txtNgayDen;
+        private System.Windows.Forms.TextBox txtNgayDi;
+        private System.Windows.Forms.Label lblNgayDi;
+        private System.Windows.Forms.DataGridView dgvQuanLyKhachHang;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;

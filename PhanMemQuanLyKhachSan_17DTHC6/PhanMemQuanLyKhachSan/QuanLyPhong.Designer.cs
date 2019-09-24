@@ -1,6 +1,6 @@
 ﻿namespace PhanMemQuanLyKhachSan
 {
-    partial class QuanLyPhong
+    partial class frmQuanLyPhong
     {
         /// <summary>
         /// Required designer variable.
@@ -28,89 +28,95 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.buttonCapNhapLoaiPhong = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.btnCapNhatVatTu = new System.Windows.Forms.Button();
+            this.btnCapNhatDVPhong = new System.Windows.Forms.Button();
+            this.btnCapNhatLoaiPhong = new System.Windows.Forms.Button();
+            this.lblQuanLyPhong = new System.Windows.Forms.Label();
+            this.dgvQuanLyPhong = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQuanLyPhong)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCapNhatVatTu
             // 
-            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(45, 101);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 59);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Cập nhật vật tư";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            this.btnCapNhatVatTu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCapNhatVatTu.Location = new System.Drawing.Point(60, 124);
+            this.btnCapNhatVatTu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCapNhatVatTu.Name = "btnCapNhatVatTu";
+            this.btnCapNhatVatTu.Size = new System.Drawing.Size(133, 73);
+            this.btnCapNhatVatTu.TabIndex = 0;
+            this.btnCapNhatVatTu.Text = "Cập nhật vật tư";
+            this.btnCapNhatVatTu.UseVisualStyleBackColor = true;
+            this.btnCapNhatVatTu.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // button2
+            // btnCapNhatDVPhong
             // 
-            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(45, 236);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 59);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Cập nhật dịch vụ";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.Button2_Click);
+            this.btnCapNhatDVPhong.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCapNhatDVPhong.Location = new System.Drawing.Point(60, 290);
+            this.btnCapNhatDVPhong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCapNhatDVPhong.Name = "btnCapNhatDVPhong";
+            this.btnCapNhatDVPhong.Size = new System.Drawing.Size(133, 73);
+            this.btnCapNhatDVPhong.TabIndex = 1;
+            this.btnCapNhatDVPhong.Text = "Cập nhật dịch vụ";
+            this.btnCapNhatDVPhong.UseVisualStyleBackColor = true;
+            this.btnCapNhatDVPhong.Click += new System.EventHandler(this.Button2_Click);
             // 
-            // buttonCapNhapLoaiPhong
+            // btnCapNhatLoaiPhong
             // 
-            this.buttonCapNhapLoaiPhong.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonCapNhapLoaiPhong.Location = new System.Drawing.Point(45, 394);
-            this.buttonCapNhapLoaiPhong.Name = "buttonCapNhapLoaiPhong";
-            this.buttonCapNhapLoaiPhong.Size = new System.Drawing.Size(100, 76);
-            this.buttonCapNhapLoaiPhong.TabIndex = 2;
-            this.buttonCapNhapLoaiPhong.Text = "Cập nhật loại phòng";
-            this.buttonCapNhapLoaiPhong.UseVisualStyleBackColor = true;
-            this.buttonCapNhapLoaiPhong.Click += new System.EventHandler(this.ButtonCapNhapLoaiPhong_Click);
+            this.btnCapNhatLoaiPhong.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCapNhatLoaiPhong.Location = new System.Drawing.Point(60, 485);
+            this.btnCapNhatLoaiPhong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCapNhatLoaiPhong.Name = "btnCapNhatLoaiPhong";
+            this.btnCapNhatLoaiPhong.Size = new System.Drawing.Size(133, 94);
+            this.btnCapNhatLoaiPhong.TabIndex = 2;
+            this.btnCapNhatLoaiPhong.Text = "Cập nhật loại phòng";
+            this.btnCapNhatLoaiPhong.UseVisualStyleBackColor = true;
+            this.btnCapNhatLoaiPhong.Click += new System.EventHandler(this.ButtonCapNhapLoaiPhong_Click);
             // 
-            // label1
+            // lblQuanLyPhong
             // 
-            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(535, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(218, 42);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Quản Lý Phòng";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblQuanLyPhong.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuanLyPhong.Location = new System.Drawing.Point(713, 11);
+            this.lblQuanLyPhong.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblQuanLyPhong.Name = "lblQuanLyPhong";
+            this.lblQuanLyPhong.Size = new System.Drawing.Size(291, 52);
+            this.lblQuanLyPhong.TabIndex = 3;
+            this.lblQuanLyPhong.Text = "Quản Lý Phòng";
+            this.lblQuanLyPhong.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // dataGridView1
+            // dgvQuanLyPhong
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(290, 101);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(824, 369);
-            this.dataGridView1.TabIndex = 4;
+            this.dgvQuanLyPhong.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.dgvQuanLyPhong.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvQuanLyPhong.Location = new System.Drawing.Point(387, 124);
+            this.dgvQuanLyPhong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvQuanLyPhong.Name = "dgvQuanLyPhong";
+            this.dgvQuanLyPhong.Size = new System.Drawing.Size(1099, 454);
+            this.dgvQuanLyPhong.TabIndex = 4;
             // 
-            // QuanLyPhong
+            // frmQuanLyPhong
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1182, 537);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.buttonCapNhapLoaiPhong);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "QuanLyPhong";
+            this.ClientSize = new System.Drawing.Size(1576, 661);
+            this.Controls.Add(this.dgvQuanLyPhong);
+            this.Controls.Add(this.lblQuanLyPhong);
+            this.Controls.Add(this.btnCapNhatLoaiPhong);
+            this.Controls.Add(this.btnCapNhatDVPhong);
+            this.Controls.Add(this.btnCapNhatVatTu);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "frmQuanLyPhong";
             this.Text = "QuanLyPhong";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvQuanLyPhong)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button buttonCapNhapLoaiPhong;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnCapNhatVatTu;
+        private System.Windows.Forms.Button btnCapNhatDVPhong;
+        private System.Windows.Forms.Button btnCapNhatLoaiPhong;
+        private System.Windows.Forms.Label lblQuanLyPhong;
+        private System.Windows.Forms.DataGridView dgvQuanLyPhong;
     }
 }
