@@ -35,7 +35,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panThongTinNhanVien = new System.Windows.Forms.Panel();
             this.dgvThongTinNhanVien = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,19 +52,18 @@
             this.btnLuuTTNV = new System.Windows.Forms.Button();
             this.picThongTinNhanVien = new System.Windows.Forms.PictureBox();
             this.btnTimKiemTTNV = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.panThongTinNhanVien.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThongTinNhanVien)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picThongTinNhanVien)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // panThongTinNhanVien
             // 
-            this.panel1.Controls.Add(this.dgvThongTinNhanVien);
-            this.panel1.Location = new System.Drawing.Point(61, 207);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1603, 658);
-            this.panel1.TabIndex = 18;
+            this.panThongTinNhanVien.Controls.Add(this.dgvThongTinNhanVien);
+            this.panThongTinNhanVien.Location = new System.Drawing.Point(46, 168);
+            this.panThongTinNhanVien.Name = "panThongTinNhanVien";
+            this.panThongTinNhanVien.Size = new System.Drawing.Size(1202, 535);
+            this.panThongTinNhanVien.TabIndex = 18;
             // 
             // dgvThongTinNhanVien
             // 
@@ -86,11 +85,10 @@
             this.Column4,
             this.Column5,
             this.Column6});
-            this.dgvThongTinNhanVien.Location = new System.Drawing.Point(72, 55);
-            this.dgvThongTinNhanVien.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvThongTinNhanVien.Location = new System.Drawing.Point(54, 45);
             this.dgvThongTinNhanVien.Name = "dgvThongTinNhanVien";
             this.dgvThongTinNhanVien.RowHeadersVisible = false;
-            this.dgvThongTinNhanVien.Size = new System.Drawing.Size(1523, 599);
+            this.dgvThongTinNhanVien.Size = new System.Drawing.Size(1142, 487);
             this.dgvThongTinNhanVien.TabIndex = 0;
             // 
             // Column1
@@ -162,11 +160,10 @@
             // txtTimKiemTTNV
             // 
             this.txtTimKiemTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimKiemTTNV.Location = new System.Drawing.Point(504, 27);
-            this.txtTimKiemTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTimKiemTTNV.Location = new System.Drawing.Point(378, 22);
             this.txtTimKiemTTNV.Multiline = true;
             this.txtTimKiemTTNV.Name = "txtTimKiemTTNV";
-            this.txtTimKiemTTNV.Size = new System.Drawing.Size(560, 45);
+            this.txtTimKiemTTNV.Size = new System.Drawing.Size(421, 37);
             this.txtTimKiemTTNV.TabIndex = 11;
             // 
             // btnHuyTTNV
@@ -174,10 +171,9 @@
             this.btnHuyTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuyTTNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconHuy;
             this.btnHuyTTNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHuyTTNV.Location = new System.Drawing.Point(1301, 143);
-            this.btnHuyTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHuyTTNV.Location = new System.Drawing.Point(976, 116);
             this.btnHuyTTNV.Name = "btnHuyTTNV";
-            this.btnHuyTTNV.Size = new System.Drawing.Size(105, 48);
+            this.btnHuyTTNV.Size = new System.Drawing.Size(79, 39);
             this.btnHuyTTNV.TabIndex = 19;
             this.btnHuyTTNV.Text = "Hủy";
             this.btnHuyTTNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -188,10 +184,9 @@
             this.btnXoaTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaTTNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconDelete;
             this.btnXoaTTNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoaTTNV.Location = new System.Drawing.Point(576, 143);
-            this.btnXoaTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.btnXoaTTNV.Location = new System.Drawing.Point(432, 116);
             this.btnXoaTTNV.Name = "btnXoaTTNV";
-            this.btnXoaTTNV.Size = new System.Drawing.Size(121, 48);
+            this.btnXoaTTNV.Size = new System.Drawing.Size(91, 39);
             this.btnXoaTTNV.TabIndex = 17;
             this.btnXoaTTNV.Text = "Xóa";
             this.btnXoaTTNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -202,10 +197,9 @@
             this.btnThemTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemTTNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconThem;
             this.btnThemTTNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThemTTNV.Location = new System.Drawing.Point(359, 143);
-            this.btnThemTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.btnThemTTNV.Location = new System.Drawing.Point(269, 116);
             this.btnThemTTNV.Name = "btnThemTTNV";
-            this.btnThemTTNV.Size = new System.Drawing.Size(116, 48);
+            this.btnThemTTNV.Size = new System.Drawing.Size(87, 39);
             this.btnThemTTNV.TabIndex = 16;
             this.btnThemTTNV.Text = "Thêm";
             this.btnThemTTNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -216,10 +210,9 @@
             this.btnBackTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBackTTNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
             this.btnBackTTNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBackTTNV.Location = new System.Drawing.Point(133, 143);
-            this.btnBackTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBackTTNV.Location = new System.Drawing.Point(100, 116);
             this.btnBackTTNV.Name = "btnBackTTNV";
-            this.btnBackTTNV.Size = new System.Drawing.Size(112, 48);
+            this.btnBackTTNV.Size = new System.Drawing.Size(84, 39);
             this.btnBackTTNV.TabIndex = 15;
             this.btnBackTTNV.Text = "Back";
             this.btnBackTTNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -230,10 +223,9 @@
             this.btnSuaTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaTTNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconSuaaaaa;
             this.btnSuaTTNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSuaTTNV.Location = new System.Drawing.Point(833, 143);
-            this.btnSuaTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSuaTTNV.Location = new System.Drawing.Point(625, 116);
             this.btnSuaTTNV.Name = "btnSuaTTNV";
-            this.btnSuaTTNV.Size = new System.Drawing.Size(119, 48);
+            this.btnSuaTTNV.Size = new System.Drawing.Size(89, 39);
             this.btnSuaTTNV.TabIndex = 14;
             this.btnSuaTTNV.Text = "Sửa";
             this.btnSuaTTNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -244,10 +236,9 @@
             this.btnLuuTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuuTTNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
             this.btnLuuTTNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLuuTTNV.Location = new System.Drawing.Point(1073, 143);
-            this.btnLuuTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLuuTTNV.Location = new System.Drawing.Point(805, 116);
             this.btnLuuTTNV.Name = "btnLuuTTNV";
-            this.btnLuuTTNV.Size = new System.Drawing.Size(120, 48);
+            this.btnLuuTTNV.Size = new System.Drawing.Size(90, 39);
             this.btnLuuTTNV.TabIndex = 13;
             this.btnLuuTTNV.Text = "Lưu";
             this.btnLuuTTNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -257,10 +248,9 @@
             // 
             this.picThongTinNhanVien.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.user;
             this.picThongTinNhanVien.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.picThongTinNhanVien.Location = new System.Drawing.Point(1469, 15);
-            this.picThongTinNhanVien.Margin = new System.Windows.Forms.Padding(4);
+            this.picThongTinNhanVien.Location = new System.Drawing.Point(1102, 12);
             this.picThongTinNhanVien.Name = "picThongTinNhanVien";
-            this.picThongTinNhanVien.Size = new System.Drawing.Size(241, 185);
+            this.picThongTinNhanVien.Size = new System.Drawing.Size(181, 150);
             this.picThongTinNhanVien.TabIndex = 12;
             this.picThongTinNhanVien.TabStop = false;
             // 
@@ -269,10 +259,9 @@
             this.btnTimKiemTTNV.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnTimKiemTTNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiemTTNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconTimKiem;
-            this.btnTimKiemTTNV.Location = new System.Drawing.Point(1073, 27);
-            this.btnTimKiemTTNV.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTimKiemTTNV.Location = new System.Drawing.Point(805, 22);
             this.btnTimKiemTTNV.Name = "btnTimKiemTTNV";
-            this.btnTimKiemTTNV.Size = new System.Drawing.Size(169, 46);
+            this.btnTimKiemTTNV.Size = new System.Drawing.Size(127, 37);
             this.btnTimKiemTTNV.TabIndex = 10;
             this.btnTimKiemTTNV.Text = "Tìm Kiếm";
             this.btnTimKiemTTNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -281,11 +270,11 @@
             // 
             // frmXemThongTinNhanVien
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1779, 913);
+            this.ClientSize = new System.Drawing.Size(1334, 742);
             this.Controls.Add(this.btnHuyTTNV);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panThongTinNhanVien);
             this.Controls.Add(this.btnXoaTTNV);
             this.Controls.Add(this.btnThemTTNV);
             this.Controls.Add(this.btnBackTTNV);
@@ -294,10 +283,10 @@
             this.Controls.Add(this.picThongTinNhanVien);
             this.Controls.Add(this.txtTimKiemTTNV);
             this.Controls.Add(this.btnTimKiemTTNV);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmXemThongTinNhanVien";
             this.Text = "Xem thông tin nhân viên";
-            this.panel1.ResumeLayout(false);
+            this.panThongTinNhanVien.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvThongTinNhanVien)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picThongTinNhanVien)).EndInit();
             this.ResumeLayout(false);
@@ -308,7 +297,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnHuyTTNV;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panThongTinNhanVien;
         private System.Windows.Forms.DataGridView dgvThongTinNhanVien;
         private System.Windows.Forms.Button btnXoaTTNV;
         private System.Windows.Forms.Button btnThemTTNV;
