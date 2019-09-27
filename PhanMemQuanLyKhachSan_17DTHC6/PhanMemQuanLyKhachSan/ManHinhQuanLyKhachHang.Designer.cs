@@ -65,7 +65,7 @@
             this.txtTimKiem.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTimKiem.Location = new System.Drawing.Point(238, 75);
             this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(869, 37);
+            this.txtTimKiem.Size = new System.Drawing.Size(869, 31);
             this.txtTimKiem.TabIndex = 2;
             // 
             // btnLoc
@@ -73,9 +73,9 @@
             this.btnLoc.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLoc.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLoc;
             this.btnLoc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLoc.Location = new System.Drawing.Point(1201, 117);
+            this.btnLoc.Location = new System.Drawing.Point(1121, 113);
             this.btnLoc.Name = "btnLoc";
-            this.btnLoc.Size = new System.Drawing.Size(112, 37);
+            this.btnLoc.Size = new System.Drawing.Size(83, 37);
             this.btnLoc.TabIndex = 4;
             this.btnLoc.Text = "Lọc";
             this.btnLoc.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -86,9 +86,9 @@
             this.btnTimKiem.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiem.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconTimKiem;
             this.btnTimKiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTimKiem.Location = new System.Drawing.Point(1170, 74);
+            this.btnTimKiem.Location = new System.Drawing.Point(1121, 69);
             this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(160, 37);
+            this.btnTimKiem.Size = new System.Drawing.Size(132, 37);
             this.btnTimKiem.TabIndex = 3;
             this.btnTimKiem.Text = "Tìm kiếm";
             this.btnTimKiem.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -114,7 +114,7 @@
             this.lblNgayDen.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNgayDen.Location = new System.Drawing.Point(245, 121);
             this.lblNgayDen.Name = "lblNgayDen";
-            this.lblNgayDen.Size = new System.Drawing.Size(114, 29);
+            this.lblNgayDen.Size = new System.Drawing.Size(92, 24);
             this.lblNgayDen.TabIndex = 5;
             this.lblNgayDen.Text = "Ngày đến:";
             // 
@@ -123,7 +123,7 @@
             this.txtNgayDen.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDen.Location = new System.Drawing.Point(371, 118);
             this.txtNgayDen.Name = "txtNgayDen";
-            this.txtNgayDen.Size = new System.Drawing.Size(139, 32);
+            this.txtNgayDen.Size = new System.Drawing.Size(139, 27);
             this.txtNgayDen.TabIndex = 6;
             // 
             // txtNgayDi
@@ -131,7 +131,7 @@
             this.txtNgayDi.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDi.Location = new System.Drawing.Point(968, 120);
             this.txtNgayDi.Name = "txtNgayDi";
-            this.txtNgayDi.Size = new System.Drawing.Size(139, 32);
+            this.txtNgayDi.Size = new System.Drawing.Size(139, 27);
             this.txtNgayDi.TabIndex = 8;
             // 
             // lblNgayDi
@@ -140,7 +140,7 @@
             this.lblNgayDi.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNgayDi.Location = new System.Drawing.Point(851, 121);
             this.lblNgayDi.Name = "lblNgayDi";
-            this.lblNgayDi.Size = new System.Drawing.Size(96, 29);
+            this.lblNgayDi.Size = new System.Drawing.Size(78, 24);
             this.lblNgayDi.TabIndex = 7;
             this.lblNgayDi.Text = "Ngày đi:";
             // 
@@ -206,7 +206,7 @@
             // 
             // frmQuanLyKhachHang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1362, 690);
             this.Controls.Add(this.dgvQuanLyKhachHang);

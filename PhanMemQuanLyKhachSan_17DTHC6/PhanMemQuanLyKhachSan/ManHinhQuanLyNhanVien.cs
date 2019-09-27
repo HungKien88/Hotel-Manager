@@ -43,14 +43,24 @@ namespace PhanMemQuanLyKhachSan
 
         private void btnCapnhatthongtinnv_Click(object sender, EventArgs e)
         {
-            frmXemThongTinNhanVien xttnv = new frmXemThongTinNhanVien();
-            xttnv.FormClosed += new FormClosedEventHandler(xttnv_FormClosed);
-            xttnv.Show();
+            frmCapNhatThongTinNhanVien cnttnv = new frmCapNhatThongTinNhanVien();
+            cnttnv.FormClosed += new FormClosedEventHandler(xttnv_FormClosed);
+            cnttnv.Show();
             this.Hide();
         }
         private void xttnv_FormClosed(object sender, FormClosedEventArgs e)
         {
             this.Show();
+        }
+
+        private void BtnCapnhatlichlvnv_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnXemLaiNV_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

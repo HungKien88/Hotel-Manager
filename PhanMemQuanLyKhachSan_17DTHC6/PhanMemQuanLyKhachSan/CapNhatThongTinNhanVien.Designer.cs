@@ -1,6 +1,6 @@
 ﻿namespace PhanMemQuanLyKhachSan
 {
-    partial class frmXemThongTinNhanVien
+    partial class frmCapNhatThongTinNhanVien
     {
         /// <summary>
         /// Required designer variable.
@@ -268,7 +268,7 @@
             this.btnTimKiemTTNV.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTimKiemTTNV.UseVisualStyleBackColor = true;
             // 
-            // frmXemThongTinNhanVien
+            // frmCapNhatThongTinNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -283,8 +283,8 @@
             this.Controls.Add(this.picThongTinNhanVien);
             this.Controls.Add(this.txtTimKiemTTNV);
             this.Controls.Add(this.btnTimKiemTTNV);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "frmXemThongTinNhanVien";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "frmCapNhatThongTinNhanVien";
             this.Text = "Xem thông tin nhân viên";
             this.panThongTinNhanVien.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvThongTinNhanVien)).EndInit();

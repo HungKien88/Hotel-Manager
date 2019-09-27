@@ -24,7 +24,9 @@ namespace PhanMemQuanLyKhachSan
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
-
+            frmQuanLyPhong qlp = new frmQuanLyPhong();
+            qlp.Show();
+            this.Hide();
         }
     }
 }

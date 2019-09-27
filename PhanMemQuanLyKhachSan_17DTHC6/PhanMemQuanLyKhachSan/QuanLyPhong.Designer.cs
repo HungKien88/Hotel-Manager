@@ -33,6 +33,7 @@
             this.btnCapNhatLoaiPhong = new System.Windows.Forms.Button();
             this.lblQuanLyPhong = new System.Windows.Forms.Label();
             this.dgvQuanLyPhong = new System.Windows.Forms.DataGridView();
+            this.btnTroVeCuaCTPP = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuanLyPhong)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,11 +89,25 @@
             this.dgvQuanLyPhong.Size = new System.Drawing.Size(824, 369);
             this.dgvQuanLyPhong.TabIndex = 4;
             // 
+            // btnTroVeCuaCTPP
+            // 
+            this.btnTroVeCuaCTPP.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
+            this.btnTroVeCuaCTPP.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTroVeCuaCTPP.Location = new System.Drawing.Point(12, 9);
+            this.btnTroVeCuaCTPP.Name = "btnTroVeCuaCTPP";
+            this.btnTroVeCuaCTPP.Size = new System.Drawing.Size(87, 36);
+            this.btnTroVeCuaCTPP.TabIndex = 5;
+            this.btnTroVeCuaCTPP.Text = "Trở về";
+            this.btnTroVeCuaCTPP.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnTroVeCuaCTPP.UseVisualStyleBackColor = true;
+            this.btnTroVeCuaCTPP.Click += new System.EventHandler(this.BtnTroVeCuaCTPP_Click);
+            // 
             // frmQuanLyPhong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1182, 537);
+            this.Controls.Add(this.btnTroVeCuaCTPP);
             this.Controls.Add(this.dgvQuanLyPhong);
             this.Controls.Add(this.lblQuanLyPhong);
             this.Controls.Add(this.btnCapNhatLoaiPhong);
@@ -112,5 +127,6 @@
         private System.Windows.Forms.Button btnCapNhatLoaiPhong;
         private System.Windows.Forms.Label lblQuanLyPhong;
         private System.Windows.Forms.DataGridView dgvQuanLyPhong;
+        private System.Windows.Forms.Button btnTroVeCuaCTPP;
     }
 }

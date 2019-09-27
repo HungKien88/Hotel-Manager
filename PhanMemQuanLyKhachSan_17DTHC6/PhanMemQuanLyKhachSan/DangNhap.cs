@@ -67,5 +67,12 @@ namespace PhanMemQuanLyKhachSan
         {
             txtMatKhau.UseSystemPasswordChar = true;
         }
+
+        private void BtnDangNhap_Click(object sender, EventArgs e)
+        {
+            frmManHinhChinh mhc = new frmManHinhChinh();
+            mhc.Show();
+            this.Hide();
+        }
     }
 }

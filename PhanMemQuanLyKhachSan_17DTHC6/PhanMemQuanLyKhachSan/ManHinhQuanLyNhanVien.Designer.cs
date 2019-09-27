@@ -61,6 +61,7 @@
             this.btnCapnhatlichlvnv.TabIndex = 2;
             this.btnCapnhatlichlvnv.Text = "Cập nhật lịch làm việc";
             this.btnCapnhatlichlvnv.UseVisualStyleBackColor = true;
+            this.btnCapnhatlichlvnv.Click += new System.EventHandler(this.BtnCapnhatlichlvnv_Click);
             // 
             // btnGiaocanv
             // 
@@ -88,7 +89,7 @@
             this.lblQuanLyNhanVien.Font = new System.Drawing.Font("Palatino Linotype", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuanLyNhanVien.Location = new System.Drawing.Point(441, 30);
             this.lblQuanLyNhanVien.Name = "lblQuanLyNhanVien";
-            this.lblQuanLyNhanVien.Size = new System.Drawing.Size(314, 37);
+            this.lblQuanLyNhanVien.Size = new System.Drawing.Size(245, 29);
             this.lblQuanLyNhanVien.TabIndex = 1;
             this.lblQuanLyNhanVien.Text = "QUẢN LÝ NHÂN VIÊN";
             // 
@@ -123,6 +124,7 @@
             this.btnXemLaiNV.TabIndex = 2;
             this.btnXemLaiNV.Text = "Xem lại";
             this.btnXemLaiNV.UseVisualStyleBackColor = true;
+            this.btnXemLaiNV.Click += new System.EventHandler(this.BtnXemLaiNV_Click);
             // 
             // btnTroVeCuaQLNV
             // 
@@ -139,7 +141,7 @@
             // 
             // frmQuanLyNhanVien
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 584);
             this.ControlBox = false;

@@ -125,13 +125,14 @@
             this.btnThoatCapNhatVatTu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoatCapNhatVatTu.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
             this.btnThoatCapNhatVatTu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThoatCapNhatVatTu.Location = new System.Drawing.Point(840, 577);
+            this.btnThoatCapNhatVatTu.Location = new System.Drawing.Point(12, 9);
             this.btnThoatCapNhatVatTu.Name = "btnThoatCapNhatVatTu";
             this.btnThoatCapNhatVatTu.Size = new System.Drawing.Size(109, 45);
             this.btnThoatCapNhatVatTu.TabIndex = 10;
-            this.btnThoatCapNhatVatTu.Text = "Thoát";
+            this.btnThoatCapNhatVatTu.Text = "Trở Về";
             this.btnThoatCapNhatVatTu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnThoatCapNhatVatTu.UseVisualStyleBackColor = true;
+            this.btnThoatCapNhatVatTu.Click += new System.EventHandler(this.BtnThoatCapNhatVatTu_Click);
             // 
             // label2
             // 

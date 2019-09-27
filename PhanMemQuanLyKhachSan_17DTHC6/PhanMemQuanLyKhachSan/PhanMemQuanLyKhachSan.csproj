@@ -69,11 +69,11 @@
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmThongKe.cs">
+    <Compile Include="ThongKe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmThongKe.Designer.cs">
-      <DependentUpon>frmThongKe.cs</DependentUpon>
+    <Compile Include="ThongKe.Designer.cs">
+      <DependentUpon>ThongKe.cs</DependentUpon>
     </Compile>
     <Compile Include="LienHe.cs">
       <SubType>Form</SubType>
@@ -124,11 +124,11 @@
     <Compile Include="QuanLyPhong.Designer.cs">
       <DependentUpon>QuanLyPhong.cs</DependentUpon>
     </Compile>
-    <Compile Include="XemThongTinNhanVien.cs">
+    <Compile Include="CapNhatThongTinNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="XemThongTinNhanVien.Designer.cs">
-      <DependentUpon>XemThongTinNhanVien.cs</DependentUpon>
+    <Compile Include="CapNhatThongTinNhanVien.Designer.cs">
+      <DependentUpon>CapNhatThongTinNhanVien.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="CapNhapLoaiPhong.resx">
       <DependentUpon>CapNhapLoaiPhong.cs</DependentUpon>
@@ -142,8 +142,8 @@
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmThongKe.resx">
-      <DependentUpon>frmThongKe.cs</DependentUpon>
+    <EmbeddedResource Include="ThongKe.resx">
+      <DependentUpon>ThongKe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LienHe.resx">
       <DependentUpon>LienHe.cs</DependentUpon>
@@ -171,8 +171,8 @@
     <EmbeddedResource Include="QuanLyPhong.resx">
       <DependentUpon>QuanLyPhong.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="XemThongTinNhanVien.resx">
-      <DependentUpon>XemThongTinNhanVien.cs</DependentUpon>
+    <EmbeddedResource Include="CapNhatThongTinNhanVien.resx">
+      <DependentUpon>CapNhatThongTinNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
