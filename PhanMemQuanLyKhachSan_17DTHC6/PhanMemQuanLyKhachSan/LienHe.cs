@@ -16,5 +16,10 @@ namespace PhanMemQuanLyKhachSan
         {
             InitializeComponent();
         }
+
+        private void FrmLienHe_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

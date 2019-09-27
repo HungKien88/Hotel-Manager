@@ -55,6 +55,7 @@
             // 
             // btnCapnhatlichlvnv
             // 
+            this.btnCapnhatlichlvnv.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCapnhatlichlvnv.Location = new System.Drawing.Point(6, 72);
             this.btnCapnhatlichlvnv.Name = "btnCapnhatlichlvnv";
             this.btnCapnhatlichlvnv.Size = new System.Drawing.Size(256, 46);
@@ -65,6 +66,7 @@
             // 
             // btnGiaocanv
             // 
+            this.btnGiaocanv.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGiaocanv.Location = new System.Drawing.Point(6, 132);
             this.btnGiaocanv.Name = "btnGiaocanv";
             this.btnGiaocanv.Size = new System.Drawing.Size(256, 46);
@@ -75,6 +77,7 @@
             // 
             // btnCapnhatthongtinnv
             // 
+            this.btnCapnhatthongtinnv.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCapnhatthongtinnv.Location = new System.Drawing.Point(3, 15);
             this.btnCapnhatthongtinnv.Name = "btnCapnhatthongtinnv";
             this.btnCapnhatthongtinnv.Size = new System.Drawing.Size(256, 46);
@@ -118,6 +121,7 @@
             // 
             // btnXemLaiNV
             // 
+            this.btnXemLaiNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemLaiNV.Location = new System.Drawing.Point(59, 505);
             this.btnXemLaiNV.Name = "btnXemLaiNV";
             this.btnXemLaiNV.Size = new System.Drawing.Size(190, 30);
@@ -128,11 +132,12 @@
             // 
             // btnTroVeCuaQLNV
             // 
+            this.btnTroVeCuaQLNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTroVeCuaQLNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
             this.btnTroVeCuaQLNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTroVeCuaQLNV.Location = new System.Drawing.Point(12, 12);
             this.btnTroVeCuaQLNV.Name = "btnTroVeCuaQLNV";
-            this.btnTroVeCuaQLNV.Size = new System.Drawing.Size(101, 26);
+            this.btnTroVeCuaQLNV.Size = new System.Drawing.Size(101, 32);
             this.btnTroVeCuaQLNV.TabIndex = 4;
             this.btnTroVeCuaQLNV.Text = "Trở về";
             this.btnTroVeCuaQLNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -153,6 +158,7 @@
             this.Controls.Add(this.pnlQuanLyNhanVien);
             this.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmQuanLyNhanVien";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ManHinhQuanLyNhanVien";
             this.pnlQuanLyNhanVien.ResumeLayout(false);
             this.pnlQLNV.ResumeLayout(false);

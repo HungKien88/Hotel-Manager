@@ -114,6 +114,7 @@
             this.Controls.Add(this.btnCapNhatDVPhong);
             this.Controls.Add(this.btnCapNhatVatTu);
             this.Name = "frmQuanLyPhong";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Màn Hình Quản Lý Phòng";
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuanLyPhong)).EndInit();
             this.ResumeLayout(false);

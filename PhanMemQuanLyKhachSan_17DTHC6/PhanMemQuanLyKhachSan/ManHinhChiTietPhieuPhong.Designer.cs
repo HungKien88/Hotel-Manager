@@ -527,7 +527,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(870, 749);
+            this.ClientSize = new System.Drawing.Size(883, 766);
             this.Controls.Add(this.txtTongTien);
             this.Controls.Add(this.lblNhanVien);
             this.Controls.Add(this.lblTongTien);
@@ -574,6 +574,7 @@
             this.Controls.Add(this.btnTroVeCuaCTPP);
             this.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmChiTietPhieuPhong";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ManHinhChiTietPhieuPhong";
             ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietDichVu)).EndInit();
             this.ResumeLayout(false);

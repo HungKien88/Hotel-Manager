@@ -19,7 +19,9 @@ namespace PhanMemQuanLyKhachSan
 
         private void Button1_Click(object sender, EventArgs e)
         {
-
+            frmQuanLyPhong mqv = new frmQuanLyPhong();
+            mqv.Show();
+            this.Hide();
         }
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
@@ -28,5 +30,6 @@ namespace PhanMemQuanLyKhachSan
             qlp.Show();
             this.Hide();
         }
+        
     }
 }

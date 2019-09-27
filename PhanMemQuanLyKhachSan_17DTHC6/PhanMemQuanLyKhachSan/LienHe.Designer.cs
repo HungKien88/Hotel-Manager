@@ -83,7 +83,7 @@
             this.lblNamPhatHanh.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNamPhatHanh.Location = new System.Drawing.Point(521, 147);
             this.lblNamPhatHanh.Name = "lblNamPhatHanh";
-            this.lblNamPhatHanh.Size = new System.Drawing.Size(256, 27);
+            this.lblNamPhatHanh.Size = new System.Drawing.Size(201, 22);
             this.lblNamPhatHanh.TabIndex = 3;
             this.lblNamPhatHanh.Text = "Năm phát hành: 10/10/2019";
             this.lblNamPhatHanh.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -94,7 +94,7 @@
             this.lblPhatTrienBoi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPhatTrienBoi.Location = new System.Drawing.Point(12, 215);
             this.lblPhatTrienBoi.Name = "lblPhatTrienBoi";
-            this.lblPhatTrienBoi.Size = new System.Drawing.Size(136, 27);
+            this.lblPhatTrienBoi.Size = new System.Drawing.Size(103, 22);
             this.lblPhatTrienBoi.TabIndex = 4;
             this.lblPhatTrienBoi.Text = "Phát triển bởi";
             this.lblPhatTrienBoi.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -105,7 +105,7 @@
             this.lblPTBDottedLine.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPTBDottedLine.Location = new System.Drawing.Point(12, 230);
             this.lblPTBDottedLine.Name = "lblPTBDottedLine";
-            this.lblPTBDottedLine.Size = new System.Drawing.Size(174, 27);
+            this.lblPTBDottedLine.Size = new System.Drawing.Size(145, 22);
             this.lblPTBDottedLine.TabIndex = 5;
             this.lblPTBDottedLine.Text = "---------------------------";
             this.lblPTBDottedLine.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -116,7 +116,7 @@
             this.lblLHDottedLine.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLHDottedLine.Location = new System.Drawing.Point(568, 230);
             this.lblLHDottedLine.Name = "lblLHDottedLine";
-            this.lblLHDottedLine.Size = new System.Drawing.Size(174, 27);
+            this.lblLHDottedLine.Size = new System.Drawing.Size(145, 22);
             this.lblLHDottedLine.TabIndex = 6;
             this.lblLHDottedLine.Text = "---------------------------";
             this.lblLHDottedLine.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -127,7 +127,7 @@
             this.lblLienHe.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLienHe.Location = new System.Drawing.Point(568, 215);
             this.lblLienHe.Name = "lblLienHe";
-            this.lblLienHe.Size = new System.Drawing.Size(79, 27);
+            this.lblLienHe.Size = new System.Drawing.Size(60, 22);
             this.lblLienHe.TabIndex = 7;
             this.lblLienHe.Text = "Liên hệ";
             this.lblLienHe.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -138,7 +138,7 @@
             this.lblNNTT.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNNTT.Location = new System.Drawing.Point(12, 257);
             this.lblNNTT.Name = "lblNNTT";
-            this.lblNNTT.Size = new System.Drawing.Size(253, 27);
+            this.lblNNTT.Size = new System.Drawing.Size(196, 22);
             this.lblNNTT.TabIndex = 8;
             this.lblNNTT.Text = "1. Nguyễn Ngọc Thủy Tiên";
             this.lblNNTT.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -149,7 +149,7 @@
             this.lblLDP.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLDP.Location = new System.Drawing.Point(14, 299);
             this.lblLDP.Name = "lblLDP";
-            this.lblLDP.Size = new System.Drawing.Size(186, 27);
+            this.lblLDP.Size = new System.Drawing.Size(145, 22);
             this.lblLDP.TabIndex = 9;
             this.lblLDP.Text = "2. Lê Đồng Phương";
             this.lblLDP.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -160,7 +160,7 @@
             this.lblNHD.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNHD.Location = new System.Drawing.Point(14, 338);
             this.lblNHD.Name = "lblNHD";
-            this.lblNHD.Size = new System.Drawing.Size(188, 27);
+            this.lblNHD.Size = new System.Drawing.Size(147, 22);
             this.lblNHD.TabIndex = 10;
             this.lblNHD.Text = "3. Nguyễn Hữu Đạt";
             this.lblNHD.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -171,7 +171,7 @@
             this.lblDTTL.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDTTL.Location = new System.Drawing.Point(14, 376);
             this.lblDTTL.Name = "lblDTTL";
-            this.lblDTTL.Size = new System.Drawing.Size(224, 27);
+            this.lblDTTL.Size = new System.Drawing.Size(173, 22);
             this.lblDTTL.TabIndex = 11;
             this.lblDTTL.Text = "4. Đoàn Thị Thanh Lam";
             this.lblDTTL.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -226,7 +226,7 @@
             // 
             // frmLienHe
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(857, 442);
             this.Controls.Add(this.lblWebsite);
@@ -247,7 +247,9 @@
             this.Controls.Add(this.lblPTBDottedLine);
             this.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmLienHe";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Liên Hệ";
+            this.Load += new System.EventHandler(this.FrmLienHe_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

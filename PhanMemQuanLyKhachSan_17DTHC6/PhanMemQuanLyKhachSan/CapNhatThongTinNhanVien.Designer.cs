@@ -285,6 +285,7 @@
             this.Controls.Add(this.btnTimKiemTTNV);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmCapNhatThongTinNhanVien";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Xem thông tin nhân viên";
             this.panThongTinNhanVien.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvThongTinNhanVien)).EndInit();

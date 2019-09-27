@@ -179,6 +179,7 @@
             this.Controls.Add(this.lblChonSoPhong);
             this.Controls.Add(this.lblCapNhatLoaiPhong);
             this.Name = "frmCapNhatLoaiPhong";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cập Nhật Loại Phòng";
             this.ResumeLayout(false);
             this.PerformLayout();

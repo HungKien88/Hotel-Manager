@@ -64,7 +64,7 @@
             this.txtTenDangNhap.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenDangNhap.ForeColor = System.Drawing.Color.Silver;
             this.txtTenDangNhap.Location = new System.Drawing.Point(69, 101);
-            this.txtTenDangNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenDangNhap.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenDangNhap.Name = "txtTenDangNhap";
             this.txtTenDangNhap.Size = new System.Drawing.Size(281, 24);
             this.txtTenDangNhap.TabIndex = 1;
@@ -77,7 +77,7 @@
             this.pnlTenDangNhap.BackColor = System.Drawing.Color.DarkRed;
             this.pnlTenDangNhap.ForeColor = System.Drawing.Color.Peru;
             this.pnlTenDangNhap.Location = new System.Drawing.Point(69, 124);
-            this.pnlTenDangNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlTenDangNhap.Margin = new System.Windows.Forms.Padding(2);
             this.pnlTenDangNhap.Name = "pnlTenDangNhap";
             this.pnlTenDangNhap.Size = new System.Drawing.Size(281, 2);
             this.pnlTenDangNhap.TabIndex = 2;
@@ -89,7 +89,7 @@
             this.txtMatKhau.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMatKhau.ForeColor = System.Drawing.Color.Silver;
             this.txtMatKhau.Location = new System.Drawing.Point(69, 156);
-            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(2);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.Size = new System.Drawing.Size(251, 24);
             this.txtMatKhau.TabIndex = 4;
@@ -102,7 +102,7 @@
             this.btnDangNhap.BackColor = System.Drawing.Color.IndianRed;
             this.btnDangNhap.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangNhap.Location = new System.Drawing.Point(100, 272);
-            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(2);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(166, 37);
             this.btnDangNhap.TabIndex = 8;
@@ -115,7 +115,7 @@
             this.btnQuenMatKhau.BackColor = System.Drawing.Color.IndianRed;
             this.btnQuenMatKhau.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuenMatKhau.Location = new System.Drawing.Point(100, 314);
-            this.btnQuenMatKhau.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnQuenMatKhau.Margin = new System.Windows.Forms.Padding(2);
             this.btnQuenMatKhau.Name = "btnQuenMatKhau";
             this.btnQuenMatKhau.Size = new System.Drawing.Size(166, 37);
             this.btnQuenMatKhau.TabIndex = 9;
@@ -138,7 +138,7 @@
             this.btnDangKy.BackColor = System.Drawing.Color.IndianRed;
             this.btnDangKy.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangKy.Location = new System.Drawing.Point(100, 432);
-            this.btnDangKy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDangKy.Margin = new System.Windows.Forms.Padding(2);
             this.btnDangKy.Name = "btnDangKy";
             this.btnDangKy.Size = new System.Drawing.Size(166, 37);
             this.btnDangKy.TabIndex = 11;
@@ -150,7 +150,7 @@
             this.pnlMatKhau.BackColor = System.Drawing.Color.DarkRed;
             this.pnlMatKhau.ForeColor = System.Drawing.Color.Peru;
             this.pnlMatKhau.Location = new System.Drawing.Point(69, 185);
-            this.pnlMatKhau.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlMatKhau.Margin = new System.Windows.Forms.Padding(2);
             this.pnlMatKhau.Name = "pnlMatKhau";
             this.pnlMatKhau.Size = new System.Drawing.Size(281, 2);
             this.pnlMatKhau.TabIndex = 12;
@@ -162,7 +162,7 @@
             this.btnHienMatKhau.FlatAppearance.BorderSize = 0;
             this.btnHienMatKhau.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHienMatKhau.Location = new System.Drawing.Point(325, 167);
-            this.btnHienMatKhau.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHienMatKhau.Margin = new System.Windows.Forms.Padding(2);
             this.btnHienMatKhau.Name = "btnHienMatKhau";
             this.btnHienMatKhau.Size = new System.Drawing.Size(26, 17);
             this.btnHienMatKhau.TabIndex = 7;
@@ -174,7 +174,7 @@
             // 
             this.picMatKhau.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconPassword;
             this.picMatKhau.Location = new System.Drawing.Point(22, 156);
-            this.picMatKhau.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.picMatKhau.Margin = new System.Windows.Forms.Padding(2);
             this.picMatKhau.Name = "picMatKhau";
             this.picMatKhau.Size = new System.Drawing.Size(30, 31);
             this.picMatKhau.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -185,7 +185,7 @@
             // 
             this.picTenDangNhap.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconUser;
             this.picTenDangNhap.Location = new System.Drawing.Point(22, 101);
-            this.picTenDangNhap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.picTenDangNhap.Margin = new System.Windows.Forms.Padding(2);
             this.picTenDangNhap.Name = "picTenDangNhap";
             this.picTenDangNhap.Size = new System.Drawing.Size(30, 31);
             this.picTenDangNhap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -210,6 +210,7 @@
             this.Controls.Add(this.txtTenDangNhap);
             this.Controls.Add(this.lblDangNhap);
             this.Name = "frmDangNhap";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng Nhập";
             ((System.ComponentModel.ISupportInitialize)(this.picMatKhau)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTenDangNhap)).EndInit();

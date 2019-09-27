@@ -222,10 +222,11 @@
             this.lblKhachSan.Location = new System.Drawing.Point(0, 0);
             this.lblKhachSan.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblKhachSan.Name = "lblKhachSan";
-            this.lblKhachSan.Size = new System.Drawing.Size(1028, 49);
+            this.lblKhachSan.Size = new System.Drawing.Size(1357, 49);
             this.lblKhachSan.TabIndex = 0;
             this.lblKhachSan.Text = "Khách Sạn Sài Gòn Odyssey Hotel";
             this.lblKhachSan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblKhachSan.Click += new System.EventHandler(this.LblKhachSan_Click);
             // 
             // msManhinhchinh
             // 
@@ -1240,7 +1241,7 @@
             // 
             // lblGhiChu4
             // 
-            this.lblGhiChu4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGhiChu4.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGhiChu4.Location = new System.Drawing.Point(2, 243);
             this.lblGhiChu4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblGhiChu4.Name = "lblGhiChu4";
@@ -1251,7 +1252,7 @@
             // 
             // lblTien4
             // 
-            this.lblTien4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTien4.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTien4.Location = new System.Drawing.Point(2, 219);
             this.lblTien4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTien4.Name = "lblTien4";
@@ -1262,7 +1263,7 @@
             // 
             // lblNgayDi4
             // 
-            this.lblNgayDi4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNgayDi4.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNgayDi4.Location = new System.Drawing.Point(2, 194);
             this.lblNgayDi4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNgayDi4.Name = "lblNgayDi4";
@@ -1273,7 +1274,7 @@
             // 
             // lblNgayDen4
             // 
-            this.lblNgayDen4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNgayDen4.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNgayDen4.Location = new System.Drawing.Point(2, 170);
             this.lblNgayDen4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNgayDen4.Name = "lblNgayDen4";
@@ -1284,7 +1285,7 @@
             // 
             // lblQuocTich4
             // 
-            this.lblQuocTich4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuocTich4.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuocTich4.Location = new System.Drawing.Point(2, 145);
             this.lblQuocTich4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblQuocTich4.Name = "lblQuocTich4";
@@ -1295,7 +1296,7 @@
             // 
             // lblSoKhach4
             // 
-            this.lblSoKhach4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSoKhach4.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSoKhach4.Location = new System.Drawing.Point(2, 121);
             this.lblSoKhach4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSoKhach4.Name = "lblSoKhach4";
@@ -1306,7 +1307,7 @@
             // 
             // lblTenKhach4
             // 
-            this.lblTenKhach4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenKhach4.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTenKhach4.Location = new System.Drawing.Point(2, 97);
             this.lblTenKhach4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTenKhach4.Name = "lblTenKhach4";
@@ -1317,7 +1318,7 @@
             // 
             // lblTenBooking4
             // 
-            this.lblTenBooking4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTenBooking4.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTenBooking4.Location = new System.Drawing.Point(2, 72);
             this.lblTenBooking4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTenBooking4.Name = "lblTenBooking4";
@@ -2355,7 +2356,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1028, 609);
+            this.ClientSize = new System.Drawing.Size(1357, 861);
             this.Controls.Add(this.pnlPhong8);
             this.Controls.Add(this.pnlPhong7);
             this.Controls.Add(this.pnlPhong6);
@@ -2371,6 +2372,7 @@
             this.Name = "frmManHinhChinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Màn Hình Chính";
+            this.Load += new System.EventHandler(this.FrmManHinhChinh_Load);
             this.msManhinhchinh.ResumeLayout(false);
             this.msManhinhchinh.PerformLayout();
             this.pnlHientrang.ResumeLayout(false);

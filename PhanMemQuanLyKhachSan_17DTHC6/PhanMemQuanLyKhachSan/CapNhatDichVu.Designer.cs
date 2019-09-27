@@ -158,6 +158,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblDichVuKhachSan);
             this.Name = "frmCapNhatDichVu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cập Nhật Dịch Vụ";
             ((System.ComponentModel.ISupportInitialize)(this.dgvCapNhatDichVu)).EndInit();
             this.ResumeLayout(false);

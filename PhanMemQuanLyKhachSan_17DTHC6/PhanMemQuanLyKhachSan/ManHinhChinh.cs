@@ -124,9 +124,19 @@ namespace PhanMemQuanLyKhachSan
             this.Show();
         }
 
-       /* private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
+        private void LblKhachSan_Click(object sender, EventArgs e)
         {
 
-        }*/
+        }
+
+        private void FrmManHinhChinh_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        /* private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
+         {
+
+         }*/
     }
 }
