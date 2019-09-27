@@ -37,13 +37,14 @@
             this.rdoDeluxe = new System.Windows.Forms.RadioButton();
             this.btnLuuCapNhatLoaiPhong = new System.Windows.Forms.Button();
             this.btnHuyCapNhatLoaiPhong = new System.Windows.Forms.Button();
+            this.btnTroVeCuaQLNV = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblCapNhatLoaiPhong
             // 
             this.lblCapNhatLoaiPhong.AutoSize = true;
             this.lblCapNhatLoaiPhong.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCapNhatLoaiPhong.Location = new System.Drawing.Point(135, 9);
+            this.lblCapNhatLoaiPhong.Location = new System.Drawing.Point(188, 9);
             this.lblCapNhatLoaiPhong.Name = "lblCapNhatLoaiPhong";
             this.lblCapNhatLoaiPhong.Size = new System.Drawing.Size(244, 32);
             this.lblCapNhatLoaiPhong.TabIndex = 0;
@@ -149,11 +150,25 @@
             this.btnHuyCapNhatLoaiPhong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnHuyCapNhatLoaiPhong.UseVisualStyleBackColor = true;
             // 
+            // btnTroVeCuaQLNV
+            // 
+            this.btnTroVeCuaQLNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
+            this.btnTroVeCuaQLNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTroVeCuaQLNV.Location = new System.Drawing.Point(12, 9);
+            this.btnTroVeCuaQLNV.Name = "btnTroVeCuaQLNV";
+            this.btnTroVeCuaQLNV.Size = new System.Drawing.Size(81, 33);
+            this.btnTroVeCuaQLNV.TabIndex = 9;
+            this.btnTroVeCuaQLNV.Text = "Trở về";
+            this.btnTroVeCuaQLNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnTroVeCuaQLNV.UseVisualStyleBackColor = true;
+            this.btnTroVeCuaQLNV.Click += new System.EventHandler(this.BtnTroVeCuaQLNV_Click);
+            // 
             // frmCapNhatLoaiPhong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(548, 491);
+            this.ClientSize = new System.Drawing.Size(568, 491);
+            this.Controls.Add(this.btnTroVeCuaQLNV);
             this.Controls.Add(this.btnHuyCapNhatLoaiPhong);
             this.Controls.Add(this.btnLuuCapNhatLoaiPhong);
             this.Controls.Add(this.rdoDeluxe);
@@ -181,5 +196,6 @@
         private System.Windows.Forms.RadioButton rdoDeluxe;
         private System.Windows.Forms.Button btnLuuCapNhatLoaiPhong;
         private System.Windows.Forms.Button btnHuyCapNhatLoaiPhong;
+        private System.Windows.Forms.Button btnTroVeCuaQLNV;
     }
 }
