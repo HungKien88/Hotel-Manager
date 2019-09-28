@@ -32,8 +32,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -68,6 +77,24 @@
     </Compile>
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatKhau.cs">
+      <DependentUpon>PMQLKS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PMQLKS.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMQLKS.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PMQLKS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMQLKS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PMQLKS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMQLKS.edmx</DependentUpon>
     </Compile>
     <Compile Include="ThongKe.cs">
       <SubType>Form</SubType>
@@ -174,6 +201,13 @@
     <EmbeddedResource Include="CapNhatThongTinNhanVien.resx">
       <DependentUpon>CapNhatThongTinNhanVien.cs</DependentUpon>
     </EmbeddedResource>
+    <EntityDeploy Include="PMQLKS.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PMQLKS.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="PMQLKS.edmx.diagram">
+      <DependentUpon>PMQLKS.edmx</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -237,6 +271,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\iconWeb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PMQLKS.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>PMQLKS.Context.cs</LastGenOutput>
+      <DependentUpon>PMQLKS.edmx</DependentUpon>
+    </Content>
+    <Content Include="PMQLKS.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PMQLKS.edmx</DependentUpon>
+      <LastGenOutput>PMQLKS.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
