@@ -60,10 +60,10 @@
             this.txtSoTienChiToi = new System.Windows.Forms.TextBox();
             this.tblGiaoCa2 = new System.Windows.Forms.TableLayoutPanel();
             this.cdrGiaoCa = new System.Windows.Forms.MonthCalendar();
-            this.btnLuuGiaoCa = new System.Windows.Forms.Button();
             this.btnXemLai = new System.Windows.Forms.Button();
             this.dtpGiaoCa = new System.Windows.Forms.DateTimePicker();
             this.btnTroVeCuaQLNV = new System.Windows.Forms.Button();
+            this.btnLuuGiaoCa = new System.Windows.Forms.Button();
             this.pnlGiaoCa.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.tblGiaoCa.SuspendLayout();
@@ -79,8 +79,9 @@
             this.pnlGiaoCa.Controls.Add(this.dtpGiaoCa);
             this.pnlGiaoCa.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlGiaoCa.Location = new System.Drawing.Point(0, 0);
+            this.pnlGiaoCa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlGiaoCa.Name = "pnlGiaoCa";
-            this.pnlGiaoCa.Size = new System.Drawing.Size(1351, 498);
+            this.pnlGiaoCa.Size = new System.Drawing.Size(1801, 613);
             this.pnlGiaoCa.TabIndex = 1;
             // 
             // tableLayoutPanel3
@@ -90,23 +91,25 @@
             this.tableLayoutPanel3.ColumnCount = 3;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.03922F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.96078F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 327F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 445F));
             this.tableLayoutPanel3.Controls.Add(this.lblSang, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.lblTrua, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.lblToi, 2, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(134, 51);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(179, 63);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(937, 44);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1249, 54);
             this.tableLayoutPanel3.TabIndex = 8;
             // 
             // lblSang
             // 
             this.lblSang.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSang.Location = new System.Drawing.Point(4, 1);
+            this.lblSang.Location = new System.Drawing.Point(5, 1);
+            this.lblSang.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSang.Name = "lblSang";
-            this.lblSang.Size = new System.Drawing.Size(285, 27);
+            this.lblSang.Size = new System.Drawing.Size(376, 33);
             this.lblSang.TabIndex = 5;
             this.lblSang.Text = "Sáng";
             this.lblSang.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -115,9 +118,10 @@
             // lblTrua
             // 
             this.lblTrua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTrua.Location = new System.Drawing.Point(296, 1);
+            this.lblTrua.Location = new System.Drawing.Point(390, 1);
+            this.lblTrua.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTrua.Name = "lblTrua";
-            this.lblTrua.Size = new System.Drawing.Size(299, 27);
+            this.lblTrua.Size = new System.Drawing.Size(399, 33);
             this.lblTrua.TabIndex = 6;
             this.lblTrua.Text = "Trưa";
             this.lblTrua.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -125,9 +129,10 @@
             // lblToi
             // 
             this.lblToi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblToi.Location = new System.Drawing.Point(611, 1);
+            this.lblToi.Location = new System.Drawing.Point(806, 1);
+            this.lblToi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblToi.Name = "lblToi";
-            this.lblToi.Size = new System.Drawing.Size(310, 27);
+            this.lblToi.Size = new System.Drawing.Size(413, 33);
             this.lblToi.TabIndex = 7;
             this.lblToi.Text = "Tối";
             this.lblToi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -139,8 +144,8 @@
             this.tblGiaoCa.ColumnCount = 4;
             this.tblGiaoCa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.39614F));
             this.tblGiaoCa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75.60387F));
-            this.tblGiaoCa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 314F));
-            this.tblGiaoCa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 326F));
+            this.tblGiaoCa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 419F));
+            this.tblGiaoCa.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 443F));
             this.tblGiaoCa.Controls.Add(this.txtNoiDungTrua, 2, 2);
             this.tblGiaoCa.Controls.Add(this.txtNoiDungSang, 1, 2);
             this.tblGiaoCa.Controls.Add(this.txtTenNVNhanToi, 3, 1);
@@ -165,89 +170,98 @@
             this.tblGiaoCa.Controls.Add(this.txtSoTienConLaiToi, 3, 5);
             this.tblGiaoCa.Controls.Add(this.txtNoiDungToi, 3, 2);
             this.tblGiaoCa.Controls.Add(this.txtSoTienChiToi, 3, 4);
-            this.tblGiaoCa.Location = new System.Drawing.Point(31, 97);
+            this.tblGiaoCa.Location = new System.Drawing.Point(41, 119);
+            this.tblGiaoCa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tblGiaoCa.Name = "tblGiaoCa";
             this.tblGiaoCa.RowCount = 6;
             this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 114F));
-            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
-            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 43F));
-            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
-            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tblGiaoCa.Size = new System.Drawing.Size(1040, 348);
+            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 140F));
+            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 58F));
+            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 53F));
+            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 58F));
+            this.tblGiaoCa.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tblGiaoCa.Size = new System.Drawing.Size(1387, 428);
             this.tblGiaoCa.TabIndex = 4;
             // 
             // txtNoiDungTrua
             // 
             this.txtNoiDungTrua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNoiDungTrua.Location = new System.Drawing.Point(400, 96);
+            this.txtNoiDungTrua.Location = new System.Drawing.Point(526, 119);
+            this.txtNoiDungTrua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNoiDungTrua.Multiline = true;
             this.txtNoiDungTrua.Name = "txtNoiDungTrua";
-            this.txtNoiDungTrua.Size = new System.Drawing.Size(308, 108);
+            this.txtNoiDungTrua.Size = new System.Drawing.Size(409, 132);
             this.txtNoiDungTrua.TabIndex = 22;
             // 
             // txtNoiDungSang
             // 
             this.txtNoiDungSang.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNoiDungSang.Location = new System.Drawing.Point(101, 96);
+            this.txtNoiDungSang.Location = new System.Drawing.Point(132, 119);
+            this.txtNoiDungSang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNoiDungSang.Multiline = true;
             this.txtNoiDungSang.Name = "txtNoiDungSang";
-            this.txtNoiDungSang.Size = new System.Drawing.Size(292, 108);
+            this.txtNoiDungSang.Size = new System.Drawing.Size(385, 132);
             this.txtNoiDungSang.TabIndex = 21;
             // 
             // txtTenNVNhanToi
             // 
             this.txtTenNVNhanToi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenNVNhanToi.Location = new System.Drawing.Point(715, 50);
+            this.txtTenNVNhanToi.Location = new System.Drawing.Point(946, 62);
+            this.txtTenNVNhanToi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTenNVNhanToi.Multiline = true;
             this.txtTenNVNhanToi.Name = "txtTenNVNhanToi";
-            this.txtTenNVNhanToi.Size = new System.Drawing.Size(319, 39);
+            this.txtTenNVNhanToi.Size = new System.Drawing.Size(424, 47);
             this.txtTenNVNhanToi.TabIndex = 11;
             // 
             // txtTenNVNhanTrua
             // 
             this.txtTenNVNhanTrua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenNVNhanTrua.Location = new System.Drawing.Point(400, 50);
+            this.txtTenNVNhanTrua.Location = new System.Drawing.Point(526, 62);
+            this.txtTenNVNhanTrua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTenNVNhanTrua.Multiline = true;
             this.txtTenNVNhanTrua.Name = "txtTenNVNhanTrua";
-            this.txtTenNVNhanTrua.Size = new System.Drawing.Size(308, 39);
+            this.txtTenNVNhanTrua.Size = new System.Drawing.Size(409, 47);
             this.txtTenNVNhanTrua.TabIndex = 10;
             // 
             // txtTenNVNhanSang
             // 
             this.txtTenNVNhanSang.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenNVNhanSang.Location = new System.Drawing.Point(101, 50);
+            this.txtTenNVNhanSang.Location = new System.Drawing.Point(132, 62);
+            this.txtTenNVNhanSang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTenNVNhanSang.Multiline = true;
             this.txtTenNVNhanSang.Name = "txtTenNVNhanSang";
-            this.txtTenNVNhanSang.Size = new System.Drawing.Size(292, 39);
+            this.txtTenNVNhanSang.Size = new System.Drawing.Size(385, 47);
             this.txtTenNVNhanSang.TabIndex = 9;
             // 
             // txtTenNVTrucToi
             // 
             this.txtTenNVTrucToi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenNVTrucToi.Location = new System.Drawing.Point(715, 4);
+            this.txtTenNVTrucToi.Location = new System.Drawing.Point(946, 5);
+            this.txtTenNVTrucToi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTenNVTrucToi.Multiline = true;
             this.txtTenNVTrucToi.Name = "txtTenNVTrucToi";
-            this.txtTenNVTrucToi.Size = new System.Drawing.Size(319, 39);
+            this.txtTenNVTrucToi.Size = new System.Drawing.Size(424, 47);
             this.txtTenNVTrucToi.TabIndex = 8;
             // 
             // txtTenNVTrucTrua
             // 
             this.txtTenNVTrucTrua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenNVTrucTrua.Location = new System.Drawing.Point(400, 4);
+            this.txtTenNVTrucTrua.Location = new System.Drawing.Point(526, 5);
+            this.txtTenNVTrucTrua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTenNVTrucTrua.Multiline = true;
             this.txtTenNVTrucTrua.Name = "txtTenNVTrucTrua";
-            this.txtTenNVTrucTrua.Size = new System.Drawing.Size(308, 39);
+            this.txtTenNVTrucTrua.Size = new System.Drawing.Size(409, 47);
             this.txtTenNVTrucTrua.TabIndex = 7;
             // 
             // lblTenNVTruc
             // 
             this.lblTenNVTruc.AutoSize = true;
             this.lblTenNVTruc.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenNVTruc.Location = new System.Drawing.Point(4, 1);
+            this.lblTenNVTruc.Location = new System.Drawing.Point(5, 1);
+            this.lblTenNVTruc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTenNVTruc.Name = "lblTenNVTruc";
-            this.lblTenNVTruc.Size = new System.Drawing.Size(66, 44);
+            this.lblTenNVTruc.Size = new System.Drawing.Size(86, 54);
             this.lblTenNVTruc.TabIndex = 0;
             this.lblTenNVTruc.Text = "Tên NV trực";
             // 
@@ -255,9 +269,10 @@
             // 
             this.lblTenNVNhan.AutoSize = true;
             this.lblTenNVNhan.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTenNVNhan.Location = new System.Drawing.Point(4, 47);
+            this.lblTenNVNhan.Location = new System.Drawing.Point(5, 58);
+            this.lblTenNVNhan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTenNVNhan.Name = "lblTenNVNhan";
-            this.lblTenNVNhan.Size = new System.Drawing.Size(66, 44);
+            this.lblTenNVNhan.Size = new System.Drawing.Size(86, 54);
             this.lblTenNVNhan.TabIndex = 1;
             this.lblTenNVNhan.Text = "Tên NV nhận";
             // 
@@ -268,9 +283,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNoiDung.AutoSize = true;
             this.lblNoiDung.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoiDung.Location = new System.Drawing.Point(4, 93);
+            this.lblNoiDung.Location = new System.Drawing.Point(5, 115);
+            this.lblNoiDung.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNoiDung.Name = "lblNoiDung";
-            this.lblNoiDung.Size = new System.Drawing.Size(90, 114);
+            this.lblNoiDung.Size = new System.Drawing.Size(118, 140);
             this.lblNoiDung.TabIndex = 2;
             this.lblNoiDung.Text = "Nội dung";
             // 
@@ -278,9 +294,10 @@
             // 
             this.lblSoTienThu.AutoSize = true;
             this.lblSoTienThu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSoTienThu.Location = new System.Drawing.Point(4, 208);
+            this.lblSoTienThu.Location = new System.Drawing.Point(5, 256);
+            this.lblSoTienThu.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSoTienThu.Name = "lblSoTienThu";
-            this.lblSoTienThu.Size = new System.Drawing.Size(83, 22);
+            this.lblSoTienThu.Size = new System.Drawing.Size(110, 27);
             this.lblSoTienThu.TabIndex = 3;
             this.lblSoTienThu.Text = "Số tiền thu";
             // 
@@ -288,9 +305,10 @@
             // 
             this.lblSoTienChi.AutoSize = true;
             this.lblSoTienChi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSoTienChi.Location = new System.Drawing.Point(4, 256);
+            this.lblSoTienChi.Location = new System.Drawing.Point(5, 315);
+            this.lblSoTienChi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSoTienChi.Name = "lblSoTienChi";
-            this.lblSoTienChi.Size = new System.Drawing.Size(80, 22);
+            this.lblSoTienChi.Size = new System.Drawing.Size(106, 27);
             this.lblSoTienChi.TabIndex = 4;
             this.lblSoTienChi.Text = "Số tiền chi";
             // 
@@ -298,109 +316,121 @@
             // 
             this.lblSoTienConLai.AutoSize = true;
             this.lblSoTienConLai.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSoTienConLai.Location = new System.Drawing.Point(4, 300);
+            this.lblSoTienConLai.Location = new System.Drawing.Point(5, 369);
+            this.lblSoTienConLai.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSoTienConLai.Name = "lblSoTienConLai";
-            this.lblSoTienConLai.Size = new System.Drawing.Size(88, 44);
+            this.lblSoTienConLai.Size = new System.Drawing.Size(116, 54);
             this.lblSoTienConLai.TabIndex = 5;
             this.lblSoTienConLai.Text = "Số tiền còn lại";
             // 
             // txtTenNVTrucSang
             // 
             this.txtTenNVTrucSang.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenNVTrucSang.Location = new System.Drawing.Point(101, 4);
+            this.txtTenNVTrucSang.Location = new System.Drawing.Point(132, 5);
+            this.txtTenNVTrucSang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTenNVTrucSang.Multiline = true;
             this.txtTenNVTrucSang.Name = "txtTenNVTrucSang";
-            this.txtTenNVTrucSang.Size = new System.Drawing.Size(292, 39);
+            this.txtTenNVTrucSang.Size = new System.Drawing.Size(385, 47);
             this.txtTenNVTrucSang.TabIndex = 6;
             // 
             // txtSoTienThuSang
             // 
             this.txtSoTienThuSang.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoTienThuSang.Location = new System.Drawing.Point(101, 211);
+            this.txtSoTienThuSang.Location = new System.Drawing.Point(132, 260);
+            this.txtSoTienThuSang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSoTienThuSang.Multiline = true;
             this.txtSoTienThuSang.Name = "txtSoTienThuSang";
-            this.txtSoTienThuSang.Size = new System.Drawing.Size(292, 39);
+            this.txtSoTienThuSang.Size = new System.Drawing.Size(385, 47);
             this.txtSoTienThuSang.TabIndex = 12;
             // 
             // txtSoTienThuTrua
             // 
             this.txtSoTienThuTrua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoTienThuTrua.Location = new System.Drawing.Point(400, 211);
+            this.txtSoTienThuTrua.Location = new System.Drawing.Point(526, 260);
+            this.txtSoTienThuTrua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSoTienThuTrua.Multiline = true;
             this.txtSoTienThuTrua.Name = "txtSoTienThuTrua";
-            this.txtSoTienThuTrua.Size = new System.Drawing.Size(308, 39);
+            this.txtSoTienThuTrua.Size = new System.Drawing.Size(409, 47);
             this.txtSoTienThuTrua.TabIndex = 13;
             // 
             // txtSoTienThuToi
             // 
             this.txtSoTienThuToi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoTienThuToi.Location = new System.Drawing.Point(715, 211);
+            this.txtSoTienThuToi.Location = new System.Drawing.Point(946, 260);
+            this.txtSoTienThuToi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSoTienThuToi.Multiline = true;
             this.txtSoTienThuToi.Name = "txtSoTienThuToi";
-            this.txtSoTienThuToi.Size = new System.Drawing.Size(319, 39);
+            this.txtSoTienThuToi.Size = new System.Drawing.Size(424, 47);
             this.txtSoTienThuToi.TabIndex = 14;
             // 
             // txtSoTienChiSang
             // 
             this.txtSoTienChiSang.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoTienChiSang.Location = new System.Drawing.Point(101, 259);
+            this.txtSoTienChiSang.Location = new System.Drawing.Point(132, 319);
+            this.txtSoTienChiSang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSoTienChiSang.Multiline = true;
             this.txtSoTienChiSang.Name = "txtSoTienChiSang";
-            this.txtSoTienChiSang.Size = new System.Drawing.Size(292, 37);
+            this.txtSoTienChiSang.Size = new System.Drawing.Size(385, 45);
             this.txtSoTienChiSang.TabIndex = 15;
             // 
             // txtSoTienChiTrua
             // 
             this.txtSoTienChiTrua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoTienChiTrua.Location = new System.Drawing.Point(400, 259);
+            this.txtSoTienChiTrua.Location = new System.Drawing.Point(526, 319);
+            this.txtSoTienChiTrua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSoTienChiTrua.Multiline = true;
             this.txtSoTienChiTrua.Name = "txtSoTienChiTrua";
-            this.txtSoTienChiTrua.Size = new System.Drawing.Size(308, 37);
+            this.txtSoTienChiTrua.Size = new System.Drawing.Size(409, 45);
             this.txtSoTienChiTrua.TabIndex = 16;
             // 
             // txtSoTienConLaiSang
             // 
             this.txtSoTienConLaiSang.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoTienConLaiSang.Location = new System.Drawing.Point(101, 303);
+            this.txtSoTienConLaiSang.Location = new System.Drawing.Point(132, 373);
+            this.txtSoTienConLaiSang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSoTienConLaiSang.Multiline = true;
             this.txtSoTienConLaiSang.Name = "txtSoTienConLaiSang";
-            this.txtSoTienConLaiSang.Size = new System.Drawing.Size(292, 39);
+            this.txtSoTienConLaiSang.Size = new System.Drawing.Size(385, 47);
             this.txtSoTienConLaiSang.TabIndex = 18;
             // 
             // txtSoTienConLaiTrua
             // 
             this.txtSoTienConLaiTrua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoTienConLaiTrua.Location = new System.Drawing.Point(400, 303);
+            this.txtSoTienConLaiTrua.Location = new System.Drawing.Point(526, 373);
+            this.txtSoTienConLaiTrua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSoTienConLaiTrua.Multiline = true;
             this.txtSoTienConLaiTrua.Name = "txtSoTienConLaiTrua";
-            this.txtSoTienConLaiTrua.Size = new System.Drawing.Size(308, 39);
+            this.txtSoTienConLaiTrua.Size = new System.Drawing.Size(409, 47);
             this.txtSoTienConLaiTrua.TabIndex = 19;
             // 
             // txtSoTienConLaiToi
             // 
             this.txtSoTienConLaiToi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoTienConLaiToi.Location = new System.Drawing.Point(715, 303);
+            this.txtSoTienConLaiToi.Location = new System.Drawing.Point(946, 373);
+            this.txtSoTienConLaiToi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSoTienConLaiToi.Multiline = true;
             this.txtSoTienConLaiToi.Name = "txtSoTienConLaiToi";
-            this.txtSoTienConLaiToi.Size = new System.Drawing.Size(319, 39);
+            this.txtSoTienConLaiToi.Size = new System.Drawing.Size(424, 47);
             this.txtSoTienConLaiToi.TabIndex = 20;
             // 
             // txtNoiDungToi
             // 
             this.txtNoiDungToi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNoiDungToi.Location = new System.Drawing.Point(715, 96);
+            this.txtNoiDungToi.Location = new System.Drawing.Point(946, 119);
+            this.txtNoiDungToi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNoiDungToi.Multiline = true;
             this.txtNoiDungToi.Name = "txtNoiDungToi";
-            this.txtNoiDungToi.Size = new System.Drawing.Size(319, 108);
+            this.txtNoiDungToi.Size = new System.Drawing.Size(424, 132);
             this.txtNoiDungToi.TabIndex = 23;
             // 
             // txtSoTienChiToi
             // 
             this.txtSoTienChiToi.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoTienChiToi.Location = new System.Drawing.Point(715, 259);
+            this.txtSoTienChiToi.Location = new System.Drawing.Point(946, 319);
+            this.txtSoTienChiToi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSoTienChiToi.Multiline = true;
             this.txtSoTienChiToi.Name = "txtSoTienChiToi";
-            this.txtSoTienChiToi.Size = new System.Drawing.Size(319, 37);
+            this.txtSoTienChiToi.Size = new System.Drawing.Size(424, 45);
             this.txtSoTienChiToi.TabIndex = 17;
             // 
             // tblGiaoCa2
@@ -412,43 +442,33 @@
             this.tblGiaoCa2.Controls.Add(this.cdrGiaoCa, 0, 1);
             this.tblGiaoCa2.Controls.Add(this.btnLuuGiaoCa, 0, 2);
             this.tblGiaoCa2.Controls.Add(this.btnXemLai, 0, 0);
-            this.tblGiaoCa2.Location = new System.Drawing.Point(1073, 20);
+            this.tblGiaoCa2.Location = new System.Drawing.Point(1431, 25);
+            this.tblGiaoCa2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tblGiaoCa2.Name = "tblGiaoCa2";
             this.tblGiaoCa2.RowCount = 3;
             this.tblGiaoCa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.07229F));
             this.tblGiaoCa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 81.92771F));
-            this.tblGiaoCa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 139F));
-            this.tblGiaoCa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tblGiaoCa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tblGiaoCa2.Size = new System.Drawing.Size(247, 425);
+            this.tblGiaoCa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 171F));
+            this.tblGiaoCa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tblGiaoCa2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tblGiaoCa2.Size = new System.Drawing.Size(329, 523);
             this.tblGiaoCa2.TabIndex = 3;
             // 
             // cdrGiaoCa
             // 
-            this.cdrGiaoCa.Location = new System.Drawing.Point(10, 61);
+            this.cdrGiaoCa.Location = new System.Drawing.Point(13, 75);
+            this.cdrGiaoCa.Margin = new System.Windows.Forms.Padding(12, 11, 12, 11);
             this.cdrGiaoCa.Name = "cdrGiaoCa";
             this.cdrGiaoCa.TabIndex = 0;
-            // 
-            // btnLuuGiaoCa
-            // 
-            this.btnLuuGiaoCa.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.btnLuuGiaoCa.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLuuGiaoCa.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
-            this.btnLuuGiaoCa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLuuGiaoCa.Location = new System.Drawing.Point(47, 287);
-            this.btnLuuGiaoCa.Name = "btnLuuGiaoCa";
-            this.btnLuuGiaoCa.Size = new System.Drawing.Size(152, 36);
-            this.btnLuuGiaoCa.TabIndex = 2;
-            this.btnLuuGiaoCa.Text = "Lưu";
-            this.btnLuuGiaoCa.UseVisualStyleBackColor = true;
             // 
             // btnXemLai
             // 
             this.btnXemLai.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnXemLai.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXemLai.Location = new System.Drawing.Point(50, 4);
+            this.btnXemLai.Location = new System.Drawing.Point(66, 5);
+            this.btnXemLai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnXemLai.Name = "btnXemLai";
-            this.btnXemLai.Size = new System.Drawing.Size(147, 33);
+            this.btnXemLai.Size = new System.Drawing.Size(196, 41);
             this.btnXemLai.TabIndex = 1;
             this.btnXemLai.Text = "Xem lại";
             this.btnXemLai.UseVisualStyleBackColor = true;
@@ -461,9 +481,10 @@
             this.dtpGiaoCa.CalendarFont = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpGiaoCa.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpGiaoCa.ImeMode = System.Windows.Forms.ImeMode.Off;
-            this.dtpGiaoCa.Location = new System.Drawing.Point(134, 20);
+            this.dtpGiaoCa.Location = new System.Drawing.Point(179, 25);
+            this.dtpGiaoCa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpGiaoCa.Name = "dtpGiaoCa";
-            this.dtpGiaoCa.Size = new System.Drawing.Size(937, 29);
+            this.dtpGiaoCa.Size = new System.Drawing.Size(1248, 34);
             this.dtpGiaoCa.TabIndex = 0;
             // 
             // btnTroVeCuaQLNV
@@ -471,21 +492,37 @@
             this.btnTroVeCuaQLNV.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTroVeCuaQLNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
             this.btnTroVeCuaQLNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTroVeCuaQLNV.Location = new System.Drawing.Point(17, 20);
+            this.btnTroVeCuaQLNV.Location = new System.Drawing.Point(23, 25);
+            this.btnTroVeCuaQLNV.Margin = new System.Windows.Forms.Padding(4);
             this.btnTroVeCuaQLNV.Name = "btnTroVeCuaQLNV";
-            this.btnTroVeCuaQLNV.Size = new System.Drawing.Size(101, 37);
+            this.btnTroVeCuaQLNV.Size = new System.Drawing.Size(135, 46);
             this.btnTroVeCuaQLNV.TabIndex = 9;
             this.btnTroVeCuaQLNV.Text = "Trở về";
             this.btnTroVeCuaQLNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnTroVeCuaQLNV.UseVisualStyleBackColor = true;
             this.btnTroVeCuaQLNV.Click += new System.EventHandler(this.BtnTroVeCuaQLNV_Click);
             // 
+            // btnLuuGiaoCa
+            // 
+            this.btnLuuGiaoCa.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.btnLuuGiaoCa.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLuuGiaoCa.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
+            this.btnLuuGiaoCa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLuuGiaoCa.Location = new System.Drawing.Point(63, 354);
+            this.btnLuuGiaoCa.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLuuGiaoCa.Name = "btnLuuGiaoCa";
+            this.btnLuuGiaoCa.Size = new System.Drawing.Size(203, 44);
+            this.btnLuuGiaoCa.TabIndex = 2;
+            this.btnLuuGiaoCa.Text = "Lưu";
+            this.btnLuuGiaoCa.UseVisualStyleBackColor = true;
+            // 
             // frmGiaoCa
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1351, 498);
+            this.ClientSize = new System.Drawing.Size(1801, 613);
             this.Controls.Add(this.pnlGiaoCa);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmGiaoCa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Màn Hình Giao Ca";

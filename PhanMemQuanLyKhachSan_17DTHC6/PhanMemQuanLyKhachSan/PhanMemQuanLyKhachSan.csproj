@@ -238,6 +238,24 @@
   <ItemGroup>
     <None Include="Resources\iconWeb.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconIn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconPhongO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconPhongO1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconPhongTrong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconPhongTra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconPhongDon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
