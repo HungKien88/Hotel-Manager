@@ -273,6 +273,7 @@
     <None Include="Resources\iconWeb.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Content Include="PMQLKS.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>PMQLKS.Context.cs</LastGenOutput>
@@ -286,6 +287,24 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+=======
+    <None Include="Resources\iconIn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconPhongO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconPhongO1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconPhongTrong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconPhongTra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconPhongDon.png" />
+>>>>>>> 0826682be4d63f3da1cda3b507a86af7e85bbf81
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

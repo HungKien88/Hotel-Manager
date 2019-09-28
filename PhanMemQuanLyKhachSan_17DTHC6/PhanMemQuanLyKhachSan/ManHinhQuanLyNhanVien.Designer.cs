@@ -92,7 +92,7 @@
             this.lblQuanLyNhanVien.Font = new System.Drawing.Font("Palatino Linotype", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuanLyNhanVien.Location = new System.Drawing.Point(441, 30);
             this.lblQuanLyNhanVien.Name = "lblQuanLyNhanVien";
-            this.lblQuanLyNhanVien.Size = new System.Drawing.Size(245, 29);
+            this.lblQuanLyNhanVien.Size = new System.Drawing.Size(314, 37);
             this.lblQuanLyNhanVien.TabIndex = 1;
             this.lblQuanLyNhanVien.Text = "QUẢN LÝ NHÂN VIÊN";
             // 
@@ -113,10 +113,10 @@
             // dgvQLNV
             // 
             this.dgvQLNV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvQLNV.Location = new System.Drawing.Point(3, 72);
+            this.dgvQLNV.Location = new System.Drawing.Point(3, 3);
             this.dgvQLNV.Name = "dgvQLNV";
             this.dgvQLNV.RowTemplate.Height = 24;
-            this.dgvQLNV.Size = new System.Drawing.Size(821, 380);
+            this.dgvQLNV.Size = new System.Drawing.Size(821, 449);
             this.dgvQLNV.TabIndex = 0;
             // 
             // btnXemLaiNV
@@ -146,10 +146,9 @@
             // 
             // frmQuanLyNhanVien
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 584);
-            this.ControlBox = false;
             this.Controls.Add(this.btnTroVeCuaQLNV);
             this.Controls.Add(this.btnXemLaiNV);
             this.Controls.Add(this.pnlQLNV);
