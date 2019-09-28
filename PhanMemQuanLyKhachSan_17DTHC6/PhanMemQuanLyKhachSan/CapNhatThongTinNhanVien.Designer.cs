@@ -217,6 +217,7 @@
             this.btnBackTTNV.Text = "Back";
             this.btnBackTTNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnBackTTNV.UseVisualStyleBackColor = true;
+            this.btnBackTTNV.Click += new System.EventHandler(this.BtnBackTTNV_Click);
             // 
             // btnSuaTTNV
             // 

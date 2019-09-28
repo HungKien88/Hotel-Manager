@@ -21,5 +21,12 @@ namespace PhanMemQuanLyKhachSan
         {
 
         }
+
+        private void BtnTroVeCuaQLNV_Click(object sender, EventArgs e)
+        {
+            frmQuanLyNhanVien qlnv = new frmQuanLyNhanVien();
+            qlnv.Show();
+            this.Hide();
+        }
     }
 }

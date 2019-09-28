@@ -16,5 +16,12 @@ namespace PhanMemQuanLyKhachSan
         {
             InitializeComponent();
         }
+
+        private void BtnBackTTNV_Click(object sender, EventArgs e)
+        {
+            frmQuanLyNhanVien mhc = new frmQuanLyNhanVien();
+            mhc.Show();
+            this.Hide();
+        }
     }
 }
