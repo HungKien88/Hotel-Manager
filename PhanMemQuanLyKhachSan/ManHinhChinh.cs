@@ -149,15 +149,17 @@ namespace PhanMemQuanLyKhachSan
 
         private void cậpNhậtThôngTinNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmCapNhatThongTinNhanVien frmCapNhatThongTinNhanVien = new frmCapNhatThongTinNhanVien();
-            frmCapNhatThongTinNhanVien.Show();
+            frmQuanLyNhanVien frmNhanVien = new frmQuanLyNhanVien();
+            frmNhanVien.Show();
             this.Hide();
         }
 
 
         private void cậpNhậtLịchLàmViệcNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //Phuong show muc nay!
+            frmCapNhatLichLamViec frmcnllv = new frmCapNhatLichLamViec();
+            frmcnllv.Show();
+            this.Hide();
         }
 
         private void giaoCaToolStripMenuItem_Click(object sender, EventArgs e)

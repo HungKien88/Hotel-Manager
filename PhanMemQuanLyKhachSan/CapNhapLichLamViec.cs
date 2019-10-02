@@ -16,5 +16,17 @@ namespace PhanMemQuanLyKhachSan
         {
             InitializeComponent();
         }
+
+        private void LblLichLamViec_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnTroVeCuaCapNhatLichLamViec_Click(object sender, EventArgs e)
+        {
+            frmManHinhChinh frmback = new frmManHinhChinh();
+            frmback.Show();
+            this.Hide();
+        }
     }
 }

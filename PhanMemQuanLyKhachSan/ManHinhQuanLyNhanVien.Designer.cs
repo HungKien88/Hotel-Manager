@@ -92,7 +92,7 @@
             this.lblQuanLyNhanVien.Font = new System.Drawing.Font("Palatino Linotype", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuanLyNhanVien.Location = new System.Drawing.Point(441, 30);
             this.lblQuanLyNhanVien.Name = "lblQuanLyNhanVien";
-            this.lblQuanLyNhanVien.Size = new System.Drawing.Size(314, 37);
+            this.lblQuanLyNhanVien.Size = new System.Drawing.Size(245, 29);
             this.lblQuanLyNhanVien.TabIndex = 1;
             this.lblQuanLyNhanVien.Text = "QUẢN LÝ NHÂN VIÊN";
             // 
@@ -147,7 +147,7 @@
             // 
             // frmQuanLyNhanVien
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 584);
             this.ControlBox = false;
@@ -160,7 +160,7 @@
             this.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmQuanLyNhanVien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ManHinhQuanLyNhanVien";
+            this.Text = "Màn hình quản lý nhân viên";
             this.pnlQuanLyNhanVien.ResumeLayout(false);
             this.pnlQLNV.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvQLNV)).EndInit();
