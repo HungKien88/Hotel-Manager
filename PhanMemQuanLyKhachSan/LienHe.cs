@@ -21,5 +21,12 @@ namespace PhanMemQuanLyKhachSan
         {
 
         }
+
+        private void btnTroVeCuaLienHe_Click(object sender, EventArgs e)
+        {
+            frmManHinhChinh frmManHinhChinh = new frmManHinhChinh();
+            frmManHinhChinh.Show();
+            this.Hide();
+        }
     }
 }

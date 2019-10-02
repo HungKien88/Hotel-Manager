@@ -85,31 +85,9 @@ namespace PhanMemQuanLyKhachSan
             this.Hide();
         }
 
-        private void quảnLýPhòngToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmQuanLyPhong fmqlp = new frmQuanLyPhong();
-            fmqlp.FormClosed += new FormClosedEventHandler(fmqlp_FormClosed);
-            fmqlp.Show();
-            this.Hide();
-        }
+        
 
-        private void fmqlp_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            this.Show();
-        }
-
-        private void quảnLýNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmQuanLyNhanVien fmqlnv = new frmQuanLyNhanVien();
-            fmqlnv.FormClosed += new FormClosedEventHandler(fmqlnv_FormClosed);
-            fmqlnv.Show();
-            this.Hide();
-        }
-
-        private void fmqlnv_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            this.Show();
-        }
+        
 
         private void quảnLýKháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -148,9 +126,50 @@ namespace PhanMemQuanLyKhachSan
             this.Hide();
         }
 
-        /* private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
-         {
+        private void cậpNhậtVậtTưToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCapNhatVatTu frmCapNhatVatTu = new frmCapNhatVatTu();
+            frmCapNhatVatTu.Show();
+            this.Hide();
+        }
 
-         }*/
+        private void cậpNhậtDịchVụToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCapNhatDichVu frmCapNhatDichVu = new frmCapNhatDichVu();
+            frmCapNhatDichVu.Show();
+            this.Hide();
+        }
+
+        private void cậpNhậtLoạiPhòngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCapNhatLoaiPhong frmCapNhatLoaiPhong = new frmCapNhatLoaiPhong();
+            frmCapNhatLoaiPhong.Show();
+            this.Hide();
+        }
+
+        private void cậpNhậtThôngTinNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCapNhatThongTinNhanVien frmCapNhatThongTinNhanVien = new frmCapNhatThongTinNhanVien();
+            frmCapNhatThongTinNhanVien.Show();
+            this.Hide();
+        }
+
+
+        private void cậpNhậtLịchLàmViệcNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Phuong show muc nay!
+        }
+
+        private void giaoCaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmGiaoCa frmGiaoCa = new frmGiaoCa();
+            frmGiaoCa.Show();
+            this.Hide();
+        }
+
+        //private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
+        //{
+
+        //}
     }
 }
