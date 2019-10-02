@@ -272,17 +272,19 @@
             this.thốngKêToolStripMenuItem.Name = "thốngKêToolStripMenuItem";
             this.thốngKêToolStripMenuItem.Size = new System.Drawing.Size(95, 28);
             this.thốngKêToolStripMenuItem.Text = "Thống kê";
+            this.thốngKêToolStripMenuItem.Click += new System.EventHandler(this.thốngKêToolStripMenuItem_Click);
             // 
             // liênHệToolStripMenuItem
             // 
             this.liênHệToolStripMenuItem.Name = "liênHệToolStripMenuItem";
             this.liênHệToolStripMenuItem.Size = new System.Drawing.Size(79, 28);
             this.liênHệToolStripMenuItem.Text = "Liên hệ";
+            this.liênHệToolStripMenuItem.Click += new System.EventHandler(this.liênHệToolStripMenuItem_Click);
             // 
             // cdrMHC
             // 
             this.cdrMHC.Location = new System.Drawing.Point(14, 280);
-            this.cdrMHC.Margin = new System.Windows.Forms.Padding(7, 7, 7, 7);
+            this.cdrMHC.Margin = new System.Windows.Forms.Padding(7);
             this.cdrMHC.Name = "cdrMHC";
             this.cdrMHC.TabIndex = 2;
             // 
@@ -294,7 +296,7 @@
             this.pnlHientrang.Controls.Add(this.lblPhongTrong);
             this.pnlHientrang.Controls.Add(this.lblHienTrang);
             this.pnlHientrang.Location = new System.Drawing.Point(14, 500);
-            this.pnlHientrang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlHientrang.Margin = new System.Windows.Forms.Padding(2);
             this.pnlHientrang.Name = "pnlHientrang";
             this.pnlHientrang.Size = new System.Drawing.Size(196, 168);
             this.pnlHientrang.TabIndex = 3;
@@ -374,7 +376,7 @@
             this.pnlPhong1.Controls.Add(this.lblSoPhong1);
             this.pnlPhong1.Controls.Add(this.lblPhong1);
             this.pnlPhong1.Location = new System.Drawing.Point(259, 100);
-            this.pnlPhong1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPhong1.Margin = new System.Windows.Forms.Padding(2);
             this.pnlPhong1.Name = "pnlPhong1";
             this.pnlPhong1.Size = new System.Drawing.Size(242, 317);
             this.pnlPhong1.TabIndex = 4;
@@ -385,7 +387,7 @@
             this.txtGhiChu1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtGhiChu1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGhiChu1.Location = new System.Drawing.Point(122, 243);
-            this.txtGhiChu1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGhiChu1.Margin = new System.Windows.Forms.Padding(2);
             this.txtGhiChu1.Name = "txtGhiChu1";
             this.txtGhiChu1.Size = new System.Drawing.Size(117, 20);
             this.txtGhiChu1.TabIndex = 18;
@@ -397,7 +399,7 @@
             this.txtTien1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTien1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTien1.Location = new System.Drawing.Point(122, 219);
-            this.txtTien1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTien1.Margin = new System.Windows.Forms.Padding(2);
             this.txtTien1.Name = "txtTien1";
             this.txtTien1.Size = new System.Drawing.Size(117, 20);
             this.txtTien1.TabIndex = 17;
@@ -409,7 +411,7 @@
             this.txtNgayDi1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDi1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDi1.Location = new System.Drawing.Point(122, 194);
-            this.txtNgayDi1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDi1.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDi1.Name = "txtNgayDi1";
             this.txtNgayDi1.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDi1.TabIndex = 16;
@@ -421,7 +423,7 @@
             this.txtNgayDen1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDen1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDen1.Location = new System.Drawing.Point(122, 170);
-            this.txtNgayDen1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDen1.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDen1.Name = "txtNgayDen1";
             this.txtNgayDen1.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDen1.TabIndex = 15;
@@ -433,7 +435,7 @@
             this.txtQuocTich1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtQuocTich1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuocTich1.Location = new System.Drawing.Point(122, 145);
-            this.txtQuocTich1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtQuocTich1.Margin = new System.Windows.Forms.Padding(2);
             this.txtQuocTich1.Name = "txtQuocTich1";
             this.txtQuocTich1.Size = new System.Drawing.Size(117, 20);
             this.txtQuocTich1.TabIndex = 14;
@@ -445,7 +447,7 @@
             this.txtSoKhach1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSoKhach1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoKhach1.Location = new System.Drawing.Point(122, 121);
-            this.txtSoKhach1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSoKhach1.Margin = new System.Windows.Forms.Padding(2);
             this.txtSoKhach1.Name = "txtSoKhach1";
             this.txtSoKhach1.Size = new System.Drawing.Size(117, 20);
             this.txtSoKhach1.TabIndex = 13;
@@ -457,7 +459,7 @@
             this.txtTenKhach1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenKhach1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenKhach1.Location = new System.Drawing.Point(122, 97);
-            this.txtTenKhach1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenKhach1.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenKhach1.Name = "txtTenKhach1";
             this.txtTenKhach1.Size = new System.Drawing.Size(117, 20);
             this.txtTenKhach1.TabIndex = 12;
@@ -469,7 +471,7 @@
             this.txtTenBooking1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenBooking1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenBooking1.Location = new System.Drawing.Point(122, 72);
-            this.txtTenBooking1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenBooking1.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenBooking1.Name = "txtTenBooking1";
             this.txtTenBooking1.Size = new System.Drawing.Size(117, 20);
             this.txtTenBooking1.TabIndex = 11;
@@ -481,7 +483,7 @@
             this.btnChiTiet1.FlatAppearance.BorderSize = 0;
             this.btnChiTiet1.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChiTiet1.Location = new System.Drawing.Point(68, 277);
-            this.btnChiTiet1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChiTiet1.Margin = new System.Windows.Forms.Padding(2);
             this.btnChiTiet1.Name = "btnChiTiet1";
             this.btnChiTiet1.Size = new System.Drawing.Size(107, 29);
             this.btnChiTiet1.TabIndex = 10;
@@ -624,7 +626,7 @@
             this.pnlPhong2.Controls.Add(this.lblSoPhong2);
             this.pnlPhong2.Controls.Add(this.lblPhong2);
             this.pnlPhong2.Location = new System.Drawing.Point(530, 100);
-            this.pnlPhong2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPhong2.Margin = new System.Windows.Forms.Padding(2);
             this.pnlPhong2.Name = "pnlPhong2";
             this.pnlPhong2.Size = new System.Drawing.Size(242, 317);
             this.pnlPhong2.TabIndex = 5;
@@ -635,7 +637,7 @@
             this.txtGhiChu2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtGhiChu2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGhiChu2.Location = new System.Drawing.Point(122, 243);
-            this.txtGhiChu2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGhiChu2.Margin = new System.Windows.Forms.Padding(2);
             this.txtGhiChu2.Name = "txtGhiChu2";
             this.txtGhiChu2.Size = new System.Drawing.Size(117, 20);
             this.txtGhiChu2.TabIndex = 18;
@@ -647,7 +649,7 @@
             this.txtTien2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTien2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTien2.Location = new System.Drawing.Point(122, 219);
-            this.txtTien2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTien2.Margin = new System.Windows.Forms.Padding(2);
             this.txtTien2.Name = "txtTien2";
             this.txtTien2.Size = new System.Drawing.Size(117, 20);
             this.txtTien2.TabIndex = 17;
@@ -659,7 +661,7 @@
             this.txtNgayDi2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDi2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDi2.Location = new System.Drawing.Point(122, 194);
-            this.txtNgayDi2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDi2.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDi2.Name = "txtNgayDi2";
             this.txtNgayDi2.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDi2.TabIndex = 16;
@@ -671,7 +673,7 @@
             this.txtNgayDen2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDen2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDen2.Location = new System.Drawing.Point(122, 170);
-            this.txtNgayDen2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDen2.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDen2.Name = "txtNgayDen2";
             this.txtNgayDen2.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDen2.TabIndex = 15;
@@ -683,7 +685,7 @@
             this.txtQuocTich2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtQuocTich2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuocTich2.Location = new System.Drawing.Point(122, 145);
-            this.txtQuocTich2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtQuocTich2.Margin = new System.Windows.Forms.Padding(2);
             this.txtQuocTich2.Name = "txtQuocTich2";
             this.txtQuocTich2.Size = new System.Drawing.Size(117, 20);
             this.txtQuocTich2.TabIndex = 14;
@@ -695,7 +697,7 @@
             this.txtSoKhach2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSoKhach2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoKhach2.Location = new System.Drawing.Point(122, 121);
-            this.txtSoKhach2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSoKhach2.Margin = new System.Windows.Forms.Padding(2);
             this.txtSoKhach2.Name = "txtSoKhach2";
             this.txtSoKhach2.Size = new System.Drawing.Size(117, 20);
             this.txtSoKhach2.TabIndex = 13;
@@ -707,7 +709,7 @@
             this.txtTenKhach2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenKhach2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenKhach2.Location = new System.Drawing.Point(122, 97);
-            this.txtTenKhach2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenKhach2.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenKhach2.Name = "txtTenKhach2";
             this.txtTenKhach2.Size = new System.Drawing.Size(117, 20);
             this.txtTenKhach2.TabIndex = 12;
@@ -719,7 +721,7 @@
             this.txtTenBooking2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenBooking2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenBooking2.Location = new System.Drawing.Point(122, 72);
-            this.txtTenBooking2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenBooking2.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenBooking2.Name = "txtTenBooking2";
             this.txtTenBooking2.Size = new System.Drawing.Size(117, 20);
             this.txtTenBooking2.TabIndex = 11;
@@ -731,7 +733,7 @@
             this.btnChiTiet2.FlatAppearance.BorderSize = 0;
             this.btnChiTiet2.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChiTiet2.Location = new System.Drawing.Point(68, 277);
-            this.btnChiTiet2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChiTiet2.Margin = new System.Windows.Forms.Padding(2);
             this.btnChiTiet2.Name = "btnChiTiet2";
             this.btnChiTiet2.Size = new System.Drawing.Size(107, 29);
             this.btnChiTiet2.TabIndex = 10;
@@ -874,7 +876,7 @@
             this.pnlPhong3.Controls.Add(this.lblSoPhong3);
             this.pnlPhong3.Controls.Add(this.lblPhong3);
             this.pnlPhong3.Location = new System.Drawing.Point(803, 100);
-            this.pnlPhong3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPhong3.Margin = new System.Windows.Forms.Padding(2);
             this.pnlPhong3.Name = "pnlPhong3";
             this.pnlPhong3.Size = new System.Drawing.Size(242, 317);
             this.pnlPhong3.TabIndex = 6;
@@ -885,7 +887,7 @@
             this.txtGhiChu3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtGhiChu3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGhiChu3.Location = new System.Drawing.Point(122, 243);
-            this.txtGhiChu3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGhiChu3.Margin = new System.Windows.Forms.Padding(2);
             this.txtGhiChu3.Name = "txtGhiChu3";
             this.txtGhiChu3.Size = new System.Drawing.Size(117, 20);
             this.txtGhiChu3.TabIndex = 18;
@@ -897,7 +899,7 @@
             this.txtTien3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTien3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTien3.Location = new System.Drawing.Point(122, 219);
-            this.txtTien3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTien3.Margin = new System.Windows.Forms.Padding(2);
             this.txtTien3.Name = "txtTien3";
             this.txtTien3.Size = new System.Drawing.Size(117, 20);
             this.txtTien3.TabIndex = 17;
@@ -909,7 +911,7 @@
             this.txtNgayDi3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDi3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDi3.Location = new System.Drawing.Point(122, 194);
-            this.txtNgayDi3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDi3.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDi3.Name = "txtNgayDi3";
             this.txtNgayDi3.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDi3.TabIndex = 16;
@@ -921,7 +923,7 @@
             this.txtNgayDen3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDen3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDen3.Location = new System.Drawing.Point(122, 170);
-            this.txtNgayDen3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDen3.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDen3.Name = "txtNgayDen3";
             this.txtNgayDen3.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDen3.TabIndex = 15;
@@ -933,7 +935,7 @@
             this.txtQuocTich3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtQuocTich3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuocTich3.Location = new System.Drawing.Point(122, 145);
-            this.txtQuocTich3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtQuocTich3.Margin = new System.Windows.Forms.Padding(2);
             this.txtQuocTich3.Name = "txtQuocTich3";
             this.txtQuocTich3.Size = new System.Drawing.Size(117, 20);
             this.txtQuocTich3.TabIndex = 14;
@@ -945,7 +947,7 @@
             this.txtSoKhach3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSoKhach3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoKhach3.Location = new System.Drawing.Point(122, 121);
-            this.txtSoKhach3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSoKhach3.Margin = new System.Windows.Forms.Padding(2);
             this.txtSoKhach3.Name = "txtSoKhach3";
             this.txtSoKhach3.Size = new System.Drawing.Size(117, 20);
             this.txtSoKhach3.TabIndex = 13;
@@ -957,7 +959,7 @@
             this.txtTenKhach3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenKhach3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenKhach3.Location = new System.Drawing.Point(122, 97);
-            this.txtTenKhach3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenKhach3.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenKhach3.Name = "txtTenKhach3";
             this.txtTenKhach3.Size = new System.Drawing.Size(117, 20);
             this.txtTenKhach3.TabIndex = 12;
@@ -969,7 +971,7 @@
             this.txtTenBooking3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenBooking3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenBooking3.Location = new System.Drawing.Point(122, 72);
-            this.txtTenBooking3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenBooking3.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenBooking3.Name = "txtTenBooking3";
             this.txtTenBooking3.Size = new System.Drawing.Size(117, 20);
             this.txtTenBooking3.TabIndex = 11;
@@ -981,7 +983,7 @@
             this.btnChiTiet3.FlatAppearance.BorderSize = 0;
             this.btnChiTiet3.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChiTiet3.Location = new System.Drawing.Point(68, 277);
-            this.btnChiTiet3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChiTiet3.Margin = new System.Windows.Forms.Padding(2);
             this.btnChiTiet3.Name = "btnChiTiet3";
             this.btnChiTiet3.Size = new System.Drawing.Size(107, 29);
             this.btnChiTiet3.TabIndex = 10;
@@ -1124,7 +1126,7 @@
             this.pnlPhong4.Controls.Add(this.lblSoPhong4);
             this.pnlPhong4.Controls.Add(this.lblPhong4);
             this.pnlPhong4.Location = new System.Drawing.Point(1074, 100);
-            this.pnlPhong4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPhong4.Margin = new System.Windows.Forms.Padding(2);
             this.pnlPhong4.Name = "pnlPhong4";
             this.pnlPhong4.Size = new System.Drawing.Size(242, 317);
             this.pnlPhong4.TabIndex = 7;
@@ -1135,7 +1137,7 @@
             this.txtGhiChu4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtGhiChu4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGhiChu4.Location = new System.Drawing.Point(122, 243);
-            this.txtGhiChu4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGhiChu4.Margin = new System.Windows.Forms.Padding(2);
             this.txtGhiChu4.Name = "txtGhiChu4";
             this.txtGhiChu4.Size = new System.Drawing.Size(117, 20);
             this.txtGhiChu4.TabIndex = 18;
@@ -1147,7 +1149,7 @@
             this.txtTien4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTien4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTien4.Location = new System.Drawing.Point(122, 219);
-            this.txtTien4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTien4.Margin = new System.Windows.Forms.Padding(2);
             this.txtTien4.Name = "txtTien4";
             this.txtTien4.Size = new System.Drawing.Size(117, 20);
             this.txtTien4.TabIndex = 17;
@@ -1159,7 +1161,7 @@
             this.txtNgayDi4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDi4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDi4.Location = new System.Drawing.Point(122, 194);
-            this.txtNgayDi4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDi4.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDi4.Name = "txtNgayDi4";
             this.txtNgayDi4.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDi4.TabIndex = 16;
@@ -1171,7 +1173,7 @@
             this.txtNgayDen4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDen4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDen4.Location = new System.Drawing.Point(122, 170);
-            this.txtNgayDen4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDen4.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDen4.Name = "txtNgayDen4";
             this.txtNgayDen4.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDen4.TabIndex = 15;
@@ -1183,7 +1185,7 @@
             this.txtQuocTich4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtQuocTich4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuocTich4.Location = new System.Drawing.Point(122, 145);
-            this.txtQuocTich4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtQuocTich4.Margin = new System.Windows.Forms.Padding(2);
             this.txtQuocTich4.Name = "txtQuocTich4";
             this.txtQuocTich4.Size = new System.Drawing.Size(117, 20);
             this.txtQuocTich4.TabIndex = 14;
@@ -1195,7 +1197,7 @@
             this.txtSoKhach4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSoKhach4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoKhach4.Location = new System.Drawing.Point(122, 121);
-            this.txtSoKhach4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSoKhach4.Margin = new System.Windows.Forms.Padding(2);
             this.txtSoKhach4.Name = "txtSoKhach4";
             this.txtSoKhach4.Size = new System.Drawing.Size(117, 20);
             this.txtSoKhach4.TabIndex = 13;
@@ -1207,7 +1209,7 @@
             this.txtTenKhach4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenKhach4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenKhach4.Location = new System.Drawing.Point(122, 97);
-            this.txtTenKhach4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenKhach4.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenKhach4.Name = "txtTenKhach4";
             this.txtTenKhach4.Size = new System.Drawing.Size(117, 20);
             this.txtTenKhach4.TabIndex = 12;
@@ -1219,7 +1221,7 @@
             this.txtTenBooking4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenBooking4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenBooking4.Location = new System.Drawing.Point(122, 72);
-            this.txtTenBooking4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenBooking4.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenBooking4.Name = "txtTenBooking4";
             this.txtTenBooking4.Size = new System.Drawing.Size(117, 20);
             this.txtTenBooking4.TabIndex = 11;
@@ -1231,7 +1233,7 @@
             this.btnChiTiet4.FlatAppearance.BorderSize = 0;
             this.btnChiTiet4.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChiTiet4.Location = new System.Drawing.Point(68, 277);
-            this.btnChiTiet4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChiTiet4.Margin = new System.Windows.Forms.Padding(2);
             this.btnChiTiet4.Name = "btnChiTiet4";
             this.btnChiTiet4.Size = new System.Drawing.Size(107, 29);
             this.btnChiTiet4.TabIndex = 10;
@@ -1373,8 +1375,8 @@
             this.pnlPhong8.Controls.Add(this.lblTenBooking8);
             this.pnlPhong8.Controls.Add(this.lblSoPhong8);
             this.pnlPhong8.Controls.Add(this.lblPhong8);
-            this.pnlPhong8.Location = new System.Drawing.Point(1074, 470);
-            this.pnlPhong8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPhong8.Location = new System.Drawing.Point(1074, 431);
+            this.pnlPhong8.Margin = new System.Windows.Forms.Padding(2);
             this.pnlPhong8.Name = "pnlPhong8";
             this.pnlPhong8.Size = new System.Drawing.Size(242, 317);
             this.pnlPhong8.TabIndex = 11;
@@ -1385,7 +1387,7 @@
             this.txtGhiChu8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtGhiChu8.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGhiChu8.Location = new System.Drawing.Point(122, 243);
-            this.txtGhiChu8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGhiChu8.Margin = new System.Windows.Forms.Padding(2);
             this.txtGhiChu8.Name = "txtGhiChu8";
             this.txtGhiChu8.Size = new System.Drawing.Size(117, 20);
             this.txtGhiChu8.TabIndex = 18;
@@ -1397,7 +1399,7 @@
             this.txtTien8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTien8.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTien8.Location = new System.Drawing.Point(122, 219);
-            this.txtTien8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTien8.Margin = new System.Windows.Forms.Padding(2);
             this.txtTien8.Name = "txtTien8";
             this.txtTien8.Size = new System.Drawing.Size(117, 20);
             this.txtTien8.TabIndex = 17;
@@ -1409,7 +1411,7 @@
             this.txtNgayDi8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDi8.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDi8.Location = new System.Drawing.Point(122, 194);
-            this.txtNgayDi8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDi8.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDi8.Name = "txtNgayDi8";
             this.txtNgayDi8.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDi8.TabIndex = 16;
@@ -1421,7 +1423,7 @@
             this.txtNgayDen8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDen8.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDen8.Location = new System.Drawing.Point(122, 170);
-            this.txtNgayDen8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDen8.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDen8.Name = "txtNgayDen8";
             this.txtNgayDen8.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDen8.TabIndex = 15;
@@ -1433,7 +1435,7 @@
             this.txtQuocTich8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtQuocTich8.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuocTich8.Location = new System.Drawing.Point(122, 145);
-            this.txtQuocTich8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtQuocTich8.Margin = new System.Windows.Forms.Padding(2);
             this.txtQuocTich8.Name = "txtQuocTich8";
             this.txtQuocTich8.Size = new System.Drawing.Size(117, 20);
             this.txtQuocTich8.TabIndex = 14;
@@ -1445,7 +1447,7 @@
             this.txtSoKhach8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSoKhach8.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoKhach8.Location = new System.Drawing.Point(122, 121);
-            this.txtSoKhach8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSoKhach8.Margin = new System.Windows.Forms.Padding(2);
             this.txtSoKhach8.Name = "txtSoKhach8";
             this.txtSoKhach8.Size = new System.Drawing.Size(117, 20);
             this.txtSoKhach8.TabIndex = 13;
@@ -1457,7 +1459,7 @@
             this.txtTenKhach8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenKhach8.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenKhach8.Location = new System.Drawing.Point(122, 97);
-            this.txtTenKhach8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenKhach8.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenKhach8.Name = "txtTenKhach8";
             this.txtTenKhach8.Size = new System.Drawing.Size(117, 20);
             this.txtTenKhach8.TabIndex = 12;
@@ -1469,7 +1471,7 @@
             this.txtTenBooking8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenBooking8.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenBooking8.Location = new System.Drawing.Point(122, 72);
-            this.txtTenBooking8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenBooking8.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenBooking8.Name = "txtTenBooking8";
             this.txtTenBooking8.Size = new System.Drawing.Size(117, 20);
             this.txtTenBooking8.TabIndex = 11;
@@ -1481,7 +1483,7 @@
             this.btnChitiet8.FlatAppearance.BorderSize = 0;
             this.btnChitiet8.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChitiet8.Location = new System.Drawing.Point(68, 277);
-            this.btnChitiet8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChitiet8.Margin = new System.Windows.Forms.Padding(2);
             this.btnChitiet8.Name = "btnChitiet8";
             this.btnChitiet8.Size = new System.Drawing.Size(107, 29);
             this.btnChitiet8.TabIndex = 10;
@@ -1623,8 +1625,8 @@
             this.pnlPhong7.Controls.Add(this.lblTenBooking7);
             this.pnlPhong7.Controls.Add(this.lblSoPhong7);
             this.pnlPhong7.Controls.Add(this.lblPhong7);
-            this.pnlPhong7.Location = new System.Drawing.Point(803, 470);
-            this.pnlPhong7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPhong7.Location = new System.Drawing.Point(803, 431);
+            this.pnlPhong7.Margin = new System.Windows.Forms.Padding(2);
             this.pnlPhong7.Name = "pnlPhong7";
             this.pnlPhong7.Size = new System.Drawing.Size(242, 317);
             this.pnlPhong7.TabIndex = 10;
@@ -1635,7 +1637,7 @@
             this.txtGhiChu7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtGhiChu7.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGhiChu7.Location = new System.Drawing.Point(122, 243);
-            this.txtGhiChu7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGhiChu7.Margin = new System.Windows.Forms.Padding(2);
             this.txtGhiChu7.Name = "txtGhiChu7";
             this.txtGhiChu7.Size = new System.Drawing.Size(117, 20);
             this.txtGhiChu7.TabIndex = 18;
@@ -1647,7 +1649,7 @@
             this.txtTien7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTien7.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTien7.Location = new System.Drawing.Point(122, 219);
-            this.txtTien7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTien7.Margin = new System.Windows.Forms.Padding(2);
             this.txtTien7.Name = "txtTien7";
             this.txtTien7.Size = new System.Drawing.Size(117, 20);
             this.txtTien7.TabIndex = 17;
@@ -1659,7 +1661,7 @@
             this.txtNgayDi7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDi7.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDi7.Location = new System.Drawing.Point(122, 194);
-            this.txtNgayDi7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDi7.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDi7.Name = "txtNgayDi7";
             this.txtNgayDi7.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDi7.TabIndex = 16;
@@ -1671,7 +1673,7 @@
             this.txtNgayDen7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDen7.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDen7.Location = new System.Drawing.Point(122, 170);
-            this.txtNgayDen7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDen7.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDen7.Name = "txtNgayDen7";
             this.txtNgayDen7.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDen7.TabIndex = 15;
@@ -1683,7 +1685,7 @@
             this.txtQuocTich7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtQuocTich7.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuocTich7.Location = new System.Drawing.Point(122, 145);
-            this.txtQuocTich7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtQuocTich7.Margin = new System.Windows.Forms.Padding(2);
             this.txtQuocTich7.Name = "txtQuocTich7";
             this.txtQuocTich7.Size = new System.Drawing.Size(117, 20);
             this.txtQuocTich7.TabIndex = 14;
@@ -1695,7 +1697,7 @@
             this.txtSoKhach7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSoKhach7.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoKhach7.Location = new System.Drawing.Point(122, 121);
-            this.txtSoKhach7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSoKhach7.Margin = new System.Windows.Forms.Padding(2);
             this.txtSoKhach7.Name = "txtSoKhach7";
             this.txtSoKhach7.Size = new System.Drawing.Size(117, 20);
             this.txtSoKhach7.TabIndex = 13;
@@ -1707,7 +1709,7 @@
             this.txtTenKhach7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenKhach7.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenKhach7.Location = new System.Drawing.Point(122, 97);
-            this.txtTenKhach7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenKhach7.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenKhach7.Name = "txtTenKhach7";
             this.txtTenKhach7.Size = new System.Drawing.Size(117, 20);
             this.txtTenKhach7.TabIndex = 12;
@@ -1719,7 +1721,7 @@
             this.txtTenBooking7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenBooking7.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenBooking7.Location = new System.Drawing.Point(122, 72);
-            this.txtTenBooking7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenBooking7.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenBooking7.Name = "txtTenBooking7";
             this.txtTenBooking7.Size = new System.Drawing.Size(117, 20);
             this.txtTenBooking7.TabIndex = 11;
@@ -1731,7 +1733,7 @@
             this.btnChiTiet7.FlatAppearance.BorderSize = 0;
             this.btnChiTiet7.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChiTiet7.Location = new System.Drawing.Point(68, 277);
-            this.btnChiTiet7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChiTiet7.Margin = new System.Windows.Forms.Padding(2);
             this.btnChiTiet7.Name = "btnChiTiet7";
             this.btnChiTiet7.Size = new System.Drawing.Size(107, 29);
             this.btnChiTiet7.TabIndex = 10;
@@ -1873,8 +1875,8 @@
             this.pnlPhong6.Controls.Add(this.lblTenBooking6);
             this.pnlPhong6.Controls.Add(this.lblSoPhong6);
             this.pnlPhong6.Controls.Add(this.lblPhong6);
-            this.pnlPhong6.Location = new System.Drawing.Point(530, 470);
-            this.pnlPhong6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPhong6.Location = new System.Drawing.Point(527, 431);
+            this.pnlPhong6.Margin = new System.Windows.Forms.Padding(2);
             this.pnlPhong6.Name = "pnlPhong6";
             this.pnlPhong6.Size = new System.Drawing.Size(242, 317);
             this.pnlPhong6.TabIndex = 9;
@@ -1885,7 +1887,7 @@
             this.txtGhiChu6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtGhiChu6.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGhiChu6.Location = new System.Drawing.Point(122, 243);
-            this.txtGhiChu6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGhiChu6.Margin = new System.Windows.Forms.Padding(2);
             this.txtGhiChu6.Name = "txtGhiChu6";
             this.txtGhiChu6.Size = new System.Drawing.Size(117, 20);
             this.txtGhiChu6.TabIndex = 18;
@@ -1897,7 +1899,7 @@
             this.txtTien6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTien6.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTien6.Location = new System.Drawing.Point(122, 219);
-            this.txtTien6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTien6.Margin = new System.Windows.Forms.Padding(2);
             this.txtTien6.Name = "txtTien6";
             this.txtTien6.Size = new System.Drawing.Size(117, 20);
             this.txtTien6.TabIndex = 17;
@@ -1909,7 +1911,7 @@
             this.txtNgayDi6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDi6.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDi6.Location = new System.Drawing.Point(122, 194);
-            this.txtNgayDi6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDi6.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDi6.Name = "txtNgayDi6";
             this.txtNgayDi6.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDi6.TabIndex = 16;
@@ -1921,7 +1923,7 @@
             this.txtNgayDen6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDen6.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDen6.Location = new System.Drawing.Point(122, 170);
-            this.txtNgayDen6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDen6.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDen6.Name = "txtNgayDen6";
             this.txtNgayDen6.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDen6.TabIndex = 15;
@@ -1933,7 +1935,7 @@
             this.txtQuocTich6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtQuocTich6.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuocTich6.Location = new System.Drawing.Point(122, 145);
-            this.txtQuocTich6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtQuocTich6.Margin = new System.Windows.Forms.Padding(2);
             this.txtQuocTich6.Name = "txtQuocTich6";
             this.txtQuocTich6.Size = new System.Drawing.Size(117, 20);
             this.txtQuocTich6.TabIndex = 14;
@@ -1945,7 +1947,7 @@
             this.txtSoKhach6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSoKhach6.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoKhach6.Location = new System.Drawing.Point(122, 121);
-            this.txtSoKhach6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSoKhach6.Margin = new System.Windows.Forms.Padding(2);
             this.txtSoKhach6.Name = "txtSoKhach6";
             this.txtSoKhach6.Size = new System.Drawing.Size(117, 20);
             this.txtSoKhach6.TabIndex = 13;
@@ -1957,7 +1959,7 @@
             this.txtTenKhach6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenKhach6.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenKhach6.Location = new System.Drawing.Point(122, 97);
-            this.txtTenKhach6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenKhach6.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenKhach6.Name = "txtTenKhach6";
             this.txtTenKhach6.Size = new System.Drawing.Size(117, 20);
             this.txtTenKhach6.TabIndex = 12;
@@ -1969,7 +1971,7 @@
             this.txtTenBooking6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenBooking6.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenBooking6.Location = new System.Drawing.Point(122, 72);
-            this.txtTenBooking6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenBooking6.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenBooking6.Name = "txtTenBooking6";
             this.txtTenBooking6.Size = new System.Drawing.Size(117, 20);
             this.txtTenBooking6.TabIndex = 11;
@@ -1981,7 +1983,7 @@
             this.btnChiTiet6.FlatAppearance.BorderSize = 0;
             this.btnChiTiet6.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChiTiet6.Location = new System.Drawing.Point(68, 277);
-            this.btnChiTiet6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChiTiet6.Margin = new System.Windows.Forms.Padding(2);
             this.btnChiTiet6.Name = "btnChiTiet6";
             this.btnChiTiet6.Size = new System.Drawing.Size(107, 29);
             this.btnChiTiet6.TabIndex = 10;
@@ -2123,8 +2125,8 @@
             this.pnlPhong5.Controls.Add(this.lblTenBooking5);
             this.pnlPhong5.Controls.Add(this.lblSoPhong5);
             this.pnlPhong5.Controls.Add(this.lblPhong5);
-            this.pnlPhong5.Location = new System.Drawing.Point(259, 470);
-            this.pnlPhong5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlPhong5.Location = new System.Drawing.Point(263, 431);
+            this.pnlPhong5.Margin = new System.Windows.Forms.Padding(2);
             this.pnlPhong5.Name = "pnlPhong5";
             this.pnlPhong5.Size = new System.Drawing.Size(242, 317);
             this.pnlPhong5.TabIndex = 8;
@@ -2135,7 +2137,7 @@
             this.txtGhiChu5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtGhiChu5.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtGhiChu5.Location = new System.Drawing.Point(122, 243);
-            this.txtGhiChu5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGhiChu5.Margin = new System.Windows.Forms.Padding(2);
             this.txtGhiChu5.Name = "txtGhiChu5";
             this.txtGhiChu5.Size = new System.Drawing.Size(117, 20);
             this.txtGhiChu5.TabIndex = 18;
@@ -2147,7 +2149,7 @@
             this.txtTien5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTien5.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTien5.Location = new System.Drawing.Point(122, 219);
-            this.txtTien5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTien5.Margin = new System.Windows.Forms.Padding(2);
             this.txtTien5.Name = "txtTien5";
             this.txtTien5.Size = new System.Drawing.Size(117, 20);
             this.txtTien5.TabIndex = 17;
@@ -2159,7 +2161,7 @@
             this.txtNgayDi5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDi5.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDi5.Location = new System.Drawing.Point(122, 194);
-            this.txtNgayDi5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDi5.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDi5.Name = "txtNgayDi5";
             this.txtNgayDi5.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDi5.TabIndex = 16;
@@ -2171,7 +2173,7 @@
             this.txtNgayDen5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNgayDen5.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgayDen5.Location = new System.Drawing.Point(122, 170);
-            this.txtNgayDen5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNgayDen5.Margin = new System.Windows.Forms.Padding(2);
             this.txtNgayDen5.Name = "txtNgayDen5";
             this.txtNgayDen5.Size = new System.Drawing.Size(117, 20);
             this.txtNgayDen5.TabIndex = 15;
@@ -2182,8 +2184,8 @@
             this.txtQuocTich5.BackColor = System.Drawing.SystemColors.Control;
             this.txtQuocTich5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtQuocTich5.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQuocTich5.Location = new System.Drawing.Point(122, 145);
-            this.txtQuocTich5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtQuocTich5.Location = new System.Drawing.Point(123, 149);
+            this.txtQuocTich5.Margin = new System.Windows.Forms.Padding(2);
             this.txtQuocTich5.Name = "txtQuocTich5";
             this.txtQuocTich5.Size = new System.Drawing.Size(117, 20);
             this.txtQuocTich5.TabIndex = 14;
@@ -2195,7 +2197,7 @@
             this.txtSoKhach5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSoKhach5.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoKhach5.Location = new System.Drawing.Point(122, 121);
-            this.txtSoKhach5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSoKhach5.Margin = new System.Windows.Forms.Padding(2);
             this.txtSoKhach5.Name = "txtSoKhach5";
             this.txtSoKhach5.Size = new System.Drawing.Size(117, 20);
             this.txtSoKhach5.TabIndex = 13;
@@ -2207,7 +2209,7 @@
             this.txtTenKhach5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenKhach5.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenKhach5.Location = new System.Drawing.Point(122, 97);
-            this.txtTenKhach5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenKhach5.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenKhach5.Name = "txtTenKhach5";
             this.txtTenKhach5.Size = new System.Drawing.Size(117, 20);
             this.txtTenKhach5.TabIndex = 12;
@@ -2219,7 +2221,7 @@
             this.txtTenBooking5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenBooking5.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenBooking5.Location = new System.Drawing.Point(122, 72);
-            this.txtTenBooking5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenBooking5.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenBooking5.Name = "txtTenBooking5";
             this.txtTenBooking5.Size = new System.Drawing.Size(117, 20);
             this.txtTenBooking5.TabIndex = 11;
@@ -2231,7 +2233,7 @@
             this.btnChiTiet5.FlatAppearance.BorderSize = 0;
             this.btnChiTiet5.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChiTiet5.Location = new System.Drawing.Point(68, 277);
-            this.btnChiTiet5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChiTiet5.Margin = new System.Windows.Forms.Padding(2);
             this.btnChiTiet5.Name = "btnChiTiet5";
             this.btnChiTiet5.Size = new System.Drawing.Size(107, 29);
             this.btnChiTiet5.TabIndex = 10;
@@ -2330,7 +2332,7 @@
             // lblSoPhong5
             // 
             this.lblSoPhong5.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSoPhong5.Location = new System.Drawing.Point(2, 32);
+            this.lblSoPhong5.Location = new System.Drawing.Point(5, 32);
             this.lblSoPhong5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSoPhong5.Name = "lblSoPhong5";
             this.lblSoPhong5.Size = new System.Drawing.Size(237, 24);
@@ -2356,7 +2358,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1357, 861);
+            this.ClientSize = new System.Drawing.Size(1357, 749);
             this.Controls.Add(this.pnlPhong8);
             this.Controls.Add(this.pnlPhong7);
             this.Controls.Add(this.pnlPhong6);

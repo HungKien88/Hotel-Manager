@@ -81,7 +81,7 @@
             // 
             this.lblNamPhatHanh.AutoSize = true;
             this.lblNamPhatHanh.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNamPhatHanh.Location = new System.Drawing.Point(521, 147);
+            this.lblNamPhatHanh.Location = new System.Drawing.Point(644, 140);
             this.lblNamPhatHanh.Name = "lblNamPhatHanh";
             this.lblNamPhatHanh.Size = new System.Drawing.Size(201, 22);
             this.lblNamPhatHanh.TabIndex = 3;
@@ -183,7 +183,7 @@
             this.lblWebsite.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblWebsite.Location = new System.Drawing.Point(570, 376);
             this.lblWebsite.Name = "lblWebsite";
-            this.lblWebsite.Size = new System.Drawing.Size(218, 27);
+            this.lblWebsite.Size = new System.Drawing.Size(159, 38);
             this.lblWebsite.TabIndex = 15;
             this.lblWebsite.Text = "www.itchat.com";
             this.lblWebsite.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -195,7 +195,7 @@
             this.lblFacebook.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblFacebook.Location = new System.Drawing.Point(570, 338);
             this.lblFacebook.Name = "lblFacebook";
-            this.lblFacebook.Size = new System.Drawing.Size(253, 27);
+            this.lblFacebook.Size = new System.Drawing.Size(189, 27);
             this.lblFacebook.TabIndex = 14;
             this.lblFacebook.Text = "facebook.com/itchat";
             this.lblFacebook.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -207,7 +207,7 @@
             this.lblDienThoai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblDienThoai.Location = new System.Drawing.Point(570, 299);
             this.lblDienThoai.Name = "lblDienThoai";
-            this.lblDienThoai.Size = new System.Drawing.Size(172, 27);
+            this.lblDienThoai.Size = new System.Drawing.Size(130, 39);
             this.lblDienThoai.TabIndex = 13;
             this.lblDienThoai.Text = "0796824757";
             this.lblDienThoai.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -217,9 +217,9 @@
             this.lblEmail.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEmail.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconEmail;
             this.lblEmail.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblEmail.Location = new System.Drawing.Point(568, 257);
+            this.lblEmail.Location = new System.Drawing.Point(570, 257);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(232, 27);
+            this.lblEmail.Size = new System.Drawing.Size(172, 27);
             this.lblEmail.TabIndex = 12;
             this.lblEmail.Text = "itchat@gmail.com";
             this.lblEmail.TextAlign = System.Drawing.ContentAlignment.MiddleRight;

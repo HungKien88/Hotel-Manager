@@ -78,24 +78,6 @@
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="MatKhau.cs">
-      <DependentUpon>PMQLKS.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PMQLKS.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PMQLKS.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PMQLKS.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PMQLKS.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PMQLKS.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>PMQLKS.edmx</DependentUpon>
-    </Compile>
     <Compile Include="ThongKe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -201,13 +183,6 @@
     <EmbeddedResource Include="CapNhatThongTinNhanVien.resx">
       <DependentUpon>CapNhatThongTinNhanVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EntityDeploy Include="PMQLKS.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>PMQLKS.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="PMQLKS.edmx.diagram">
-      <DependentUpon>PMQLKS.edmx</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -271,18 +246,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\iconWeb.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="PMQLKS.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>PMQLKS.Context.cs</LastGenOutput>
-      <DependentUpon>PMQLKS.edmx</DependentUpon>
-    </Content>
-    <Content Include="PMQLKS.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>PMQLKS.edmx</DependentUpon>
-      <LastGenOutput>PMQLKS.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

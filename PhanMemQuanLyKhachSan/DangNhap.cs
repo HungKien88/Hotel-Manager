@@ -71,28 +71,28 @@ namespace PhanMemQuanLyKhachSan
 
         private void BtnDangNhap_Click(object sender, EventArgs e)
         {
-            string tenDangNhap = txtTenDangNhap.Text;
-            string matKhau = txtMatKhau.Text;
-            PMQLKS ketNoiDB = new PMQLKS();
-            var check = ketNoiDB.MatKhaus.Where(item => item.username.Equals(tenDangNhap)).ToList();
-            if(check.Count > 0)
-            {
-                if(check[0].password.Equals(matKhau))
-                {
-                    MessageBox.Show("Dang nhap thanh cong");
+            //string tenDangNhap = txtTenDangNhap.Text;
+            //string matKhau = txtMatKhau.Text;
+            //PMQLKS ketNoiDB = new PMQLKS();
+            //var check = ketNoiDB.MatKhaus.Where(item => item.username.Equals(tenDangNhap)).ToList();
+            //if(check.Count > 0)
+            //{
+            //    if(check[0].password.Equals(matKhau))
+            //    {
+            //        MessageBox.Show("Dang nhap thanh cong");
                     frmManHinhChinh mhc = new frmManHinhChinh();
                     mhc.Show();
                     this.Hide();
-                }
-                else
-                {
-                    MessageBox.Show("Mat khau khong dung!");
-                }
-            }
-            else
-            {
-                MessageBox.Show("Khong ton tai tai khoan!");
-            }       
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Mat khau khong dung!");
+            //    }
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Khong ton tai tai khoan!");
+            //}       
         }
     }
 }

@@ -134,6 +134,20 @@ namespace PhanMemQuanLyKhachSan
 
         }
 
+        private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmThongKe frmThongKe = new frmThongKe();
+            frmThongKe.Show();
+            this.Hide();
+        }
+
+        private void liênHệToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLienHe frmLienHe = new frmLienHe();
+            frmLienHe.Show();
+            this.Hide();
+        }
+
         /* private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
          {
 
