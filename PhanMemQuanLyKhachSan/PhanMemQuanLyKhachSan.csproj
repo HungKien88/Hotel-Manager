@@ -54,6 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CapNhapLichLamViec.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CapNhapLichLamViec.Designer.cs">
+      <DependentUpon>CapNhapLichLamViec.cs</DependentUpon>
+    </Compile>
     <Compile Include="CapNhapLoaiPhong.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +145,9 @@
     <Compile Include="CapNhatThongTinNhanVien.Designer.cs">
       <DependentUpon>CapNhatThongTinNhanVien.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CapNhapLichLamViec.resx">
+      <DependentUpon>CapNhapLichLamViec.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CapNhapLoaiPhong.resx">
       <DependentUpon>CapNhapLoaiPhong.cs</DependentUpon>
     </EmbeddedResource>
