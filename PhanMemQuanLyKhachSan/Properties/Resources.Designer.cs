@@ -113,6 +113,16 @@ namespace PhanMemQuanLyKhachSan.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconIn {
+            get {
+                object obj = ResourceManager.GetObject("iconIn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconLoc {
             get {
                 object obj = ResourceManager.GetObject("iconLoc", resourceCulture);
@@ -146,6 +156,46 @@ namespace PhanMemQuanLyKhachSan.Properties {
         internal static System.Drawing.Bitmap iconPhone {
             get {
                 object obj = ResourceManager.GetObject("iconPhone", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IconPhongDon {
+            get {
+                object obj = ResourceManager.GetObject("IconPhongDon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IconPhongO {
+            get {
+                object obj = ResourceManager.GetObject("IconPhongO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IconPhongTra {
+            get {
+                object obj = ResourceManager.GetObject("IconPhongTra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IconPhongTrong {
+            get {
+                object obj = ResourceManager.GetObject("IconPhongTrong", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

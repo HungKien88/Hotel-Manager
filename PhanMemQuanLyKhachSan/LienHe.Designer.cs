@@ -230,7 +230,7 @@
             this.btnTroVeCuaLienHe.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTroVeCuaLienHe.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
             this.btnTroVeCuaLienHe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTroVeCuaLienHe.Location = new System.Drawing.Point(13, 438);
+            this.btnTroVeCuaLienHe.Location = new System.Drawing.Point(17, 5);
             this.btnTroVeCuaLienHe.Margin = new System.Windows.Forms.Padding(4);
             this.btnTroVeCuaLienHe.Name = "btnTroVeCuaLienHe";
             this.btnTroVeCuaLienHe.Size = new System.Drawing.Size(118, 40);
