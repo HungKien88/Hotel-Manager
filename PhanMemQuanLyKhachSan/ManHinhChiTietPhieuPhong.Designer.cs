@@ -485,6 +485,7 @@
             this.btnLuuCuaCTPP.Text = "Lưu";
             this.btnLuuCuaCTPP.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLuuCuaCTPP.UseVisualStyleBackColor = true;
+            this.btnLuuCuaCTPP.Click += new System.EventHandler(this.btnLuuCuaCTPP_Click);
             // 
             // btnXoaCuaCTPP
             // 
@@ -529,7 +530,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(883, 809);
+            this.ClientSize = new System.Drawing.Size(883, 749);
             this.Controls.Add(this.txtTongTien);
             this.Controls.Add(this.lblNhanVien);
             this.Controls.Add(this.lblTongTien);

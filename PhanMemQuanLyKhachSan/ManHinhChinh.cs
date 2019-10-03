@@ -169,9 +169,27 @@ namespace PhanMemQuanLyKhachSan
             this.Hide();
         }
 
-        //private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
-        //{
+        private void lblTien1_Click(object sender, EventArgs e)
+        {
 
-        //}
+        }
+
+        private void lblSoPhong1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlPhong1_Paint(object sender, PaintEventArgs e)
+        {
+            txtTenBooking1.Text = frmChiTietPhieuPhong.SetValueForText1;
+            txtTenKhach1.Text = frmChiTietPhieuPhong.SetValueForText2;
+        }
+
+        private void quảnLýPhòngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmQuanLyPhong qlp = new frmQuanLyPhong();
+            qlp.Show();
+            this.Hide();
+        }
     }
 }
