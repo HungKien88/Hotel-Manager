@@ -181,8 +181,8 @@ namespace PhanMemQuanLyKhachSan
 
         private void pnlPhong1_Paint(object sender, PaintEventArgs e)
         {
-            txtTenBooking1.Text = frmChiTietPhieuPhong.SetValueForText1;
-            txtTenKhach1.Text = frmChiTietPhieuPhong.SetValueForText2;
+           lblNoiDungTenBooking1.Text = frmChiTietPhieuPhong.SetValueForText1;
+            lblNoiDungTenKhach1.Text = frmChiTietPhieuPhong.SetValueForText2;
         }
 
         private void quảnLýPhòngToolStripMenuItem_Click(object sender, EventArgs e)

@@ -87,7 +87,7 @@
             this.lblChiTietPP.Font = new System.Drawing.Font("Palatino Linotype", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChiTietPP.Location = new System.Drawing.Point(278, 14);
             this.lblChiTietPP.Name = "lblChiTietPP";
-            this.lblChiTietPP.Size = new System.Drawing.Size(272, 29);
+            this.lblChiTietPP.Size = new System.Drawing.Size(351, 37);
             this.lblChiTietPP.TabIndex = 1;
             this.lblChiTietPP.Text = "CHI TIẾT PHIẾU PHÒNG";
             // 
@@ -95,35 +95,35 @@
             // 
             this.txtChiTietGiaPhong.Location = new System.Drawing.Point(160, 254);
             this.txtChiTietGiaPhong.Name = "txtChiTietGiaPhong";
-            this.txtChiTietGiaPhong.Size = new System.Drawing.Size(149, 22);
+            this.txtChiTietGiaPhong.Size = new System.Drawing.Size(149, 25);
             this.txtChiTietGiaPhong.TabIndex = 84;
             // 
             // txtChiTietNgayVao
             // 
             this.txtChiTietNgayVao.Location = new System.Drawing.Point(160, 210);
             this.txtChiTietNgayVao.Name = "txtChiTietNgayVao";
-            this.txtChiTietNgayVao.Size = new System.Drawing.Size(149, 22);
+            this.txtChiTietNgayVao.Size = new System.Drawing.Size(149, 25);
             this.txtChiTietNgayVao.TabIndex = 83;
             // 
             // txtChiTietSoKhach
             // 
             this.txtChiTietSoKhach.Location = new System.Drawing.Point(160, 164);
             this.txtChiTietSoKhach.Name = "txtChiTietSoKhach";
-            this.txtChiTietSoKhach.Size = new System.Drawing.Size(149, 22);
+            this.txtChiTietSoKhach.Size = new System.Drawing.Size(149, 25);
             this.txtChiTietSoKhach.TabIndex = 82;
             // 
             // txtChiTietTenBooking
             // 
             this.txtChiTietTenBooking.Location = new System.Drawing.Point(160, 110);
             this.txtChiTietTenBooking.Name = "txtChiTietTenBooking";
-            this.txtChiTietTenBooking.Size = new System.Drawing.Size(149, 22);
+            this.txtChiTietTenBooking.Size = new System.Drawing.Size(149, 25);
             this.txtChiTietTenBooking.TabIndex = 81;
             // 
             // txtChiTietLoaiPhong
             // 
             this.txtChiTietLoaiPhong.Location = new System.Drawing.Point(160, 59);
             this.txtChiTietLoaiPhong.Name = "txtChiTietLoaiPhong";
-            this.txtChiTietLoaiPhong.Size = new System.Drawing.Size(149, 22);
+            this.txtChiTietLoaiPhong.Size = new System.Drawing.Size(149, 25);
             this.txtChiTietLoaiPhong.TabIndex = 80;
             // 
             // dgvChiTietDichVu
@@ -180,7 +180,7 @@
             // 
             this.txtSoLuong.Location = new System.Drawing.Point(582, 351);
             this.txtSoLuong.Name = "txtSoLuong";
-            this.txtSoLuong.Size = new System.Drawing.Size(56, 22);
+            this.txtSoLuong.Size = new System.Drawing.Size(56, 25);
             this.txtSoLuong.TabIndex = 73;
             // 
             // cboDonViTinh
@@ -191,14 +191,14 @@
             "Chai"});
             this.cboDonViTinh.Location = new System.Drawing.Point(363, 353);
             this.cboDonViTinh.Name = "cboDonViTinh";
-            this.cboDonViTinh.Size = new System.Drawing.Size(121, 22);
+            this.cboDonViTinh.Size = new System.Drawing.Size(121, 26);
             this.cboDonViTinh.TabIndex = 72;
             // 
             // txtGia
             // 
             this.txtGia.Location = new System.Drawing.Point(196, 352);
             this.txtGia.Name = "txtGia";
-            this.txtGia.Size = new System.Drawing.Size(99, 22);
+            this.txtGia.Size = new System.Drawing.Size(99, 25);
             this.txtGia.TabIndex = 71;
             // 
             // cboTenDichVu
@@ -212,7 +212,7 @@
             "Thuê trang phục"});
             this.cboTenDichVu.Location = new System.Drawing.Point(29, 351);
             this.cboTenDichVu.Name = "cboTenDichVu";
-            this.cboTenDichVu.Size = new System.Drawing.Size(121, 22);
+            this.cboTenDichVu.Size = new System.Drawing.Size(121, 26);
             this.cboTenDichVu.TabIndex = 70;
             // 
             // lblSoLuong
@@ -220,7 +220,7 @@
             this.lblSoLuong.AutoSize = true;
             this.lblSoLuong.Location = new System.Drawing.Point(578, 329);
             this.lblSoLuong.Name = "lblSoLuong";
-            this.lblSoLuong.Size = new System.Drawing.Size(55, 16);
+            this.lblSoLuong.Size = new System.Drawing.Size(67, 19);
             this.lblSoLuong.TabIndex = 69;
             this.lblSoLuong.Text = "Số lượng";
             // 
@@ -229,7 +229,7 @@
             this.lblDonvitinh.AutoSize = true;
             this.lblDonvitinh.Location = new System.Drawing.Point(388, 331);
             this.lblDonvitinh.Name = "lblDonvitinh";
-            this.lblDonvitinh.Size = new System.Drawing.Size(64, 16);
+            this.lblDonvitinh.Size = new System.Drawing.Size(84, 19);
             this.lblDonvitinh.TabIndex = 68;
             this.lblDonvitinh.Text = "Đơn vị tính";
             // 
@@ -238,7 +238,7 @@
             this.lblGia.AutoSize = true;
             this.lblGia.Location = new System.Drawing.Point(235, 329);
             this.lblGia.Name = "lblGia";
-            this.lblGia.Size = new System.Drawing.Size(25, 16);
+            this.lblGia.Size = new System.Drawing.Size(31, 19);
             this.lblGia.TabIndex = 67;
             this.lblGia.Text = "Giá";
             // 
@@ -247,7 +247,7 @@
             this.lblTenDichVu.AutoSize = true;
             this.lblTenDichVu.Location = new System.Drawing.Point(45, 329);
             this.lblTenDichVu.Name = "lblTenDichVu";
-            this.lblTenDichVu.Size = new System.Drawing.Size(66, 16);
+            this.lblTenDichVu.Size = new System.Drawing.Size(84, 19);
             this.lblTenDichVu.TabIndex = 66;
             this.lblTenDichVu.Text = "Tên dịch vụ";
             // 
@@ -255,42 +255,42 @@
             // 
             this.txtChiTietThanhTien.Location = new System.Drawing.Point(655, 254);
             this.txtChiTietThanhTien.Name = "txtChiTietThanhTien";
-            this.txtChiTietThanhTien.Size = new System.Drawing.Size(168, 22);
+            this.txtChiTietThanhTien.Size = new System.Drawing.Size(168, 25);
             this.txtChiTietThanhTien.TabIndex = 65;
             // 
             // txtChiTietSoDem
             // 
             this.txtChiTietSoDem.Location = new System.Drawing.Point(444, 254);
             this.txtChiTietSoDem.Name = "txtChiTietSoDem";
-            this.txtChiTietSoDem.Size = new System.Drawing.Size(77, 22);
+            this.txtChiTietSoDem.Size = new System.Drawing.Size(77, 25);
             this.txtChiTietSoDem.TabIndex = 64;
             // 
             // txtChiTietNgayDi
             // 
             this.txtChiTietNgayDi.Location = new System.Drawing.Point(656, 204);
             this.txtChiTietNgayDi.Name = "txtChiTietNgayDi";
-            this.txtChiTietNgayDi.Size = new System.Drawing.Size(168, 22);
+            this.txtChiTietNgayDi.Size = new System.Drawing.Size(168, 25);
             this.txtChiTietNgayDi.TabIndex = 63;
             // 
             // txtChiTietQuocTich
             // 
             this.txtChiTietQuocTich.Location = new System.Drawing.Point(656, 152);
             this.txtChiTietQuocTich.Name = "txtChiTietQuocTich";
-            this.txtChiTietQuocTich.Size = new System.Drawing.Size(168, 22);
+            this.txtChiTietQuocTich.Size = new System.Drawing.Size(168, 25);
             this.txtChiTietQuocTich.TabIndex = 62;
             // 
             // txtChiTietTenKhach
             // 
             this.txtChiTietTenKhach.Location = new System.Drawing.Point(655, 104);
             this.txtChiTietTenKhach.Name = "txtChiTietTenKhach";
-            this.txtChiTietTenKhach.Size = new System.Drawing.Size(168, 22);
+            this.txtChiTietTenKhach.Size = new System.Drawing.Size(168, 25);
             this.txtChiTietTenKhach.TabIndex = 61;
             // 
             // txtChiTietSoPhong
             // 
             this.txtChiTietSoPhong.Location = new System.Drawing.Point(656, 59);
             this.txtChiTietSoPhong.Name = "txtChiTietSoPhong";
-            this.txtChiTietSoPhong.Size = new System.Drawing.Size(168, 22);
+            this.txtChiTietSoPhong.Size = new System.Drawing.Size(168, 25);
             this.txtChiTietSoPhong.TabIndex = 60;
             // 
             // lblDichVu
@@ -299,7 +299,7 @@
             this.lblDichVu.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDichVu.Location = new System.Drawing.Point(384, 299);
             this.lblDichVu.Name = "lblDichVu";
-            this.lblDichVu.Size = new System.Drawing.Size(95, 25);
+            this.lblDichVu.Size = new System.Drawing.Size(119, 32);
             this.lblDichVu.TabIndex = 59;
             this.lblDichVu.Text = "DỊCH VỤ";
             // 
@@ -308,7 +308,7 @@
             this.lblChiTietThanhTien.AutoSize = true;
             this.lblChiTietThanhTien.Location = new System.Drawing.Point(554, 257);
             this.lblChiTietThanhTien.Name = "lblChiTietThanhTien";
-            this.lblChiTietThanhTien.Size = new System.Drawing.Size(59, 16);
+            this.lblChiTietThanhTien.Size = new System.Drawing.Size(80, 19);
             this.lblChiTietThanhTien.TabIndex = 58;
             this.lblChiTietThanhTien.Text = "Thành tiền";
             // 
@@ -317,7 +317,7 @@
             this.lblChiTietSoDem.AutoSize = true;
             this.lblChiTietSoDem.Location = new System.Drawing.Point(359, 260);
             this.lblChiTietSoDem.Name = "lblChiTietSoDem";
-            this.lblChiTietSoDem.Size = new System.Drawing.Size(46, 16);
+            this.lblChiTietSoDem.Size = new System.Drawing.Size(55, 19);
             this.lblChiTietSoDem.TabIndex = 57;
             this.lblChiTietSoDem.Text = "Số đêm";
             // 
@@ -326,7 +326,7 @@
             this.lblChiTietNgayDi.AutoSize = true;
             this.lblChiTietNgayDi.Location = new System.Drawing.Point(554, 210);
             this.lblChiTietNgayDi.Name = "lblChiTietNgayDi";
-            this.lblChiTietNgayDi.Size = new System.Drawing.Size(48, 16);
+            this.lblChiTietNgayDi.Size = new System.Drawing.Size(60, 19);
             this.lblChiTietNgayDi.TabIndex = 56;
             this.lblChiTietNgayDi.Text = "Ngày đi";
             // 
@@ -335,7 +335,7 @@
             this.lblChiTietQuocTich.AutoSize = true;
             this.lblChiTietQuocTich.Location = new System.Drawing.Point(554, 158);
             this.lblChiTietQuocTich.Name = "lblChiTietQuocTich";
-            this.lblChiTietQuocTich.Size = new System.Drawing.Size(57, 16);
+            this.lblChiTietQuocTich.Size = new System.Drawing.Size(71, 19);
             this.lblChiTietQuocTich.TabIndex = 55;
             this.lblChiTietQuocTich.Text = "Quốc tịch";
             // 
@@ -344,7 +344,7 @@
             this.lblChiTietTenKhach.AutoSize = true;
             this.lblChiTietTenKhach.Location = new System.Drawing.Point(554, 110);
             this.lblChiTietTenKhach.Name = "lblChiTietTenKhach";
-            this.lblChiTietTenKhach.Size = new System.Drawing.Size(58, 16);
+            this.lblChiTietTenKhach.Size = new System.Drawing.Size(75, 19);
             this.lblChiTietTenKhach.TabIndex = 54;
             this.lblChiTietTenKhach.Text = "Tên khách";
             // 
@@ -353,7 +353,7 @@
             this.lblChiTietSoPhong.AutoSize = true;
             this.lblChiTietSoPhong.Location = new System.Drawing.Point(554, 59);
             this.lblChiTietSoPhong.Name = "lblChiTietSoPhong";
-            this.lblChiTietSoPhong.Size = new System.Drawing.Size(57, 16);
+            this.lblChiTietSoPhong.Size = new System.Drawing.Size(71, 19);
             this.lblChiTietSoPhong.TabIndex = 53;
             this.lblChiTietSoPhong.Text = "Số phòng";
             // 
@@ -362,7 +362,7 @@
             this.lblChiTietGiaPhong.AutoSize = true;
             this.lblChiTietGiaPhong.Location = new System.Drawing.Point(45, 261);
             this.lblChiTietGiaPhong.Name = "lblChiTietGiaPhong";
-            this.lblChiTietGiaPhong.Size = new System.Drawing.Size(60, 16);
+            this.lblChiTietGiaPhong.Size = new System.Drawing.Size(77, 19);
             this.lblChiTietGiaPhong.TabIndex = 52;
             this.lblChiTietGiaPhong.Text = "Giá phòng";
             // 
@@ -371,7 +371,7 @@
             this.lblChiTietNgayVao.AutoSize = true;
             this.lblChiTietNgayVao.Location = new System.Drawing.Point(45, 210);
             this.lblChiTietNgayVao.Name = "lblChiTietNgayVao";
-            this.lblChiTietNgayVao.Size = new System.Drawing.Size(58, 16);
+            this.lblChiTietNgayVao.Size = new System.Drawing.Size(71, 19);
             this.lblChiTietNgayVao.TabIndex = 51;
             this.lblChiTietNgayVao.Text = "Ngày vào";
             // 
@@ -380,7 +380,7 @@
             this.lblChiTietSoKhach.AutoSize = true;
             this.lblChiTietSoKhach.Location = new System.Drawing.Point(45, 167);
             this.lblChiTietSoKhach.Name = "lblChiTietSoKhach";
-            this.lblChiTietSoKhach.Size = new System.Drawing.Size(54, 16);
+            this.lblChiTietSoKhach.Size = new System.Drawing.Size(68, 19);
             this.lblChiTietSoKhach.TabIndex = 50;
             this.lblChiTietSoKhach.Text = "Số khách";
             // 
@@ -389,7 +389,7 @@
             this.lblChiTietTenBooking.AutoSize = true;
             this.lblChiTietTenBooking.Location = new System.Drawing.Point(45, 113);
             this.lblChiTietTenBooking.Name = "lblChiTietTenBooking";
-            this.lblChiTietTenBooking.Size = new System.Drawing.Size(71, 16);
+            this.lblChiTietTenBooking.Size = new System.Drawing.Size(89, 19);
             this.lblChiTietTenBooking.TabIndex = 49;
             this.lblChiTietTenBooking.Text = "Tên booking";
             // 
@@ -398,7 +398,7 @@
             this.lblChiTietLoaiPhong.AutoSize = true;
             this.lblChiTietLoaiPhong.Location = new System.Drawing.Point(45, 65);
             this.lblChiTietLoaiPhong.Name = "lblChiTietLoaiPhong";
-            this.lblChiTietLoaiPhong.Size = new System.Drawing.Size(65, 16);
+            this.lblChiTietLoaiPhong.Size = new System.Drawing.Size(83, 19);
             this.lblChiTietLoaiPhong.TabIndex = 48;
             this.lblChiTietLoaiPhong.Text = "Loại phòng";
             // 
@@ -407,7 +407,7 @@
             this.lblNgayThangNam.AutoSize = true;
             this.lblNgayThangNam.Location = new System.Drawing.Point(45, 711);
             this.lblNgayThangNam.Name = "lblNgayThangNam";
-            this.lblNgayThangNam.Size = new System.Drawing.Size(113, 16);
+            this.lblNgayThangNam.Size = new System.Drawing.Size(150, 19);
             this.lblNgayThangNam.TabIndex = 89;
             this.lblNgayThangNam.Text = "Ngày     tháng     năm";
             // 
@@ -416,7 +416,7 @@
             this.lblKhachHang.AutoSize = true;
             this.lblKhachHang.Location = new System.Drawing.Point(77, 740);
             this.lblKhachHang.Name = "lblKhachHang";
-            this.lblKhachHang.Size = new System.Drawing.Size(66, 16);
+            this.lblKhachHang.Size = new System.Drawing.Size(87, 19);
             this.lblKhachHang.TabIndex = 90;
             this.lblKhachHang.Text = "Khách hàng";
             // 
@@ -425,7 +425,7 @@
             this.lblTongTien.AutoSize = true;
             this.lblTongTien.Location = new System.Drawing.Point(556, 687);
             this.lblTongTien.Name = "lblTongTien";
-            this.lblTongTien.Size = new System.Drawing.Size(59, 16);
+            this.lblTongTien.Size = new System.Drawing.Size(75, 19);
             this.lblTongTien.TabIndex = 91;
             this.lblTongTien.Text = "Tổng tiền:";
             // 
@@ -434,7 +434,7 @@
             this.lblNhanVien.AutoSize = true;
             this.lblNhanVien.Location = new System.Drawing.Point(659, 740);
             this.lblNhanVien.Name = "lblNhanVien";
-            this.lblNhanVien.Size = new System.Drawing.Size(59, 16);
+            this.lblNhanVien.Size = new System.Drawing.Size(77, 19);
             this.lblNhanVien.TabIndex = 92;
             this.lblNhanVien.Text = "Nhân viên";
             // 
@@ -443,7 +443,7 @@
             this.txtTongTien.Location = new System.Drawing.Point(637, 681);
             this.txtTongTien.Name = "txtTongTien";
             this.txtTongTien.ReadOnly = true;
-            this.txtTongTien.Size = new System.Drawing.Size(99, 22);
+            this.txtTongTien.Size = new System.Drawing.Size(99, 25);
             this.txtTongTien.TabIndex = 93;
             // 
             // btnInCuaCTPP
@@ -528,7 +528,7 @@
             // 
             // frmChiTietPhieuPhong
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(883, 749);
             this.Controls.Add(this.txtTongTien);

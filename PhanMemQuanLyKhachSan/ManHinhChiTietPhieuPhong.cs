@@ -36,6 +36,7 @@ namespace PhanMemQuanLyKhachSan
         {
             SetValueForText1 = txtChiTietTenBooking.Text;
             SetValueForText2 = txtChiTietTenKhach.Text;
+            
 
             frmManHinhChinh frm2 = new frmManHinhChinh();
             frm2.Show();
