@@ -32,12 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>lib\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer">
-      <HintPath>lib\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -84,6 +78,15 @@
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="Table\ChiTietHoaDon.cs" />
+    <Compile Include="Table\DangNhap.cs" />
+    <Compile Include="Table\DichVu.cs" />
+    <Compile Include="Table\GiaoCa.cs" />
+    <Compile Include="Table\HoaDon.cs" />
+    <Compile Include="Table\KhachHang.cs" />
+    <Compile Include="Table\LichLamViec.cs" />
+    <Compile Include="Table\NhanVien.cs" />
+    <Compile Include="Table\Phong.cs" />
     <Compile Include="ThongKe.cs">
       <SubType>Form</SubType>
     </Compile>
