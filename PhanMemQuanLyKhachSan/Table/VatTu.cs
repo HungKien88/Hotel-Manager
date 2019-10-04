@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace PhanMemQuanLyKhachSan.Table
 {
-    class NhanVien
+    class VatTu
     {
-        public string NhanVienID { get; set; }
-        public string tenNV { get; set; }
+        public int username { get; set; }
+        public string password { get; set; }
     }
 }
