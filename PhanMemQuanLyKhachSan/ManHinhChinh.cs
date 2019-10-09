@@ -20,7 +20,6 @@ namespace PhanMemQuanLyKhachSan
         private void btnChitiet1_Click(object sender, EventArgs e)
         {
             frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
-            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
             fmmhctpp.Show();
             this.Hide();
         }
@@ -32,7 +31,6 @@ namespace PhanMemQuanLyKhachSan
         private void btnChitiet2_Click(object sender, EventArgs e)
         {
             frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
-            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
             fmmhctpp.Show();
             this.Hide();
         }
@@ -40,7 +38,6 @@ namespace PhanMemQuanLyKhachSan
         private void btnChitiet3_Click(object sender, EventArgs e)
         {
             frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
-            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
             fmmhctpp.Show();
             this.Hide();
         }
@@ -48,7 +45,6 @@ namespace PhanMemQuanLyKhachSan
         private void btnChitiet4_Click(object sender, EventArgs e)
         {
             frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
-            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
             fmmhctpp.Show();
             this.Hide();
         }
@@ -56,7 +52,6 @@ namespace PhanMemQuanLyKhachSan
         private void btnChitiet5_Click(object sender, EventArgs e)
         {
             frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
-            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
             fmmhctpp.Show();
             this.Hide();
         }
@@ -64,15 +59,13 @@ namespace PhanMemQuanLyKhachSan
         private void button6_Click(object sender, EventArgs e)
         {
             frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
-            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
             fmmhctpp.Show();
             this.Hide();
         }
 
         private void btnChitiet7_Click(object sender, EventArgs e)
         {
-            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
-            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
+            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();          
             fmmhctpp.Show();
             this.Hide();
         }
@@ -80,7 +73,6 @@ namespace PhanMemQuanLyKhachSan
         private void btnChitiet8_Click(object sender, EventArgs e)
         {
             frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
-            fmmhctpp.FormClosed += new FormClosedEventHandler(fmmhctpp_FormClosed);
             fmmhctpp.Show();
             this.Hide();
         }
@@ -92,7 +84,6 @@ namespace PhanMemQuanLyKhachSan
         private void quảnLýKháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmQuanLyKhachHang fmqlkh = new frmQuanLyKhachHang();
-            fmqlkh.FormClosed += new FormClosedEventHandler(fmqlkh_FormClosed);
             fmqlkh.Show();
             this.Hide();
         }
@@ -181,14 +172,19 @@ namespace PhanMemQuanLyKhachSan
 
         private void pnlPhong1_Paint(object sender, PaintEventArgs e)
         {
-           lblNoiDungTenBooking1.Text = frmChiTietPhieuPhong.SetValueForText1;
-            lblNoiDungTenKhach1.Text = frmChiTietPhieuPhong.SetValueForText2;
         }
 
         private void quảnLýPhòngToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmQuanLyPhong qlp = new frmQuanLyPhong();
             qlp.Show();
+            this.Hide();
+        }
+
+        private void quảnLýNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmQuanLyNhanVien qlnv = new frmQuanLyNhanVien();
+            qlnv.Show();
             this.Hide();
         }
     }

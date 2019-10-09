@@ -28,17 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblQuanLyKhachHang = new System.Windows.Forms.Label();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.btnLoc = new System.Windows.Forms.Button();
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.btnTroVeCuaQLKH = new System.Windows.Forms.Button();
             this.lblNgayDen = new System.Windows.Forms.Label();
-            this.txtNgayDen = new System.Windows.Forms.TextBox();
-            this.txtNgayDi = new System.Windows.Forms.TextBox();
             this.lblNgayDi = new System.Windows.Forms.Label();
             this.dgvQuanLyKhachHang = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,6 +45,8 @@
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuanLyKhachHang)).BeginInit();
             this.SuspendLayout();
             // 
@@ -115,27 +113,11 @@
             // 
             this.lblNgayDen.AutoSize = true;
             this.lblNgayDen.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNgayDen.Location = new System.Drawing.Point(245, 121);
+            this.lblNgayDen.Location = new System.Drawing.Point(567, 121);
             this.lblNgayDen.Name = "lblNgayDen";
             this.lblNgayDen.Size = new System.Drawing.Size(92, 24);
             this.lblNgayDen.TabIndex = 5;
             this.lblNgayDen.Text = "Ngày đến:";
-            // 
-            // txtNgayDen
-            // 
-            this.txtNgayDen.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNgayDen.Location = new System.Drawing.Point(371, 118);
-            this.txtNgayDen.Name = "txtNgayDen";
-            this.txtNgayDen.Size = new System.Drawing.Size(139, 27);
-            this.txtNgayDen.TabIndex = 6;
-            // 
-            // txtNgayDi
-            // 
-            this.txtNgayDi.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNgayDi.Location = new System.Drawing.Point(968, 120);
-            this.txtNgayDi.Name = "txtNgayDi";
-            this.txtNgayDi.Size = new System.Drawing.Size(139, 27);
-            this.txtNgayDi.TabIndex = 8;
             // 
             // lblNgayDi
             // 
@@ -149,17 +131,9 @@
             // 
             // dgvQuanLyKhachHang
             // 
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvQuanLyKhachHang.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvQuanLyKhachHang.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvQuanLyKhachHang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvQuanLyKhachHang.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvQuanLyKhachHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvQuanLyKhachHang.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -170,19 +144,11 @@
             this.Column6,
             this.Column7,
             this.Column8});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvQuanLyKhachHang.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvQuanLyKhachHang.Location = new System.Drawing.Point(27, 223);
             this.dgvQuanLyKhachHang.Name = "dgvQuanLyKhachHang";
             this.dgvQuanLyKhachHang.RowHeadersVisible = false;
             this.dgvQuanLyKhachHang.RowTemplate.Height = 24;
-            this.dgvQuanLyKhachHang.Size = new System.Drawing.Size(1303, 404);
+            this.dgvQuanLyKhachHang.Size = new System.Drawing.Size(1303, 455);
             this.dgvQuanLyKhachHang.TabIndex = 9;
             // 
             // Column1
@@ -225,15 +191,29 @@
             this.Column8.HeaderText = "Số đêm";
             this.Column8.Name = "Column8";
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(665, 123);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(123, 22);
+            this.dateTimePicker1.TabIndex = 10;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(944, 123);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(123, 22);
+            this.dateTimePicker2.TabIndex = 11;
+            // 
             // frmQuanLyKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1362, 690);
+            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.dgvQuanLyKhachHang);
-            this.Controls.Add(this.txtNgayDi);
             this.Controls.Add(this.lblNgayDi);
-            this.Controls.Add(this.txtNgayDen);
             this.Controls.Add(this.lblNgayDen);
             this.Controls.Add(this.btnLoc);
             this.Controls.Add(this.btnTimKiem);
@@ -258,8 +238,6 @@
         private System.Windows.Forms.Button btnTimKiem;
         private System.Windows.Forms.Button btnLoc;
         private System.Windows.Forms.Label lblNgayDen;
-        private System.Windows.Forms.TextBox txtNgayDen;
-        private System.Windows.Forms.TextBox txtNgayDi;
         private System.Windows.Forms.Label lblNgayDi;
         private System.Windows.Forms.DataGridView dgvQuanLyKhachHang;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
@@ -270,5 +248,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
     }
 }

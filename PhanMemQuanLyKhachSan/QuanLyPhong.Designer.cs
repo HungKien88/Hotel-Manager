@@ -34,6 +34,9 @@
             this.lblQuanLyPhong = new System.Windows.Forms.Label();
             this.dgvQuanLyPhong = new System.Windows.Forms.DataGridView();
             this.btnTroVeCuaCTPP = new System.Windows.Forms.Button();
+            this.stt = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenLoaiPhong = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuanLyPhong)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +54,7 @@
             // btnCapNhatDVPhong
             // 
             this.btnCapNhatDVPhong.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCapNhatDVPhong.Location = new System.Drawing.Point(45, 236);
+            this.btnCapNhatDVPhong.Location = new System.Drawing.Point(45, 278);
             this.btnCapNhatDVPhong.Name = "btnCapNhatDVPhong";
             this.btnCapNhatDVPhong.Size = new System.Drawing.Size(100, 59);
             this.btnCapNhatDVPhong.TabIndex = 1;
@@ -62,7 +65,7 @@
             // btnCapNhatLoaiPhong
             // 
             this.btnCapNhatLoaiPhong.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCapNhatLoaiPhong.Location = new System.Drawing.Point(45, 394);
+            this.btnCapNhatLoaiPhong.Location = new System.Drawing.Point(45, 449);
             this.btnCapNhatLoaiPhong.Name = "btnCapNhatLoaiPhong";
             this.btnCapNhatLoaiPhong.Size = new System.Drawing.Size(100, 76);
             this.btnCapNhatLoaiPhong.TabIndex = 2;
@@ -73,7 +76,7 @@
             // lblQuanLyPhong
             // 
             this.lblQuanLyPhong.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuanLyPhong.Location = new System.Drawing.Point(535, 9);
+            this.lblQuanLyPhong.Location = new System.Drawing.Point(393, 9);
             this.lblQuanLyPhong.Name = "lblQuanLyPhong";
             this.lblQuanLyPhong.Size = new System.Drawing.Size(218, 42);
             this.lblQuanLyPhong.TabIndex = 3;
@@ -82,12 +85,19 @@
             // 
             // dgvQuanLyPhong
             // 
+            this.dgvQuanLyPhong.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvQuanLyPhong.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.dgvQuanLyPhong.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvQuanLyPhong.Location = new System.Drawing.Point(290, 101);
+            this.dgvQuanLyPhong.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.stt,
+            this.TenLoaiPhong,
+            this.Gia});
+            this.dgvQuanLyPhong.Location = new System.Drawing.Point(176, 101);
             this.dgvQuanLyPhong.Name = "dgvQuanLyPhong";
-            this.dgvQuanLyPhong.Size = new System.Drawing.Size(824, 369);
+            this.dgvQuanLyPhong.ReadOnly = true;
+            this.dgvQuanLyPhong.Size = new System.Drawing.Size(657, 424);
             this.dgvQuanLyPhong.TabIndex = 4;
+            this.dgvQuanLyPhong.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQuanLyPhong_CellContentClick);
             // 
             // btnTroVeCuaCTPP
             // 
@@ -102,11 +112,29 @@
             this.btnTroVeCuaCTPP.UseVisualStyleBackColor = true;
             this.btnTroVeCuaCTPP.Click += new System.EventHandler(this.BtnTroVeCuaCTPP_Click);
             // 
+            // stt
+            // 
+            this.stt.FillWeight = 38.07107F;
+            this.stt.HeaderText = "STT";
+            this.stt.Name = "stt";
+            // 
+            // TenLoaiPhong
+            // 
+            this.TenLoaiPhong.FillWeight = 130.9645F;
+            this.TenLoaiPhong.HeaderText = "Tên Loại Phòng";
+            this.TenLoaiPhong.Name = "TenLoaiPhong";
+            // 
+            // Gia
+            // 
+            this.Gia.FillWeight = 130.9645F;
+            this.Gia.HeaderText = "Giá Phòng";
+            this.Gia.Name = "Gia";
+            // 
             // frmQuanLyPhong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1182, 537);
+            this.ClientSize = new System.Drawing.Size(845, 537);
             this.Controls.Add(this.btnTroVeCuaCTPP);
             this.Controls.Add(this.dgvQuanLyPhong);
             this.Controls.Add(this.lblQuanLyPhong);
@@ -116,6 +144,7 @@
             this.Name = "frmQuanLyPhong";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Màn Hình Quản Lý Phòng";
+            this.Load += new System.EventHandler(this.frmQuanLyPhong_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuanLyPhong)).EndInit();
             this.ResumeLayout(false);
 
@@ -129,5 +158,8 @@
         private System.Windows.Forms.Label lblQuanLyPhong;
         private System.Windows.Forms.DataGridView dgvQuanLyPhong;
         private System.Windows.Forms.Button btnTroVeCuaCTPP;
+        private System.Windows.Forms.DataGridViewTextBoxColumn stt;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenLoaiPhong;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Gia;
     }
 }

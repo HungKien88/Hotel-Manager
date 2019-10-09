@@ -23,5 +23,10 @@ namespace PhanMemQuanLyKhachSan
             qlp.Show();
             this.Hide();
         }
+
+        private void btnHuyCapNhatLoaiPhong_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

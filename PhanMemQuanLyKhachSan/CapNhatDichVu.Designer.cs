@@ -36,7 +36,10 @@
             this.btnXoaDichVu = new System.Windows.Forms.Button();
             this.dgvCapNhatDichVu = new System.Windows.Forms.DataGridView();
             this.txtCapNhatDichVu = new System.Windows.Forms.TextBox();
-            this.btnSuaDichVu = new System.Windows.Forms.Button();
+            this.txtGia = new System.Windows.Forms.TextBox();
+            this.stt = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenDichVu = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCapNhatDichVu)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +47,7 @@
             // 
             this.lblDichVuKhachSan.AutoSize = true;
             this.lblDichVuKhachSan.Font = new System.Drawing.Font("Palatino Linotype", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDichVuKhachSan.Location = new System.Drawing.Point(264, 9);
+            this.lblDichVuKhachSan.Location = new System.Drawing.Point(323, 9);
             this.lblDichVuKhachSan.Name = "lblDichVuKhachSan";
             this.lblDichVuKhachSan.Size = new System.Drawing.Size(270, 38);
             this.lblDichVuKhachSan.TabIndex = 0;
@@ -77,78 +80,103 @@
             this.btnLuuCapNhatDichVu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuuCapNhatDichVu.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
             this.btnLuuCapNhatDichVu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLuuCapNhatDichVu.Location = new System.Drawing.Point(475, 594);
+            this.btnLuuCapNhatDichVu.Location = new System.Drawing.Point(843, 278);
             this.btnLuuCapNhatDichVu.Name = "btnLuuCapNhatDichVu";
-            this.btnLuuCapNhatDichVu.Size = new System.Drawing.Size(109, 45);
+            this.btnLuuCapNhatDichVu.Size = new System.Drawing.Size(84, 45);
             this.btnLuuCapNhatDichVu.TabIndex = 3;
             this.btnLuuCapNhatDichVu.Text = "Lưu";
             this.btnLuuCapNhatDichVu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnLuuCapNhatDichVu.UseVisualStyleBackColor = true;
+            this.btnLuuCapNhatDichVu.Click += new System.EventHandler(this.btnLuuCapNhatDichVu_Click);
             // 
             // btnThemDichVu
             // 
             this.btnThemDichVu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemDichVu.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconThem;
             this.btnThemDichVu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThemDichVu.Location = new System.Drawing.Point(475, 227);
+            this.btnThemDichVu.Location = new System.Drawing.Point(525, 278);
             this.btnThemDichVu.Name = "btnThemDichVu";
-            this.btnThemDichVu.Size = new System.Drawing.Size(109, 45);
+            this.btnThemDichVu.Size = new System.Drawing.Size(146, 45);
             this.btnThemDichVu.TabIndex = 4;
-            this.btnThemDichVu.Text = "Thêm dv";
+            this.btnThemDichVu.Text = "Thêm Dịch Vụ";
             this.btnThemDichVu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnThemDichVu.UseVisualStyleBackColor = true;
+            this.btnThemDichVu.Click += new System.EventHandler(this.btnThemDichVu_Click);
             // 
             // btnXoaDichVu
             // 
             this.btnXoaDichVu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaDichVu.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconDelete;
             this.btnXoaDichVu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoaDichVu.Location = new System.Drawing.Point(475, 352);
+            this.btnXoaDichVu.Location = new System.Drawing.Point(694, 278);
             this.btnXoaDichVu.Name = "btnXoaDichVu";
-            this.btnXoaDichVu.Size = new System.Drawing.Size(109, 45);
+            this.btnXoaDichVu.Size = new System.Drawing.Size(131, 45);
             this.btnXoaDichVu.TabIndex = 5;
-            this.btnXoaDichVu.Text = "Xóa dv";
+            this.btnXoaDichVu.Text = "Xóa Dịch Vụ";
             this.btnXoaDichVu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnXoaDichVu.UseVisualStyleBackColor = true;
+            this.btnXoaDichVu.Click += new System.EventHandler(this.btnXoaDichVu_Click);
             // 
             // dgvCapNhatDichVu
             // 
+            this.dgvCapNhatDichVu.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvCapNhatDichVu.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.dgvCapNhatDichVu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCapNhatDichVu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.stt,
+            this.TenDichVu,
+            this.Gia});
             this.dgvCapNhatDichVu.Location = new System.Drawing.Point(26, 108);
             this.dgvCapNhatDichVu.Name = "dgvCapNhatDichVu";
-            this.dgvCapNhatDichVu.Size = new System.Drawing.Size(393, 556);
+            this.dgvCapNhatDichVu.ReadOnly = true;
+            this.dgvCapNhatDichVu.Size = new System.Drawing.Size(483, 556);
             this.dgvCapNhatDichVu.TabIndex = 6;
+            this.dgvCapNhatDichVu.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cell_Click);
             // 
             // txtCapNhatDichVu
             // 
             this.txtCapNhatDichVu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCapNhatDichVu.Location = new System.Drawing.Point(475, 108);
+            this.txtCapNhatDichVu.Location = new System.Drawing.Point(525, 108);
             this.txtCapNhatDichVu.Multiline = true;
             this.txtCapNhatDichVu.Name = "txtCapNhatDichVu";
-            this.txtCapNhatDichVu.Size = new System.Drawing.Size(440, 45);
+            this.txtCapNhatDichVu.Size = new System.Drawing.Size(384, 45);
             this.txtCapNhatDichVu.TabIndex = 7;
             this.txtCapNhatDichVu.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
-            // btnSuaDichVu
+            // txtGia
             // 
-            this.btnSuaDichVu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSuaDichVu.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconSuaaaaa;
-            this.btnSuaDichVu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSuaDichVu.Location = new System.Drawing.Point(475, 477);
-            this.btnSuaDichVu.Name = "btnSuaDichVu";
-            this.btnSuaDichVu.Size = new System.Drawing.Size(109, 45);
-            this.btnSuaDichVu.TabIndex = 8;
-            this.btnSuaDichVu.Text = "Sửa dv";
-            this.btnSuaDichVu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSuaDichVu.UseVisualStyleBackColor = true;
+            this.txtGia.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGia.Location = new System.Drawing.Point(525, 169);
+            this.txtGia.Multiline = true;
+            this.txtGia.Name = "txtGia";
+            this.txtGia.Size = new System.Drawing.Size(384, 45);
+            this.txtGia.TabIndex = 7;
+            this.txtGia.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
+            // 
+            // stt
+            // 
+            this.stt.FillWeight = 38.07107F;
+            this.stt.HeaderText = "STT";
+            this.stt.Name = "stt";
+            // 
+            // TenDichVu
+            // 
+            this.TenDichVu.FillWeight = 130.9645F;
+            this.TenDichVu.HeaderText = "Tên Dịch Vụ";
+            this.TenDichVu.Name = "TenDichVu";
+            // 
+            // Gia
+            // 
+            this.Gia.FillWeight = 130.9645F;
+            this.Gia.HeaderText = "Giá Dịch Vụ";
+            this.Gia.Name = "Gia";
             // 
             // frmCapNhatDichVu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(939, 676);
-            this.Controls.Add(this.btnSuaDichVu);
+            this.Controls.Add(this.txtGia);
             this.Controls.Add(this.txtCapNhatDichVu);
             this.Controls.Add(this.dgvCapNhatDichVu);
             this.Controls.Add(this.btnXoaDichVu);
@@ -160,6 +188,7 @@
             this.Name = "frmCapNhatDichVu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cập Nhật Dịch Vụ";
+            this.Load += new System.EventHandler(this.frmCapNhatDichVu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCapNhatDichVu)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -176,6 +205,9 @@
         private System.Windows.Forms.Button btnXoaDichVu;
         private System.Windows.Forms.DataGridView dgvCapNhatDichVu;
         private System.Windows.Forms.TextBox txtCapNhatDichVu;
-        private System.Windows.Forms.Button btnSuaDichVu;
+        private System.Windows.Forms.TextBox txtGia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn stt;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenDichVu;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Gia;
     }
 }

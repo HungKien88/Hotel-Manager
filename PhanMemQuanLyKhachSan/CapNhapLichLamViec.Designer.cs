@@ -114,7 +114,7 @@
             this.btnSuaLichLamViec.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaLichLamViec.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconSuaaaaa;
             this.btnSuaLichLamViec.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSuaLichLamViec.Location = new System.Drawing.Point(1267, 107);
+            this.btnSuaLichLamViec.Location = new System.Drawing.Point(1226, 107);
             this.btnSuaLichLamViec.Name = "btnSuaLichLamViec";
             this.btnSuaLichLamViec.Size = new System.Drawing.Size(109, 45);
             this.btnSuaLichLamViec.TabIndex = 13;
@@ -156,17 +156,17 @@
             // txtThu2CaSang
             // 
             this.txtThu2CaSang.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu2CaSang.Location = new System.Drawing.Point(140, 49);
+            this.txtThu2CaSang.Location = new System.Drawing.Point(138, 49);
             this.txtThu2CaSang.Multiline = true;
             this.txtThu2CaSang.Name = "txtThu2CaSang";
-            this.txtThu2CaSang.Size = new System.Drawing.Size(182, 86);
+            this.txtThu2CaSang.Size = new System.Drawing.Size(180, 86);
             this.txtThu2CaSang.TabIndex = 28;
             // 
             // lblThu2
             // 
             this.lblThu2.AutoSize = true;
             this.lblThu2.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThu2.Location = new System.Drawing.Point(140, 1);
+            this.lblThu2.Location = new System.Drawing.Point(138, 1);
             this.lblThu2.Name = "lblThu2";
             this.lblThu2.Size = new System.Drawing.Size(50, 22);
             this.lblThu2.TabIndex = 22;
@@ -186,7 +186,7 @@
             // 
             this.lblThu3.AutoSize = true;
             this.lblThu3.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThu3.Location = new System.Drawing.Point(329, 1);
+            this.lblThu3.Location = new System.Drawing.Point(325, 1);
             this.lblThu3.Name = "lblThu3";
             this.lblThu3.Size = new System.Drawing.Size(50, 22);
             this.lblThu3.TabIndex = 24;
@@ -216,7 +216,7 @@
             // 
             this.lblThu4.AutoSize = true;
             this.lblThu4.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThu4.Location = new System.Drawing.Point(508, 1);
+            this.lblThu4.Location = new System.Drawing.Point(504, 1);
             this.lblThu4.Name = "lblThu4";
             this.lblThu4.Size = new System.Drawing.Size(50, 22);
             this.lblThu4.TabIndex = 26;
@@ -226,7 +226,7 @@
             // 
             this.lblThu6.AutoSize = true;
             this.lblThu6.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThu6.Location = new System.Drawing.Point(864, 1);
+            this.lblThu6.Location = new System.Drawing.Point(860, 1);
             this.lblThu6.Name = "lblThu6";
             this.lblThu6.Size = new System.Drawing.Size(50, 22);
             this.lblThu6.TabIndex = 21;
@@ -236,7 +236,7 @@
             // 
             this.lblThu5.AutoSize = true;
             this.lblThu5.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThu5.Location = new System.Drawing.Point(692, 1);
+            this.lblThu5.Location = new System.Drawing.Point(688, 1);
             this.lblThu5.Name = "lblThu5";
             this.lblThu5.Size = new System.Drawing.Size(50, 22);
             this.lblThu5.TabIndex = 25;
@@ -246,7 +246,7 @@
             // 
             this.lblThu7.AutoSize = true;
             this.lblThu7.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThu7.Location = new System.Drawing.Point(1036, 1);
+            this.lblThu7.Location = new System.Drawing.Point(1032, 1);
             this.lblThu7.Name = "lblThu7";
             this.lblThu7.Size = new System.Drawing.Size(50, 22);
             this.lblThu7.TabIndex = 23;
@@ -268,7 +268,7 @@
             this.lblChuNhat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblChuNhat.AutoSize = true;
             this.lblChuNhat.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblChuNhat.Location = new System.Drawing.Point(1209, 1);
+            this.lblChuNhat.Location = new System.Drawing.Point(1303, 23);
             this.lblChuNhat.Name = "lblChuNhat";
             this.lblChuNhat.Size = new System.Drawing.Size(78, 22);
             this.lblChuNhat.TabIndex = 27;
@@ -277,7 +277,7 @@
             // txtThu3CaSang
             // 
             this.txtThu3CaSang.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu3CaSang.Location = new System.Drawing.Point(329, 49);
+            this.txtThu3CaSang.Location = new System.Drawing.Point(325, 49);
             this.txtThu3CaSang.Multiline = true;
             this.txtThu3CaSang.Name = "txtThu3CaSang";
             this.txtThu3CaSang.Size = new System.Drawing.Size(172, 86);
@@ -286,7 +286,7 @@
             // txtThu4CaSang
             // 
             this.txtThu4CaSang.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu4CaSang.Location = new System.Drawing.Point(508, 49);
+            this.txtThu4CaSang.Location = new System.Drawing.Point(504, 49);
             this.txtThu4CaSang.Multiline = true;
             this.txtThu4CaSang.Name = "txtThu4CaSang";
             this.txtThu4CaSang.Size = new System.Drawing.Size(177, 86);
@@ -295,7 +295,7 @@
             // txtThu5CaSang
             // 
             this.txtThu5CaSang.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu5CaSang.Location = new System.Drawing.Point(692, 49);
+            this.txtThu5CaSang.Location = new System.Drawing.Point(688, 49);
             this.txtThu5CaSang.Multiline = true;
             this.txtThu5CaSang.Name = "txtThu5CaSang";
             this.txtThu5CaSang.Size = new System.Drawing.Size(165, 86);
@@ -304,7 +304,7 @@
             // txtThu6CaSang
             // 
             this.txtThu6CaSang.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu6CaSang.Location = new System.Drawing.Point(864, 49);
+            this.txtThu6CaSang.Location = new System.Drawing.Point(860, 49);
             this.txtThu6CaSang.Multiline = true;
             this.txtThu6CaSang.Name = "txtThu6CaSang";
             this.txtThu6CaSang.Size = new System.Drawing.Size(165, 86);
@@ -313,7 +313,7 @@
             // txtThu7CaSang
             // 
             this.txtThu7CaSang.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu7CaSang.Location = new System.Drawing.Point(1036, 49);
+            this.txtThu7CaSang.Location = new System.Drawing.Point(1032, 49);
             this.txtThu7CaSang.Multiline = true;
             this.txtThu7CaSang.Name = "txtThu7CaSang";
             this.txtThu7CaSang.Size = new System.Drawing.Size(166, 86);
@@ -322,7 +322,7 @@
             // txtCNCaSang
             // 
             this.txtCNCaSang.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCNCaSang.Location = new System.Drawing.Point(1209, 49);
+            this.txtCNCaSang.Location = new System.Drawing.Point(1205, 49);
             this.txtCNCaSang.Multiline = true;
             this.txtCNCaSang.Name = "txtCNCaSang";
             this.txtCNCaSang.Size = new System.Drawing.Size(172, 86);
@@ -331,16 +331,16 @@
             // txtThu2CaTrua
             // 
             this.txtThu2CaTrua.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu2CaTrua.Location = new System.Drawing.Point(140, 142);
+            this.txtThu2CaTrua.Location = new System.Drawing.Point(138, 142);
             this.txtThu2CaTrua.Multiline = true;
             this.txtThu2CaTrua.Name = "txtThu2CaTrua";
-            this.txtThu2CaTrua.Size = new System.Drawing.Size(182, 96);
+            this.txtThu2CaTrua.Size = new System.Drawing.Size(180, 96);
             this.txtThu2CaTrua.TabIndex = 35;
             // 
             // txtThu3CaTrua
             // 
             this.txtThu3CaTrua.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu3CaTrua.Location = new System.Drawing.Point(329, 142);
+            this.txtThu3CaTrua.Location = new System.Drawing.Point(325, 142);
             this.txtThu3CaTrua.Multiline = true;
             this.txtThu3CaTrua.Name = "txtThu3CaTrua";
             this.txtThu3CaTrua.Size = new System.Drawing.Size(172, 96);
@@ -349,7 +349,7 @@
             // txtThu4CaTrua
             // 
             this.txtThu4CaTrua.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu4CaTrua.Location = new System.Drawing.Point(508, 142);
+            this.txtThu4CaTrua.Location = new System.Drawing.Point(504, 142);
             this.txtThu4CaTrua.Multiline = true;
             this.txtThu4CaTrua.Name = "txtThu4CaTrua";
             this.txtThu4CaTrua.Size = new System.Drawing.Size(177, 96);
@@ -358,7 +358,7 @@
             // txtThu5CaTrua
             // 
             this.txtThu5CaTrua.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu5CaTrua.Location = new System.Drawing.Point(692, 142);
+            this.txtThu5CaTrua.Location = new System.Drawing.Point(688, 142);
             this.txtThu5CaTrua.Multiline = true;
             this.txtThu5CaTrua.Name = "txtThu5CaTrua";
             this.txtThu5CaTrua.Size = new System.Drawing.Size(165, 96);
@@ -367,7 +367,7 @@
             // txtThu6CaTrua
             // 
             this.txtThu6CaTrua.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu6CaTrua.Location = new System.Drawing.Point(864, 142);
+            this.txtThu6CaTrua.Location = new System.Drawing.Point(860, 142);
             this.txtThu6CaTrua.Multiline = true;
             this.txtThu6CaTrua.Name = "txtThu6CaTrua";
             this.txtThu6CaTrua.Size = new System.Drawing.Size(165, 96);
@@ -376,7 +376,7 @@
             // txtThu7CaTrua
             // 
             this.txtThu7CaTrua.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu7CaTrua.Location = new System.Drawing.Point(1036, 142);
+            this.txtThu7CaTrua.Location = new System.Drawing.Point(1032, 142);
             this.txtThu7CaTrua.Multiline = true;
             this.txtThu7CaTrua.Name = "txtThu7CaTrua";
             this.txtThu7CaTrua.Size = new System.Drawing.Size(166, 96);
@@ -385,7 +385,7 @@
             // txtCNCaTrua
             // 
             this.txtCNCaTrua.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCNCaTrua.Location = new System.Drawing.Point(1209, 142);
+            this.txtCNCaTrua.Location = new System.Drawing.Point(1205, 142);
             this.txtCNCaTrua.Multiline = true;
             this.txtCNCaTrua.Name = "txtCNCaTrua";
             this.txtCNCaTrua.Size = new System.Drawing.Size(172, 96);
@@ -394,16 +394,16 @@
             // txtThu2CaToi
             // 
             this.txtThu2CaToi.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu2CaToi.Location = new System.Drawing.Point(140, 245);
+            this.txtThu2CaToi.Location = new System.Drawing.Point(138, 245);
             this.txtThu2CaToi.Multiline = true;
             this.txtThu2CaToi.Name = "txtThu2CaToi";
-            this.txtThu2CaToi.Size = new System.Drawing.Size(182, 92);
+            this.txtThu2CaToi.Size = new System.Drawing.Size(180, 92);
             this.txtThu2CaToi.TabIndex = 42;
             // 
             // txtThu3CaToi
             // 
             this.txtThu3CaToi.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu3CaToi.Location = new System.Drawing.Point(329, 245);
+            this.txtThu3CaToi.Location = new System.Drawing.Point(325, 245);
             this.txtThu3CaToi.Multiline = true;
             this.txtThu3CaToi.Name = "txtThu3CaToi";
             this.txtThu3CaToi.Size = new System.Drawing.Size(172, 92);
@@ -412,7 +412,7 @@
             // txtThu4CaToi
             // 
             this.txtThu4CaToi.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu4CaToi.Location = new System.Drawing.Point(508, 245);
+            this.txtThu4CaToi.Location = new System.Drawing.Point(504, 245);
             this.txtThu4CaToi.Multiline = true;
             this.txtThu4CaToi.Name = "txtThu4CaToi";
             this.txtThu4CaToi.Size = new System.Drawing.Size(177, 92);
@@ -421,7 +421,7 @@
             // txtThu5CaToi
             // 
             this.txtThu5CaToi.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu5CaToi.Location = new System.Drawing.Point(692, 245);
+            this.txtThu5CaToi.Location = new System.Drawing.Point(688, 245);
             this.txtThu5CaToi.Multiline = true;
             this.txtThu5CaToi.Name = "txtThu5CaToi";
             this.txtThu5CaToi.Size = new System.Drawing.Size(165, 92);
@@ -430,7 +430,7 @@
             // txtThu6CaToi
             // 
             this.txtThu6CaToi.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu6CaToi.Location = new System.Drawing.Point(864, 245);
+            this.txtThu6CaToi.Location = new System.Drawing.Point(860, 245);
             this.txtThu6CaToi.Multiline = true;
             this.txtThu6CaToi.Name = "txtThu6CaToi";
             this.txtThu6CaToi.Size = new System.Drawing.Size(165, 92);
@@ -439,7 +439,7 @@
             // txtThu7CaToi
             // 
             this.txtThu7CaToi.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtThu7CaToi.Location = new System.Drawing.Point(1036, 245);
+            this.txtThu7CaToi.Location = new System.Drawing.Point(1032, 245);
             this.txtThu7CaToi.Multiline = true;
             this.txtThu7CaToi.Name = "txtThu7CaToi";
             this.txtThu7CaToi.Size = new System.Drawing.Size(166, 92);
@@ -448,7 +448,7 @@
             // txtCNCaToi
             // 
             this.txtCNCaToi.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCNCaToi.Location = new System.Drawing.Point(1209, 245);
+            this.txtCNCaToi.Location = new System.Drawing.Point(1205, 245);
             this.txtCNCaToi.Multiline = true;
             this.txtCNCaToi.Name = "txtCNCaToi";
             this.txtCNCaToi.Size = new System.Drawing.Size(172, 92);
@@ -465,7 +465,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 171F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 171F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 172F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 177F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 181F));
             this.tableLayoutPanel1.Controls.Add(this.txtCNCaToi, 7, 3);
             this.tableLayoutPanel1.Controls.Add(this.txtThu7CaToi, 6, 3);
             this.tableLayoutPanel1.Controls.Add(this.txtThu5CaToi, 4, 3);
@@ -512,7 +512,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1740, 681);
+            this.ClientSize = new System.Drawing.Size(1370, 681);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.lblGhiChu);
             this.Controls.Add(this.txtGhiChu);

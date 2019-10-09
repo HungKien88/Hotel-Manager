@@ -113,11 +113,11 @@
             // dgvQLNV
             // 
             this.dgvQLNV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvQLNV.Location = new System.Drawing.Point(3, 72);
+            this.dgvQLNV.Location = new System.Drawing.Point(15, 15);
             this.dgvQLNV.Name = "dgvQLNV";
             this.dgvQLNV.RowHeadersWidth = 51;
             this.dgvQLNV.RowTemplate.Height = 24;
-            this.dgvQLNV.Size = new System.Drawing.Size(821, 380);
+            this.dgvQLNV.Size = new System.Drawing.Size(795, 424);
             this.dgvQLNV.TabIndex = 0;
             // 
             // btnXemLaiNV

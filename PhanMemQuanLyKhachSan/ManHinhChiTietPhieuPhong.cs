@@ -12,8 +12,6 @@ namespace PhanMemQuanLyKhachSan
 {   
     public partial class frmChiTietPhieuPhong : Form
     {
-        public static string SetValueForText1 = "";
-        public static string SetValueForText2 = "";
         public frmChiTietPhieuPhong()
         {
             InitializeComponent();
@@ -21,8 +19,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmManHinhChinh fmmhc = new frmManHinhChinh();
-            fmmhc.FormClosed += new FormClosedEventHandler(fmmhc_FormClosed);
+            frmManHinhChinh fmmhc = new frmManHinhChinh();       
             fmmhc.Show();
             this.Hide();
         }
@@ -33,13 +30,18 @@ namespace PhanMemQuanLyKhachSan
         }
 
         private void btnLuuCuaCTPP_Click(object sender, EventArgs e)
-        {
-            SetValueForText1 = txtChiTietTenBooking.Text;
-            SetValueForText2 = txtChiTietTenKhach.Text;
-            
-
+        {               
             frmManHinhChinh frm2 = new frmManHinhChinh();
             frm2.Show();
+        }
+
+        private void lblKhachHang_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmChiTietPhieuPhong_Load(object sender, EventArgs e)
+        {
 
         }
     }

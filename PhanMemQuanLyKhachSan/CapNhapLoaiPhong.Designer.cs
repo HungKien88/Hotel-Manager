@@ -149,6 +149,7 @@
             this.btnHuyCapNhatLoaiPhong.Text = "Hủy";
             this.btnHuyCapNhatLoaiPhong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnHuyCapNhatLoaiPhong.UseVisualStyleBackColor = true;
+            this.btnHuyCapNhatLoaiPhong.Click += new System.EventHandler(this.btnHuyCapNhatLoaiPhong_Click);
             // 
             // btnTroVeCuaQLNV
             // 

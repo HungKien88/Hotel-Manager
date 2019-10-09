@@ -87,18 +87,17 @@
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Table\ChiTietHoaDon.cs" />
-    <Compile Include="Table\DangNhap.cs" />
-    <Compile Include="Table\DichVu.cs" />
-    <Compile Include="Table\GiaoCa.cs" />
-    <Compile Include="Table\HoaDon.cs" />
-    <Compile Include="Table\KhachHang.cs" />
-    <Compile Include="Table\LichLamViec.cs" />
-    <Compile Include="Table\LoaiPhong.cs" />
-    <Compile Include="Table\NhanVien.cs" />
-    <Compile Include="Table\Phong.cs" />
-    <Compile Include="Table\PMQLKS.cs" />
-    <Compile Include="Table\VatTu.cs" />
+    <Compile Include="Model\ChiTietHoaDon.cs" />
+    <Compile Include="Model\DichVu.cs" />
+    <Compile Include="Model\HoaDon.cs" />
+    <Compile Include="Model\KhachHang.cs" />
+    <Compile Include="Model\LichLamViec.cs" />
+    <Compile Include="Model\LoaiPhong.cs" />
+    <Compile Include="Model\MatKhau.cs" />
+    <Compile Include="Model\NhanVien.cs" />
+    <Compile Include="Model\Phong.cs" />
+    <Compile Include="Model\QLKSModel.cs" />
+    <Compile Include="Model\VatTu.cs" />
     <Compile Include="ThongKe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -225,9 +224,6 @@
     <None Include="Resources\iconLuu.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\user.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\iconBack.png" />
   </ItemGroup>
   <ItemGroup>
@@ -290,6 +286,12 @@
   <ItemGroup>
     <None Include="Resources\iconIn.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\user.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -299,6 +301,13 @@
     <Error Condition="!Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.3.0\build\EntityFramework.targets'))" />
   </Target>
   <Import Project="..\packages\EntityFramework.6.3.0\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.targets')" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(ProjectDir)Images\*.*" "$(TargetDir)\Images" /Y /I /E</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

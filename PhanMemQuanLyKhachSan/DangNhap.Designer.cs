@@ -121,6 +121,7 @@
             this.btnQuenMatKhau.TabIndex = 9;
             this.btnQuenMatKhau.Text = "Quên mật khẩu";
             this.btnQuenMatKhau.UseVisualStyleBackColor = false;
+            this.btnQuenMatKhau.Click += new System.EventHandler(this.btnQuenMatKhau_Click);
             // 
             // lblChuaCoTaiKhoan
             // 
@@ -144,6 +145,7 @@
             this.btnDangKy.TabIndex = 11;
             this.btnDangKy.Text = "Đăng ký";
             this.btnDangKy.UseVisualStyleBackColor = false;
+            this.btnDangKy.Click += new System.EventHandler(this.btnDangKy_Click);
             // 
             // pnlMatKhau
             // 

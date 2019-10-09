@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PhanMemQuanLyKhachSan.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,9 +16,7 @@ namespace PhanMemQuanLyKhachSan
     {
         public frmDangNhap()
         {
-            InitializeComponent();
-
-            
+            InitializeComponent();          
         }
 
         private void txtTendangnhap_Enter(object sender, EventArgs e)
@@ -71,28 +70,41 @@ namespace PhanMemQuanLyKhachSan
 
         private void BtnDangNhap_Click(object sender, EventArgs e)
         {
-            //string tenDangNhap = txtTenDangNhap.Text;
-            //string matKhau = txtMatKhau.Text;
-            //PMQLKS ketNoiDB = new PMQLKS();
-            //var check = ketNoiDB.MatKhaus.Where(item => item.username.Equals(tenDangNhap)).ToList();
-            //if(check.Count > 0)
-            //{
-            //    if(check[0].password.Equals(matKhau))
-            //    {
-            //        MessageBox.Show("Dang nhap thanh cong");
-                    frmManHinhChinh mhc = new frmManHinhChinh();
-                    mhc.Show();
-                    this.Hide();
-            //    }
-            //    else
-            //    {
-            //        MessageBox.Show("Mat khau khong dung!");
-            //    }
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Khong ton tai tai khoan!");
-            //}       
+            //gọi đến class MatKhau
+            MatKhau obj = new MatKhau();
+            List<MatKhau> list = obj.GetAll();
+            
+            string tenDangNhap = txtTenDangNhap.Text;
+            string matKhau = txtMatKhau.Text;
+            var check = list.Where(item => item.username.Equals(tenDangNhap)).ToList();               
+            if(check.Count > 0)
+            {
+                if(check[0].password.Equals(matKhau))
+               {
+                 MessageBox.Show("Dang nhap thanh cong");
+                 frmManHinhChinh mhc = new frmManHinhChinh();
+                 mhc.Show();
+                 this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Mat khau khong dung!");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Khong ton tai tai khoan!");
+            }
+        }
+
+        private void btnDangKy_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Đăng ký với Thủy Tiên nhé!");
+        }
+
+        private void btnQuenMatKhau_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Quên thì đi hỏi Thủy Tiên nhé!");
         }
     }
 }
