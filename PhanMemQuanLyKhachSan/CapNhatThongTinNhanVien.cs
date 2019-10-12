@@ -40,12 +40,13 @@ namespace PhanMemQuanLyKhachSan
         private void BindGrid(List<NhanVien> listNhanVien)
         {
             dgvThongTinNhanVien.Rows.Clear();
-
+            int id = 1;
             foreach (var item in listNhanVien)
             {
                 int index = dgvThongTinNhanVien.Rows.Add();
-                dgvThongTinNhanVien.Rows[index].Cells[0].Value = item.NhanVienID;
-                dgvThongTinNhanVien.Rows[index].Cells[1].Value = item.TenNV;
+                dgvThongTinNhanVien.Rows[index].Cells[0].Value = id++;
+                dgvThongTinNhanVien.Rows[index].Cells[1].Value = item.NhanVienID;
+                dgvThongTinNhanVien.Rows[index].Cells[2].Value = item.TenNV;
             }
         }
         private void BtnBackTTNV_Click(object sender, EventArgs e)
@@ -66,6 +67,9 @@ namespace PhanMemQuanLyKhachSan
             {
                 SetGridViewStyle(dgvThongTinNhanVien);
                 BindGrid(NhanVien.GetAll());
+                string imageFolder = Path.Combine(System.IO.Path.GetDirectoryName(Application.ExecutablePath), "Images");
+                string fileDefaultImage = Path.Combine(imageFolder, "user.png");
+                picThongTinNhanVien.Image = Image.FromFile(fileDefaultImage);
             }
             catch (Exception ex)
             {
@@ -98,20 +102,20 @@ namespace PhanMemQuanLyKhachSan
             {
                 //không xóa được những thằng đang có liên kết đến bảng khác.
                 //ví dụ k thể xóa những nv có id 1->3 vì bên lịch làm việc có 3 id nv từ 1->3
-                int rowIndex = (int)dgvThongTinNhanVien.CurrentRow.Cells[0].Value;
+                int rowIndex = (int)dgvThongTinNhanVien.CurrentRow.Cells[1].Value;
                 NhanVien.Delete(rowIndex);
                 BindGrid(NhanVien.GetAll());
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                MessageBox.Show("Xóa không thành công vì liên quan đến các bảng khác!");
+                MessageBox.Show("Xóa không thành công vì liên quan đến các dữ liệu khác!");
             }
         }
 
         private void btnLuuTTNV_Click(object sender, EventArgs e)
         {
             NhanVien s = GetNhanVien();
-            s.NhanVienID = (int)dgvThongTinNhanVien.CurrentRow.Cells[0].Value;
+            s.NhanVienID = (int)dgvThongTinNhanVien.CurrentRow.Cells[1].Value;
             NhanVien db = NhanVien.GetNhanVien(s.NhanVienID);
             if (db != null)
             {
@@ -129,7 +133,7 @@ namespace PhanMemQuanLyKhachSan
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow row = this.dgvThongTinNhanVien.Rows[e.RowIndex];
-                int maNV = int.Parse(row.Cells[0].Value.ToString());
+                int maNV = int.Parse(row.Cells[1].Value.ToString());
                 NhanVien db = NhanVien.GetNhanVien(maNV);
                 if (db != null)
                 {

@@ -5,6 +5,7 @@ namespace PhanMemQuanLyKhachSan.Model
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
+    using System.Linq;
 
     [Table("KhachHang")]
     public partial class KhachHang
@@ -25,5 +26,20 @@ namespace PhanMemQuanLyKhachSan.Model
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<HoaDon> HoaDons { get; set; }
+    }
+
+    public partial class KhachHang
+    {
+        public static List<KhachHang> GetAll()
+        {
+            QLKSModel context = new QLKSModel();
+            return context.KhachHangs.ToList();
+        }
+        public static KhachHang GetKhachHang(int khachHangId)
+        {
+            QLKSModel context = new QLKSModel();
+            return context.KhachHangs.Where(p => p.KhachHangID == khachHangId).FirstOrDefault();
+
+        }
     }
 }

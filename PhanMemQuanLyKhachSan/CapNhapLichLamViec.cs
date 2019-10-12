@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PhanMemQuanLyKhachSan.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,7 +17,50 @@ namespace PhanMemQuanLyKhachSan
         {
             InitializeComponent();
         }
-
+        public void SetGridViewStyle(DataGridView dgview)
+        {
+            dgview.BorderStyle = BorderStyle.None;
+            dgview.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(238, 239, 249);
+            dgview.DefaultCellStyle.SelectionBackColor = Color.DarkTurquoise;
+            dgview.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dgview.DefaultCellStyle.SelectionForeColor = Color.WhiteSmoke;
+            dgview.BackgroundColor = Color.White;
+            dgview.EnableHeadersVisualStyles = false;
+            dgview.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+            dgview.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(20, 25, 72);
+            dgview.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dgview.AllowUserToDeleteRows = false;
+            dgview.AllowUserToAddRows = false;
+            dgview.AllowUserToOrderColumns = true;
+            dgview.MultiSelect = false;
+            dgview.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+        }
+        private void BindGrid(List<LichLamViec> listVatTu)
+        {
+            dgvCapNhatLichLamViec.Rows.Clear();
+            int id = 1;
+            foreach (var item in listVatTu)
+            {
+                int index = dgvCapNhatLichLamViec.Rows.Add();
+                dgvCapNhatLichLamViec.Rows[index].Cells[0].Value = id++;
+                dgvCapNhatLichLamViec.Rows[index].Cells[1].Value = item.NhanVien.TenNV;
+                dgvCapNhatLichLamViec.Rows[index].Cells[2].Value = item.Ca;
+                dgvCapNhatLichLamViec.Rows[index].Cells[3].Value = item.Ngay;
+                dgvCapNhatLichLamViec.Rows[index].Cells[4].Value = item.LichLamViecID;
+            }
+        }
+        private void FillCaCombobox(List<LichLamViec> listLLV)
+        {
+            this.cbxCa.DataSource = listLLV;
+            this.cbxCa.DisplayMember = "Ca";
+            this.cbxCa.ValueMember = "LichLamViecID";
+        }
+        private void FillTenNhanVienCombobox(List<NhanVien> listTenNV)
+        {
+            this.cbxCa.DataSource = listTenNV;
+            this.cbxCa.DisplayMember = "TenNV";
+            this.cbxCa.ValueMember = "NhanVienID";
+        }
         private void LblLichLamViec_Click(object sender, EventArgs e)
         {
 
@@ -24,9 +68,31 @@ namespace PhanMemQuanLyKhachSan
 
         private void BtnTroVeCuaCapNhatLichLamViec_Click(object sender, EventArgs e)
         {
-            frmManHinhChinh frmback = new frmManHinhChinh();
+            frmQuanLyNhanVien frmback = new frmQuanLyNhanVien();
             frmback.Show();
             this.Hide();
+        }
+        private LichLamViec GetLichLamViec()
+        {
+            LichLamViec k = new LichLamViec();
+            k.NhanVien.TenNV = cbxTenNV.SelectedItem.ToString();
+            k.Ca = cbxCa.SelectedItem.ToString();
+            k.Ngay = dtpNgayLamViec.Value.ToString("dd/MM/yyyy");
+            return k;
+        }
+        private void frmCapNhatLichLamViec_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                SetGridViewStyle(dgvCapNhatLichLamViec);
+                FillTenNhanVienCombobox(NhanVien.GetAll());
+                FillCaCombobox(LichLamViec.GetAll()); ;
+                BindGrid(LichLamViec.GetAll());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

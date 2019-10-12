@@ -122,12 +122,6 @@
     <Compile Include="ManHinhChiTietPhieuPhong.Designer.cs">
       <DependentUpon>ManHinhChiTietPhieuPhong.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManHinhGiaoCa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManHinhGiaoCa.Designer.cs">
-      <DependentUpon>ManHinhGiaoCa.cs</DependentUpon>
-    </Compile>
     <Compile Include="ManHinhQuanLyKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -185,9 +179,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ManHinhChiTietPhieuPhong.resx">
       <DependentUpon>ManHinhChiTietPhieuPhong.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ManHinhGiaoCa.resx">
-      <DependentUpon>ManHinhGiaoCa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManHinhQuanLyKhachHang.resx">
       <DependentUpon>ManHinhQuanLyKhachHang.cs</DependentUpon>
@@ -290,6 +281,27 @@
     <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\backGroundQLP.png" />
+    <None Include="Resources\b1.jpg" />
+    <None Include="Resources\b2.jpg" />
+    <None Include="Resources\b3.png" />
+    <None Include="Resources\2588798.jpg" />
+    <None Include="Resources\b4.png" />
+    <None Include="Resources\b11.png" />
+    <None Include="Resources\b12.jpg" />
+    <None Include="Resources\b14.jpg" />
+    <None Include="Resources\b8.png" />
+    <None Include="Resources\b13.jpg" />
+    <None Include="Resources\b15.png" />
+    <None Include="Resources\b18.jpg" />
+    <None Include="Resources\b17.jpg" />
+    <Content Include="Resources\download.jpg" />
+    <None Include="Resources\iconQuanLyPhong.png" />
+    <None Include="Resources\iconQuanLyNhanVien.png" />
+    <None Include="Resources\iconQuanLyKhachSan.png" />
+    <None Include="Resources\iconQuanLyKhachHang.png" />
+    <None Include="Resources\iconThongKe.png" />
+    <None Include="Resources\iconLienHe.png" />
     <Content Include="Resources\user.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

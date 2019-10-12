@@ -51,7 +51,6 @@ namespace PhanMemQuanLyKhachSan
         private void ButtonCapNhapLoaiPhong_Click(object sender, EventArgs e)
         {
             frmCapNhatLoaiPhong fmb = new frmCapNhatLoaiPhong();
-            fmb.FormClosed += new FormClosedEventHandler(fmb_FormClosed);
             fmb.Show();
             this.Hide();
         }
@@ -63,7 +62,6 @@ namespace PhanMemQuanLyKhachSan
         private void Button2_Click(object sender, EventArgs e)
         {
             frmCapNhatDichVu fmdv = new frmCapNhatDichVu();
-            fmdv.FormClosed += new FormClosedEventHandler(fmdv_FormClosed);
             fmdv.Show();
             this.Hide();
         }
@@ -75,7 +73,6 @@ namespace PhanMemQuanLyKhachSan
         private void Button1_Click(object sender, EventArgs e)
         {
             frmCapNhatVatTu fmvt = new frmCapNhatVatTu();
-            fmvt.FormClosed += new FormClosedEventHandler(fmdv_FormClosed);
             fmvt.Show();
             this.Hide();
         }
@@ -107,6 +104,11 @@ namespace PhanMemQuanLyKhachSan
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

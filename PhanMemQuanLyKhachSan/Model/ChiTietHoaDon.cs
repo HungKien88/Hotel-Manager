@@ -4,7 +4,9 @@ namespace PhanMemQuanLyKhachSan.Model
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
+    using System.Data.Entity.Migrations;
     using System.Data.Entity.Spatial;
+    using System.Linq;
 
     [Table("ChiTietHoaDon")]
     public partial class ChiTietHoaDon
@@ -17,18 +19,30 @@ namespace PhanMemQuanLyKhachSan.Model
 
         public int? GiaDV { get; set; }
 
-        public int? PhongID { get; set; }
-
-        public int? GiaPhong { get; set; }
-
         public int? SoLuong { get; set; }
 
         public int? ThanhTien { get; set; }
 
-        public virtual DichVu DichVu { get; set; }
-
         public virtual HoaDon HoaDon { get; set; }
+    }
+    public partial class ChiTietHoaDon
+    {
+        public static List<ChiTietHoaDon> GetAll()
+        {
+            QLKSModel context = new QLKSModel();
+            return context.ChiTietHoaDons.ToList();
+        }
+        public static ChiTietHoaDon GetChiTietHoaDon(int cthdId)
+        {
+            QLKSModel context = new QLKSModel();
+            return context.ChiTietHoaDons.Where(p => p.ChiTietHoaDonID == cthdId).FirstOrDefault();
 
-        public virtual Phong Phong { get; set; }
+        }
+        public void InsertUpdate()
+        {
+            QLKSModel context = new QLKSModel();
+            context.ChiTietHoaDons.AddOrUpdate(this);
+            context.SaveChanges();
+        }
     }
 }

@@ -4,7 +4,9 @@ namespace PhanMemQuanLyKhachSan.Model
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
+    using System.Data.Entity.Migrations;
     using System.Data.Entity.Spatial;
+    using System.Linq;
 
     [Table("HoaDon")]
     public partial class HoaDon
@@ -24,6 +26,15 @@ namespace PhanMemQuanLyKhachSan.Model
         [StringLength(20)]
         public string TenBKDat { get; set; }
 
+        public int? PhongID { get; set; }
+
+        [StringLength(15)]
+        public string TenLoai { get; set; }
+
+        public int? SoDem { get; set; }
+
+        public int? SoKhach { get; set; }
+
         [StringLength(15)]
         public string NgayHD { get; set; }
 
@@ -31,9 +42,25 @@ namespace PhanMemQuanLyKhachSan.Model
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ChiTietHoaDon> ChiTietHoaDons { get; set; }
+    }
+    public partial class HoaDon
+    {
+        public static List<HoaDon> GetAll()
+        {
+            QLKSModel context = new QLKSModel();
+            return context.HoaDons.ToList();
+        }
+        public static HoaDon GetHoaDon(int hoaDonId)
+        {
+            QLKSModel context = new QLKSModel();
+            return context.HoaDons.Where(p => p.HoaDonID == hoaDonId).FirstOrDefault();
 
-        public virtual KhachHang KhachHang { get; set; }
-
-        public virtual NhanVien NhanVien { get; set; }
+        }
+        public void InsertUpdate()
+        {
+            QLKSModel context = new QLKSModel();
+            context.HoaDons.AddOrUpdate(this);
+            context.SaveChanges();
+        }
     }
 }

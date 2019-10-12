@@ -46,12 +46,13 @@ namespace PhanMemQuanLyKhachSan
         private void BindGrid(List<VatTu> listVatTu)
         {
             dgvCapNhatVatTu.Rows.Clear();
-
+            int id = 1;
             foreach (var item in listVatTu)
             {
                 int index = dgvCapNhatVatTu.Rows.Add();
-                dgvCapNhatVatTu.Rows[index].Cells[0].Value = item.VatTuID;
-                dgvCapNhatVatTu.Rows[index].Cells[1].Value = item.TenVT;
+                dgvCapNhatVatTu.Rows[index].Cells[0].Value = id++;
+                dgvCapNhatVatTu.Rows[index].Cells[1].Value = item.VatTuID;
+                dgvCapNhatVatTu.Rows[index].Cells[2].Value = item.TenVT;
             }
         }
         private void frmCapNhatVatTu_Load(object sender, EventArgs e)
@@ -97,7 +98,7 @@ namespace PhanMemQuanLyKhachSan
         {
             try
             {
-                int rowIndex = (int)dgvCapNhatVatTu.CurrentRow.Cells[0].Value;
+                int rowIndex = (int)dgvCapNhatVatTu.CurrentRow.Cells[1].Value;
                 VatTu.Delete(rowIndex);
                 BindGrid(VatTu.GetAll());
             }
@@ -112,7 +113,7 @@ namespace PhanMemQuanLyKhachSan
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow row = this.dgvCapNhatVatTu.Rows[e.RowIndex];
-                int maVT = int.Parse(row.Cells[0].Value.ToString());
+                int maVT = int.Parse(row.Cells[1].Value.ToString());
                 VatTu db = VatTu.GetVatTu(maVT);
                 txtCapNhatVatTu.Text = db.TenVT.ToString();
             }
@@ -121,7 +122,7 @@ namespace PhanMemQuanLyKhachSan
         private void btnLuuCapNhatVatTu_Click(object sender, EventArgs e)
         {
             VatTu s = GetVatTu();
-            s.VatTuID = (int)dgvCapNhatVatTu.CurrentRow.Cells[0].Value;
+            s.VatTuID = (int)dgvCapNhatVatTu.CurrentRow.Cells[1].Value;
             VatTu db = VatTu.GetVatTu(s.VatTuID);
             if (db != null)
             {

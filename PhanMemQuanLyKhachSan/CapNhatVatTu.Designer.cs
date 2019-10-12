@@ -32,6 +32,7 @@
             this.txtCapNhatVatTu = new System.Windows.Forms.TextBox();
             this.dgvCapNhatVatTu = new System.Windows.Forms.DataGridView();
             this.stt = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenVatTu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnXoaDichVuVT = new System.Windows.Forms.Button();
             this.btnThemDichVuVT = new System.Windows.Forms.Button();
@@ -44,10 +45,10 @@
             // lblVatTuKhachSan
             // 
             this.lblVatTuKhachSan.AutoSize = true;
-            this.lblVatTuKhachSan.Font = new System.Drawing.Font("Palatino Linotype", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVatTuKhachSan.Font = new System.Drawing.Font("Palatino Linotype", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVatTuKhachSan.Location = new System.Drawing.Point(380, 9);
             this.lblVatTuKhachSan.Name = "lblVatTuKhachSan";
-            this.lblVatTuKhachSan.Size = new System.Drawing.Size(277, 44);
+            this.lblVatTuKhachSan.Size = new System.Drawing.Size(313, 47);
             this.lblVatTuKhachSan.TabIndex = 0;
             this.lblVatTuKhachSan.Text = "Vật Tư Khách Sạn";
             // 
@@ -67,6 +68,7 @@
             this.dgvCapNhatVatTu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCapNhatVatTu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.stt,
+            this.id,
             this.tenVatTu});
             this.dgvCapNhatVatTu.Location = new System.Drawing.Point(26, 91);
             this.dgvCapNhatVatTu.Name = "dgvCapNhatVatTu";
@@ -82,6 +84,14 @@
             this.stt.Name = "stt";
             this.stt.ReadOnly = true;
             // 
+            // id
+            // 
+            this.id.HeaderText = "id";
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            this.id.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.id.Visible = false;
+            // 
             // tenVatTu
             // 
             this.tenVatTu.FillWeight = 174.6193F;
@@ -91,58 +101,62 @@
             // 
             // btnXoaDichVuVT
             // 
+            this.btnXoaDichVuVT.BackColor = System.Drawing.Color.Pink;
             this.btnXoaDichVuVT.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaDichVuVT.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconDelete;
             this.btnXoaDichVuVT.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoaDichVuVT.Location = new System.Drawing.Point(748, 208);
+            this.btnXoaDichVuVT.Location = new System.Drawing.Point(742, 157);
             this.btnXoaDichVuVT.Name = "btnXoaDichVuVT";
-            this.btnXoaDichVuVT.Size = new System.Drawing.Size(137, 45);
+            this.btnXoaDichVuVT.Size = new System.Drawing.Size(127, 45);
             this.btnXoaDichVuVT.TabIndex = 13;
             this.btnXoaDichVuVT.Text = "Xóa Vật Tư";
             this.btnXoaDichVuVT.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnXoaDichVuVT.UseVisualStyleBackColor = true;
+            this.btnXoaDichVuVT.UseVisualStyleBackColor = false;
             this.btnXoaDichVuVT.Click += new System.EventHandler(this.btnXoaDichVuVT_Click);
             // 
             // btnThemDichVuVT
             // 
+            this.btnThemDichVuVT.BackColor = System.Drawing.Color.Pink;
             this.btnThemDichVuVT.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemDichVuVT.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconThem;
             this.btnThemDichVuVT.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThemDichVuVT.Location = new System.Drawing.Point(548, 208);
+            this.btnThemDichVuVT.Location = new System.Drawing.Point(548, 157);
             this.btnThemDichVuVT.Name = "btnThemDichVuVT";
-            this.btnThemDichVuVT.Size = new System.Drawing.Size(144, 45);
+            this.btnThemDichVuVT.Size = new System.Drawing.Size(145, 45);
             this.btnThemDichVuVT.TabIndex = 12;
             this.btnThemDichVuVT.Text = "Thêm Vật Tư";
             this.btnThemDichVuVT.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnThemDichVuVT.UseVisualStyleBackColor = true;
+            this.btnThemDichVuVT.UseVisualStyleBackColor = false;
             this.btnThemDichVuVT.Click += new System.EventHandler(this.btnThemDichVuVT_Click);
             // 
             // btnLuuCapNhatVatTu
             // 
+            this.btnLuuCapNhatVatTu.BackColor = System.Drawing.Color.Pink;
             this.btnLuuCapNhatVatTu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuuCapNhatVatTu.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
             this.btnLuuCapNhatVatTu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLuuCapNhatVatTu.Location = new System.Drawing.Point(943, 208);
+            this.btnLuuCapNhatVatTu.Location = new System.Drawing.Point(938, 157);
             this.btnLuuCapNhatVatTu.Name = "btnLuuCapNhatVatTu";
             this.btnLuuCapNhatVatTu.Size = new System.Drawing.Size(84, 45);
             this.btnLuuCapNhatVatTu.TabIndex = 11;
             this.btnLuuCapNhatVatTu.Text = "Lưu";
             this.btnLuuCapNhatVatTu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLuuCapNhatVatTu.UseVisualStyleBackColor = true;
+            this.btnLuuCapNhatVatTu.UseVisualStyleBackColor = false;
             this.btnLuuCapNhatVatTu.Click += new System.EventHandler(this.btnLuuCapNhatVatTu_Click);
             // 
             // btnThoatCapNhatVatTu
             // 
+            this.btnThoatCapNhatVatTu.BackColor = System.Drawing.Color.Pink;
             this.btnThoatCapNhatVatTu.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoatCapNhatVatTu.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
             this.btnThoatCapNhatVatTu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThoatCapNhatVatTu.Location = new System.Drawing.Point(12, 9);
             this.btnThoatCapNhatVatTu.Name = "btnThoatCapNhatVatTu";
-            this.btnThoatCapNhatVatTu.Size = new System.Drawing.Size(109, 45);
+            this.btnThoatCapNhatVatTu.Size = new System.Drawing.Size(100, 45);
             this.btnThoatCapNhatVatTu.TabIndex = 10;
             this.btnThoatCapNhatVatTu.Text = "Trở Về";
             this.btnThoatCapNhatVatTu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnThoatCapNhatVatTu.UseVisualStyleBackColor = true;
+            this.btnThoatCapNhatVatTu.UseVisualStyleBackColor = false;
             this.btnThoatCapNhatVatTu.Click += new System.EventHandler(this.BtnThoatCapNhatVatTu_Click);
             // 
             // label2
@@ -157,6 +171,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.b12;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1051, 704);
             this.Controls.Add(this.txtCapNhatVatTu);
             this.Controls.Add(this.dgvCapNhatVatTu);
@@ -187,6 +203,7 @@
         private System.Windows.Forms.Button btnThoatCapNhatVatTu;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridViewTextBoxColumn stt;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn tenVatTu;
     }
 }

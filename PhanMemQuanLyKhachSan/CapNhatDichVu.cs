@@ -50,12 +50,14 @@ namespace PhanMemQuanLyKhachSan
         private void BindGrid(List<DichVu> listDichVu)
         {
             dgvCapNhatDichVu.Rows.Clear();
+            int id = 1;
             foreach (var item in listDichVu)
             {
                 int index = dgvCapNhatDichVu.Rows.Add();
-                dgvCapNhatDichVu.Rows[index].Cells[0].Value = item.DichVuID;
-                dgvCapNhatDichVu.Rows[index].Cells[1].Value = item.TenDV;
-                dgvCapNhatDichVu.Rows[index].Cells[2].Value = item.GiaDV;
+                dgvCapNhatDichVu.Rows[index].Cells[0].Value = id++;
+                dgvCapNhatDichVu.Rows[index].Cells[1].Value = item.DichVuID;
+                dgvCapNhatDichVu.Rows[index].Cells[2].Value = item.TenDV;
+                dgvCapNhatDichVu.Rows[index].Cells[3].Value = item.GiaDV;
             }
         }
         private void frmCapNhatDichVu_Load(object sender, EventArgs e)
@@ -101,7 +103,7 @@ namespace PhanMemQuanLyKhachSan
         {
             try
             {
-                int rowIndex = (int)dgvCapNhatDichVu.CurrentRow.Cells[0].Value;
+                int rowIndex = (int)dgvCapNhatDichVu.CurrentRow.Cells[1].Value;
                 DichVu.Delete(rowIndex);
                 BindGrid(DichVu.GetAll());
             }
@@ -116,7 +118,7 @@ namespace PhanMemQuanLyKhachSan
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow row = this.dgvCapNhatDichVu.Rows[e.RowIndex];
-                int maDV = int.Parse(row.Cells[0].Value.ToString());
+                int maDV = int.Parse(row.Cells[1].Value.ToString());
                 DichVu db = DichVu.GetDichVu(maDV);
                 txtCapNhatDichVu.Text = db.TenDV.ToString();
                 txtGia.Text = db.GiaDV.ToString();
@@ -126,7 +128,7 @@ namespace PhanMemQuanLyKhachSan
         private void btnLuuCapNhatDichVu_Click(object sender, EventArgs e)
         {
             DichVu s = GetDichVu();
-            s.DichVuID = (int)dgvCapNhatDichVu.CurrentRow.Cells[0].Value;
+            s.DichVuID = (int)dgvCapNhatDichVu.CurrentRow.Cells[1].Value;
             DichVu db = DichVu.GetDichVu(s.DichVuID);
             if (db != null)
             {

@@ -152,14 +152,6 @@ namespace PhanMemQuanLyKhachSan
             frmcnllv.Show();
             this.Hide();
         }
-
-        private void giaoCaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmGiaoCa frmGiaoCa = new frmGiaoCa();
-            frmGiaoCa.Show();
-            this.Hide();
-        }
-
         private void lblTien1_Click(object sender, EventArgs e)
         {
 
