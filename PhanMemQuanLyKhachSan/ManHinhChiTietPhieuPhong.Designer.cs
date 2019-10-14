@@ -380,7 +380,7 @@
             // 
             this.btnInCuaCTPP.BackColor = System.Drawing.Color.Pink;
             this.btnInCuaCTPP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnInCuaCTPP.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInCuaCTPP.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInCuaCTPP.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconIn;
             this.btnInCuaCTPP.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnInCuaCTPP.Location = new System.Drawing.Point(756, 487);
@@ -394,7 +394,7 @@
             // btnSuaCuaCTPP
             // 
             this.btnSuaCuaCTPP.BackColor = System.Drawing.Color.Pink;
-            this.btnSuaCuaCTPP.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuaCuaCTPP.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaCuaCTPP.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconTimKiem;
             this.btnSuaCuaCTPP.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSuaCuaCTPP.Location = new System.Drawing.Point(756, 637);
@@ -408,7 +408,7 @@
             // btnLuuCuaCTPP
             // 
             this.btnLuuCuaCTPP.BackColor = System.Drawing.Color.Pink;
-            this.btnLuuCuaCTPP.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLuuCuaCTPP.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuuCuaCTPP.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
             this.btnLuuCuaCTPP.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLuuCuaCTPP.Location = new System.Drawing.Point(756, 565);
@@ -423,7 +423,7 @@
             // btnXoaCuaCTPP
             // 
             this.btnXoaCuaCTPP.BackColor = System.Drawing.Color.Pink;
-            this.btnXoaCuaCTPP.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaCuaCTPP.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaCuaCTPP.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconDelete;
             this.btnXoaCuaCTPP.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnXoaCuaCTPP.Location = new System.Drawing.Point(756, 417);
@@ -439,7 +439,7 @@
             // 
             this.btnThemCuaCTPP.BackColor = System.Drawing.Color.Pink;
             this.btnThemCuaCTPP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnThemCuaCTPP.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemCuaCTPP.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemCuaCTPP.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconThem;
             this.btnThemCuaCTPP.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThemCuaCTPP.Location = new System.Drawing.Point(756, 342);

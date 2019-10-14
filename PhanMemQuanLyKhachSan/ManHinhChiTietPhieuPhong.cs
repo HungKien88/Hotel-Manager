@@ -83,25 +83,16 @@ namespace PhanMemQuanLyKhachSan
             SetGridViewStyle(dgvChiTietDichVu);
             FillDichVuCombobox(DichVu.GetAll());
         }
-        private HoaDon GetHoaDon()
+        private void GetDichVu()
         {
-            HoaDon k = new HoaDon();
-            k.TenVT = txtCapNhatVatTu.Text;
-            return k;
+            string ten = cmbTenDichVu.SelectedText.ToString();
         }
 
         private void btnThemCuaCTPP_Click(object sender, EventArgs e)
         {
             try
             {
-                HoaDon s = GetHoaDon();
-                HoaDon db = HoaDon.GetHoaDon(s.HoaDonID);
-                if (db == null)
-                {
-                    s.InsertUpdate();
-                    MessageBox.Show("Thêm vật tư thành công!");
-                }
-                BindGrid(VatTu.GetAll());
+                GetDichVu();
             }
             catch (Exception ex)
             {
