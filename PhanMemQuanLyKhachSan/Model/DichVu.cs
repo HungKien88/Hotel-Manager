@@ -30,6 +30,9 @@ namespace PhanMemQuanLyKhachSan.Model
 
     public partial class DichVu
     {
+        public int SoLuong;
+        public int ThanhTien; 
+
         public static List<DichVu> GetAll()
         {
             QLKSModel context = new QLKSModel();

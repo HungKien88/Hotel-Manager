@@ -32,12 +32,6 @@
             this.txtChiTietGiaPhong = new System.Windows.Forms.TextBox();
             this.txtChiTietSoKhach = new System.Windows.Forms.TextBox();
             this.dgvChiTietDichVu = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtSoLuong = new System.Windows.Forms.TextBox();
             this.cmbTenDichVu = new System.Windows.Forms.ComboBox();
             this.lblSoLuong = new System.Windows.Forms.Label();
@@ -73,6 +67,12 @@
             this.cbxSoPhong = new System.Windows.Forms.ComboBox();
             this.lblChiTietTongTien = new System.Windows.Forms.Label();
             this.lblThanhTien = new System.Windows.Forms.Label();
+            this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenDV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietDichVu)).BeginInit();
             this.SuspendLayout();
             // 
@@ -107,49 +107,18 @@
             this.dgvChiTietDichVu.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvChiTietDichVu.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvChiTietDichVu.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.id,
-            this.Column2,
+            this.STT,
+            this.TenDV,
             this.Column3,
             this.Column5,
-            this.Column6});
+            this.Column6,
+            this.id});
             this.dgvChiTietDichVu.Location = new System.Drawing.Point(29, 396);
             this.dgvChiTietDichVu.Name = "dgvChiTietDichVu";
             this.dgvChiTietDichVu.RowHeadersVisible = false;
             this.dgvChiTietDichVu.RowTemplate.Height = 24;
             this.dgvChiTietDichVu.Size = new System.Drawing.Size(707, 278);
             this.dgvChiTietDichVu.TabIndex = 77;
-            // 
-            // Column1
-            // 
-            this.Column1.FillWeight = 50F;
-            this.Column1.HeaderText = "STT";
-            this.Column1.Name = "Column1";
-            // 
-            // id
-            // 
-            this.id.HeaderText = "id";
-            this.id.Name = "id";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Tên dịch vụ";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Gía";
-            this.Column3.Name = "Column3";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Số lượng";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Thành tiền";
-            this.Column6.Name = "Column6";
             // 
             // txtSoLuong
             // 
@@ -478,6 +447,7 @@
             this.cbxLoaiPhong.Name = "cbxLoaiPhong";
             this.cbxLoaiPhong.Size = new System.Drawing.Size(149, 22);
             this.cbxLoaiPhong.TabIndex = 94;
+            this.cbxLoaiPhong.SelectedIndexChanged += new System.EventHandler(this.cbxLoaiPhong_SelectedIndexChanged);
             // 
             // cbxTenBooking
             // 
@@ -553,6 +523,37 @@
             this.lblThanhTien.Size = new System.Drawing.Size(14, 16);
             this.lblThanhTien.TabIndex = 101;
             this.lblThanhTien.Text = "0";
+            // 
+            // STT
+            // 
+            this.STT.FillWeight = 50F;
+            this.STT.HeaderText = "STT";
+            this.STT.Name = "STT";
+            // 
+            // TenDV
+            // 
+            this.TenDV.HeaderText = "Tên dịch vụ";
+            this.TenDV.Name = "TenDV";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Gía";
+            this.Column3.Name = "Column3";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Số lượng";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Thành tiền";
+            this.Column6.Name = "Column6";
+            // 
+            // id
+            // 
+            this.id.HeaderText = "id";
+            this.id.Name = "id";
             // 
             // frmChiTietPhieuPhong
             // 
@@ -653,11 +654,11 @@
         private System.Windows.Forms.ComboBox cbxSoPhong;
         private System.Windows.Forms.Label lblChiTietTongTien;
         private System.Windows.Forms.Label lblThanhTien;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn STT;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenDV;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
     }
 }

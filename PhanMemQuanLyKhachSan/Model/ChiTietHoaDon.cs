@@ -45,5 +45,7 @@ namespace PhanMemQuanLyKhachSan.Model
             context.ChiTietHoaDons.AddOrUpdate(this);
             context.SaveChanges();
         }
+        
+
     }
 }

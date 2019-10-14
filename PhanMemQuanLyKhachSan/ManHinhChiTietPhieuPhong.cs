@@ -68,9 +68,42 @@ namespace PhanMemQuanLyKhachSan
         }
 
         private void btnLuuCuaCTPP_Click(object sender, EventArgs e)
-        {               
-            frmManHinhChinh frm2 = new frmManHinhChinh();
-            frm2.Show();
+        {
+
+            try
+            {
+                List<DichVu> list = GetListDichVu();
+
+                //insert hoa don
+
+                HoaDon hd = GetHoaDon();
+                hd.InsertUpdate();
+
+                //insert chi tiet hoa don
+                foreach(DichVu d in list)
+                {
+                    ChiTietHoaDon item = new ChiTietHoaDon();
+                    item.DichVuID = d.DichVuID;
+                    item.GiaDV = d.GiaDV;
+                    item.SoLuong = d.SoLuong;
+                    item.ThanhTien = d.ThanhTien;
+                  //  item.HoaDonID = 
+                    item.InsertUpdate();
+                     
+                }
+                //   GetDichVu();
+
+
+                frmManHinhChinh frm2 = new frmManHinhChinh();
+                frm2.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+
+
         }
 
         private void lblKhachHang_Click(object sender, EventArgs e)
@@ -83,16 +116,50 @@ namespace PhanMemQuanLyKhachSan
             SetGridViewStyle(dgvChiTietDichVu);
             FillDichVuCombobox(DichVu.GetAll());
         }
-        private void GetDichVu()
+
+        private HoaDon GetHoaDon()
         {
-            string ten = cmbTenDichVu.SelectedText.ToString();
+        //    Standard
+  // Superior
+//Deluxe
+            HoaDon hd = new HoaDon();
+           
+
+            return hd;
+        }
+        private List<DichVu> GetListDichVu()  //lay nguoc tu datagrid ra
+        {
+            List<DichVu> list = new List<DichVu>();
+            foreach (DataGridViewRow row in this.dgvChiTietDichVu.Rows)
+            {
+                DichVu dv = new DichVu();
+                dv.DichVuID = int.Parse(row.Cells["id"].Value + "");
+                dv.GiaDV = int.Parse(row.Cells[2].Value + "");
+                dv.SoLuong = int.Parse(row.Cells[3].Value + "");
+                dv.ThanhTien = int.Parse(row.Cells[4].Value + "");
+                list.Add(dv);
+            }
+
+            return list;
         }
 
         private void btnThemCuaCTPP_Click(object sender, EventArgs e)
         {
             try
             {
-                GetDichVu();
+                DichVu dv = DichVu.GetDichVu(int.Parse(cmbTenDichVu.SelectedValue.ToString()));
+                if (txtSoLuong.Text == "")
+                    throw new Exception("Vui long nhap so luong!");
+                int index = dgvChiTietDichVu.Rows.Add();
+                dgvChiTietDichVu.Rows[index].Cells[0].Value = (index + 1).ToString();
+                dgvChiTietDichVu.Rows[index].Cells[1].Value = dv.TenDV;
+                dgvChiTietDichVu.Rows[index].Cells[2].Value = dv.GiaDV + "";
+                dgvChiTietDichVu.Rows[index].Cells[3].Value = txtSoLuong.Text + "";
+                int thanhtien =  dv.GiaDV.Value * int.Parse(txtSoLuong.Text);
+                dgvChiTietDichVu.Rows[index].Cells[4].Value = thanhtien.ToString();
+
+                dgvChiTietDichVu.Rows[index].Cells["id"].Value = dv.DichVuID + "";
+                //   GetDichVu();
             }
             catch (Exception ex)
             {
@@ -113,6 +180,11 @@ namespace PhanMemQuanLyKhachSan
             {
                 dgvChiTietDichVu.Rows.RemoveAt(item.Index);
             }
+        }
+
+        private void cbxLoaiPhong_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
