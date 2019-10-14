@@ -46,6 +46,7 @@
             // 
             // lblDangNhap
             // 
+            this.lblDangNhap.BackColor = System.Drawing.Color.Transparent;
             this.lblDangNhap.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblDangNhap.Font = new System.Drawing.Font("Palatino Linotype", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDangNhap.ForeColor = System.Drawing.Color.IndianRed;
@@ -62,7 +63,7 @@
             this.txtTenDangNhap.BackColor = System.Drawing.SystemColors.Control;
             this.txtTenDangNhap.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenDangNhap.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenDangNhap.ForeColor = System.Drawing.Color.Silver;
+            this.txtTenDangNhap.ForeColor = System.Drawing.Color.DimGray;
             this.txtTenDangNhap.Location = new System.Drawing.Point(69, 101);
             this.txtTenDangNhap.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenDangNhap.Name = "txtTenDangNhap";
@@ -87,7 +88,7 @@
             this.txtMatKhau.BackColor = System.Drawing.SystemColors.Control;
             this.txtMatKhau.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtMatKhau.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMatKhau.ForeColor = System.Drawing.Color.Silver;
+            this.txtMatKhau.ForeColor = System.Drawing.Color.DimGray;
             this.txtMatKhau.Location = new System.Drawing.Point(69, 156);
             this.txtMatKhau.Margin = new System.Windows.Forms.Padding(2);
             this.txtMatKhau.Name = "txtMatKhau";

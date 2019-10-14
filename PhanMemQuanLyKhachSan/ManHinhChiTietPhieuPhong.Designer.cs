@@ -39,9 +39,8 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtSoLuong = new System.Windows.Forms.TextBox();
-            this.cboTenDichVu = new System.Windows.Forms.ComboBox();
+            this.cmbTenDichVu = new System.Windows.Forms.ComboBox();
             this.lblSoLuong = new System.Windows.Forms.Label();
-            this.lblGia = new System.Windows.Forms.Label();
             this.lblTenDichVu = new System.Windows.Forms.Label();
             this.txtChiTietSoDem = new System.Windows.Forms.TextBox();
             this.txtChiTietQuocTich = new System.Windows.Forms.TextBox();
@@ -72,7 +71,6 @@
             this.dtpNgayDen = new System.Windows.Forms.DateTimePicker();
             this.dtpNgayDi = new System.Windows.Forms.DateTimePicker();
             this.cbxSoPhong = new System.Windows.Forms.ComboBox();
-            this.lblGiaDV = new System.Windows.Forms.Label();
             this.lblChiTietTongTien = new System.Windows.Forms.Label();
             this.lblThanhTien = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietDichVu)).BeginInit();
@@ -160,13 +158,14 @@
             this.txtSoLuong.Size = new System.Drawing.Size(56, 22);
             this.txtSoLuong.TabIndex = 73;
             // 
-            // cboTenDichVu
+            // cmbTenDichVu
             // 
-            this.cboTenDichVu.FormattingEnabled = true;
-            this.cboTenDichVu.Location = new System.Drawing.Point(160, 351);
-            this.cboTenDichVu.Name = "cboTenDichVu";
-            this.cboTenDichVu.Size = new System.Drawing.Size(121, 22);
-            this.cboTenDichVu.TabIndex = 70;
+            this.cmbTenDichVu.FormattingEnabled = true;
+            this.cmbTenDichVu.Location = new System.Drawing.Point(160, 351);
+            this.cmbTenDichVu.Name = "cmbTenDichVu";
+            this.cmbTenDichVu.Size = new System.Drawing.Size(121, 22);
+            this.cmbTenDichVu.TabIndex = 70;
+            this.cmbTenDichVu.SelectedIndexChanged += new System.EventHandler(this.cmbTenDichVu_SelectedIndexChanged);
             // 
             // lblSoLuong
             // 
@@ -178,17 +177,6 @@
             this.lblSoLuong.Size = new System.Drawing.Size(53, 16);
             this.lblSoLuong.TabIndex = 69;
             this.lblSoLuong.Text = "Số lượng";
-            // 
-            // lblGia
-            // 
-            this.lblGia.AutoSize = true;
-            this.lblGia.BackColor = System.Drawing.Color.Transparent;
-            this.lblGia.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGia.Location = new System.Drawing.Point(634, 329);
-            this.lblGia.Name = "lblGia";
-            this.lblGia.Size = new System.Drawing.Size(26, 16);
-            this.lblGia.TabIndex = 67;
-            this.lblGia.Text = "Giá";
             // 
             // lblTenDichVu
             // 
@@ -203,7 +191,7 @@
             // 
             // txtChiTietSoDem
             // 
-            this.txtChiTietSoDem.Location = new System.Drawing.Point(444, 254);
+            this.txtChiTietSoDem.Location = new System.Drawing.Point(423, 254);
             this.txtChiTietSoDem.Name = "txtChiTietSoDem";
             this.txtChiTietSoDem.Size = new System.Drawing.Size(77, 22);
             this.txtChiTietSoDem.TabIndex = 64;
@@ -227,7 +215,7 @@
             this.lblDichVu.AutoSize = true;
             this.lblDichVu.BackColor = System.Drawing.Color.Transparent;
             this.lblDichVu.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDichVu.Location = new System.Drawing.Point(384, 299);
+            this.lblDichVu.Location = new System.Drawing.Point(405, 304);
             this.lblDichVu.Name = "lblDichVu";
             this.lblDichVu.Size = new System.Drawing.Size(95, 25);
             this.lblDichVu.TabIndex = 59;
@@ -249,7 +237,7 @@
             this.lblChiTietSoDem.AutoSize = true;
             this.lblChiTietSoDem.BackColor = System.Drawing.Color.Transparent;
             this.lblChiTietSoDem.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblChiTietSoDem.Location = new System.Drawing.Point(359, 260);
+            this.lblChiTietSoDem.Location = new System.Drawing.Point(372, 260);
             this.lblChiTietSoDem.Name = "lblChiTietSoDem";
             this.lblChiTietSoDem.Size = new System.Drawing.Size(45, 16);
             this.lblChiTietSoDem.TabIndex = 57;
@@ -425,7 +413,7 @@
             this.btnLuuCuaCTPP.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLuuCuaCTPP.Location = new System.Drawing.Point(756, 565);
             this.btnLuuCuaCTPP.Name = "btnLuuCuaCTPP";
-            this.btnLuuCuaCTPP.Size = new System.Drawing.Size(84, 37);
+            this.btnLuuCuaCTPP.Size = new System.Drawing.Size(84, 39);
             this.btnLuuCuaCTPP.TabIndex = 86;
             this.btnLuuCuaCTPP.Text = "Lưu";
             this.btnLuuCuaCTPP.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -445,6 +433,7 @@
             this.btnXoaCuaCTPP.Text = "Xóa";
             this.btnXoaCuaCTPP.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnXoaCuaCTPP.UseVisualStyleBackColor = false;
+            this.btnXoaCuaCTPP.Click += new System.EventHandler(this.btnXoaCuaCTPP_Click);
             // 
             // btnThemCuaCTPP
             // 
@@ -461,6 +450,7 @@
             this.btnThemCuaCTPP.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnThemCuaCTPP.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnThemCuaCTPP.UseVisualStyleBackColor = false;
+            this.btnThemCuaCTPP.Click += new System.EventHandler(this.btnThemCuaCTPP_Click);
             // 
             // btnTroVeCuaCTPP
             // 
@@ -529,29 +519,18 @@
             // 
             this.cbxSoPhong.FormattingEnabled = true;
             this.cbxSoPhong.Items.AddRange(new object[] {
-            "01",
-            "02",
-            "03",
-            "04",
-            "05",
-            "06",
-            "07",
-            "08"});
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"});
             this.cbxSoPhong.Location = new System.Drawing.Point(655, 53);
             this.cbxSoPhong.Name = "cbxSoPhong";
             this.cbxSoPhong.Size = new System.Drawing.Size(168, 22);
             this.cbxSoPhong.TabIndex = 98;
-            // 
-            // lblGiaDV
-            // 
-            this.lblGiaDV.AutoSize = true;
-            this.lblGiaDV.BackColor = System.Drawing.Color.Transparent;
-            this.lblGiaDV.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGiaDV.Location = new System.Drawing.Point(622, 353);
-            this.lblGiaDV.Name = "lblGiaDV";
-            this.lblGiaDV.Size = new System.Drawing.Size(14, 16);
-            this.lblGiaDV.TabIndex = 99;
-            this.lblGiaDV.Text = "0";
             // 
             // lblChiTietTongTien
             // 
@@ -582,10 +561,9 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.b17;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(883, 749);
+            this.ClientSize = new System.Drawing.Size(880, 749);
             this.Controls.Add(this.lblThanhTien);
             this.Controls.Add(this.lblChiTietTongTien);
-            this.Controls.Add(this.lblGiaDV);
             this.Controls.Add(this.cbxSoPhong);
             this.Controls.Add(this.dtpNgayDi);
             this.Controls.Add(this.dtpNgayDen);
@@ -603,9 +581,8 @@
             this.Controls.Add(this.dgvChiTietDichVu);
             this.Controls.Add(this.btnThemCuaCTPP);
             this.Controls.Add(this.txtSoLuong);
-            this.Controls.Add(this.cboTenDichVu);
+            this.Controls.Add(this.cmbTenDichVu);
             this.Controls.Add(this.lblSoLuong);
-            this.Controls.Add(this.lblGia);
             this.Controls.Add(this.lblTenDichVu);
             this.Controls.Add(this.txtChiTietSoDem);
             this.Controls.Add(this.txtChiTietQuocTich);
@@ -644,9 +621,8 @@
         private System.Windows.Forms.DataGridView dgvChiTietDichVu;
         private System.Windows.Forms.Button btnThemCuaCTPP;
         private System.Windows.Forms.TextBox txtSoLuong;
-        private System.Windows.Forms.ComboBox cboTenDichVu;
+        private System.Windows.Forms.ComboBox cmbTenDichVu;
         private System.Windows.Forms.Label lblSoLuong;
-        private System.Windows.Forms.Label lblGia;
         private System.Windows.Forms.Label lblTenDichVu;
         private System.Windows.Forms.TextBox txtChiTietSoDem;
         private System.Windows.Forms.TextBox txtChiTietQuocTich;
@@ -675,7 +651,6 @@
         private System.Windows.Forms.DateTimePicker dtpNgayDen;
         private System.Windows.Forms.DateTimePicker dtpNgayDi;
         private System.Windows.Forms.ComboBox cbxSoPhong;
-        private System.Windows.Forms.Label lblGiaDV;
         private System.Windows.Forms.Label lblChiTietTongTien;
         private System.Windows.Forms.Label lblThanhTien;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;

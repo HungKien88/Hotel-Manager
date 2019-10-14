@@ -80,7 +80,21 @@ namespace PhanMemQuanLyKhachSan
 
         private void btnLoc_Click(object sender, EventArgs e)
         {
+              
+        }
 
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            List<KhachHang> listKQTK = KhachHang.GetAll();
+            var listKhacHang = listKQTK.Where(p => (p is KhachHang) && (p as KhachHang).TenKH.ToLower().Contains(txtTimKiem.Text.ToLower())).ToList();
+            if (listKhacHang.Count > 0)
+            {
+                BindGrid(listKhacHang);
+            }
+            else
+            {
+                MessageBox.Show("Không tìm thấy khách hàng nào!");
+            }
         }
     }
 }

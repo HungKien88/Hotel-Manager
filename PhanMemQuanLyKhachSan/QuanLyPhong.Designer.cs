@@ -159,7 +159,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.b1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(900, 537);
+            this.ClientSize = new System.Drawing.Size(914, 537);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnTroVeCuaCTPP);
             this.Controls.Add(this.dgvQuanLyPhong);

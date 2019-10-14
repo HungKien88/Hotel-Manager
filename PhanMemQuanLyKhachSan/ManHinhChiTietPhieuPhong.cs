@@ -35,22 +35,31 @@ namespace PhanMemQuanLyKhachSan
             dgview.MultiSelect = false;
             dgview.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
         }
+        private void FillDichVuCombobox(List<DichVu> listDichVu)
+        {
+            this.cmbTenDichVu.DataSource = listDichVu;
+            this.cmbTenDichVu.DisplayMember = "TenDV";
+            this.cmbTenDichVu.ValueMember = "DichVuID";
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             frmManHinhChinh fmmhc = new frmManHinhChinh();       
             fmmhc.Show();
             this.Hide();
         }
-        private void BindGrid(List<ChiTietHoaDon> listVatTu)
+        private void BindGrid(List<ChiTietHoaDon> listDichVu)
         {
             dgvChiTietDichVu.Rows.Clear();
             int id = 1;
-            foreach (var item in listVatTu)
+            foreach (var item in listDichVu)
             {
                 int index = dgvChiTietDichVu.Rows.Add();
                 dgvChiTietDichVu.Rows[index].Cells[0].Value = id++;
                 dgvChiTietDichVu.Rows[index].Cells[1].Value = item.DichVuID;
-                dgvChiTietDichVu.Rows[index].Cells[2].Value = item.GiaDV;
+                //dgvChiTietDichVu.Rows[index].Cells[2].Value = ;
+                dgvChiTietDichVu.Rows[index].Cells[3].Value = item.GiaDV;
+                dgvChiTietDichVu.Rows[index].Cells[4].Value = item.SoLuong;
+                dgvChiTietDichVu.Rows[index].Cells[5].Value = item.ThanhTien;
             }
         }
         private void fmmhc_FormClosed(object sender, FormClosedEventArgs e)
@@ -71,7 +80,48 @@ namespace PhanMemQuanLyKhachSan
 
         private void frmChiTietPhieuPhong_Load(object sender, EventArgs e)
         {
+            SetGridViewStyle(dgvChiTietDichVu);
+            FillDichVuCombobox(DichVu.GetAll());
+        }
+        private HoaDon GetHoaDon()
+        {
+            HoaDon k = new HoaDon();
+            k.TenVT = txtCapNhatVatTu.Text;
+            return k;
+        }
 
+        private void btnThemCuaCTPP_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                HoaDon s = GetHoaDon();
+                HoaDon db = HoaDon.GetHoaDon(s.HoaDonID);
+                if (db == null)
+                {
+                    s.InsertUpdate();
+                    MessageBox.Show("Thêm vật tư thành công!");
+                }
+                BindGrid(VatTu.GetAll());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void cmbTenDichVu_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string tendv = cmbTenDichVu.SelectedItem.ToString();
+            List<DichVu> listKQTK = DichVu.GetAll();
+            //var gia = listKQTK.Where(p)
+        }
+
+        private void btnXoaCuaCTPP_Click(object sender, EventArgs e)
+        {
+            foreach (DataGridViewRow item in this.dgvChiTietDichVu.SelectedRows)
+            {
+                dgvChiTietDichVu.Rows.RemoveAt(item.Index);
+            }
         }
     }
 }

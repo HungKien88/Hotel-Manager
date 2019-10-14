@@ -36,17 +36,17 @@
             this.btnThemLichLamViec = new System.Windows.Forms.Button();
             this.btnTroVeCuaCapNhatLichLamViec = new System.Windows.Forms.Button();
             this.dgvCapNhatLichLamViec = new System.Windows.Forms.DataGridView();
+            this.stt = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ca = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ngay = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnXemLai = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.cbxCa = new System.Windows.Forms.ComboBox();
             this.dtpNgayLamViec = new System.Windows.Forms.DateTimePicker();
             this.cbxTenNV = new System.Windows.Forms.ComboBox();
-            this.stt = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tenNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ca = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ngay = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCapNhatLichLamViec)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,7 +83,7 @@
             // btnSuaLichLamViec
             // 
             this.btnSuaLichLamViec.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btnSuaLichLamViec.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuaLichLamViec.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaLichLamViec.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconSuaaaaa;
             this.btnSuaLichLamViec.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSuaLichLamViec.Location = new System.Drawing.Point(571, 141);
@@ -97,7 +97,7 @@
             // btnXoaLichLamViec
             // 
             this.btnXoaLichLamViec.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btnXoaLichLamViec.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaLichLamViec.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaLichLamViec.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconDelete;
             this.btnXoaLichLamViec.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnXoaLichLamViec.Location = new System.Drawing.Point(409, 141);
@@ -111,7 +111,7 @@
             // btnThemLichLamViec
             // 
             this.btnThemLichLamViec.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btnThemLichLamViec.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemLichLamViec.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemLichLamViec.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconThem;
             this.btnThemLichLamViec.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThemLichLamViec.Location = new System.Drawing.Point(749, 141);
@@ -125,7 +125,7 @@
             // btnTroVeCuaCapNhatLichLamViec
             // 
             this.btnTroVeCuaCapNhatLichLamViec.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btnTroVeCuaCapNhatLichLamViec.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTroVeCuaCapNhatLichLamViec.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTroVeCuaCapNhatLichLamViec.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
             this.btnTroVeCuaCapNhatLichLamViec.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTroVeCuaCapNhatLichLamViec.Location = new System.Drawing.Point(12, 15);
@@ -152,6 +152,32 @@
             this.dgvCapNhatLichLamViec.Size = new System.Drawing.Size(813, 444);
             this.dgvCapNhatLichLamViec.TabIndex = 16;
             // 
+            // stt
+            // 
+            this.stt.HeaderText = "STT";
+            this.stt.Name = "stt";
+            // 
+            // tenNV
+            // 
+            this.tenNV.HeaderText = "Tên Nhân Viên";
+            this.tenNV.Name = "tenNV";
+            // 
+            // ca
+            // 
+            this.ca.HeaderText = "Ca";
+            this.ca.Name = "ca";
+            // 
+            // ngay
+            // 
+            this.ngay.HeaderText = "Ngày Làm Việc";
+            this.ngay.Name = "ngay";
+            // 
+            // id
+            // 
+            this.id.HeaderText = "id";
+            this.id.Name = "id";
+            this.id.Visible = false;
+            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(29, 155);
@@ -163,6 +189,7 @@
             // btnXemLai
             // 
             this.btnXemLai.BackColor = System.Drawing.Color.DarkKhaki;
+            this.btnXemLai.Font = new System.Drawing.Font("Palatino Linotype", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemLai.Location = new System.Drawing.Point(239, 155);
             this.btnXemLai.Name = "btnXemLai";
             this.btnXemLai.Size = new System.Drawing.Size(75, 32);
@@ -191,6 +218,8 @@
             // 
             // dtpNgayLamViec
             // 
+            this.dtpNgayLamViec.CustomFormat = "dd/MM/yyyy";
+            this.dtpNgayLamViec.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtpNgayLamViec.Location = new System.Drawing.Point(882, 323);
             this.dtpNgayLamViec.Name = "dtpNgayLamViec";
             this.dtpNgayLamViec.Size = new System.Drawing.Size(223, 20);
@@ -203,32 +232,6 @@
             this.cbxTenNV.Name = "cbxTenNV";
             this.cbxTenNV.Size = new System.Drawing.Size(223, 21);
             this.cbxTenNV.TabIndex = 23;
-            // 
-            // stt
-            // 
-            this.stt.HeaderText = "STT";
-            this.stt.Name = "stt";
-            // 
-            // tenNV
-            // 
-            this.tenNV.HeaderText = "Tên Nhân Viên";
-            this.tenNV.Name = "tenNV";
-            // 
-            // ca
-            // 
-            this.ca.HeaderText = "Ca";
-            this.ca.Name = "ca";
-            // 
-            // ngay
-            // 
-            this.ngay.HeaderText = "Ngày Làm Việc";
-            this.ngay.Name = "ngay";
-            // 
-            // id
-            // 
-            this.id.HeaderText = "id";
-            this.id.Name = "id";
-            this.id.Visible = false;
             // 
             // frmCapNhatLichLamViec
             // 

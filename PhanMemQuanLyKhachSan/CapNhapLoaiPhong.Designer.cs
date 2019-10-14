@@ -43,16 +43,18 @@
             // lblCapNhatLoaiPhong
             // 
             this.lblCapNhatLoaiPhong.AutoSize = true;
-            this.lblCapNhatLoaiPhong.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCapNhatLoaiPhong.BackColor = System.Drawing.Color.Transparent;
+            this.lblCapNhatLoaiPhong.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCapNhatLoaiPhong.Location = new System.Drawing.Point(188, 9);
             this.lblCapNhatLoaiPhong.Name = "lblCapNhatLoaiPhong";
-            this.lblCapNhatLoaiPhong.Size = new System.Drawing.Size(244, 32);
+            this.lblCapNhatLoaiPhong.Size = new System.Drawing.Size(249, 32);
             this.lblCapNhatLoaiPhong.TabIndex = 0;
             this.lblCapNhatLoaiPhong.Text = "Cập Nhật Loại Phòng";
             // 
             // lblChonSoPhong
             // 
             this.lblChonSoPhong.AutoSize = true;
+            this.lblChonSoPhong.BackColor = System.Drawing.Color.Transparent;
             this.lblChonSoPhong.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChonSoPhong.Location = new System.Drawing.Point(53, 81);
             this.lblChonSoPhong.Name = "lblChonSoPhong";
@@ -81,6 +83,7 @@
             // lblChonLoaiPhong
             // 
             this.lblChonLoaiPhong.AutoSize = true;
+            this.lblChonLoaiPhong.BackColor = System.Drawing.Color.Transparent;
             this.lblChonLoaiPhong.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChonLoaiPhong.Location = new System.Drawing.Point(53, 146);
             this.lblChonLoaiPhong.Name = "lblChonLoaiPhong";
@@ -91,41 +94,45 @@
             // rdoStandard
             // 
             this.rdoStandard.AutoSize = true;
+            this.rdoStandard.BackColor = System.Drawing.Color.Transparent;
             this.rdoStandard.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdoStandard.Location = new System.Drawing.Point(58, 213);
+            this.rdoStandard.Location = new System.Drawing.Point(58, 199);
             this.rdoStandard.Name = "rdoStandard";
             this.rdoStandard.Size = new System.Drawing.Size(91, 26);
             this.rdoStandard.TabIndex = 4;
             this.rdoStandard.TabStop = true;
             this.rdoStandard.Text = "Standard";
-            this.rdoStandard.UseVisualStyleBackColor = true;
+            this.rdoStandard.UseVisualStyleBackColor = false;
             // 
             // rdoSuperior
             // 
             this.rdoSuperior.AutoSize = true;
+            this.rdoSuperior.BackColor = System.Drawing.Color.Transparent;
             this.rdoSuperior.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdoSuperior.Location = new System.Drawing.Point(220, 213);
+            this.rdoSuperior.Location = new System.Drawing.Point(218, 199);
             this.rdoSuperior.Name = "rdoSuperior";
             this.rdoSuperior.Size = new System.Drawing.Size(86, 26);
             this.rdoSuperior.TabIndex = 5;
             this.rdoSuperior.TabStop = true;
             this.rdoSuperior.Text = "Superior";
-            this.rdoSuperior.UseVisualStyleBackColor = true;
+            this.rdoSuperior.UseVisualStyleBackColor = false;
             // 
             // rdoDeluxe
             // 
             this.rdoDeluxe.AutoSize = true;
+            this.rdoDeluxe.BackColor = System.Drawing.Color.Transparent;
             this.rdoDeluxe.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdoDeluxe.Location = new System.Drawing.Point(400, 213);
+            this.rdoDeluxe.Location = new System.Drawing.Point(394, 199);
             this.rdoDeluxe.Name = "rdoDeluxe";
             this.rdoDeluxe.Size = new System.Drawing.Size(75, 26);
             this.rdoDeluxe.TabIndex = 6;
             this.rdoDeluxe.TabStop = true;
             this.rdoDeluxe.Text = "Deluxe";
-            this.rdoDeluxe.UseVisualStyleBackColor = true;
+            this.rdoDeluxe.UseVisualStyleBackColor = false;
             // 
             // btnLuuCapNhatLoaiPhong
             // 
+            this.btnLuuCapNhatLoaiPhong.BackColor = System.Drawing.Color.LightPink;
             this.btnLuuCapNhatLoaiPhong.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuuCapNhatLoaiPhong.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconLuu;
             this.btnLuuCapNhatLoaiPhong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -135,10 +142,11 @@
             this.btnLuuCapNhatLoaiPhong.TabIndex = 7;
             this.btnLuuCapNhatLoaiPhong.Text = "Lưu";
             this.btnLuuCapNhatLoaiPhong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnLuuCapNhatLoaiPhong.UseVisualStyleBackColor = true;
+            this.btnLuuCapNhatLoaiPhong.UseVisualStyleBackColor = false;
             // 
             // btnHuyCapNhatLoaiPhong
             // 
+            this.btnHuyCapNhatLoaiPhong.BackColor = System.Drawing.Color.LightPink;
             this.btnHuyCapNhatLoaiPhong.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuyCapNhatLoaiPhong.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconHuy;
             this.btnHuyCapNhatLoaiPhong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -148,27 +156,30 @@
             this.btnHuyCapNhatLoaiPhong.TabIndex = 8;
             this.btnHuyCapNhatLoaiPhong.Text = "Hủy";
             this.btnHuyCapNhatLoaiPhong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnHuyCapNhatLoaiPhong.UseVisualStyleBackColor = true;
+            this.btnHuyCapNhatLoaiPhong.UseVisualStyleBackColor = false;
             this.btnHuyCapNhatLoaiPhong.Click += new System.EventHandler(this.btnHuyCapNhatLoaiPhong_Click);
             // 
             // btnTroVeCuaQLNV
             // 
+            this.btnTroVeCuaQLNV.BackColor = System.Drawing.Color.LightPink;
+            this.btnTroVeCuaQLNV.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTroVeCuaQLNV.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconBack;
             this.btnTroVeCuaQLNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTroVeCuaQLNV.Location = new System.Drawing.Point(12, 9);
             this.btnTroVeCuaQLNV.Name = "btnTroVeCuaQLNV";
-            this.btnTroVeCuaQLNV.Size = new System.Drawing.Size(81, 33);
+            this.btnTroVeCuaQLNV.Size = new System.Drawing.Size(94, 33);
             this.btnTroVeCuaQLNV.TabIndex = 9;
             this.btnTroVeCuaQLNV.Text = "Trở về";
             this.btnTroVeCuaQLNV.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnTroVeCuaQLNV.UseVisualStyleBackColor = true;
+            this.btnTroVeCuaQLNV.UseVisualStyleBackColor = false;
             this.btnTroVeCuaQLNV.Click += new System.EventHandler(this.BtnTroVeCuaQLNV_Click);
             // 
             // frmCapNhatLoaiPhong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(568, 491);
+            this.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.b18;
+            this.ClientSize = new System.Drawing.Size(518, 491);
             this.Controls.Add(this.btnTroVeCuaQLNV);
             this.Controls.Add(this.btnHuyCapNhatLoaiPhong);
             this.Controls.Add(this.btnLuuCapNhatLoaiPhong);
