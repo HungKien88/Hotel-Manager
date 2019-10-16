@@ -52,7 +52,7 @@
             this.lblNoiDungNgayDi1 = new System.Windows.Forms.Label();
             this.lblNoiDungNgayDen1 = new System.Windows.Forms.Label();
             this.lblNoiDungQuocTich1 = new System.Windows.Forms.Label();
-            this.lblNoDungSoKhach1 = new System.Windows.Forms.Label();
+            this.lblNoiDungSoKhach1 = new System.Windows.Forms.Label();
             this.lblNoiDungTenKhach1 = new System.Windows.Forms.Label();
             this.lblNoiDungTenBooking1 = new System.Windows.Forms.Label();
             this.btnCheckOut1 = new System.Windows.Forms.Button();
@@ -434,7 +434,7 @@
             this.pnlPhong1.Controls.Add(this.lblNoiDungNgayDi1);
             this.pnlPhong1.Controls.Add(this.lblNoiDungNgayDen1);
             this.pnlPhong1.Controls.Add(this.lblNoiDungQuocTich1);
-            this.pnlPhong1.Controls.Add(this.lblNoDungSoKhach1);
+            this.pnlPhong1.Controls.Add(this.lblNoiDungSoKhach1);
             this.pnlPhong1.Controls.Add(this.lblNoiDungTenKhach1);
             this.pnlPhong1.Controls.Add(this.lblNoiDungTenBooking1);
             this.pnlPhong1.Controls.Add(this.btnCheckOut1);
@@ -510,15 +510,15 @@
             this.lblNoiDungQuocTich1.TabIndex = 22;
             this.lblNoiDungQuocTich1.Text = ".........................................";
             // 
-            // lblNoDungSoKhach1
+            // lblNoiDungSoKhach1
             // 
-            this.lblNoDungSoKhach1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoDungSoKhach1.Location = new System.Drawing.Point(90, 123);
-            this.lblNoDungSoKhach1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblNoDungSoKhach1.Name = "lblNoDungSoKhach1";
-            this.lblNoDungSoKhach1.Size = new System.Drawing.Size(135, 18);
-            this.lblNoDungSoKhach1.TabIndex = 21;
-            this.lblNoDungSoKhach1.Text = ".........................................";
+            this.lblNoiDungSoKhach1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoiDungSoKhach1.Location = new System.Drawing.Point(90, 123);
+            this.lblNoiDungSoKhach1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNoiDungSoKhach1.Name = "lblNoiDungSoKhach1";
+            this.lblNoiDungSoKhach1.Size = new System.Drawing.Size(135, 18);
+            this.lblNoiDungSoKhach1.TabIndex = 21;
+            this.lblNoiDungSoKhach1.Text = ".........................................";
             // 
             // lblNoiDungTenKhach1
             // 
@@ -816,7 +816,7 @@
             this.btnChiTiet2.TabIndex = 10;
             this.btnChiTiet2.Text = "Chi tiết";
             this.btnChiTiet2.UseVisualStyleBackColor = false;
-            this.btnChiTiet2.Click += new System.EventHandler(this.btnChitiet2_Click);
+            this.btnChiTiet2.Click += new System.EventHandler(this.btnChitiet1_Click);
             // 
             // lblGhiChu2
             // 
@@ -1064,7 +1064,7 @@
             this.btnChiTiet3.TabIndex = 10;
             this.btnChiTiet3.Text = "Chi tiết";
             this.btnChiTiet3.UseVisualStyleBackColor = false;
-            this.btnChiTiet3.Click += new System.EventHandler(this.btnChitiet3_Click);
+            this.btnChiTiet3.Click += new System.EventHandler(this.btnChitiet1_Click);
             // 
             // lblGhiChu3
             // 
@@ -1312,7 +1312,7 @@
             this.btnChiTiet4.TabIndex = 10;
             this.btnChiTiet4.Text = "Chi tiết";
             this.btnChiTiet4.UseVisualStyleBackColor = false;
-            this.btnChiTiet4.Click += new System.EventHandler(this.btnChitiet4_Click);
+            this.btnChiTiet4.Click += new System.EventHandler(this.btnChitiet1_Click);
             // 
             // lblGhiChu4
             // 
@@ -1560,7 +1560,7 @@
             this.btnChitiet8.TabIndex = 10;
             this.btnChitiet8.Text = "Chi tiết";
             this.btnChitiet8.UseVisualStyleBackColor = false;
-            this.btnChitiet8.Click += new System.EventHandler(this.btnChitiet8_Click);
+            this.btnChitiet8.Click += new System.EventHandler(this.btnChitiet1_Click);
             // 
             // lblGhiChu8
             // 
@@ -1808,7 +1808,7 @@
             this.btnChiTiet7.TabIndex = 10;
             this.btnChiTiet7.Text = "Chi tiết";
             this.btnChiTiet7.UseVisualStyleBackColor = false;
-            this.btnChiTiet7.Click += new System.EventHandler(this.btnChitiet7_Click);
+            this.btnChiTiet7.Click += new System.EventHandler(this.btnChitiet1_Click);
             // 
             // lblGhiChu7
             // 
@@ -2056,7 +2056,7 @@
             this.btnChiTiet6.TabIndex = 10;
             this.btnChiTiet6.Text = "Chi tiết";
             this.btnChiTiet6.UseVisualStyleBackColor = false;
-            this.btnChiTiet6.Click += new System.EventHandler(this.button6_Click);
+            this.btnChiTiet6.Click += new System.EventHandler(this.btnChitiet1_Click);
             // 
             // lblGhiChu6
             // 
@@ -2304,7 +2304,7 @@
             this.btnChiTiet5.TabIndex = 10;
             this.btnChiTiet5.Text = "Chi tiết";
             this.btnChiTiet5.UseVisualStyleBackColor = false;
-            this.btnChiTiet5.Click += new System.EventHandler(this.btnChitiet5_Click);
+            this.btnChiTiet5.Click += new System.EventHandler(this.btnChitiet1_Click);
             // 
             // lblGhiChu5
             // 
@@ -2434,7 +2434,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1346, 765);
+            this.ClientSize = new System.Drawing.Size(1346, 749);
             this.ControlBox = false;
             this.Controls.Add(this.panManHinhChinh);
             this.Controls.Add(this.pnlPhong8);
@@ -2593,7 +2593,7 @@
         private System.Windows.Forms.Label lblNoiDungNgayDi1;
         private System.Windows.Forms.Label lblNoiDungNgayDen1;
         private System.Windows.Forms.Label lblNoiDungQuocTich1;
-        private System.Windows.Forms.Label lblNoDungSoKhach1;
+        private System.Windows.Forms.Label lblNoiDungSoKhach1;
         private System.Windows.Forms.Label lblNoiDungTenKhach1;
         private System.Windows.Forms.Label lblNoiDungTien2;
         private System.Windows.Forms.Label lblNoiDungNgayDi2;

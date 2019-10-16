@@ -30,8 +30,8 @@ namespace PhanMemQuanLyKhachSan.Model
 
     public partial class DichVu
     {
-        public int SoLuong;
-        public int ThanhTien; 
+        public int SoLuong =0;
+        public int ThanhTien=0; 
 
         public static List<DichVu> GetAll()
         {

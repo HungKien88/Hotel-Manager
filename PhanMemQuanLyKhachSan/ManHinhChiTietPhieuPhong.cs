@@ -1,21 +1,24 @@
 ﻿using PhanMemQuanLyKhachSan.Model;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PhanMemQuanLyKhachSan
-{   
+{
     public partial class frmChiTietPhieuPhong : Form
     {
+        public frmManHinhChinh objManHinhChinh;
         public frmChiTietPhieuPhong()
         {
             InitializeComponent();
+        }
+        public frmChiTietPhieuPhong(frmManHinhChinh frm)
+        {
+
+            InitializeComponent();
+            objManHinhChinh = frm;
         }
         public void SetGridViewStyle(DataGridView dgview)
         {
@@ -41,20 +44,44 @@ namespace PhanMemQuanLyKhachSan
             this.cmbTenDichVu.DisplayMember = "TenDV";
             this.cmbTenDichVu.ValueMember = "DichVuID";
         }
+        private void FillLoaiPhongCombobox(List<LoaiPhong> listLoaiPhong)
+        {
+            this.cmbLoaiPhong.DataSource = listLoaiPhong;
+            this.cmbLoaiPhong.DisplayMember = "TenLoai";
+            this.cmbLoaiPhong.ValueMember = "LoaiPhongID";
+        }
+        private void FillSoPhongCombobox(List<Phong> listSoPhong)
+        {
+            this.cmbSoPhong.DataSource = listSoPhong;
+            this.cmbSoPhong.DisplayMember = "PhongID";
+            this.cmbSoPhong.ValueMember = "PhongID";
+        }
+        private void FillTenBookingCombobox(List<Booking> listTenBooking)
+        {
+            this.cmbTenBooking.DataSource = listTenBooking;
+            this.cmbTenBooking.DisplayMember = "TenBooking";
+            this.cmbTenBooking.ValueMember = "BookingID";
+        }
+        private void FillComboboxNhanVien(ComboBox cmbName,List<NhanVien> listNhanVien)
+        {
+            this.cmbNhanVien.DataSource = listNhanVien;
+            this.cmbNhanVien.DisplayMember = "TenNV";
+            this.cmbNhanVien.ValueMember = "NhanVienID";
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             frmManHinhChinh fmmhc = new frmManHinhChinh();       
             fmmhc.Show();
             this.Hide();
         }
+        //bindgrid khi chương trình tắt đi mở lên vẫn còn dl
         private void BindGrid(List<ChiTietHoaDon> listDichVu)
         {
             dgvChiTietDichVu.Rows.Clear();
-            int id = 1;
             foreach (var item in listDichVu)
             {
                 int index = dgvChiTietDichVu.Rows.Add();
-                dgvChiTietDichVu.Rows[index].Cells[0].Value = id++;
+                dgvChiTietDichVu.Rows[index].Cells[0].Value = index++;
                 dgvChiTietDichVu.Rows[index].Cells[1].Value = item.DichVuID;
                 //dgvChiTietDichVu.Rows[index].Cells[2].Value = ;
                 dgvChiTietDichVu.Rows[index].Cells[3].Value = item.GiaDV;
@@ -66,44 +93,50 @@ namespace PhanMemQuanLyKhachSan
         {
             this.Show();
         }
-
         private void btnLuuCuaCTPP_Click(object sender, EventArgs e)
         {
-
             try
             {
-                List<DichVu> list = GetListDichVu();
+
+                //insert khách hàng trước mới có hóa đơn
+                KhachHang kh = new KhachHang();
+                kh.TenKH = txtChiTietTenKhach.Text;
+                kh.QuocTich = txtChiTietQuocTich.Text;
+                int idKHachHang = kh.InsertUpdate();
+               List<DichVu> listDV = GetListDichVu();
 
                 //insert hoa don
-
                 HoaDon hd = GetHoaDon();
-                hd.InsertUpdate();
 
-                //insert chi tiet hoa don
-                foreach(DichVu d in list)
+                //insert  khách hàng trước khi insert hóa đơn
+                hd.KhachHangID = idKHachHang;
+                hd.TongTien = listDV.Sum(p => p.ThanhTien) + int.Parse(txtChiTietGiaPhong.Text) * hd.SoDem.Value;
+
+                int hoaDonID = hd.InsertUpdate();
+
+                //có hóa đơn rồi insert chi tiet hoa don
+                foreach(DichVu d in listDV)
                 {
                     ChiTietHoaDon item = new ChiTietHoaDon();
                     item.DichVuID = d.DichVuID;
                     item.GiaDV = d.GiaDV;
+                    item.HoaDonID = hoaDonID;
+
                     item.SoLuong = d.SoLuong;
                     item.ThanhTien = d.ThanhTien;
-                  //  item.HoaDonID = 
-                    item.InsertUpdate();
-                     
+             
+                    item.InsertUpdate();                  
                 }
                 //   GetDichVu();
-
-
-                frmManHinhChinh frm2 = new frmManHinhChinh();
-                frm2.Show();
+                objManHinhChinh.SetBookingRoom();
+                this.Close();
+              //  frmManHinhChinh frm2 = new frmManHinhChinh();
+              //  frm2.Show();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
-
-
-
         }
 
         private void lblKhachHang_Click(object sender, EventArgs e)
@@ -115,20 +148,32 @@ namespace PhanMemQuanLyKhachSan
         {
             SetGridViewStyle(dgvChiTietDichVu);
             FillDichVuCombobox(DichVu.GetAll());
+            FillLoaiPhongCombobox(LoaiPhong.GetAll());
+            cmbLoaiPhong.SelectedIndex = 0;
+            //FillSoPhongCombobox(Phong.GetAll().);
+            FillTenBookingCombobox(Booking.GetAll());
+            FillComboboxNhanVien(cmbNhanVien, NhanVien.GetAll());
+            cmbSoPhong.SelectedIndex = 0;
+            cmbNhanVien.SelectedIndex = 0;          
         }
 
         private HoaDon GetHoaDon()
         {
-        //    Standard
-  // Superior
-//Deluxe
             HoaDon hd = new HoaDon();
-           
+            hd.TenLoai = cmbLoaiPhong.Text;
+            hd.NhanVienID = int.Parse(cmbNhanVien.SelectedValue + "");
+            hd.PhongID = int.Parse(cmbSoPhong.SelectedValue + "");
+            hd.SoDem = int.Parse(txtChiTietSoDem.Text);
+            hd.SoKhach = int.Parse(txtChiTietSoKhach.Text);
+            hd.NgayHD = dtpNgayDi.Value.ToString("dd/MM/yyyy");
 
+            if(cmbTenBooking.Text != "")
+              hd.BookingID = int.Parse(cmbTenBooking.SelectedValue + "");
             return hd;
         }
         private List<DichVu> GetListDichVu()  //lay nguoc tu datagrid ra
         {
+            //giá trị có thể là null nên cộng với null để k bị lỗi
             List<DichVu> list = new List<DichVu>();
             foreach (DataGridViewRow row in this.dgvChiTietDichVu.Rows)
             {
@@ -159,7 +204,6 @@ namespace PhanMemQuanLyKhachSan
                 dgvChiTietDichVu.Rows[index].Cells[4].Value = thanhtien.ToString();
 
                 dgvChiTietDichVu.Rows[index].Cells["id"].Value = dv.DichVuID + "";
-                //   GetDichVu();
             }
             catch (Exception ex)
             {
@@ -171,7 +215,6 @@ namespace PhanMemQuanLyKhachSan
         {
             string tendv = cmbTenDichVu.SelectedItem.ToString();
             List<DichVu> listKQTK = DichVu.GetAll();
-            //var gia = listKQTK.Where(p)
         }
 
         private void btnXoaCuaCTPP_Click(object sender, EventArgs e)
@@ -184,7 +227,50 @@ namespace PhanMemQuanLyKhachSan
 
         private void cbxLoaiPhong_SelectedIndexChanged(object sender, EventArgs e)
         {
+           
+        }
 
+        
+        private void txtChiTietGiaPhong_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                lblThanhTien.Text = ( int.Parse(txtChiTietGiaPhong.Text) * int.Parse(txtChiTietSoDem.Text)).ToString();
+            }
+            catch 
+            {
+                lblThanhTien.Text = "";
+            }
+        }
+
+        private void cmbSoPhong_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (cmbSoPhong.SelectedValue != null)
+                {
+                    Phong objPHong = Phong.GetPhong(int.Parse(cmbSoPhong.SelectedValue + ""));
+                    if (objPHong != null)
+                    {
+                        txtChiTietGiaPhong.Text = objPHong.GiaPhong.ToString();
+                    }
+                }
+            }
+            catch { }
+        }
+
+        private void cmbLoaiPhong_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (cmbLoaiPhong.SelectedValue != null)
+                {
+                    LoaiPhong temp =  (LoaiPhong)cmbLoaiPhong.SelectedItem;
+                    var list = Phong.GetAll(temp.LoaiPhongID);
+                    FillSoPhongCombobox(list);
+                }
+            }
+            catch { }
         }
     }
 }

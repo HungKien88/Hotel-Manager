@@ -12,6 +12,7 @@ namespace PhanMemQuanLyKhachSan.Model
         {
         }
 
+        public virtual DbSet<Booking> Bookings { get; set; }
         public virtual DbSet<ChiTietHoaDon> ChiTietHoaDons { get; set; }
         public virtual DbSet<DichVu> DichVus { get; set; }
         public virtual DbSet<HoaDon> HoaDons { get; set; }
@@ -21,16 +22,25 @@ namespace PhanMemQuanLyKhachSan.Model
         public virtual DbSet<MatKhau> MatKhaus { get; set; }
         public virtual DbSet<NhanVien> NhanViens { get; set; }
         public virtual DbSet<Phong> Phongs { get; set; }
+        public virtual DbSet<PhanQuyen> PhanQuyens { get; set; }
         public virtual DbSet<VatTu> VatTus { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<HoaDon>()
+                .Property(e => e.TenLoai)
+                .IsUnicode(false);
+
             modelBuilder.Entity<HoaDon>()
                 .Property(e => e.NgayHD)
                 .IsUnicode(false);
 
             modelBuilder.Entity<KhachHang>()
                 .Property(e => e.QuocTich)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<LichLamViec>()
+                .Property(e => e.Ngay)
                 .IsUnicode(false);
 
             modelBuilder.Entity<LoaiPhong>()

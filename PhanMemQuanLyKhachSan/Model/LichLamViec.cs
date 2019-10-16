@@ -17,6 +17,7 @@ namespace PhanMemQuanLyKhachSan.Model
         [StringLength(10)]
         public string Ca { get; set; }
 
+        [StringLength(50)]
         public string Ngay { get; set; }
 
         public virtual NhanVien NhanVien { get; set; }

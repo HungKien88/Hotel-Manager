@@ -23,8 +23,9 @@ namespace PhanMemQuanLyKhachSan.Model
 
         public int? ThanhTien { get; set; }
 
+        public virtual DichVu DichVu { get; set; }
+
         public virtual HoaDon HoaDon { get; set; }
-        public object DichVu { get; internal set; }
     }
     public partial class ChiTietHoaDon
     {
@@ -45,7 +46,7 @@ namespace PhanMemQuanLyKhachSan.Model
             context.ChiTietHoaDons.AddOrUpdate(this);
             context.SaveChanges();
         }
-        
+
 
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PhanMemQuanLyKhachSan.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,66 +17,44 @@ namespace PhanMemQuanLyKhachSan
         {
             InitializeComponent();
         }
+          
+        public void SetBookingRoom()
+        {
+            var listHD = HoaDon.GetAll();
+            var hd1 = listHD.LastOrDefault(p => p.PhongID != null && p.PhongID == 1);
+            DateTime datetimHienTai = DateTime.Now;
+            int ngayHienTai = datetimHienTai.Day;
+            DateTime dtNgayDi = DateTime.Parse(hd1.NgayHD);
+            int ngayDi = dtNgayDi.Day;
+            if (hd1 != null && ngayDi >= ngayHienTai)  // cần thêm đk && ngay hoa don >= datetime.Now
+            {
+                Booking findBook = Booking.GetBooking(hd1.BookingID.Value);
+                if (findBook != null)
+                {
+                    lblNoiDungTenBooking1.Text = findBook.TenBooking;
+
+                }
+                lblNoiDungTenKhach1.Text = hd1.KhachHang.TenKH;               
+                lblNoiDungSoKhach1.Text = hd1.SoKhach + "";
+                lblNoiDungQuocTich1.Text = hd1.KhachHang.QuocTich;
+                DateTime dtNgayDen =  DateTime.Parse(hd1.NgayHD);
+                dtNgayDen.AddDays(dtNgayDen.Day - hd1.SoDem.Value);
+                lblNoiDungNgayDen1.Text = dtNgayDen.ToString("dd/MM/yyyy");
+                lblNoiDungNgayDi1.Text = hd1.NgayHD;
+            }
+        }
 
         private void btnChitiet1_Click(object sender, EventArgs e)
         {
-            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
+            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong(this);
             fmmhctpp.Show();
-            this.Hide();
+        
         }
         private void fmmhctpp_FormClosed(object sender, FormClosedEventArgs e)
         {
             this.Show();
         }
 
-        private void btnChitiet2_Click(object sender, EventArgs e)
-        {
-            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
-            fmmhctpp.Show();
-            this.Hide();
-        }
-
-        private void btnChitiet3_Click(object sender, EventArgs e)
-        {
-            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
-            fmmhctpp.Show();
-            this.Hide();
-        }
-
-        private void btnChitiet4_Click(object sender, EventArgs e)
-        {
-            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
-            fmmhctpp.Show();
-            this.Hide();
-        }
-
-        private void btnChitiet5_Click(object sender, EventArgs e)
-        {
-            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
-            fmmhctpp.Show();
-            this.Hide();
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
-            fmmhctpp.Show();
-            this.Hide();
-        }
-
-        private void btnChitiet7_Click(object sender, EventArgs e)
-        {
-            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();          
-            fmmhctpp.Show();
-            this.Hide();
-        }
-
-        private void btnChitiet8_Click(object sender, EventArgs e)
-        {
-            frmChiTietPhieuPhong fmmhctpp = new frmChiTietPhieuPhong();
-            fmmhctpp.Show();
-            this.Hide();
-        }      
 
         private void quảnLýKháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -96,7 +75,7 @@ namespace PhanMemQuanLyKhachSan
 
         private void FrmManHinhChinh_Load(object sender, EventArgs e)
         {
-
+            SetBookingRoom();
         }
 
         private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
@@ -185,9 +164,10 @@ namespace PhanMemQuanLyKhachSan
         {
             lblNoiDungTenBooking1.Text = ".........................................";
             lblNoiDungTenKhach1.Text = ".........................................";
-            lblNoDungSoKhach1.Text = ".........................................";
+            lblNoiDungSoKhach1.Text = ".........................................";
             lblNoiDungQuocTich1.Text = ".........................................";
             lblNoiDungNgayDen1.Text = ".........................................";
+            lblNoiDungNgayDi1.Text = ".........................................";
             lblNoiDungTien1.Text = ".........................................";
             lblPhong1.BackColor = Color.Gray;
         }
@@ -199,6 +179,7 @@ namespace PhanMemQuanLyKhachSan
             lblNoDungSoKhach2.Text = ".........................................";
             lblNoiDungQuocTich2.Text = ".........................................";
             lblNoiDungNgayDen2.Text = ".........................................";
+            lblNoiDungNgayDi2.Text = ".........................................";
             lblNoiDungTien2.Text = ".........................................";
             lblPhong2.BackColor = Color.Gray;
         }
@@ -210,6 +191,7 @@ namespace PhanMemQuanLyKhachSan
             lblNoDungSoKhach3.Text = ".........................................";
             lblNoiDungQuocTich3.Text = ".........................................";
             lblNoiDungNgayDen3.Text = ".........................................";
+            lblNoiDungNgayDi3.Text = ".........................................";
             lblNoiDungTien3.Text = ".........................................";
             lblPhong3.BackColor = Color.Gray;
         }
@@ -221,6 +203,7 @@ namespace PhanMemQuanLyKhachSan
             lblNoDungSoKhach4.Text = ".........................................";
             lblNoiDungQuocTich4.Text = ".........................................";
             lblNoiDungNgayDen4.Text = ".........................................";
+            lblNoiDungNgayDi4.Text = ".........................................";
             lblNoiDungTien4.Text = ".........................................";
             lblPhong4.BackColor = Color.Gray;
         }
@@ -232,6 +215,7 @@ namespace PhanMemQuanLyKhachSan
             lblNoDungSoKhach5.Text = ".........................................";
             lblNoiDungQuocTich5.Text = ".........................................";
             lblNoiDungNgayDen5.Text = ".........................................";
+            lblNoiDungNgayDi5.Text = ".........................................";
             lblNoiDungTien5.Text = ".........................................";
             lblPhong5.BackColor = Color.Gray;
         }
@@ -242,6 +226,7 @@ namespace PhanMemQuanLyKhachSan
             lblNoDungSoKhach6.Text = ".........................................";
             lblNoiDungQuocTich6.Text = ".........................................";
             lblNoiDungNgayDen6.Text = ".........................................";
+            lblNoiDungNgayDi6.Text = ".........................................";
             lblNoiDungTien6.Text = ".........................................";
             lblPhong6.BackColor = Color.Gray;
         }
@@ -252,6 +237,7 @@ namespace PhanMemQuanLyKhachSan
             lblNoDungSoKhach7.Text = ".........................................";
             lblNoiDungQuocTich7.Text = ".........................................";
             lblNoiDungNgayDen7.Text = ".........................................";
+            lblNoiDungNgayDi7.Text = ".........................................";
             lblNoiDungTien7.Text = ".........................................";
             lblPhong7.BackColor = Color.Gray;
         }
@@ -262,6 +248,7 @@ namespace PhanMemQuanLyKhachSan
             lblNoDungSoKhach8.Text = ".........................................";
             lblNoiDungQuocTich8.Text = ".........................................";
             lblNoiDungNgayDen8.Text = ".........................................";
+            lblNoiDungNgayDi8.Text = ".........................................";
             lblNoiDungTien8.Text = ".........................................";
             lblPhong8.BackColor = Color.Gray;
         }

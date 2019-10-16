@@ -25,7 +25,6 @@ namespace PhanMemQuanLyKhachSan.Model
 
         [StringLength(200)]
         public string PathImage { get; set; }
-        
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<HoaDon> HoaDons { get; set; }

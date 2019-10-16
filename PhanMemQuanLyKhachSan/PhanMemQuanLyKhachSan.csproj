@@ -95,8 +95,10 @@
     <Compile Include="Model\LoaiPhong.cs" />
     <Compile Include="Model\MatKhau.cs" />
     <Compile Include="Model\NhanVien.cs" />
+    <Compile Include="Model\PhanQuyen.cs" />
     <Compile Include="Model\Phong.cs" />
     <Compile Include="Model\QLKSModel.cs" />
+    <Compile Include="Model\Booking.cs" />
     <Compile Include="Model\VatTu.cs" />
     <Compile Include="ThongKe.cs">
       <SubType>Form</SubType>

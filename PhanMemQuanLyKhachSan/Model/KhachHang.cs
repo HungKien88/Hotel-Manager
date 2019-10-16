@@ -4,6 +4,7 @@ namespace PhanMemQuanLyKhachSan.Model
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
+    using System.Data.Entity.Migrations;
     using System.Data.Entity.Spatial;
     using System.Linq;
 
@@ -40,6 +41,12 @@ namespace PhanMemQuanLyKhachSan.Model
             QLKSModel context = new QLKSModel();
             return context.KhachHangs.Where(p => p.KhachHangID == khachHangId).FirstOrDefault();
 
+        }
+        public int InsertUpdate()
+        {
+            QLKSModel context = new QLKSModel();
+            context.KhachHangs.AddOrUpdate(this);
+            return context.SaveChanges();
         }
     }
 }

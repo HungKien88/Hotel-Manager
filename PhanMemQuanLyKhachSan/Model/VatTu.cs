@@ -16,7 +16,6 @@ namespace PhanMemQuanLyKhachSan.Model
         [StringLength(50)]
         public string TenVT { get; set; }
     }
-
     public partial class VatTu
     {
         public static List<VatTu> GetAll()

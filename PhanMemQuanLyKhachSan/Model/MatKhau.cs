@@ -17,7 +17,6 @@ namespace PhanMemQuanLyKhachSan.Model
         [StringLength(50)]
         public string password { get; set; }
     }
-
     public partial class MatKhau
     {
         public List<MatKhau> GetAll()

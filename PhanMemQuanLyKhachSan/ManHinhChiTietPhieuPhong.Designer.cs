@@ -32,6 +32,12 @@
             this.txtChiTietGiaPhong = new System.Windows.Forms.TextBox();
             this.txtChiTietSoKhach = new System.Windows.Forms.TextBox();
             this.dgvChiTietDichVu = new System.Windows.Forms.DataGridView();
+            this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenDV = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtSoLuong = new System.Windows.Forms.TextBox();
             this.cmbTenDichVu = new System.Windows.Forms.ComboBox();
             this.lblSoLuong = new System.Windows.Forms.Label();
@@ -60,19 +66,14 @@
             this.btnXoaCuaCTPP = new System.Windows.Forms.Button();
             this.btnThemCuaCTPP = new System.Windows.Forms.Button();
             this.btnTroVeCuaCTPP = new System.Windows.Forms.Button();
-            this.cbxLoaiPhong = new System.Windows.Forms.ComboBox();
-            this.cbxTenBooking = new System.Windows.Forms.ComboBox();
+            this.cmbLoaiPhong = new System.Windows.Forms.ComboBox();
+            this.cmbTenBooking = new System.Windows.Forms.ComboBox();
             this.dtpNgayDen = new System.Windows.Forms.DateTimePicker();
             this.dtpNgayDi = new System.Windows.Forms.DateTimePicker();
-            this.cbxSoPhong = new System.Windows.Forms.ComboBox();
+            this.cmbSoPhong = new System.Windows.Forms.ComboBox();
             this.lblChiTietTongTien = new System.Windows.Forms.Label();
             this.lblThanhTien = new System.Windows.Forms.Label();
-            this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TenDV = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmbNhanVien = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvChiTietDichVu)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,6 +94,7 @@
             this.txtChiTietGiaPhong.Name = "txtChiTietGiaPhong";
             this.txtChiTietGiaPhong.Size = new System.Drawing.Size(149, 22);
             this.txtChiTietGiaPhong.TabIndex = 84;
+            this.txtChiTietGiaPhong.TextChanged += new System.EventHandler(this.txtChiTietGiaPhong_TextChanged);
             // 
             // txtChiTietSoKhach
             // 
@@ -119,6 +121,37 @@
             this.dgvChiTietDichVu.RowTemplate.Height = 24;
             this.dgvChiTietDichVu.Size = new System.Drawing.Size(707, 278);
             this.dgvChiTietDichVu.TabIndex = 77;
+            // 
+            // STT
+            // 
+            this.STT.FillWeight = 50F;
+            this.STT.HeaderText = "STT";
+            this.STT.Name = "STT";
+            // 
+            // TenDV
+            // 
+            this.TenDV.HeaderText = "Tên dịch vụ";
+            this.TenDV.Name = "TenDV";
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Gía";
+            this.Column3.Name = "Column3";
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Số lượng";
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Thành tiền";
+            this.Column6.Name = "Column6";
+            // 
+            // id
+            // 
+            this.id.HeaderText = "id";
+            this.id.Name = "id";
             // 
             // txtSoLuong
             // 
@@ -164,6 +197,8 @@
             this.txtChiTietSoDem.Name = "txtChiTietSoDem";
             this.txtChiTietSoDem.Size = new System.Drawing.Size(77, 22);
             this.txtChiTietSoDem.TabIndex = 64;
+            this.txtChiTietSoDem.Click += new System.EventHandler(this.txtChiTietGiaPhong_TextChanged);
+            this.txtChiTietSoDem.TextChanged += new System.EventHandler(this.txtChiTietGiaPhong_TextChanged);
             // 
             // txtChiTietQuocTich
             // 
@@ -339,7 +374,7 @@
             this.lblNhanVien.AutoSize = true;
             this.lblNhanVien.BackColor = System.Drawing.Color.Transparent;
             this.lblNhanVien.Font = new System.Drawing.Font("Palatino Linotype", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNhanVien.Location = new System.Drawing.Point(662, 724);
+            this.lblNhanVien.Location = new System.Drawing.Point(656, 724);
             this.lblNhanVien.Name = "lblNhanVien";
             this.lblNhanVien.Size = new System.Drawing.Size(58, 16);
             this.lblNhanVien.TabIndex = 92;
@@ -436,23 +471,19 @@
             this.btnTroVeCuaCTPP.UseVisualStyleBackColor = false;
             this.btnTroVeCuaCTPP.Click += new System.EventHandler(this.button1_Click);
             // 
-            // cbxLoaiPhong
+            // cmbLoaiPhong
             // 
-            this.cbxLoaiPhong.FormattingEnabled = true;
-            this.cbxLoaiPhong.Items.AddRange(new object[] {
-            "Standard",
-            "Superior",
-            "Deluxe"});
-            this.cbxLoaiPhong.Location = new System.Drawing.Point(160, 65);
-            this.cbxLoaiPhong.Name = "cbxLoaiPhong";
-            this.cbxLoaiPhong.Size = new System.Drawing.Size(149, 22);
-            this.cbxLoaiPhong.TabIndex = 94;
-            this.cbxLoaiPhong.SelectedIndexChanged += new System.EventHandler(this.cbxLoaiPhong_SelectedIndexChanged);
+            this.cmbLoaiPhong.FormattingEnabled = true;
+            this.cmbLoaiPhong.Location = new System.Drawing.Point(160, 65);
+            this.cmbLoaiPhong.Name = "cmbLoaiPhong";
+            this.cmbLoaiPhong.Size = new System.Drawing.Size(149, 22);
+            this.cmbLoaiPhong.TabIndex = 94;
+            this.cmbLoaiPhong.SelectedIndexChanged += new System.EventHandler(this.cmbLoaiPhong_SelectedIndexChanged);
             // 
-            // cbxTenBooking
+            // cmbTenBooking
             // 
-            this.cbxTenBooking.FormattingEnabled = true;
-            this.cbxTenBooking.Items.AddRange(new object[] {
+            this.cmbTenBooking.FormattingEnabled = true;
+            this.cmbTenBooking.Items.AddRange(new object[] {
             "Booking.com",
             "Agoda",
             "Travel Loka",
@@ -462,10 +493,10 @@
             "Expedia",
             "Khách Tự Đến",
             "Khách Đối Tác"});
-            this.cbxTenBooking.Location = new System.Drawing.Point(160, 113);
-            this.cbxTenBooking.Name = "cbxTenBooking";
-            this.cbxTenBooking.Size = new System.Drawing.Size(149, 22);
-            this.cbxTenBooking.TabIndex = 95;
+            this.cmbTenBooking.Location = new System.Drawing.Point(160, 113);
+            this.cmbTenBooking.Name = "cmbTenBooking";
+            this.cmbTenBooking.Size = new System.Drawing.Size(149, 22);
+            this.cmbTenBooking.TabIndex = 95;
             // 
             // dtpNgayDen
             // 
@@ -485,10 +516,10 @@
             this.dtpNgayDi.Size = new System.Drawing.Size(169, 22);
             this.dtpNgayDi.TabIndex = 97;
             // 
-            // cbxSoPhong
+            // cmbSoPhong
             // 
-            this.cbxSoPhong.FormattingEnabled = true;
-            this.cbxSoPhong.Items.AddRange(new object[] {
+            this.cmbSoPhong.FormattingEnabled = true;
+            this.cmbSoPhong.Items.AddRange(new object[] {
             "1",
             "2",
             "3",
@@ -497,10 +528,11 @@
             "6",
             "7",
             "8"});
-            this.cbxSoPhong.Location = new System.Drawing.Point(655, 53);
-            this.cbxSoPhong.Name = "cbxSoPhong";
-            this.cbxSoPhong.Size = new System.Drawing.Size(168, 22);
-            this.cbxSoPhong.TabIndex = 98;
+            this.cmbSoPhong.Location = new System.Drawing.Point(655, 53);
+            this.cmbSoPhong.Name = "cmbSoPhong";
+            this.cmbSoPhong.Size = new System.Drawing.Size(168, 22);
+            this.cmbSoPhong.TabIndex = 98;
+            this.cmbSoPhong.SelectedIndexChanged += new System.EventHandler(this.cmbSoPhong_SelectedIndexChanged);
             // 
             // lblChiTietTongTien
             // 
@@ -524,36 +556,18 @@
             this.lblThanhTien.TabIndex = 101;
             this.lblThanhTien.Text = "0";
             // 
-            // STT
+            // cmbNhanVien
             // 
-            this.STT.FillWeight = 50F;
-            this.STT.HeaderText = "STT";
-            this.STT.Name = "STT";
-            // 
-            // TenDV
-            // 
-            this.TenDV.HeaderText = "Tên dịch vụ";
-            this.TenDV.Name = "TenDV";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Gía";
-            this.Column3.Name = "Column3";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Số lượng";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Thành tiền";
-            this.Column6.Name = "Column6";
-            // 
-            // id
-            // 
-            this.id.HeaderText = "id";
-            this.id.Name = "id";
+            this.cmbNhanVien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbNhanVien.FormattingEnabled = true;
+            this.cmbNhanVien.Items.AddRange(new object[] {
+            "Standard",
+            "Superior",
+            "Deluxe"});
+            this.cmbNhanVien.Location = new System.Drawing.Point(720, 718);
+            this.cmbNhanVien.Name = "cmbNhanVien";
+            this.cmbNhanVien.Size = new System.Drawing.Size(149, 22);
+            this.cmbNhanVien.TabIndex = 102;
             // 
             // frmChiTietPhieuPhong
             // 
@@ -563,13 +577,14 @@
             this.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.b17;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(880, 749);
+            this.Controls.Add(this.cmbNhanVien);
             this.Controls.Add(this.lblThanhTien);
             this.Controls.Add(this.lblChiTietTongTien);
-            this.Controls.Add(this.cbxSoPhong);
+            this.Controls.Add(this.cmbSoPhong);
             this.Controls.Add(this.dtpNgayDi);
             this.Controls.Add(this.dtpNgayDen);
-            this.Controls.Add(this.cbxTenBooking);
-            this.Controls.Add(this.cbxLoaiPhong);
+            this.Controls.Add(this.cmbTenBooking);
+            this.Controls.Add(this.cmbLoaiPhong);
             this.Controls.Add(this.lblNhanVien);
             this.Controls.Add(this.lblTongTien);
             this.Controls.Add(this.lblKhachHang);
@@ -647,11 +662,11 @@
         private System.Windows.Forms.Label lblKhachHang;
         private System.Windows.Forms.Label lblTongTien;
         private System.Windows.Forms.Label lblNhanVien;
-        private System.Windows.Forms.ComboBox cbxLoaiPhong;
-        private System.Windows.Forms.ComboBox cbxTenBooking;
+        private System.Windows.Forms.ComboBox cmbLoaiPhong;
+        private System.Windows.Forms.ComboBox cmbTenBooking;
         private System.Windows.Forms.DateTimePicker dtpNgayDen;
         private System.Windows.Forms.DateTimePicker dtpNgayDi;
-        private System.Windows.Forms.ComboBox cbxSoPhong;
+        private System.Windows.Forms.ComboBox cmbSoPhong;
         private System.Windows.Forms.Label lblChiTietTongTien;
         private System.Windows.Forms.Label lblThanhTien;
         private System.Windows.Forms.DataGridViewTextBoxColumn STT;
@@ -660,5 +675,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
+        private System.Windows.Forms.ComboBox cmbNhanVien;
     }
 }
