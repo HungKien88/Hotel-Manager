@@ -714,6 +714,11 @@
             // cmbPhong2
             // 
             this.cmbPhong2.FormattingEnabled = true;
+            this.cmbPhong2.Items.AddRange(new object[] {
+            "Phòng Ở",
+            "Phòng Trống",
+            "Phòng Trả",
+            "Phòng Đang Dọn"});
             this.cmbPhong2.Location = new System.Drawing.Point(93, 246);
             this.cmbPhong2.Name = "cmbPhong2";
             this.cmbPhong2.Size = new System.Drawing.Size(131, 21);
@@ -962,6 +967,11 @@
             // cmbPhong3
             // 
             this.cmbPhong3.FormattingEnabled = true;
+            this.cmbPhong3.Items.AddRange(new object[] {
+            "Phòng Ở",
+            "Phòng Trống",
+            "Phòng Trả",
+            "Phòng Đang Dọn"});
             this.cmbPhong3.Location = new System.Drawing.Point(91, 246);
             this.cmbPhong3.Name = "cmbPhong3";
             this.cmbPhong3.Size = new System.Drawing.Size(131, 21);
@@ -1211,7 +1221,12 @@
             // cmbPhong4
             // 
             this.cmbPhong4.FormattingEnabled = true;
-            this.cmbPhong4.Location = new System.Drawing.Point(95, 251);
+            this.cmbPhong4.Items.AddRange(new object[] {
+            "Phòng Ở",
+            "Phòng Trống",
+            "Phòng Trả",
+            "Phòng Đang Dọn"});
+            this.cmbPhong4.Location = new System.Drawing.Point(95, 248);
             this.cmbPhong4.Name = "cmbPhong4";
             this.cmbPhong4.Size = new System.Drawing.Size(131, 21);
             this.cmbPhong4.TabIndex = 26;
@@ -1280,7 +1295,7 @@
             // lblNoiDungTenBooking4
             // 
             this.lblNoiDungTenBooking4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoiDungTenBooking4.Location = new System.Drawing.Point(91, 79);
+            this.lblNoiDungTenBooking4.Location = new System.Drawing.Point(91, 74);
             this.lblNoiDungTenBooking4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNoiDungTenBooking4.Name = "lblNoiDungTenBooking4";
             this.lblNoiDungTenBooking4.Size = new System.Drawing.Size(135, 18);
@@ -1459,6 +1474,11 @@
             // cmbPhong8
             // 
             this.cmbPhong8.FormattingEnabled = true;
+            this.cmbPhong8.Items.AddRange(new object[] {
+            "Phòng Ở",
+            "Phòng Trống",
+            "Phòng Trả",
+            "Phòng Đang Dọn"});
             this.cmbPhong8.Location = new System.Drawing.Point(95, 252);
             this.cmbPhong8.Name = "cmbPhong8";
             this.cmbPhong8.Size = new System.Drawing.Size(131, 21);
@@ -1707,6 +1727,11 @@
             // cmbPhong7
             // 
             this.cmbPhong7.FormattingEnabled = true;
+            this.cmbPhong7.Items.AddRange(new object[] {
+            "Phòng Ở",
+            "Phòng Trống",
+            "Phòng Trả",
+            "Phòng Đang Dọn"});
             this.cmbPhong7.Location = new System.Drawing.Point(91, 251);
             this.cmbPhong7.Name = "cmbPhong7";
             this.cmbPhong7.Size = new System.Drawing.Size(131, 21);
@@ -1955,6 +1980,11 @@
             // cmbPhong6
             // 
             this.cmbPhong6.FormattingEnabled = true;
+            this.cmbPhong6.Items.AddRange(new object[] {
+            "Phòng Ở",
+            "Phòng Trống",
+            "Phòng Trả",
+            "Phòng Đang Dọn"});
             this.cmbPhong6.Location = new System.Drawing.Point(93, 252);
             this.cmbPhong6.Name = "cmbPhong6";
             this.cmbPhong6.Size = new System.Drawing.Size(131, 21);
@@ -2203,6 +2233,11 @@
             // cmbPhong5
             // 
             this.cmbPhong5.FormattingEnabled = true;
+            this.cmbPhong5.Items.AddRange(new object[] {
+            "Phòng Ở",
+            "Phòng Trống",
+            "Phòng Trả",
+            "Phòng Đang Dọn"});
             this.cmbPhong5.Location = new System.Drawing.Point(90, 251);
             this.cmbPhong5.Name = "cmbPhong5";
             this.cmbPhong5.Size = new System.Drawing.Size(131, 21);

@@ -70,6 +70,7 @@
             this.txtTenDangNhap.Size = new System.Drawing.Size(281, 24);
             this.txtTenDangNhap.TabIndex = 1;
             this.txtTenDangNhap.Text = "Tên đăng nhập";
+            this.txtTenDangNhap.TextChanged += new System.EventHandler(this.txtTenDangNhap_TextChanged);
             this.txtTenDangNhap.Enter += new System.EventHandler(this.txtTendangnhap_Enter);
             this.txtTenDangNhap.Leave += new System.EventHandler(this.txtTendangnhap_Leave);
             // 
@@ -82,6 +83,7 @@
             this.pnlTenDangNhap.Name = "pnlTenDangNhap";
             this.pnlTenDangNhap.Size = new System.Drawing.Size(281, 2);
             this.pnlTenDangNhap.TabIndex = 2;
+            this.pnlTenDangNhap.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlTenDangNhap_Paint);
             // 
             // txtMatKhau
             // 
@@ -95,6 +97,7 @@
             this.txtMatKhau.Size = new System.Drawing.Size(251, 24);
             this.txtMatKhau.TabIndex = 4;
             this.txtMatKhau.Text = "Mật khẩu";
+            this.txtMatKhau.TextChanged += new System.EventHandler(this.txtMatKhau_TextChanged);
             this.txtMatKhau.Enter += new System.EventHandler(this.txtMatkhau_Enter);
             this.txtMatKhau.Leave += new System.EventHandler(this.txtMatkhau_Leave);
             // 
@@ -134,6 +137,7 @@
             this.lblChuaCoTaiKhoan.TabIndex = 10;
             this.lblChuaCoTaiKhoan.Text = "Chưa có tài khoản?";
             this.lblChuaCoTaiKhoan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblChuaCoTaiKhoan.Click += new System.EventHandler(this.lblChuaCoTaiKhoan_Click);
             // 
             // btnDangKy
             // 
@@ -157,6 +161,7 @@
             this.pnlMatKhau.Name = "pnlMatKhau";
             this.pnlMatKhau.Size = new System.Drawing.Size(281, 2);
             this.pnlMatKhau.TabIndex = 12;
+            this.pnlMatKhau.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMatKhau_Paint);
             // 
             // btnHienMatKhau
             // 
@@ -170,6 +175,7 @@
             this.btnHienMatKhau.Size = new System.Drawing.Size(26, 17);
             this.btnHienMatKhau.TabIndex = 7;
             this.btnHienMatKhau.UseVisualStyleBackColor = true;
+            this.btnHienMatKhau.Click += new System.EventHandler(this.btnHienMatKhau_Click);
             this.btnHienMatKhau.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnHienmatkhau_MouseDown);
             this.btnHienMatKhau.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnHienmatkhau_MouseUp);
             // 
@@ -183,6 +189,7 @@
             this.picMatKhau.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picMatKhau.TabIndex = 6;
             this.picMatKhau.TabStop = false;
+            this.picMatKhau.Click += new System.EventHandler(this.picMatKhau_Click);
             // 
             // picTenDangNhap
             // 
@@ -194,6 +201,7 @@
             this.picTenDangNhap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picTenDangNhap.TabIndex = 3;
             this.picTenDangNhap.TabStop = false;
+            this.picTenDangNhap.Click += new System.EventHandler(this.picTenDangNhap_Click);
             // 
             // frmDangNhap
             // 
@@ -215,6 +223,7 @@
             this.Name = "frmDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng Nhập";
+            this.Load += new System.EventHandler(this.frmDangNhap_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picMatKhau)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTenDangNhap)).EndInit();
             this.ResumeLayout(false);

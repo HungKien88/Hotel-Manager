@@ -106,5 +106,50 @@ namespace PhanMemQuanLyKhachSan
         {
             MessageBox.Show("Quên thì đi hỏi Thủy Tiên nhé!");
         }
+
+        private void btnHienMatKhau_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblChuaCoTaiKhoan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlMatKhau_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void picMatKhau_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMatKhau_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picTenDangNhap_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlTenDangNhap_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtTenDangNhap_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmDangNhap_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

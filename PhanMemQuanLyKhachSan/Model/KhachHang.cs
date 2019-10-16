@@ -42,11 +42,12 @@ namespace PhanMemQuanLyKhachSan.Model
             return context.KhachHangs.Where(p => p.KhachHangID == khachHangId).FirstOrDefault();
 
         }
-        public int InsertUpdate()
+        public KhachHang InsertUpdate()
         {
             QLKSModel context = new QLKSModel();
-            context.KhachHangs.AddOrUpdate(this);
-            return context.SaveChanges();
+            KhachHang kh = context.KhachHangs.Add(this);
+            context.SaveChanges();
+            return kh;
         }
     }
 }

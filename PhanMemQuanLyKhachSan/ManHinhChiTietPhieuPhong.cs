@@ -100,14 +100,14 @@ namespace PhanMemQuanLyKhachSan
                 KhachHang kh = new KhachHang();
                 kh.TenKH = txtChiTietTenKhach.Text;
                 kh.QuocTich = txtChiTietQuocTich.Text;
-                int idKHachHang = kh.InsertUpdate();
+                kh = kh.InsertUpdate();
                List<DichVu> listDV = GetListDichVu();
 
                 //insert hoa don
                 HoaDon hd = GetHoaDon();
 
                 //insert  khách hàng trước khi insert hóa đơn
-                hd.KhachHangID = idKHachHang;
+                hd.KhachHangID = kh.KhachHangID;
                 hd.TongTien = listDV.Sum(p => p.ThanhTien) + int.Parse(txtChiTietGiaPhong.Text) * hd.SoDem.Value;
 
                 int hoaDonID = hd.InsertUpdate();

@@ -32,13 +32,13 @@ namespace PhanMemQuanLyKhachSan
                     if (findBook != null)
                     {
                         lblNoiDungTenBooking1.Text = findBook.TenBooking;
-
                     }
                     lblNoiDungTenKhach1.Text = hd1.KhachHang.TenKH;
                     lblNoiDungSoKhach1.Text = hd1.SoKhach + "";
                     lblNoiDungQuocTich1.Text = hd1.KhachHang.QuocTich;
                     lblNoiDungNgayDen1.Text = dt.AddDays(0 - hd1.SoDem.Value).ToString("dd/MM/yyyy");
                     lblNoiDungNgayDi1.Text = hd1.NgayHD;
+                    lblNoiDungTien1.Text = hd1.Phong.GiaPhong.ToString();
                 }
             }
 
@@ -52,7 +52,6 @@ namespace PhanMemQuanLyKhachSan
                     if (findBook != null)
                     {
                         lblNoiDungTenBooking2.Text = findBook.TenBooking;
-
                     }
                     lblNoiDungTenKhach2.Text = hd2.KhachHang.TenKH;
                     lblNoiDungSoKhach2.Text = hd2.SoKhach + "";
@@ -72,7 +71,6 @@ namespace PhanMemQuanLyKhachSan
                     if (findBook != null)
                     {
                         lblNoiDungTenBooking3.Text = findBook.TenBooking;
-
                     }
                     lblNoiDungTenKhach3.Text = hd3.KhachHang.TenKH;
                     lblNoiDungSoKhach3.Text = hd3.SoKhach + "";
@@ -92,7 +90,6 @@ namespace PhanMemQuanLyKhachSan
                     if (findBook != null)
                     {
                         lblNoiDungTenBooking4.Text = findBook.TenBooking;
-
                     }
                     lblNoiDungTenKhach4.Text = hd4.KhachHang.TenKH;
                     lblNoiDungSoKhach4.Text = hd4.SoKhach + "";
@@ -112,7 +109,6 @@ namespace PhanMemQuanLyKhachSan
                     if (findBook != null)
                     {
                         lblNoiDungTenBooking5.Text = findBook.TenBooking;
-
                     }
                     lblNoiDungTenKhach5.Text = hd5.KhachHang.TenKH;
                     lblNoiDungSoKhach5.Text = hd5.SoKhach + "";
@@ -132,7 +128,6 @@ namespace PhanMemQuanLyKhachSan
                     if (findBook != null)
                     {
                         lblNoiDungTenBooking6.Text = findBook.TenBooking;
-
                     }
                     lblNoiDungTenKhach6.Text = hd6.KhachHang.TenKH;
                     lblNoiDungSoKhach6.Text = hd6.SoKhach + "";
@@ -152,7 +147,6 @@ namespace PhanMemQuanLyKhachSan
                     if (findBook != null)
                     {
                         lblNoiDungTenBooking7.Text = findBook.TenBooking;
-
                     }
                     lblNoiDungTenKhach7.Text = hd7.KhachHang.TenKH;
                     lblNoiDungSoKhach7.Text = hd7.SoKhach + "";
@@ -172,7 +166,6 @@ namespace PhanMemQuanLyKhachSan
                     if (findBook != null)
                     {
                         lblNoiDungTenBooking8.Text = findBook.TenBooking;
-
                     }
                     lblNoiDungTenKhach8.Text = hd8.KhachHang.TenKH;
                     lblNoiDungSoKhach8.Text = hd8.SoKhach + "";
