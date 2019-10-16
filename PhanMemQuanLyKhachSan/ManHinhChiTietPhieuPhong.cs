@@ -70,9 +70,7 @@ namespace PhanMemQuanLyKhachSan
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            frmManHinhChinh fmmhc = new frmManHinhChinh();       
-            fmmhc.Show();
-            this.Hide();
+            this.Close();
         }
         //bindgrid khi chương trình tắt đi mở lên vẫn còn dl
         private void BindGrid(List<ChiTietHoaDon> listDichVu)

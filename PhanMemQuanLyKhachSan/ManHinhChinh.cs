@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,25 +23,163 @@ namespace PhanMemQuanLyKhachSan
         {
             var listHD = HoaDon.GetAll();
             var hd1 = listHD.LastOrDefault(p => p.PhongID != null && p.PhongID == 1);
-            DateTime datetimHienTai = DateTime.Now;
-            int ngayHienTai = datetimHienTai.Day;
-            DateTime dtNgayDi = DateTime.Parse(hd1.NgayHD);
-            int ngayDi = dtNgayDi.Day;
-            if (hd1 != null && ngayDi >= ngayHienTai)  // cần thêm đk && ngay hoa don >= datetime.Now
+            if (hd1 != null)  // cần thêm đk && ngay hoa don >= datetime.Now
             {
-                Booking findBook = Booking.GetBooking(hd1.BookingID.Value);
-                if (findBook != null)
+                DateTime dt = DateTime.ParseExact(hd1.NgayHD, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                if (dt.Date >= DateTime.Now)
                 {
-                    lblNoiDungTenBooking1.Text = findBook.TenBooking;
+                    Booking findBook = Booking.GetBooking(hd1.BookingID.Value);
+                    if (findBook != null)
+                    {
+                        lblNoiDungTenBooking1.Text = findBook.TenBooking;
 
+                    }
+                    lblNoiDungTenKhach1.Text = hd1.KhachHang.TenKH;
+                    lblNoiDungSoKhach1.Text = hd1.SoKhach + "";
+                    lblNoiDungQuocTich1.Text = hd1.KhachHang.QuocTich;
+                    lblNoiDungNgayDen1.Text = dt.AddDays(0 - hd1.SoDem.Value).ToString("dd/MM/yyyy");
+                    lblNoiDungNgayDi1.Text = hd1.NgayHD;
                 }
-                lblNoiDungTenKhach1.Text = hd1.KhachHang.TenKH;               
-                lblNoiDungSoKhach1.Text = hd1.SoKhach + "";
-                lblNoiDungQuocTich1.Text = hd1.KhachHang.QuocTich;
-                DateTime dtNgayDen =  DateTime.Parse(hd1.NgayHD);
-                dtNgayDen.AddDays(dtNgayDen.Day - hd1.SoDem.Value);
-                lblNoiDungNgayDen1.Text = dtNgayDen.ToString("dd/MM/yyyy");
-                lblNoiDungNgayDi1.Text = hd1.NgayHD;
+            }
+
+            var hd2 = listHD.LastOrDefault(p => p.PhongID != null && p.PhongID == 2);
+            if (hd2 != null)  // cần thêm đk && ngay hoa don >= datetime.Now
+            {
+                DateTime dt = DateTime.ParseExact(hd2.NgayHD, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                if (dt.Date >= DateTime.Now)
+                {
+                    Booking findBook = Booking.GetBooking(hd2.BookingID.Value);
+                    if (findBook != null)
+                    {
+                        lblNoiDungTenBooking2.Text = findBook.TenBooking;
+
+                    }
+                    lblNoiDungTenKhach2.Text = hd2.KhachHang.TenKH;
+                    lblNoiDungSoKhach2.Text = hd2.SoKhach + "";
+                    lblNoiDungQuocTich2.Text = hd2.KhachHang.QuocTich;
+                    lblNoiDungNgayDen2.Text = dt.AddDays(0 - hd2.SoDem.Value).ToString("dd/MM/yyyy");
+                    lblNoiDungNgayDi2.Text = hd2.NgayHD;
+                }
+            }
+
+            var hd3 = listHD.LastOrDefault(p => p.PhongID != null && p.PhongID == 3);
+            if (hd3 != null)  // cần thêm đk && ngay hoa don >= datetime.Now
+            {
+                DateTime dt = DateTime.ParseExact(hd3.NgayHD, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                if (dt.Date >= DateTime.Now)
+                {
+                    Booking findBook = Booking.GetBooking(hd3.BookingID.Value);
+                    if (findBook != null)
+                    {
+                        lblNoiDungTenBooking3.Text = findBook.TenBooking;
+
+                    }
+                    lblNoiDungTenKhach3.Text = hd3.KhachHang.TenKH;
+                    lblNoiDungSoKhach3.Text = hd3.SoKhach + "";
+                    lblNoiDungQuocTich3.Text = hd3.KhachHang.QuocTich;
+                    lblNoiDungNgayDen3.Text = dt.AddDays(0 - hd3.SoDem.Value).ToString("dd/MM/yyyy");
+                    lblNoiDungNgayDi3.Text = hd3.NgayHD;
+                }
+            }
+
+            var hd4 = listHD.LastOrDefault(p => p.PhongID != null && p.PhongID == 4);
+            if (hd4 != null)  // cần thêm đk && ngay hoa don >= datetime.Now
+            {
+                DateTime dt = DateTime.ParseExact(hd4.NgayHD, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                if (dt.Date >= DateTime.Now)
+                {
+                    Booking findBook = Booking.GetBooking(hd4.BookingID.Value);
+                    if (findBook != null)
+                    {
+                        lblNoiDungTenBooking4.Text = findBook.TenBooking;
+
+                    }
+                    lblNoiDungTenKhach4.Text = hd4.KhachHang.TenKH;
+                    lblNoiDungSoKhach4.Text = hd4.SoKhach + "";
+                    lblNoiDungQuocTich4.Text = hd4.KhachHang.QuocTich;
+                    lblNoiDungNgayDen4.Text = dt.AddDays(0 - hd4.SoDem.Value).ToString("dd/MM/yyyy");
+                    lblNoiDungNgayDi4.Text = hd4.NgayHD;
+                }
+            }
+
+            var hd5 = listHD.LastOrDefault(p => p.PhongID != null && p.PhongID == 5);
+            if (hd5 != null)  // cần thêm đk && ngay hoa don >= datetime.Now
+            {
+                DateTime dt = DateTime.ParseExact(hd5.NgayHD, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                if (dt.Date >= DateTime.Now)
+                {
+                    Booking findBook = Booking.GetBooking(hd5.BookingID.Value);
+                    if (findBook != null)
+                    {
+                        lblNoiDungTenBooking5.Text = findBook.TenBooking;
+
+                    }
+                    lblNoiDungTenKhach5.Text = hd5.KhachHang.TenKH;
+                    lblNoiDungSoKhach5.Text = hd5.SoKhach + "";
+                    lblNoiDungQuocTich5.Text = hd5.KhachHang.QuocTich;
+                    lblNoiDungNgayDen5.Text = dt.AddDays(0 - hd5.SoDem.Value).ToString("dd/MM/yyyy");
+                    lblNoiDungNgayDi5.Text = hd5.NgayHD;
+                }
+            }
+
+            var hd6 = listHD.LastOrDefault(p => p.PhongID != null && p.PhongID == 6);
+            if (hd6 != null)  // cần thêm đk && ngay hoa don >= datetime.Now
+            {
+                DateTime dt = DateTime.ParseExact(hd6.NgayHD, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                if (dt.Date >= DateTime.Now)
+                {
+                    Booking findBook = Booking.GetBooking(hd6.BookingID.Value);
+                    if (findBook != null)
+                    {
+                        lblNoiDungTenBooking6.Text = findBook.TenBooking;
+
+                    }
+                    lblNoiDungTenKhach6.Text = hd6.KhachHang.TenKH;
+                    lblNoiDungSoKhach6.Text = hd6.SoKhach + "";
+                    lblNoiDungQuocTich6.Text = hd6.KhachHang.QuocTich;
+                    lblNoiDungNgayDen6.Text = dt.AddDays(0 - hd6.SoDem.Value).ToString("dd/MM/yyyy");
+                    lblNoiDungNgayDi6.Text = hd6.NgayHD;
+                }
+            }
+
+            var hd7 = listHD.LastOrDefault(p => p.PhongID != null && p.PhongID == 7);
+            if (hd7 != null)  // cần thêm đk && ngay hoa don >= datetime.Now
+            {
+                DateTime dt = DateTime.ParseExact(hd7.NgayHD, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                if (dt.Date >= DateTime.Now)
+                {
+                    Booking findBook = Booking.GetBooking(hd7.BookingID.Value);
+                    if (findBook != null)
+                    {
+                        lblNoiDungTenBooking7.Text = findBook.TenBooking;
+
+                    }
+                    lblNoiDungTenKhach7.Text = hd7.KhachHang.TenKH;
+                    lblNoiDungSoKhach7.Text = hd7.SoKhach + "";
+                    lblNoiDungQuocTich7.Text = hd7.KhachHang.QuocTich;
+                    lblNoiDungNgayDen7.Text = dt.AddDays(0 - hd7.SoDem.Value).ToString("dd/MM/yyyy");
+                    lblNoiDungNgayDi7.Text = hd7.NgayHD;
+                }
+            }
+
+            var hd8 = listHD.LastOrDefault(p => p.PhongID != null && p.PhongID == 8);
+            if (hd8 != null)  // cần thêm đk && ngay hoa don >= datetime.Now
+            {
+                DateTime dt = DateTime.ParseExact(hd8.NgayHD, "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                if (dt.Date >= DateTime.Now)
+                {
+                    Booking findBook = Booking.GetBooking(hd8.BookingID.Value);
+                    if (findBook != null)
+                    {
+                        lblNoiDungTenBooking8.Text = findBook.TenBooking;
+
+                    }
+                    lblNoiDungTenKhach8.Text = hd8.KhachHang.TenKH;
+                    lblNoiDungSoKhach8.Text = hd8.SoKhach + "";
+                    lblNoiDungQuocTich8.Text = hd8.KhachHang.QuocTich;
+                    lblNoiDungNgayDen8.Text = dt.AddDays(0 - hd8.SoDem.Value).ToString("dd/MM/yyyy");
+                    lblNoiDungNgayDi8.Text = hd8.NgayHD;
+                }
             }
         }
 
@@ -82,7 +221,7 @@ namespace PhanMemQuanLyKhachSan
         {
             frmThongKe frmThongKe = new frmThongKe();
             frmThongKe.Show();
-            this.Hide();
+         
         }
 
         private void liênHệToolStripMenuItem_Click(object sender, EventArgs e)
@@ -176,7 +315,7 @@ namespace PhanMemQuanLyKhachSan
         {
             lblNoiDungTenBooking2.Text = ".........................................";
             lblNoiDungTenKhach2.Text = ".........................................";
-            lblNoDungSoKhach2.Text = ".........................................";
+            lblNoiDungSoKhach2.Text = ".........................................";
             lblNoiDungQuocTich2.Text = ".........................................";
             lblNoiDungNgayDen2.Text = ".........................................";
             lblNoiDungNgayDi2.Text = ".........................................";
@@ -188,7 +327,7 @@ namespace PhanMemQuanLyKhachSan
         {
             lblNoiDungTenBooking3.Text = ".........................................";
             lblNoiDungTenKhach3.Text = ".........................................";
-            lblNoDungSoKhach3.Text = ".........................................";
+            lblNoiDungSoKhach3.Text = ".........................................";
             lblNoiDungQuocTich3.Text = ".........................................";
             lblNoiDungNgayDen3.Text = ".........................................";
             lblNoiDungNgayDi3.Text = ".........................................";
@@ -200,7 +339,7 @@ namespace PhanMemQuanLyKhachSan
         {
             lblNoiDungTenBooking4.Text = ".........................................";
             lblNoiDungTenKhach4.Text = ".........................................";
-            lblNoDungSoKhach4.Text = ".........................................";
+            lblNoiDungSoKhach4.Text = ".........................................";
             lblNoiDungQuocTich4.Text = ".........................................";
             lblNoiDungNgayDen4.Text = ".........................................";
             lblNoiDungNgayDi4.Text = ".........................................";
@@ -212,7 +351,7 @@ namespace PhanMemQuanLyKhachSan
         {
             lblNoiDungTenBooking5.Text = ".........................................";
             lblNoiDungTenKhach5.Text = ".........................................";
-            lblNoDungSoKhach5.Text = ".........................................";
+            lblNoiDungSoKhach5.Text = ".........................................";
             lblNoiDungQuocTich5.Text = ".........................................";
             lblNoiDungNgayDen5.Text = ".........................................";
             lblNoiDungNgayDi5.Text = ".........................................";
@@ -223,7 +362,7 @@ namespace PhanMemQuanLyKhachSan
         {
             lblNoiDungTenBooking6.Text = ".........................................";
             lblNoiDungTenKhach6.Text = ".........................................";
-            lblNoDungSoKhach6.Text = ".........................................";
+            lblNoiDungSoKhach6.Text = ".........................................";
             lblNoiDungQuocTich6.Text = ".........................................";
             lblNoiDungNgayDen6.Text = ".........................................";
             lblNoiDungNgayDi6.Text = ".........................................";
@@ -234,7 +373,7 @@ namespace PhanMemQuanLyKhachSan
         {
             lblNoiDungTenBooking7.Text = ".........................................";
             lblNoiDungTenKhach7.Text = ".........................................";
-            lblNoDungSoKhach7.Text = ".........................................";
+            lblNoiDungSoKhach7.Text = ".........................................";
             lblNoiDungQuocTich7.Text = ".........................................";
             lblNoiDungNgayDen7.Text = ".........................................";
             lblNoiDungNgayDi7.Text = ".........................................";
@@ -245,7 +384,7 @@ namespace PhanMemQuanLyKhachSan
         {
             lblNoiDungTenBooking8.Text = ".........................................";
             lblNoiDungTenKhach8.Text = ".........................................";
-            lblNoDungSoKhach8.Text = ".........................................";
+            lblNoiDungSoKhach8.Text = ".........................................";
             lblNoiDungQuocTich8.Text = ".........................................";
             lblNoiDungNgayDen8.Text = ".........................................";
             lblNoiDungNgayDi8.Text = ".........................................";
@@ -411,6 +550,11 @@ namespace PhanMemQuanLyKhachSan
                     lblPhong8.BackColor = Color.Gray;
                     break;
             }
+        }
+
+        private void lblSoKhach3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

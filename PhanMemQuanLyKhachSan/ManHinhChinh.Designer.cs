@@ -73,7 +73,7 @@
             this.lblNoiDungNgayDi2 = new System.Windows.Forms.Label();
             this.lblNoiDungNgayDen2 = new System.Windows.Forms.Label();
             this.lblNoiDungQuocTich2 = new System.Windows.Forms.Label();
-            this.lblNoDungSoKhach2 = new System.Windows.Forms.Label();
+            this.lblNoiDungSoKhach2 = new System.Windows.Forms.Label();
             this.lblNoiDungTenKhach2 = new System.Windows.Forms.Label();
             this.lblNoiDungTenBooking2 = new System.Windows.Forms.Label();
             this.btnCheckOut2 = new System.Windows.Forms.Button();
@@ -94,7 +94,7 @@
             this.lblNoiDungNgayDi3 = new System.Windows.Forms.Label();
             this.lblNoiDungNgayDen3 = new System.Windows.Forms.Label();
             this.lblNoiDungQuocTich3 = new System.Windows.Forms.Label();
-            this.lblNoDungSoKhach3 = new System.Windows.Forms.Label();
+            this.lblNoiDungSoKhach3 = new System.Windows.Forms.Label();
             this.lblNoiDungTenKhach3 = new System.Windows.Forms.Label();
             this.lblNoiDungTenBooking3 = new System.Windows.Forms.Label();
             this.btnCheckOut3 = new System.Windows.Forms.Button();
@@ -115,7 +115,7 @@
             this.lblNoiDungNgayDi4 = new System.Windows.Forms.Label();
             this.lblNoiDungNgayDen4 = new System.Windows.Forms.Label();
             this.lblNoiDungQuocTich4 = new System.Windows.Forms.Label();
-            this.lblNoDungSoKhach4 = new System.Windows.Forms.Label();
+            this.lblNoiDungSoKhach4 = new System.Windows.Forms.Label();
             this.lblNoiDungTenKhach4 = new System.Windows.Forms.Label();
             this.lblNoiDungTenBooking4 = new System.Windows.Forms.Label();
             this.btnCheckOut4 = new System.Windows.Forms.Button();
@@ -136,7 +136,7 @@
             this.lblNoiDungNgayDi8 = new System.Windows.Forms.Label();
             this.lblNoiDungNgayDen8 = new System.Windows.Forms.Label();
             this.lblNoiDungQuocTich8 = new System.Windows.Forms.Label();
-            this.lblNoDungSoKhach8 = new System.Windows.Forms.Label();
+            this.lblNoiDungSoKhach8 = new System.Windows.Forms.Label();
             this.lblNoiDungTenKhach8 = new System.Windows.Forms.Label();
             this.lblNoiDungTenBooking8 = new System.Windows.Forms.Label();
             this.btnCheckOut8 = new System.Windows.Forms.Button();
@@ -157,7 +157,7 @@
             this.lblNoiDungNgayDi7 = new System.Windows.Forms.Label();
             this.lblNoiDungNgayDen7 = new System.Windows.Forms.Label();
             this.lblNoiDungQuocTich7 = new System.Windows.Forms.Label();
-            this.lblNoDungSoKhach7 = new System.Windows.Forms.Label();
+            this.lblNoiDungSoKhach7 = new System.Windows.Forms.Label();
             this.lblNoiDungTenKhach7 = new System.Windows.Forms.Label();
             this.lblNoiDungTenBooking7 = new System.Windows.Forms.Label();
             this.btnCheckOut7 = new System.Windows.Forms.Button();
@@ -178,7 +178,7 @@
             this.lblNoiDungNgayDi6 = new System.Windows.Forms.Label();
             this.lblNoiDungNgayDen6 = new System.Windows.Forms.Label();
             this.lblNoiDungQuocTich6 = new System.Windows.Forms.Label();
-            this.lblNoDungSoKhach6 = new System.Windows.Forms.Label();
+            this.lblNoiDungSoKhach6 = new System.Windows.Forms.Label();
             this.lblNoiDungTenKhach6 = new System.Windows.Forms.Label();
             this.lblNoiDungTenBooking6 = new System.Windows.Forms.Label();
             this.btnCheckOut6 = new System.Windows.Forms.Button();
@@ -199,7 +199,7 @@
             this.lblNoiDungNgayDi5 = new System.Windows.Forms.Label();
             this.lblNoiDungNgayDen5 = new System.Windows.Forms.Label();
             this.lblNoiDungQuocTich5 = new System.Windows.Forms.Label();
-            this.lblNoDungSoKhach5 = new System.Windows.Forms.Label();
+            this.lblNoiDungSoKhach5 = new System.Windows.Forms.Label();
             this.lblNoiDungTenKhach5 = new System.Windows.Forms.Label();
             this.lblNoiDungTenBooking5 = new System.Windows.Forms.Label();
             this.btnCheckOut5 = new System.Windows.Forms.Button();
@@ -690,7 +690,7 @@
             this.pnlPhong2.Controls.Add(this.lblNoiDungNgayDi2);
             this.pnlPhong2.Controls.Add(this.lblNoiDungNgayDen2);
             this.pnlPhong2.Controls.Add(this.lblNoiDungQuocTich2);
-            this.pnlPhong2.Controls.Add(this.lblNoDungSoKhach2);
+            this.pnlPhong2.Controls.Add(this.lblNoiDungSoKhach2);
             this.pnlPhong2.Controls.Add(this.lblNoiDungTenKhach2);
             this.pnlPhong2.Controls.Add(this.lblNoiDungTenBooking2);
             this.pnlPhong2.Controls.Add(this.btnCheckOut2);
@@ -760,15 +760,15 @@
             this.lblNoiDungQuocTich2.TabIndex = 30;
             this.lblNoiDungQuocTich2.Text = ".........................................";
             // 
-            // lblNoDungSoKhach2
+            // lblNoiDungSoKhach2
             // 
-            this.lblNoDungSoKhach2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoDungSoKhach2.Location = new System.Drawing.Point(89, 124);
-            this.lblNoDungSoKhach2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblNoDungSoKhach2.Name = "lblNoDungSoKhach2";
-            this.lblNoDungSoKhach2.Size = new System.Drawing.Size(135, 18);
-            this.lblNoDungSoKhach2.TabIndex = 29;
-            this.lblNoDungSoKhach2.Text = ".........................................";
+            this.lblNoiDungSoKhach2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoiDungSoKhach2.Location = new System.Drawing.Point(89, 124);
+            this.lblNoiDungSoKhach2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNoiDungSoKhach2.Name = "lblNoiDungSoKhach2";
+            this.lblNoiDungSoKhach2.Size = new System.Drawing.Size(135, 18);
+            this.lblNoiDungSoKhach2.TabIndex = 29;
+            this.lblNoiDungSoKhach2.Text = ".........................................";
             // 
             // lblNoiDungTenKhach2
             // 
@@ -938,7 +938,7 @@
             this.pnlPhong3.Controls.Add(this.lblNoiDungNgayDi3);
             this.pnlPhong3.Controls.Add(this.lblNoiDungNgayDen3);
             this.pnlPhong3.Controls.Add(this.lblNoiDungQuocTich3);
-            this.pnlPhong3.Controls.Add(this.lblNoDungSoKhach3);
+            this.pnlPhong3.Controls.Add(this.lblNoiDungSoKhach3);
             this.pnlPhong3.Controls.Add(this.lblNoiDungTenKhach3);
             this.pnlPhong3.Controls.Add(this.lblNoiDungTenBooking3);
             this.pnlPhong3.Controls.Add(this.btnCheckOut3);
@@ -1008,15 +1008,15 @@
             this.lblNoiDungQuocTich3.TabIndex = 38;
             this.lblNoiDungQuocTich3.Text = ".........................................";
             // 
-            // lblNoDungSoKhach3
+            // lblNoiDungSoKhach3
             // 
-            this.lblNoDungSoKhach3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoDungSoKhach3.Location = new System.Drawing.Point(87, 124);
-            this.lblNoDungSoKhach3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblNoDungSoKhach3.Name = "lblNoDungSoKhach3";
-            this.lblNoDungSoKhach3.Size = new System.Drawing.Size(135, 18);
-            this.lblNoDungSoKhach3.TabIndex = 37;
-            this.lblNoDungSoKhach3.Text = ".........................................";
+            this.lblNoiDungSoKhach3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoiDungSoKhach3.Location = new System.Drawing.Point(87, 124);
+            this.lblNoiDungSoKhach3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNoiDungSoKhach3.Name = "lblNoiDungSoKhach3";
+            this.lblNoiDungSoKhach3.Size = new System.Drawing.Size(135, 18);
+            this.lblNoiDungSoKhach3.TabIndex = 37;
+            this.lblNoiDungSoKhach3.Text = ".........................................";
             // 
             // lblNoiDungTenKhach3
             // 
@@ -1131,6 +1131,7 @@
             this.lblSoKhach3.TabIndex = 4;
             this.lblSoKhach3.Text = "Số khách:";
             this.lblSoKhach3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSoKhach3.Click += new System.EventHandler(this.lblSoKhach3_Click);
             // 
             // lblTenKhach3
             // 
@@ -1186,7 +1187,7 @@
             this.pnlPhong4.Controls.Add(this.lblNoiDungNgayDi4);
             this.pnlPhong4.Controls.Add(this.lblNoiDungNgayDen4);
             this.pnlPhong4.Controls.Add(this.lblNoiDungQuocTich4);
-            this.pnlPhong4.Controls.Add(this.lblNoDungSoKhach4);
+            this.pnlPhong4.Controls.Add(this.lblNoiDungSoKhach4);
             this.pnlPhong4.Controls.Add(this.lblNoiDungTenKhach4);
             this.pnlPhong4.Controls.Add(this.lblNoiDungTenBooking4);
             this.pnlPhong4.Controls.Add(this.btnCheckOut4);
@@ -1256,15 +1257,15 @@
             this.lblNoiDungQuocTich4.TabIndex = 38;
             this.lblNoiDungQuocTich4.Text = ".........................................";
             // 
-            // lblNoDungSoKhach4
+            // lblNoiDungSoKhach4
             // 
-            this.lblNoDungSoKhach4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoDungSoKhach4.Location = new System.Drawing.Point(91, 124);
-            this.lblNoDungSoKhach4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblNoDungSoKhach4.Name = "lblNoDungSoKhach4";
-            this.lblNoDungSoKhach4.Size = new System.Drawing.Size(135, 18);
-            this.lblNoDungSoKhach4.TabIndex = 37;
-            this.lblNoDungSoKhach4.Text = ".........................................";
+            this.lblNoiDungSoKhach4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoiDungSoKhach4.Location = new System.Drawing.Point(91, 124);
+            this.lblNoiDungSoKhach4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNoiDungSoKhach4.Name = "lblNoiDungSoKhach4";
+            this.lblNoiDungSoKhach4.Size = new System.Drawing.Size(135, 18);
+            this.lblNoiDungSoKhach4.TabIndex = 37;
+            this.lblNoiDungSoKhach4.Text = ".........................................";
             // 
             // lblNoiDungTenKhach4
             // 
@@ -1434,7 +1435,7 @@
             this.pnlPhong8.Controls.Add(this.lblNoiDungNgayDi8);
             this.pnlPhong8.Controls.Add(this.lblNoiDungNgayDen8);
             this.pnlPhong8.Controls.Add(this.lblNoiDungQuocTich8);
-            this.pnlPhong8.Controls.Add(this.lblNoDungSoKhach8);
+            this.pnlPhong8.Controls.Add(this.lblNoiDungSoKhach8);
             this.pnlPhong8.Controls.Add(this.lblNoiDungTenKhach8);
             this.pnlPhong8.Controls.Add(this.lblNoiDungTenBooking8);
             this.pnlPhong8.Controls.Add(this.btnCheckOut8);
@@ -1504,15 +1505,15 @@
             this.lblNoiDungQuocTich8.TabIndex = 46;
             this.lblNoiDungQuocTich8.Text = ".........................................";
             // 
-            // lblNoDungSoKhach8
+            // lblNoiDungSoKhach8
             // 
-            this.lblNoDungSoKhach8.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoDungSoKhach8.Location = new System.Drawing.Point(91, 124);
-            this.lblNoDungSoKhach8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblNoDungSoKhach8.Name = "lblNoDungSoKhach8";
-            this.lblNoDungSoKhach8.Size = new System.Drawing.Size(135, 18);
-            this.lblNoDungSoKhach8.TabIndex = 45;
-            this.lblNoDungSoKhach8.Text = ".........................................";
+            this.lblNoiDungSoKhach8.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoiDungSoKhach8.Location = new System.Drawing.Point(91, 124);
+            this.lblNoiDungSoKhach8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNoiDungSoKhach8.Name = "lblNoiDungSoKhach8";
+            this.lblNoiDungSoKhach8.Size = new System.Drawing.Size(135, 18);
+            this.lblNoiDungSoKhach8.TabIndex = 45;
+            this.lblNoiDungSoKhach8.Text = ".........................................";
             // 
             // lblNoiDungTenKhach8
             // 
@@ -1682,7 +1683,7 @@
             this.pnlPhong7.Controls.Add(this.lblNoiDungNgayDi7);
             this.pnlPhong7.Controls.Add(this.lblNoiDungNgayDen7);
             this.pnlPhong7.Controls.Add(this.lblNoiDungQuocTich7);
-            this.pnlPhong7.Controls.Add(this.lblNoDungSoKhach7);
+            this.pnlPhong7.Controls.Add(this.lblNoiDungSoKhach7);
             this.pnlPhong7.Controls.Add(this.lblNoiDungTenKhach7);
             this.pnlPhong7.Controls.Add(this.lblNoiDungTenBooking7);
             this.pnlPhong7.Controls.Add(this.btnCheckOut7);
@@ -1752,15 +1753,15 @@
             this.lblNoiDungQuocTich7.TabIndex = 46;
             this.lblNoiDungQuocTich7.Text = ".........................................";
             // 
-            // lblNoDungSoKhach7
+            // lblNoiDungSoKhach7
             // 
-            this.lblNoDungSoKhach7.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoDungSoKhach7.Location = new System.Drawing.Point(87, 127);
-            this.lblNoDungSoKhach7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblNoDungSoKhach7.Name = "lblNoDungSoKhach7";
-            this.lblNoDungSoKhach7.Size = new System.Drawing.Size(135, 18);
-            this.lblNoDungSoKhach7.TabIndex = 45;
-            this.lblNoDungSoKhach7.Text = ".........................................";
+            this.lblNoiDungSoKhach7.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoiDungSoKhach7.Location = new System.Drawing.Point(87, 127);
+            this.lblNoiDungSoKhach7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNoiDungSoKhach7.Name = "lblNoiDungSoKhach7";
+            this.lblNoiDungSoKhach7.Size = new System.Drawing.Size(135, 18);
+            this.lblNoiDungSoKhach7.TabIndex = 45;
+            this.lblNoiDungSoKhach7.Text = ".........................................";
             // 
             // lblNoiDungTenKhach7
             // 
@@ -1930,7 +1931,7 @@
             this.pnlPhong6.Controls.Add(this.lblNoiDungNgayDi6);
             this.pnlPhong6.Controls.Add(this.lblNoiDungNgayDen6);
             this.pnlPhong6.Controls.Add(this.lblNoiDungQuocTich6);
-            this.pnlPhong6.Controls.Add(this.lblNoDungSoKhach6);
+            this.pnlPhong6.Controls.Add(this.lblNoiDungSoKhach6);
             this.pnlPhong6.Controls.Add(this.lblNoiDungTenKhach6);
             this.pnlPhong6.Controls.Add(this.lblNoiDungTenBooking6);
             this.pnlPhong6.Controls.Add(this.btnCheckOut6);
@@ -2000,15 +2001,15 @@
             this.lblNoiDungQuocTich6.TabIndex = 46;
             this.lblNoiDungQuocTich6.Text = ".........................................";
             // 
-            // lblNoDungSoKhach6
+            // lblNoiDungSoKhach6
             // 
-            this.lblNoDungSoKhach6.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoDungSoKhach6.Location = new System.Drawing.Point(92, 124);
-            this.lblNoDungSoKhach6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblNoDungSoKhach6.Name = "lblNoDungSoKhach6";
-            this.lblNoDungSoKhach6.Size = new System.Drawing.Size(135, 18);
-            this.lblNoDungSoKhach6.TabIndex = 45;
-            this.lblNoDungSoKhach6.Text = ".........................................";
+            this.lblNoiDungSoKhach6.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoiDungSoKhach6.Location = new System.Drawing.Point(92, 124);
+            this.lblNoiDungSoKhach6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNoiDungSoKhach6.Name = "lblNoiDungSoKhach6";
+            this.lblNoiDungSoKhach6.Size = new System.Drawing.Size(135, 18);
+            this.lblNoiDungSoKhach6.TabIndex = 45;
+            this.lblNoiDungSoKhach6.Text = ".........................................";
             // 
             // lblNoiDungTenKhach6
             // 
@@ -2178,7 +2179,7 @@
             this.pnlPhong5.Controls.Add(this.lblNoiDungNgayDi5);
             this.pnlPhong5.Controls.Add(this.lblNoiDungNgayDen5);
             this.pnlPhong5.Controls.Add(this.lblNoiDungQuocTich5);
-            this.pnlPhong5.Controls.Add(this.lblNoDungSoKhach5);
+            this.pnlPhong5.Controls.Add(this.lblNoiDungSoKhach5);
             this.pnlPhong5.Controls.Add(this.lblNoiDungTenKhach5);
             this.pnlPhong5.Controls.Add(this.lblNoiDungTenBooking5);
             this.pnlPhong5.Controls.Add(this.btnCheckOut5);
@@ -2248,15 +2249,15 @@
             this.lblNoiDungQuocTich5.TabIndex = 46;
             this.lblNoiDungQuocTich5.Text = ".........................................";
             // 
-            // lblNoDungSoKhach5
+            // lblNoiDungSoKhach5
             // 
-            this.lblNoDungSoKhach5.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNoDungSoKhach5.Location = new System.Drawing.Point(86, 124);
-            this.lblNoDungSoKhach5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblNoDungSoKhach5.Name = "lblNoDungSoKhach5";
-            this.lblNoDungSoKhach5.Size = new System.Drawing.Size(135, 18);
-            this.lblNoDungSoKhach5.TabIndex = 45;
-            this.lblNoDungSoKhach5.Text = ".........................................";
+            this.lblNoiDungSoKhach5.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNoiDungSoKhach5.Location = new System.Drawing.Point(86, 124);
+            this.lblNoiDungSoKhach5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblNoiDungSoKhach5.Name = "lblNoiDungSoKhach5";
+            this.lblNoiDungSoKhach5.Size = new System.Drawing.Size(135, 18);
+            this.lblNoiDungSoKhach5.TabIndex = 45;
+            this.lblNoiDungSoKhach5.Text = ".........................................";
             // 
             // lblNoiDungTenKhach5
             // 
@@ -2599,49 +2600,49 @@
         private System.Windows.Forms.Label lblNoiDungNgayDi2;
         private System.Windows.Forms.Label lblNoiDungNgayDen2;
         private System.Windows.Forms.Label lblNoiDungQuocTich2;
-        private System.Windows.Forms.Label lblNoDungSoKhach2;
+        private System.Windows.Forms.Label lblNoiDungSoKhach2;
         private System.Windows.Forms.Label lblNoiDungTenKhach2;
         private System.Windows.Forms.Label lblNoiDungTenBooking2;
         private System.Windows.Forms.Label lblNoiDungTien3;
         private System.Windows.Forms.Label lblNoiDungNgayDi3;
         private System.Windows.Forms.Label lblNoiDungNgayDen3;
         private System.Windows.Forms.Label lblNoiDungQuocTich3;
-        private System.Windows.Forms.Label lblNoDungSoKhach3;
+        private System.Windows.Forms.Label lblNoiDungSoKhach3;
         private System.Windows.Forms.Label lblNoiDungTenKhach3;
         private System.Windows.Forms.Label lblNoiDungTenBooking3;
         private System.Windows.Forms.Label lblNoiDungTien4;
         private System.Windows.Forms.Label lblNoiDungNgayDi4;
         private System.Windows.Forms.Label lblNoiDungNgayDen4;
         private System.Windows.Forms.Label lblNoiDungQuocTich4;
-        private System.Windows.Forms.Label lblNoDungSoKhach4;
+        private System.Windows.Forms.Label lblNoiDungSoKhach4;
         private System.Windows.Forms.Label lblNoiDungTenKhach4;
         private System.Windows.Forms.Label lblNoiDungTenBooking4;
         private System.Windows.Forms.Label lblNoiDungTien8;
         private System.Windows.Forms.Label lblNoiDungNgayDi8;
         private System.Windows.Forms.Label lblNoiDungNgayDen8;
         private System.Windows.Forms.Label lblNoiDungQuocTich8;
-        private System.Windows.Forms.Label lblNoDungSoKhach8;
+        private System.Windows.Forms.Label lblNoiDungSoKhach8;
         private System.Windows.Forms.Label lblNoiDungTenKhach8;
         private System.Windows.Forms.Label lblNoiDungTenBooking8;
         private System.Windows.Forms.Label lblNoiDungTien7;
         private System.Windows.Forms.Label lblNoiDungNgayDi7;
         private System.Windows.Forms.Label lblNoiDungNgayDen7;
         private System.Windows.Forms.Label lblNoiDungQuocTich7;
-        private System.Windows.Forms.Label lblNoDungSoKhach7;
+        private System.Windows.Forms.Label lblNoiDungSoKhach7;
         private System.Windows.Forms.Label lblNoiDungTenKhach7;
         private System.Windows.Forms.Label lblNoiDungTenBooking7;
         private System.Windows.Forms.Label lblNoiDungTien6;
         private System.Windows.Forms.Label lblNoiDungNgayDi6;
         private System.Windows.Forms.Label lblNoiDungNgayDen6;
         private System.Windows.Forms.Label lblNoiDungQuocTich6;
-        private System.Windows.Forms.Label lblNoDungSoKhach6;
+        private System.Windows.Forms.Label lblNoiDungSoKhach6;
         private System.Windows.Forms.Label lblNoiDungTenKhach6;
         private System.Windows.Forms.Label lblNoiDungTenBooking6;
         private System.Windows.Forms.Label lblNoiDungTien5;
         private System.Windows.Forms.Label lblNoiDungNgayDi5;
         private System.Windows.Forms.Label lblNoiDungNgayDen5;
         private System.Windows.Forms.Label lblNoiDungQuocTich5;
-        private System.Windows.Forms.Label lblNoDungSoKhach5;
+        private System.Windows.Forms.Label lblNoiDungSoKhach5;
         private System.Windows.Forms.Label lblNoiDungTenKhach5;
         private System.Windows.Forms.Label lblNoiDungTenBooking5;
         private System.Windows.Forms.Button btnCheckOut1;
