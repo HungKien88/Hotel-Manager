@@ -22,7 +22,6 @@ namespace PhanMemQuanLyKhachSan.Model
         public virtual DbSet<MatKhau> MatKhaus { get; set; }
         public virtual DbSet<NhanVien> NhanViens { get; set; }
         public virtual DbSet<Phong> Phongs { get; set; }
-        public virtual DbSet<PhanQuyen> PhanQuyens { get; set; }
         public virtual DbSet<VatTu> VatTus { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

@@ -37,12 +37,13 @@
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpTuNgay = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnLoc = new System.Windows.Forms.Button();
             this.btnTimKiem = new System.Windows.Forms.Button();
             this.btnTroVeCuaQLKH = new System.Windows.Forms.Button();
+            this.btnHuyCapNhatLoaiPhong = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuanLyKhachHang)).BeginInit();
             this.SuspendLayout();
             // 
@@ -125,12 +126,12 @@
             this.Column3.HeaderText = "Quốc tịch";
             this.Column3.Name = "Column3";
             // 
-            // dateTimePicker1
+            // dtpTuNgay
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(501, 118);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(123, 22);
-            this.dateTimePicker1.TabIndex = 10;
+            this.dtpTuNgay.Location = new System.Drawing.Point(501, 118);
+            this.dtpTuNgay.Name = "dtpTuNgay";
+            this.dtpTuNgay.Size = new System.Drawing.Size(123, 22);
+            this.dtpTuNgay.TabIndex = 10;
             // 
             // dateTimePicker2
             // 
@@ -194,6 +195,21 @@
             this.btnTroVeCuaQLKH.UseVisualStyleBackColor = false;
             this.btnTroVeCuaQLKH.Click += new System.EventHandler(this.btnTrovecuaqlkh_Click);
             // 
+            // btnHuyCapNhatLoaiPhong
+            // 
+            this.btnHuyCapNhatLoaiPhong.BackColor = System.Drawing.Color.Pink;
+            this.btnHuyCapNhatLoaiPhong.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHuyCapNhatLoaiPhong.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconHuy;
+            this.btnHuyCapNhatLoaiPhong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHuyCapNhatLoaiPhong.Location = new System.Drawing.Point(951, 153);
+            this.btnHuyCapNhatLoaiPhong.Name = "btnHuyCapNhatLoaiPhong";
+            this.btnHuyCapNhatLoaiPhong.Size = new System.Drawing.Size(83, 40);
+            this.btnHuyCapNhatLoaiPhong.TabIndex = 20;
+            this.btnHuyCapNhatLoaiPhong.Text = "Hủy";
+            this.btnHuyCapNhatLoaiPhong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnHuyCapNhatLoaiPhong.UseVisualStyleBackColor = false;
+            this.btnHuyCapNhatLoaiPhong.Click += new System.EventHandler(this.btnHuyCapNhatLoaiPhong_Click);
+            // 
             // frmQuanLyKhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
@@ -201,9 +217,10 @@
             this.BackgroundImage = global::PhanMemQuanLyKhachSan.Properties.Resources.b18;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1196, 690);
+            this.Controls.Add(this.btnHuyCapNhatLoaiPhong);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtpTuNgay);
             this.Controls.Add(this.dgvQuanLyKhachHang);
             this.Controls.Add(this.lblNgayDi);
             this.Controls.Add(this.lblNgayDen);
@@ -233,11 +250,12 @@
         private System.Windows.Forms.Label lblNgayDen;
         private System.Windows.Forms.Label lblNgayDi;
         private System.Windows.Forms.DataGridView dgvQuanLyKhachHang;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpTuNgay;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnHuyCapNhatLoaiPhong;
     }
 }

@@ -38,7 +38,7 @@ namespace PhanMemQuanLyKhachSan
                     lblNoiDungQuocTich1.Text = hd1.KhachHang.QuocTich;
                     lblNoiDungNgayDen1.Text = dt.AddDays(0 - hd1.SoDem.Value).ToString("dd/MM/yyyy");
                     lblNoiDungNgayDi1.Text = hd1.NgayHD;
-                    lblNoiDungTien1.Text = hd1.Phong.GiaPhong.ToString();
+                    //lblNoiDungTien1.Text = hd1.Phong.GiaPhong.ToString();
                 }
             }
 
@@ -300,7 +300,7 @@ namespace PhanMemQuanLyKhachSan
             lblNoiDungQuocTich1.Text = ".........................................";
             lblNoiDungNgayDen1.Text = ".........................................";
             lblNoiDungNgayDi1.Text = ".........................................";
-            lblNoiDungTien1.Text = ".........................................";
+            //lblNoiDungTien1.Text = ".........................................";
             lblPhong1.BackColor = Color.Gray;
         }
 
@@ -312,7 +312,7 @@ namespace PhanMemQuanLyKhachSan
             lblNoiDungQuocTich2.Text = ".........................................";
             lblNoiDungNgayDen2.Text = ".........................................";
             lblNoiDungNgayDi2.Text = ".........................................";
-            lblNoiDungTien2.Text = ".........................................";
+            //lblNoiDungTien2.Text = ".........................................";
             lblPhong2.BackColor = Color.Gray;
         }
 
@@ -324,7 +324,7 @@ namespace PhanMemQuanLyKhachSan
             lblNoiDungQuocTich3.Text = ".........................................";
             lblNoiDungNgayDen3.Text = ".........................................";
             lblNoiDungNgayDi3.Text = ".........................................";
-            lblNoiDungTien3.Text = ".........................................";
+            //lblNoiDungTien3.Text = ".........................................";
             lblPhong3.BackColor = Color.Gray;
         }
 
@@ -336,7 +336,7 @@ namespace PhanMemQuanLyKhachSan
             lblNoiDungQuocTich4.Text = ".........................................";
             lblNoiDungNgayDen4.Text = ".........................................";
             lblNoiDungNgayDi4.Text = ".........................................";
-            lblNoiDungTien4.Text = ".........................................";
+            //lblNoiDungTien4.Text = ".........................................";
             lblPhong4.BackColor = Color.Gray;
         }
 
@@ -348,7 +348,7 @@ namespace PhanMemQuanLyKhachSan
             lblNoiDungQuocTich5.Text = ".........................................";
             lblNoiDungNgayDen5.Text = ".........................................";
             lblNoiDungNgayDi5.Text = ".........................................";
-            lblNoiDungTien5.Text = ".........................................";
+            //lblNoiDungTien5.Text = ".........................................";
             lblPhong5.BackColor = Color.Gray;
         }
         private void btnCheckOut6_Click(object sender, EventArgs e)
@@ -359,7 +359,7 @@ namespace PhanMemQuanLyKhachSan
             lblNoiDungQuocTich6.Text = ".........................................";
             lblNoiDungNgayDen6.Text = ".........................................";
             lblNoiDungNgayDi6.Text = ".........................................";
-            lblNoiDungTien6.Text = ".........................................";
+            //lblNoiDungTien6.Text = ".........................................";
             lblPhong6.BackColor = Color.Gray;
         }
         private void btnCheckOut7_Click(object sender, EventArgs e)
@@ -370,7 +370,7 @@ namespace PhanMemQuanLyKhachSan
             lblNoiDungQuocTich7.Text = ".........................................";
             lblNoiDungNgayDen7.Text = ".........................................";
             lblNoiDungNgayDi7.Text = ".........................................";
-            lblNoiDungTien7.Text = ".........................................";
+            //lblNoiDungTien7.Text = ".........................................";
             lblPhong7.BackColor = Color.Gray;
         }
         private void btnCheckOut8_Click(object sender, EventArgs e)
@@ -381,7 +381,7 @@ namespace PhanMemQuanLyKhachSan
             lblNoiDungQuocTich8.Text = ".........................................";
             lblNoiDungNgayDen8.Text = ".........................................";
             lblNoiDungNgayDi8.Text = ".........................................";
-            lblNoiDungTien8.Text = ".........................................";
+            //lblNoiDungTien8.Text = ".........................................";
             lblPhong8.BackColor = Color.Gray;
         }
 

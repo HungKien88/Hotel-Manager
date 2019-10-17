@@ -93,6 +93,7 @@
             this.btnSuaLichLamViec.Text = "Sửa ";
             this.btnSuaLichLamViec.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSuaLichLamViec.UseVisualStyleBackColor = false;
+            this.btnSuaLichLamViec.Click += new System.EventHandler(this.btnSuaLichLamViec_Click);
             // 
             // btnXoaLichLamViec
             // 
@@ -107,6 +108,7 @@
             this.btnXoaLichLamViec.Text = "Xóa ";
             this.btnXoaLichLamViec.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnXoaLichLamViec.UseVisualStyleBackColor = false;
+            this.btnXoaLichLamViec.Click += new System.EventHandler(this.btnXoaLichLamViec_Click);
             // 
             // btnThemLichLamViec
             // 
@@ -121,6 +123,7 @@
             this.btnThemLichLamViec.Text = "Thêm ";
             this.btnThemLichLamViec.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnThemLichLamViec.UseVisualStyleBackColor = false;
+            this.btnThemLichLamViec.Click += new System.EventHandler(this.btnThemLichLamViec_Click);
             // 
             // btnTroVeCuaCapNhatLichLamViec
             // 

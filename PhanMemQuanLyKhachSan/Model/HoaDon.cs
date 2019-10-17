@@ -61,7 +61,6 @@ namespace PhanMemQuanLyKhachSan.Model
         {
             QLKSModel context = new QLKSModel();
             return context.HoaDons.Where(p => p.HoaDonID == hoaDonId).FirstOrDefault();
-
         }
         public static HoaDon GetHoaDonByPhong(int? phongId)
         {

@@ -80,16 +80,23 @@ namespace PhanMemQuanLyKhachSan
 
         private void btnLoc_Click(object sender, EventArgs e)
         {
-            List<KhachHang> listKQTK = KhachHang.GetAll();
-            var listKhacHang = listKQTK.Where(p => (p is KhachHang) && (p as KhachHang).TenKH.ToLower().Contains(txtTimKiem.Text.ToLower())).ToList();
-            if (listKhacHang.Count > 0)
+            List<KhachHang> listkh = new List<KhachHang>();
+            List<HoaDon> listHD = HoaDon.GetAll();
+            DateTime tungay = DateTime.Parse(dtpTuNgay.Text);
+            DateTime denngay = DateTime.Parse(dtpTuNgay.Text);
+            foreach (var item in listHD)
             {
-                BindGrid(listKhacHang);
+                DateTime dt = DateTime.Parse(item.NgayHD);
+                if(dt >= tungay && dt <= denngay)
+                {
+                    KhachHang kh = new KhachHang();
+                    kh.KhachHangID = ((int)item.KhachHangID);
+                    kh.TenKH = (item.KhachHang.TenKH);
+                    kh.TenKH = (item.KhachHang.QuocTich);
+                    listkh.Add(kh);
+                }
             }
-            else
-            {
-                MessageBox.Show("Không tìm thấy khách hàng nào!");
-            }
+            BindGrid(listkh);
         }
 
         private void btnTimKiem_Click(object sender, EventArgs e)
@@ -104,6 +111,11 @@ namespace PhanMemQuanLyKhachSan
             {
                 MessageBox.Show("Không tìm thấy khách hàng nào!");
             }
+        }
+
+        private void btnHuyCapNhatLoaiPhong_Click(object sender, EventArgs e)
+        {
+            BindGrid(KhachHang.GetAll());
         }
     }
 }

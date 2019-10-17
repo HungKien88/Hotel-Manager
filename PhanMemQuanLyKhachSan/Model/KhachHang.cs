@@ -15,6 +15,7 @@ namespace PhanMemQuanLyKhachSan.Model
         public KhachHang()
         {
             HoaDons = new HashSet<HoaDon>();
+
         }
 
         public int KhachHangID { get; set; }

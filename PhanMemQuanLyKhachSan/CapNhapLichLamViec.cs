@@ -57,9 +57,9 @@ namespace PhanMemQuanLyKhachSan
         }
         private void FillTenNhanVienCombobox(List<NhanVien> listTenNV)
         {
-            this.cbxCa.DataSource = listTenNV;
-            this.cbxCa.DisplayMember = "TenNV";
-            this.cbxCa.ValueMember = "NhanVienID";
+            this.cbxTenNV.DataSource = listTenNV;
+            this.cbxTenNV.DisplayMember = "TenNV";
+            this.cbxTenNV.ValueMember = "NhanVienID";
         }
         private void LblLichLamViec_Click(object sender, EventArgs e)
         {
@@ -75,8 +75,8 @@ namespace PhanMemQuanLyKhachSan
         private LichLamViec GetLichLamViec()
         {
             LichLamViec k = new LichLamViec();
-            k.NhanVien.TenNV = cbxTenNV.SelectedItem.ToString();
-            k.Ca = cbxCa.SelectedItem.ToString();
+            k.NhanVien.TenNV = cbxTenNV.Text;
+            k.Ca = cbxCa.Text;
             k.Ngay = dtpNgayLamViec.Value.ToString("dd/MM/yyyy");
             return k;
         }
@@ -93,6 +93,53 @@ namespace PhanMemQuanLyKhachSan
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void btnThemLichLamViec_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                LichLamViec s = GetLichLamViec();
+                LichLamViec db = LichLamViec.GetLichLamViec(s.LichLamViecID);
+                if (db == null)
+                {
+                    s.InsertUpdate();
+                    MessageBox.Show("Thêm Lịch Làm Việc thành công!");
+                }
+                BindGrid(LichLamViec.GetAll());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnXoaLichLamViec_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int rowIndex = (int)dgvCapNhatLichLamViec.CurrentRow.Cells[4].Value;
+                LichLamViec.Delete(rowIndex);
+                BindGrid(LichLamViec.GetAll());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnSuaLichLamViec_Click(object sender, EventArgs e)
+        {
+            LichLamViec s = GetLichLamViec();
+            s.LichLamViecID = (int)dgvCapNhatLichLamViec.CurrentRow.Cells[4].Value;
+            LichLamViec db = LichLamViec.GetLichLamViec(s.LichLamViecID);
+            if (db != null)
+            {
+                db = s;
+                db.InsertUpdate();
+                MessageBox.Show("Sửa thành công!");
+            }
+            BindGrid(LichLamViec.GetAll());
         }
     }
 }
